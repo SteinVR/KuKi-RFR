@@ -20,4 +20,4 @@ __pycache__/
 *.aux
 *.toc
 *.out
-verification.json
+/verification.json

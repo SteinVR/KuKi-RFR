@@ -3,3 +3,4 @@ research/stages/**/experiments/** linguist-generated=true
 research/stages/final/predictions/** linguist-generated=true
 research/data/** linguist-vendored=true
 research/external/** linguist-vendored=true
+research/configs/published-artifacts.json linguist-generated=true

@@ -1,99 +1,120 @@
-"""Render the final report from verified held-out results."""
+"""Render a CPU report from the published metrics and paired comparisons."""
+
+import json
 from pathlib import Path
-import importlib
-import re
-import numpy as np
+
 import matplotlib
-matplotlib.use('Agg')
+
+matplotlib.use("Agg")
 from matplotlib import pyplot as plt
-from research.kuki.data import write_json, digest
-E=importlib.import_module('research.stages.final.evaluate')
-ROOT=E.ROOT
-NAMES={'l1':'L1 отдельно','l2':'L2 отдельно','l3':'L3 отдельно','st3':'ST3 joint200','st6':'ST6 L1:L2=4:1','st4_control':'ST4 без вероятностей','st4_families':'ST4 с вероятностями'}
-LABELS={'l1_f1':'L1 macro-F1 ↑','l2_brier':'L2 Brier ↓','l3_conditional':'L3 условный F1 ↑','l3_exact':'L3 автоматический exact-F1 ↑'}
+
+from research.kuki.data import digest, write_json
+
+ROOT = Path("research/stages/final")
+NAMES = {
+    "l1": "L1 отдельно",
+    "l2": "L2 отдельно",
+    "l3": "L3 отдельно",
+    "st3": "Совместное L2–L3, λ = 2",
+    "st4_control": "Передача без вероятностей семейств",
+    "st4_families": "Передача с вероятностями семейств",
+    "st6": "Совместное L1–L2, 4:1",
+}
+LABELS = {
+    "l1_f1": "L1 macro-F1 ↑",
+    "l2_brier": "L2 Brier ↓",
+    "l3_conditional": "L3 условный F1 ↑",
+    "l3_exact": "L3 автоматический exact-F1 ↑",
+}
+
+
+def read(path):
+    return json.loads(path.read_text(encoding="utf-8"))
+
 
 def main():
-    data=E.read(ROOT/'results.json');manifest=E.read(ROOT/'manifest.json');metrics=data['metrics']
-    def val(n,m):
-        return metrics[n][m]['value']
-    def comp(a,b,m):
-        return next(c for c in data['comparisons'] if (c['first'],c['second'],c['metric'])==(a,b,m))
-    def fmt(m):
-        return f"{m['value']:.4f} [{m['ci95'][0]:.4f}; {m['ci95'][1]:.4f}]"
-    c3=comp('st3','l2','l2_brier');cf=comp('st4_families','st4_control','l2_brier');cb=comp('st4_families','st3','l2_brier')
-    if c3['delta']<0:
-        conclusion3='Направление разработческого выигрыша L2 сохранилось на test.'
-        conclusion3+= (' Парный 95% интервал целиком ниже нуля.' if c3['ci95'][1]<0 else ' Однако 95% интервал включает ноль: преимущество остаётся неопределённым.')
-    else:
-        conclusion3='Разработческий выигрыш L2 независимой проверкой не подтвердился: на test joint200 хуже отдельного L2 по Brier.'
-    if cf['delta']<0 and cb['delta']<0:
-        conclusion4='На test поправка с вероятностями лучше и родителя, и поправки без вероятностей по точечному Brier.'
-        conclusion4+=(' Оба парных интервала ниже нуля.' if cf['ci95'][1]<0 and cb['ci95'][1]<0 else ' Интервалы не подтверждают однозначность обоих улучшений.')
-    else:
-        conclusion4='Дополнительная польза явных вероятностей риторических семейств на test не показана: условие превосходства и родителя ST3, и контроля без вероятностей не выполнено.'
-    conclusion6=('ST6 прошёл прежний совместный критерий на test; это меняет отрицательную оценку, полученную на dev.' if data['st6_criterion'] else 'ST6 не прошёл прежний совместный критерий и на test; оснований заменить два отдельных контроля этим checkpoint не получено.')
-    report=f'''# KuKi: итог экспериментального исследования
+    data = read(ROOT / "results.json")
+    metrics = data["metrics"]
 
-**Разработка и финальная оценка завершены.** Семь ранее обученных систем закреплены до открытия test; новых обучений, выбора checkpoint или настройки порогов по test не было. Это исследование возможностей и ограничений совместного моделирования, без заявления о доказанно превосходящем новом методе.
+    def comparison(first, second, metric):
+        return next(c for c in data["comparisons"]
+                    if (c["first"], c["second"], c["metric"]) == (first, second, metric))
 
-## Постановка и данные
+    def interval(record):
+        return f"[{record['ci95'][0]:+.4f}; {record['ci95'][1]:+.4f}]"
 
-Проверяли, помогает ли совместное обучение русскоязычной модели одновременно распознавать роли участников (L1), медийные фреймы (L2) и семейства риторических приёмов (L3), и даёт ли явная передача прогнозов L3 дополнительную пользу для L2. Реально изучены пары L2–L3 и L1–L2; единой трёхзадачной модели в эксперименте нет.
+    report = (
+        "# KuKi-RFR: результаты исследования\n\n"
+        f"Корпус: 207 статей и 301 индивидуальная разметка. Разбиение: "
+        f"145 train / 31 dev / 31 test. Финальная оценка: {data['test_articles']} статья "
+        f"и {data['test_answers']} индивидуальных ответов. Семь систем закреплены "
+        "до открытия test.\n\n"
+        "## Метрики на test\n\n"
+        "| Система | L1 macro-F1 ↑ | L2 Brier ↓ | L3 условный F1 ↑ | "
+        "L3 автоматический exact-F1 ↑ |\n"
+        "|:---|---:|---:|---:|---:|\n"
+    )
+    for name, label in NAMES.items():
+        cells = [f"{metrics[name][metric]['value']:.4f}" if metric in metrics[name] else "—"
+                 for metric in LABELS]
+        report += f"| {label} | {' | '.join(cells)} |\n"
+    report += (
+        "\nМодели передачи наследуют риторические предсказания совместного L2–L3. "
+        "Статьи имеют равный вес; ответы разметчиков усредняются внутри статьи. "
+        "L1 оценивает роли при заданных границах упоминаний, условный L3 — "
+        "семейства при заданных границах фрагментов. L1 использует 30 активных "
+        "test-статей, условный L3 — 29; L2 и автоматический L3 — все 31.\n\n"
+        "## Парные сравнения\n\n"
+        "| Системы: первая − вторая | Метрика | Разность | 95% интервал |\n"
+        "|:---|:---|---:|:---|\n"
+    )
+    for c in data["comparisons"]:
+        report += (f"| {NAMES[c['first']]} − {NAMES[c['second']]} | {LABELS[c['metric']]} | "
+                   f"{c['delta']:+.6f} | {interval(c)} |\n")
+    automatic = comparison("st3", "l3", "l3_exact")
+    frames = comparison("st3", "l2", "l2_brier")
+    transfer = comparison("st4_families", "st4_control", "l2_brier")
+    report += (
+        "\n![Парные разности на test](test-differences.png)\n\n"
+        "## Результат и условия оценки\n\n"
+        f"Разность автоматического exact-F1 между совместным L2–L3 и отдельным L3: "
+        f"{automatic['delta']:+.4f}, интервал {interval(automatic)}. "
+        f"Разность Brier между совместным L2–L3 и отдельным L2: "
+        f"{frames['delta']:+.4f}, интервал {interval(frames)}. "
+        f"Добавление вероятностей семейств в модель передачи изменило Brier на "
+        f"{transfer['delta']:+.4f}, интервал {interval(transfer)}.\n\n"
+        "Bootstrap использует 10 000 повторов и seed 42; единица ресэмплирования — "
+        "статья. Интервалы описывают вариативность по статьям для моделей, обученных "
+        "с одним seed. Они не учитывают вариативность обучения и не скорректированы "
+        "за несколько сравнений. Test представляет те же четыре издания, что и train.\n\n"
+        "[Полные метрики](results.json) · [Статистики статей](article-statistics.json) · "
+        "[Протокол](protocol.md) · [Манифест исходной оценки](manifest.json) · "
+        "[Статья](../../../paper/paper.md)\n"
+    )
+    (ROOT / "report.md").write_text(report, encoding="utf-8")
+    fig, axes = plt.subplots(1, 2, figsize=(12, 4.8), constrained_layout=True)
+    for ax, is_brier in zip(axes, [True, False], strict=True):
+        comparisons = [c for c in data["comparisons"]
+                       if (c["metric"] == "l2_brier") == is_brier]
+        for i, c in enumerate(comparisons):
+            ax.plot(c["ci95"], [i, i], color="#177e89")
+            ax.scatter([c["delta"]], [i], color="#177e89")
+        ax.set_yticks(range(len(comparisons)),
+                      [f"{c['first']} − {c['second']}\n{c['metric']}" for c in comparisons])
+        ax.axvline(0, color="gray", linestyle="--")
+        ax.grid(axis="x", alpha=.2)
+        ax.set_xlabel("Difference: negative is better" if is_brier
+                      else "Difference: positive is better")
+        ax.set_title("Test Brier: paired 95% intervals" if is_brier
+                     else "Test F1: paired 95% intervals")
+    fig.savefig(ROOT / "test-differences.png", dpi=160)
+    plt.close(fig)
+    paths = [Path(__file__), ROOT / "results.json", ROOT / "report.md",
+             ROOT / "test-differences.png"]
+    write_json(ROOT / "report-provenance.json",
+               dict(files={str(p): digest(p) for p in paths}))
+    print("Generated report.md, test-differences.png, and report-provenance.json")
 
-Корпус: 207 русскоязычных статей, 301 индивидуальная разметка. Локальные 120 статей уже входят в него и повторно не учитываются. Фиксированное разбиение ST0: 145 train / 31 dev / 31 test, seed42; ответы разных разметчиков одной статьи остаются вместе. Финальный test: **{data['test_articles']} статья, {data['test_answers']} индивидуальных ответов**. Копии статей не пересекают части; в test 31 уникальная группа. Train использовался для обучения, dev — многократно для разработки и выбора; test был закрыт до фиксации этой финальной серии.
 
-## Методы и зафиксированные системы
-
-Общая основа — RuModernBERT-base с закреплённой revision и LoRA rank8; замороженная базовая модель, BF16, обучаемые адаптеры и головы. Статья обрабатывается окнами 1024 токена с перекрытием 128. L2 предсказывает 14 фреймов по тексту. L1 классифицирует роли при заданных человеческих границах, а не автоматически находит участников.
-
-L3 состоит из условного классификатора шести семейств и отдельного фиксированного детектора GlobalPointer. Детектор предлагает top500 пар символьных границ; автоматическая цепочка объединяет его оценки с вероятностями семейств, сохраняя пересечения, и выдаёт максимум 100 размеченных фрагментов. Условный L3 получает человеческие границы и не измеряет автоматическое выделение риторики. Общий детектор — зависимость выбранных систем, не дополнительный кандидат финальной сетки.
-
-ST3 joint200 обучает L2 и условный L3 через общий энкодер с весами 1:2; оба выхода взяты из эпохи 8. ST6 использует общий энкодер L1–L2 с коэффициентами 1,6/0,4 и нормировкой L1 145/135; оба выхода — из эпохи 16. Передачи прогнозов между головами в ST3/ST6 нет.
-
-В ST4 энкодер, адаптер и головы joint200 заморожены. Две обученные поправки используют одинаковые автоматические кандидаты, текстовые признаки, позиции и оценки детектора; только одна получает шесть вероятностей семейств, в контроле они обнулены. Поэтому families−control проверяет именно добавочный вклад этих вероятностей. L3 обеих поправок побитово наследуется от ST3 и не является отдельным улучшенным выходом.
-
-L1 и L2 — прежние самостоятельные контроли ST5/ST3. L3 — согласованный самостоятельный l3-only из ST3, эпоха13. Полные конфигурации, dev-метрики, SHA256 checkpoint и зависимости: [манифест до test](manifest.json). Условные пороги L3: 0,5 для l3-only и 0,35 для joint200; fixed decoder alpha2, threshold −5,172313813576109. L1 использует argmax, L2 — порог0,5 только для дополнительных F1. Пороги не пересчитывались на test.
-
-## Итоговая таблица test
-
-В ячейках: оценка и описательный 95% интервал по статьям. Macro-F1 L1 использует равный суммарный вес статьи; Brier L2 усредняет ошибки по индивидуальным ответам, фреймам и статьям. Условный L3 — среднее F1 по ответам, затем статьям; автоматический L3 требует точного совпадения границ и семейства.
-
-| Система | Эпоха | L1 macro-F1 | L2 Brier | L3 условный F1 | L3 автоматический exact-F1 |
-|---|---:|---|---|---|---|
-'''
-    for name in NAMES:
-        cells=[fmt(metrics[name][m]) if m in metrics[name] else '—' for m in LABELS]
-        report+=f"| {NAMES[name]} | {manifest['systems'][name]['epoch']} | "+' | '.join(cells)+' |\n'
-    report+='\nДля ST4 указана эпоха поправки; родитель всегда joint200 epoch8. Условный L3 оценивается на '+str(metrics['l3']['l3_conditional']['n_articles'])+' статьях с фрагментами; L1 — на '+str(metrics['l1']['l1_f1']['n_articles'])+' статьях с ролями. Brier и автоматический L3 используют все31статьи.\n\n'
-    report+='## Парные разности относительно контролей\n\nРазность — первая система минус вторая. Для Brier отрицательная разность лучше; для F1 положительная лучше. Интервалы разностей вычисляются напрямую парным bootstrap, а не вычитанием границ отдельных интервалов.\n\n| Сравнение | Метрика | Разность | 95% интервал |\n|---|---|---:|---|\n'
-    for c in data['comparisons']:
-        report+=f"| {NAMES[c['first']]} − {NAMES[c['second']]} | {LABELS[c['metric']]} | {c['delta']:+.6f} | [{c['ci95'][0]:+.6f}; {c['ci95'][1]:+.6f}] |\n"
-    report+='\n![Парные разности на test](test-differences.png)\n\n## Три исследовательских вывода\n\n'
-    report+=f"**1. Совместное L2–L3.** {conclusion3} Изменение условного L3 F1 относительно самостоятельного: {comp('st3','l3','l3_conditional')['delta']:+.6f}; автоматического exact-F1: {comp('st3','l3','l3_exact')['delta']:+.6f}. Эти два выхода оцениваются отдельно.\n\n"
-    report+=f"**2. Явная передача L3→L2.** {conclusion4} Разность families−control: {cf['delta']:+.6f} Brier. Наличие риторических прогнозов само по себе не гарантирует полезной информации сверх текстовых признаков.\n\n"
-    report+=f"**3. Совместное L1–L2.** {conclusion6} Разности относительно отдельных контролей: L1 {comp('st6','l1','l1_f1')['delta']:+.6f} F1; L2 {comp('st6','l2','l2_brier')['delta']:+.6f} Brier. Критерий допускает потерю не более0,01 F1 и0,003 Brier, требуя улучшения хотя бы одной задачи на тот же порог.\n\n"
-    report+='## Итоговое заключение\n\nНа KuKi совместное обучение L2–L3 сохранило на test направление улучшения фреймов и не воспроизвело разработческую потерю L3: условный и автоматический F1 оказались выше самостоятельного контроля. По точечным значениям ST3 также проходит прежний рабочий критерий (снижение Brier не менее0,003, потеря условного F1 не более0,02 и automatic exact-F1 не более0,005). Это не доказательство превосходства: парный интервал Brier включает ноль, как и интервал условного L3; интервал прироста автоматического exact-F1 целиком выше нуля.\n\nСовместное L1–L2 не обеспечило принятого компромисса. Явные вероятности риторики дали очень малый точечный выигрыш относительно ST3, но их дополнительная польза неопределённа. Поэтому прежний общий тезис «отдельные модели предпочтительны для всех выходов» после test слишком силён: он сохраняется как практический выбор для проверенного L1–L2, но не описывает результат L2–L3. Работа показывает ограниченную, зависящую от сочетания задач пользу совместного обучения и отсутствие убедительного преимущества явного обмена прогнозами. Доказанно превосходящий новый метод не заявляется. Разработка завершена.\n\n'
-    report+='## Ограничения и смысл результата\n\nВсего31test-статья и один seed обучения. Bootstrap10000, seed42, ресэмплирует статьи целиком; для L1 в каждом повторе заново рассчитывается macro-F1 из суммарной взвешенной матрицы ошибок. Для средних L2/L3 сохраняются все ответы внутри статьи. Интервалы не учитывают изменчивость обучения и не скорректированы за несколько сравнений. Сохранение знака среднего эффекта при интервале, включающем ноль, не доказывает устойчивого превосходства.\n\nМногократное использование dev увеличивало риск подгонки разработческих решений; test использован только после фиксации семи систем. Он проверяет эти выбранные системы на том же корпусе, а не перенос на новые издания, языки или периоды. Разметка неоднозначна и неполна; отсутствие фрагмента не всегда означает надёжный отрицательный пример. L1 и условный L3 предполагают известные границы; автоматический L3 имеет собственное существенно более низкое качество.\n\nОтдельный L1 обучался340обновлений, совместные ST6 —380. Число предъявлений размеченных L1 статей согласовано, но сравнение не изолирует все различия оптимизации. ST3 использует согласованные380обновлений для самостоятельных и совместных моделей; эпохи выбранных checkpoint могут различаться. ST4 сравнивает две одинаковые замороженные архитектуры поправки. Трёхзадачная модель и взаимодействие всех трёх выходов не проверены.\n\n## Воспроизводимость и завершение\n\nДо открытия test зафиксированы [протокол](protocol.md) и [манифест](manifest.json). Семь моделей загружены из выбранных весов; их dev-прогнозы точно воспроизведены. [Техническая заметка](technical-notes.md) документирует исправление сравнения tuple/list до test. Основные метрики независимо пересчитаны из сохранённых вероятностей с расхождением менее1e−12; интервалы и разности доступны в [results.json](results.json), статистики статей — в [article-statistics.json](article-statistics.json). Исторические checkpoint и материалы не изменены.\n\n'
-    inference=E.read(ROOT/'inference.json')
-    report+=f"Финальная успешная серия GPU inference, включая replay dev: {inference['seconds']:.2f}с. Новых optimizer steps: **0**. Семь систем оценены в одной test-серии. Первичная техническая попытка до test отдельно сохранена; её время не включено в указанную длительность успешной серии.\n\n"
-    report+='Отдельный self-review проверяет состав семи систем, сохранность checkpoint и порогов, оба выхода одного состояния, совпадение dev replay, независимые test-метрики, парное ресэмплирование и соответствие выводов знакам/интервалам результатов. Итоговая программа завершена. Новые обучения, настройки и циклы улучшения не планируются.\n\n## Приложение: история разработки\n\nПолная история запусков, включая отрицательные и остановленные серии, сохранена в [снимке реестра](appendix-experiments.md). Остальные варианты не оценивались на test. Подробности: [ST0](../stages/ST0-preparation/report.md), [ST1](../stages/ST1-l2-frames/report.md), [ST2](../stages/ST2-l3-rhetoric/modular/README.md), [ST3](../stages/ST3-l2-l3-joint/search/report.md), [ST4](../stages/ST4-l3-to-l2/frozen/report.md), [ST5](../stages/ST5-l1-roles/search/report.md), [ST6](../stages/ST6-l1-l2-l3/balance/report.md). Это исторические отчёты; содержащиеся в них предложения будущего поиска отменены итоговым решением завершить разработку.\n'
-    (ROOT/'report.md').write_text(report)
-    appendix=Path('research/stages/experiments.md').read_text()
-    appendix=re.sub(r'\]\((?!https?://|/|#)([^)]+)\)',r'](../stages/\1)',appendix)
-    (ROOT/'appendix-experiments.md').write_text(appendix)
-    fig,axes=plt.subplots(1,2,figsize=(12,4.8),constrained_layout=True)
-    for ax,kind in zip(axes,['l2_brier','f1'],strict=True):
-        cs=[c for c in data['comparisons'] if (c['metric']=='l2_brier')==(kind=='l2_brier')]
-        for i,c in enumerate(cs):
-            lo,hi=c['ci95'];v=c['delta']
-            ax.plot([lo,hi],[i,i],color='#177e89');ax.scatter([v],[i],color='#177e89')
-        ax.set_yticks(range(len(cs)),[c['first']+' − '+c['second']+'\n'+c['metric'] for c in cs])
-        ax.axvline(0,color='gray',linestyle='--');ax.grid(axis='x',alpha=.2)
-        ax.set_xlabel('Difference: negative is better' if kind=='l2_brier' else 'Difference: positive is better')
-        ax.set_title('Test Brier: paired 95% intervals' if kind=='l2_brier' else 'Test F1: paired 95% intervals')
-    fig.savefig(ROOT/'test-differences.png',dpi=160);plt.close(fig)
-    write_json(ROOT/'report-provenance.json',dict(files={str(p):digest(p) for p in [ROOT/'report.py',ROOT/'results.json',ROOT/'report.md',ROOT/'test-differences.png']}))
-    print(conclusion3,conclusion4,conclusion6,sep='\n')
-
-if __name__=='__main__':
+if __name__ == "__main__":
     main()
