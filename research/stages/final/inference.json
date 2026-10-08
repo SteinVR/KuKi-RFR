@@ -1,0 +1,8 @@
+{
+  "manifest_sha256": "c7e527336ca5f2309845ce74bab21f3b654f0d78c288ac0cfc8f8d6f97cdfc01",
+  "optimizer_steps": 0,
+  "seconds": 44.477493932998186,
+  "status": "completed",
+  "systems": 7,
+  "test_articles": 31
+}

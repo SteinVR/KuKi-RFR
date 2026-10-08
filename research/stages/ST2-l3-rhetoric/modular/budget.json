@@ -1,0 +1,46 @@
+{
+  "limit_seconds": 2400,
+  "runs": [
+    {
+      "kind": "profile",
+      "run_id": "global-pointer-profile",
+      "seconds": 4.140353333998064,
+      "updates": 0
+    },
+    {
+      "kind": "classifier",
+      "run_id": "20260928-classifier-base-s42-01",
+      "seconds": 463.54878891000044,
+      "status": "patience",
+      "updates": 323
+    },
+    {
+      "kind": "classifier",
+      "run_id": "20260928-classifier-low-lr-s42-01",
+      "seconds": 514.4794315190011,
+      "status": "time_limit",
+      "updates": 404
+    },
+    {
+      "kind": "detector",
+      "run_id": "20260928-detector-base-s42-01",
+      "seconds": 571.873003986002,
+      "status": "epoch_limit",
+      "updates": 304
+    },
+    {
+      "kind": "detector",
+      "run_id": "20260928-detector-low-lr-s42-01",
+      "seconds": 625.3883606099989,
+      "status": "epoch_limit",
+      "updates": 304
+    },
+    {
+      "kind": "evaluation",
+      "run_id": "frozen-chain-verification",
+      "seconds": 24.19423238100353,
+      "updates": 0
+    }
+  ],
+  "seconds": 2203.624170740004
+}

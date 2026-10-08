@@ -1,0 +1,3081 @@
+[
+  {
+    "candidate_count": 14244,
+    "characters": 11341,
+    "doc_id": "holod:golosov-hunta",
+    "exact_recall": 0.404040404040404,
+    "generation_seconds": 0.011394805002055364,
+    "iou50_coverage": 0.8787878787878788,
+    "mean_best_iou": 0.7722233056988034,
+    "misses": [
+      {
+        "annotation_index": 0,
+        "best_iou": 0.7704918032786885,
+        "end": 1121,
+        "label": "Attack on Reputation",
+        "length": 61,
+        "start": 1060,
+        "word_aligned": true
+      },
+      {
+        "annotation_index": 0,
+        "best_iou": 0.723404255319149,
+        "end": 7144,
+        "label": "Manipulative Wording",
+        "length": 94,
+        "start": 7050,
+        "word_aligned": true
+      },
+      {
+        "annotation_index": 1,
+        "best_iou": 0.6619718309859155,
+        "end": 1121,
+        "label": "Attack on Reputation",
+        "length": 71,
+        "start": 1050,
+        "word_aligned": true
+      },
+      {
+        "annotation_index": 2,
+        "best_iou": 0.34972677595628415,
+        "end": 1919,
+        "label": "Justification",
+        "length": 183,
+        "start": 1736,
+        "word_aligned": true
+      },
+      {
+        "annotation_index": 2,
+        "best_iou": 0.3802083333333333,
+        "end": 3881,
+        "label": "Justification",
+        "length": 192,
+        "start": 3689,
+        "word_aligned": true
+      },
+      {
+        "annotation_index": 2,
+        "best_iou": 0.3854166666666667,
+        "end": 7170,
+        "label": "Attack on Reputation",
+        "length": 192,
+        "start": 6978,
+        "word_aligned": false
+      },
+      {
+        "annotation_index": 2,
+        "best_iou": 0.6666666666666666,
+        "end": 10314,
+        "label": "Justification",
+        "length": 66,
+        "start": 10248,
+        "word_aligned": false
+      },
+      {
+        "annotation_index": 2,
+        "best_iou": 0.3475177304964539,
+        "end": 10961,
+        "label": "Justification",
+        "length": 141,
+        "start": 10820,
+        "word_aligned": true
+      }
+    ],
+    "words": 1784
+  },
+  {
+    "candidate_count": 15044,
+    "characters": 12212,
+    "doc_id": "holod:golosov-referendumi",
+    "exact_recall": 0.8333333333333334,
+    "generation_seconds": 0.010382012998888968,
+    "iou50_coverage": 1.0,
+    "mean_best_iou": 0.9789272030651341,
+    "misses": [
+      {
+        "annotation_index": 0,
+        "best_iou": 0.8735632183908046,
+        "end": 226,
+        "label": "Attack on Reputation",
+        "length": 87,
+        "start": 139,
+        "word_aligned": true
+      }
+    ],
+    "words": 1884
+  },
+  {
+    "candidate_count": 12564,
+    "characters": 9639,
+    "doc_id": "holod:kanny-77-itogi",
+    "exact_recall": 0.4,
+    "generation_seconds": 0.009694547999970382,
+    "iou50_coverage": 0.95,
+    "mean_best_iou": 0.8280570701155885,
+    "misses": [
+      {
+        "annotation_index": 0,
+        "best_iou": 0.6419753086419753,
+        "end": 3181,
+        "label": "Manipulative Wording",
+        "length": 81,
+        "start": 3100,
+        "word_aligned": true
+      },
+      {
+        "annotation_index": 0,
+        "best_iou": 0.8266666666666667,
+        "end": 3858,
+        "label": "Manipulative Wording",
+        "length": 75,
+        "start": 3783,
+        "word_aligned": true
+      },
+      {
+        "annotation_index": 0,
+        "best_iou": 0.4230769230769231,
+        "end": 5687,
+        "label": "Justification",
+        "length": 104,
+        "start": 5583,
+        "word_aligned": true
+      },
+      {
+        "annotation_index": 0,
+        "best_iou": 0.6567164179104478,
+        "end": 5687,
+        "label": "Manipulative Wording",
+        "length": 67,
+        "start": 5620,
+        "word_aligned": true
+      },
+      {
+        "annotation_index": 0,
+        "best_iou": 0.8727272727272727,
+        "end": 6211,
+        "label": "Attack on Reputation",
+        "length": 55,
+        "start": 6156,
+        "word_aligned": true
+      },
+      {
+        "annotation_index": 0,
+        "best_iou": 0.8727272727272727,
+        "end": 6211,
+        "label": "Manipulative Wording",
+        "length": 55,
+        "start": 6156,
+        "word_aligned": true
+      },
+      {
+        "annotation_index": 0,
+        "best_iou": 0.7125,
+        "end": 6883,
+        "label": "Attack on Reputation",
+        "length": 80,
+        "start": 6803,
+        "word_aligned": true
+      },
+      {
+        "annotation_index": 0,
+        "best_iou": 0.7125,
+        "end": 6883,
+        "label": "Manipulative Wording",
+        "length": 80,
+        "start": 6803,
+        "word_aligned": true
+      },
+      {
+        "annotation_index": 0,
+        "best_iou": 0.7931034482758621,
+        "end": 7857,
+        "label": "Manipulative Wording",
+        "length": 58,
+        "start": 7799,
+        "word_aligned": true
+      },
+      {
+        "annotation_index": 0,
+        "best_iou": 0.6470588235294118,
+        "end": 8720,
+        "label": "Attack on Reputation",
+        "length": 102,
+        "start": 8618,
+        "word_aligned": true
+      },
+      {
+        "annotation_index": 0,
+        "best_iou": 0.6790123456790124,
+        "end": 8910,
+        "label": "Attack on Reputation",
+        "length": 81,
+        "start": 8829,
+        "word_aligned": true
+      },
+      {
+        "annotation_index": 0,
+        "best_iou": 0.7230769230769231,
+        "end": 9638,
+        "label": "Call",
+        "length": 65,
+        "start": 9573,
+        "word_aligned": true
+      }
+    ],
+    "words": 1574
+  },
+  {
+    "candidate_count": 13748,
+    "characters": 9784,
+    "doc_id": "holod:lichniy-opit-i-gendernoe-neravenstvo",
+    "exact_recall": 0.4065934065934066,
+    "generation_seconds": 0.009100883999053622,
+    "iou50_coverage": 0.6501831501831501,
+    "mean_best_iou": 0.7003186355850808,
+    "misses": [
+      {
+        "annotation_index": 0,
+        "best_iou": 0.6714285714285714,
+        "end": 1622,
+        "label": "Justification",
+        "length": 70,
+        "start": 1552,
+        "word_aligned": true
+      },
+      {
+        "annotation_index": 0,
+        "best_iou": 0.4803921568627451,
+        "end": 1752,
+        "label": "Simplification",
+        "length": 102,
+        "start": 1650,
+        "word_aligned": true
+      },
+      {
+        "annotation_index": 0,
+        "best_iou": 0.717948717948718,
+        "end": 1868,
+        "label": "Justification",
+        "length": 78,
+        "start": 1790,
+        "word_aligned": true
+      },
+      {
+        "annotation_index": 0,
+        "best_iou": 0.6666666666666666,
+        "end": 5068,
+        "label": "Simplification",
+        "length": 66,
+        "start": 5002,
+        "word_aligned": true
+      },
+      {
+        "annotation_index": 0,
+        "best_iou": 0.38271604938271603,
+        "end": 5275,
+        "label": "Simplification",
+        "length": 162,
+        "start": 5113,
+        "word_aligned": true
+      },
+      {
+        "annotation_index": 0,
+        "best_iou": 0.5857142857142857,
+        "end": 5623,
+        "label": "Manipulative Wording",
+        "length": 70,
+        "start": 5553,
+        "word_aligned": true
+      },
+      {
+        "annotation_index": 0,
+        "best_iou": 0.8974358974358975,
+        "end": 7308,
+        "label": "Manipulative Wording",
+        "length": 78,
+        "start": 7230,
+        "word_aligned": true
+      },
+      {
+        "annotation_index": 0,
+        "best_iou": 0.9818181818181818,
+        "end": 7473,
+        "label": "Attack on Reputation",
+        "length": 55,
+        "start": 7418,
+        "word_aligned": true
+      },
+      {
+        "annotation_index": 0,
+        "best_iou": 0.3684210526315789,
+        "end": 8127,
+        "label": "Call",
+        "length": 228,
+        "start": 7899,
+        "word_aligned": true
+      },
+      {
+        "annotation_index": 0,
+        "best_iou": 0.3561643835616438,
+        "end": 8349,
+        "label": "Call",
+        "length": 219,
+        "start": 8130,
+        "word_aligned": true
+      },
+      {
+        "annotation_index": 0,
+        "best_iou": 0.23628691983122363,
+        "end": 9708,
+        "label": "Call",
+        "length": 237,
+        "start": 9471,
+        "word_aligned": true
+      },
+      {
+        "annotation_index": 0,
+        "best_iou": 0.6666666666666666,
+        "end": 9784,
+        "label": "Call",
+        "length": 75,
+        "start": 9709,
+        "word_aligned": true
+      },
+      {
+        "annotation_index": 1,
+        "best_iou": 0.9545454545454546,
+        "end": 490,
+        "label": "Manipulative Wording",
+        "length": 22,
+        "start": 468,
+        "word_aligned": false
+      },
+      {
+        "annotation_index": 1,
+        "best_iou": 0.7702702702702703,
+        "end": 4011,
+        "label": "Justification",
+        "length": 74,
+        "start": 3937,
+        "word_aligned": true
+      },
+      {
+        "annotation_index": 1,
+        "best_iou": 0.29444444444444445,
+        "end": 4193,
+        "label": "Justification",
+        "length": 180,
+        "start": 4013,
+        "word_aligned": true
+      },
+      {
+        "annotation_index": 1,
+        "best_iou": 0.32019704433497537,
+        "end": 4499,
+        "label": "Justification",
+        "length": 203,
+        "start": 4296,
+        "word_aligned": true
+      },
+      {
+        "annotation_index": 1,
+        "best_iou": 0.3630952380952381,
+        "end": 5069,
+        "label": "Simplification",
+        "length": 168,
+        "start": 4901,
+        "word_aligned": true
+      },
+      {
+        "annotation_index": 1,
+        "best_iou": 0.24102564102564103,
+        "end": 5625,
+        "label": "Justification",
+        "length": 195,
+        "start": 5430,
+        "word_aligned": false
+      },
+      {
+        "annotation_index": 1,
+        "best_iou": 0.3201754385964912,
+        "end": 6041,
+        "label": "Justification",
+        "length": 228,
+        "start": 5813,
+        "word_aligned": true
+      },
+      {
+        "annotation_index": 1,
+        "best_iou": 0.3684210526315789,
+        "end": 6213,
+        "label": "Justification",
+        "length": 171,
+        "start": 6042,
+        "word_aligned": true
+      },
+      {
+        "annotation_index": 1,
+        "best_iou": 0.24892703862660945,
+        "end": 6487,
+        "label": "Manipulative Wording",
+        "length": 233,
+        "start": 6254,
+        "word_aligned": true
+      },
+      {
+        "annotation_index": 1,
+        "best_iou": 0.35526315789473684,
+        "end": 7179,
+        "label": "Manipulative Wording",
+        "length": 152,
+        "start": 7027,
+        "word_aligned": true
+      },
+      {
+        "annotation_index": 1,
+        "best_iou": 0.5934065934065934,
+        "end": 7125,
+        "label": "Attack on Reputation",
+        "length": 91,
+        "start": 7034,
+        "word_aligned": true
+      },
+      {
+        "annotation_index": 1,
+        "best_iou": 0.2422145328719723,
+        "end": 7473,
+        "label": "Manipulative Wording",
+        "length": 289,
+        "start": 7184,
+        "word_aligned": true
+      },
+      {
+        "annotation_index": 1,
+        "best_iou": 0.23357664233576642,
+        "end": 8040,
+        "label": "Justification",
+        "length": 274,
+        "start": 7766,
+        "word_aligned": true
+      },
+      {
+        "annotation_index": 1,
+        "best_iou": 0.4148936170212766,
+        "end": 8349,
+        "label": "Call",
+        "length": 188,
+        "start": 8161,
+        "word_aligned": true
+      },
+      {
+        "annotation_index": 1,
+        "best_iou": 0.5210084033613446,
+        "end": 8707,
+        "label": "Call",
+        "length": 119,
+        "start": 8588,
+        "word_aligned": false
+      },
+      {
+        "annotation_index": 1,
+        "best_iou": 0.3511450381679389,
+        "end": 9604,
+        "label": "Call",
+        "length": 131,
+        "start": 9473,
+        "word_aligned": true
+      }
+    ],
+    "words": 1722
+  },
+  {
+    "candidate_count": 14124,
+    "characters": 10341,
+    "doc_id": "holod:pochemu-rossiya-sdala-herson",
+    "exact_recall": 0.9,
+    "generation_seconds": 0.01074652199895354,
+    "iou50_coverage": 1.0,
+    "mean_best_iou": 0.9594202898550724,
+    "misses": [
+      {
+        "annotation_index": 0,
+        "best_iou": 0.5942028985507246,
+        "end": 4034,
+        "label": "Justification",
+        "length": 69,
+        "start": 3965,
+        "word_aligned": true
+      }
+    ],
+    "words": 1769
+  },
+  {
+    "candidate_count": 12564,
+    "characters": 10549,
+    "doc_id": "holod:rossiiskiie-smi-1990",
+    "exact_recall": 0.75,
+    "generation_seconds": 0.00852977799877408,
+    "iou50_coverage": 1.0,
+    "mean_best_iou": 0.9456894642040049,
+    "misses": [
+      {
+        "annotation_index": 0,
+        "best_iou": 0.7428571428571429,
+        "end": 925,
+        "label": "Manipulative Wording",
+        "length": 70,
+        "start": 855,
+        "word_aligned": true
+      },
+      {
+        "annotation_index": 0,
+        "best_iou": 0.8089887640449438,
+        "end": 8137,
+        "label": "Manipulative Wording",
+        "length": 89,
+        "start": 8048,
+        "word_aligned": true
+      },
+      {
+        "annotation_index": 0,
+        "best_iou": 0.8615384615384616,
+        "end": 9196,
+        "label": "Attack on Reputation",
+        "length": 65,
+        "start": 9131,
+        "word_aligned": true
+      },
+      {
+        "annotation_index": 0,
+        "best_iou": 0.7176470588235294,
+        "end": 10262,
+        "label": "Simplification",
+        "length": 85,
+        "start": 10177,
+        "word_aligned": true
+      }
+    ],
+    "words": 1574
+  },
+  {
+    "candidate_count": 7196,
+    "characters": 4980,
+    "doc_id": "holod:v-etoj-vojne-ne-mozhet-byt-pobedy",
+    "exact_recall": 0.25,
+    "generation_seconds": 0.005247998000413645,
+    "iou50_coverage": 0.5,
+    "mean_best_iou": 0.6256812545048875,
+    "misses": [
+      {
+        "annotation_index": 0,
+        "best_iou": 0.29385964912280704,
+        "end": 1364,
+        "label": "Attack on Reputation",
+        "length": 228,
+        "start": 1136,
+        "word_aligned": true
+      },
+      {
+        "annotation_index": 0,
+        "best_iou": 0.3333333333333333,
+        "end": 1623,
+        "label": "Attack on Reputation",
+        "length": 120,
+        "start": 1503,
+        "word_aligned": false
+      },
+      {
+        "annotation_index": 0,
+        "best_iou": 0.47126436781609193,
+        "end": 2082,
+        "label": "Justification",
+        "length": 87,
+        "start": 1995,
+        "word_aligned": false
+      },
+      {
+        "annotation_index": 0,
+        "best_iou": 0.4342105263157895,
+        "end": 2590,
+        "label": "Simplification",
+        "length": 152,
+        "start": 2438,
+        "word_aligned": true
+      },
+      {
+        "annotation_index": 0,
+        "best_iou": 0.9032258064516129,
+        "end": 2739,
+        "label": "Simplification",
+        "length": 62,
+        "start": 2677,
+        "word_aligned": true
+      },
+      {
+        "annotation_index": 0,
+        "best_iou": 0.8166666666666667,
+        "end": 2934,
+        "label": "Simplification",
+        "length": 60,
+        "start": 2874,
+        "word_aligned": true
+      },
+      {
+        "annotation_index": 0,
+        "best_iou": 0.3972602739726027,
+        "end": 3305,
+        "label": "Attack on Reputation",
+        "length": 146,
+        "start": 3159,
+        "word_aligned": false
+      },
+      {
+        "annotation_index": 0,
+        "best_iou": 0.21835443037974683,
+        "end": 4664,
+        "label": "Justification",
+        "length": 316,
+        "start": 4348,
+        "word_aligned": true
+      },
+      {
+        "annotation_index": 0,
+        "best_iou": 0.64,
+        "end": 4980,
+        "label": "Call",
+        "length": 75,
+        "start": 4905,
+        "word_aligned": true
+      }
+    ],
+    "words": 903
+  },
+  {
+    "candidate_count": 11596,
+    "characters": 8741,
+    "doc_id": "holod:voina-v-ukraine-privediot-k-tretiei-mirovoi-voine",
+    "exact_recall": 0.4,
+    "generation_seconds": 0.007899305001046741,
+    "iou50_coverage": 0.6333333333333333,
+    "mean_best_iou": 0.7213516065360157,
+    "misses": [
+      {
+        "annotation_index": 0,
+        "best_iou": 0.7857142857142857,
+        "end": 99,
+        "label": "Manipulative Wording",
+        "length": 70,
+        "start": 29,
+        "word_aligned": true
+      },
+      {
+        "annotation_index": 0,
+        "best_iou": 0.39285714285714285,
+        "end": 241,
+        "label": "Justification",
+        "length": 140,
+        "start": 101,
+        "word_aligned": true
+      },
+      {
+        "annotation_index": 0,
+        "best_iou": 0.4642857142857143,
+        "end": 706,
+        "label": "Justification",
+        "length": 112,
+        "start": 594,
+        "word_aligned": true
+      },
+      {
+        "annotation_index": 0,
+        "best_iou": 0.6095238095238096,
+        "end": 813,
+        "label": "Justification",
+        "length": 105,
+        "start": 708,
+        "word_aligned": false
+      },
+      {
+        "annotation_index": 0,
+        "best_iou": 0.42142857142857143,
+        "end": 1634,
+        "label": "Justification",
+        "length": 140,
+        "start": 1494,
+        "word_aligned": false
+      },
+      {
+        "annotation_index": 0,
+        "best_iou": 0.49230769230769234,
+        "end": 1766,
+        "label": "Justification",
+        "length": 130,
+        "start": 1636,
+        "word_aligned": true
+      },
+      {
+        "annotation_index": 0,
+        "best_iou": 0.4621212121212121,
+        "end": 1899,
+        "label": "Justification",
+        "length": 132,
+        "start": 1767,
+        "word_aligned": true
+      },
+      {
+        "annotation_index": 0,
+        "best_iou": 0.3413173652694611,
+        "end": 2068,
+        "label": "Justification",
+        "length": 167,
+        "start": 1901,
+        "word_aligned": true
+      },
+      {
+        "annotation_index": 0,
+        "best_iou": 0.4742268041237113,
+        "end": 2166,
+        "label": "Simplification",
+        "length": 97,
+        "start": 2069,
+        "word_aligned": true
+      },
+      {
+        "annotation_index": 0,
+        "best_iou": 0.627906976744186,
+        "end": 2252,
+        "label": "Simplification",
+        "length": 86,
+        "start": 2166,
+        "word_aligned": false
+      },
+      {
+        "annotation_index": 0,
+        "best_iou": 0.8307692307692308,
+        "end": 2708,
+        "label": "Justification",
+        "length": 65,
+        "start": 2643,
+        "word_aligned": false
+      },
+      {
+        "annotation_index": 0,
+        "best_iou": 0.5225225225225225,
+        "end": 2871,
+        "label": "Justification",
+        "length": 111,
+        "start": 2760,
+        "word_aligned": true
+      },
+      {
+        "annotation_index": 0,
+        "best_iou": 0.39690721649484534,
+        "end": 3771,
+        "label": "Simplification",
+        "length": 194,
+        "start": 3577,
+        "word_aligned": true
+      },
+      {
+        "annotation_index": 0,
+        "best_iou": 0.32432432432432434,
+        "end": 3958,
+        "label": "Justification",
+        "length": 185,
+        "start": 3773,
+        "word_aligned": true
+      },
+      {
+        "annotation_index": 0,
+        "best_iou": 0.42134831460674155,
+        "end": 6684,
+        "label": "Simplification",
+        "length": 178,
+        "start": 6506,
+        "word_aligned": true
+      },
+      {
+        "annotation_index": 0,
+        "best_iou": 0.7272727272727273,
+        "end": 6751,
+        "label": "Justification",
+        "length": 66,
+        "start": 6685,
+        "word_aligned": true
+      },
+      {
+        "annotation_index": 0,
+        "best_iou": 0.9523809523809523,
+        "end": 7667,
+        "label": "Manipulative Wording",
+        "length": 21,
+        "start": 7646,
+        "word_aligned": false
+      },
+      {
+        "annotation_index": 0,
+        "best_iou": 0.3933333333333333,
+        "end": 8190,
+        "label": "Justification",
+        "length": 150,
+        "start": 8040,
+        "word_aligned": true
+      }
+    ],
+    "words": 1453
+  },
+  {
+    "candidate_count": 7916,
+    "characters": 6600,
+    "doc_id": "ng:100_200221_lukashenko",
+    "exact_recall": 0.5719602977667494,
+    "generation_seconds": 0.00521237800057861,
+    "iou50_coverage": 0.890818858560794,
+    "mean_best_iou": 0.8600188282145125,
+    "misses": [
+      {
+        "annotation_index": 0,
+        "best_iou": 0.3502824858757062,
+        "end": 3023,
+        "label": "Simplification",
+        "length": 177,
+        "start": 2846,
+        "word_aligned": true
+      },
+      {
+        "annotation_index": 0,
+        "best_iou": 0.9824561403508771,
+        "end": 3235,
+        "label": "Simplification",
+        "length": 57,
+        "start": 3178,
+        "word_aligned": true
+      },
+      {
+        "annotation_index": 0,
+        "best_iou": 0.8088235294117647,
+        "end": 4303,
+        "label": "Manipulative Wording",
+        "length": 68,
+        "start": 4235,
+        "word_aligned": true
+      },
+      {
+        "annotation_index": 0,
+        "best_iou": 0.2832618025751073,
+        "end": 4589,
+        "label": "Simplification",
+        "length": 233,
+        "start": 4356,
+        "word_aligned": true
+      },
+      {
+        "annotation_index": 0,
+        "best_iou": 0.7714285714285715,
+        "end": 5453,
+        "label": "Simplification",
+        "length": 70,
+        "start": 5383,
+        "word_aligned": true
+      },
+      {
+        "annotation_index": 0,
+        "best_iou": 0.8970588235294118,
+        "end": 5859,
+        "label": "Manipulative Wording",
+        "length": 68,
+        "start": 5791,
+        "word_aligned": true
+      },
+      {
+        "annotation_index": 0,
+        "best_iou": 0.44755244755244755,
+        "end": 6385,
+        "label": "Simplification",
+        "length": 143,
+        "start": 6242,
+        "word_aligned": true
+      },
+      {
+        "annotation_index": 0,
+        "best_iou": 0.49166666666666664,
+        "end": 6600,
+        "label": "Simplification",
+        "length": 120,
+        "start": 6480,
+        "word_aligned": true
+      },
+      {
+        "annotation_index": 1,
+        "best_iou": 0.676923076923077,
+        "end": 393,
+        "label": "Attack on Reputation",
+        "length": 65,
+        "start": 328,
+        "word_aligned": true
+      },
+      {
+        "annotation_index": 1,
+        "best_iou": 0.6477272727272727,
+        "end": 599,
+        "label": "Attack on Reputation",
+        "length": 88,
+        "start": 511,
+        "word_aligned": false
+      },
+      {
+        "annotation_index": 1,
+        "best_iou": 0.9777777777777777,
+        "end": 600,
+        "label": "Manipulative Wording",
+        "length": 45,
+        "start": 555,
+        "word_aligned": false
+      },
+      {
+        "annotation_index": 1,
+        "best_iou": 0.6702127659574468,
+        "end": 1211,
+        "label": "Attack on Reputation",
+        "length": 94,
+        "start": 1117,
+        "word_aligned": true
+      },
+      {
+        "annotation_index": 1,
+        "best_iou": 0.8472222222222222,
+        "end": 1497,
+        "label": "Manipulative Wording",
+        "length": 72,
+        "start": 1425,
+        "word_aligned": true
+      },
+      {
+        "annotation_index": 1,
+        "best_iou": 0.6585365853658537,
+        "end": 2510,
+        "label": "Attack on Reputation",
+        "length": 82,
+        "start": 2428,
+        "word_aligned": true
+      },
+      {
+        "annotation_index": 1,
+        "best_iou": 0.7948717948717948,
+        "end": 2924,
+        "label": "Attack on Reputation",
+        "length": 78,
+        "start": 2846,
+        "word_aligned": false
+      },
+      {
+        "annotation_index": 1,
+        "best_iou": 0.7948717948717948,
+        "end": 2924,
+        "label": "Simplification",
+        "length": 78,
+        "start": 2846,
+        "word_aligned": false
+      },
+      {
+        "annotation_index": 1,
+        "best_iou": 0.7808219178082192,
+        "end": 3097,
+        "label": "Attack on Reputation",
+        "length": 73,
+        "start": 3024,
+        "word_aligned": true
+      },
+      {
+        "annotation_index": 1,
+        "best_iou": 0.9411764705882353,
+        "end": 4140,
+        "label": "Attack on Reputation",
+        "length": 17,
+        "start": 4123,
+        "word_aligned": false
+      },
+      {
+        "annotation_index": 1,
+        "best_iou": 0.5739130434782609,
+        "end": 4471,
+        "label": "Simplification",
+        "length": 115,
+        "start": 4356,
+        "word_aligned": true
+      },
+      {
+        "annotation_index": 1,
+        "best_iou": 0.6991150442477876,
+        "end": 5860,
+        "label": "Attack on Reputation",
+        "length": 113,
+        "start": 5747,
+        "word_aligned": true
+      },
+      {
+        "annotation_index": 1,
+        "best_iou": 0.7204301075268817,
+        "end": 5860,
+        "label": "Manipulative Wording",
+        "length": 93,
+        "start": 5767,
+        "word_aligned": true
+      },
+      {
+        "annotation_index": 1,
+        "best_iou": 0.6190476190476191,
+        "end": 5966,
+        "label": "Call",
+        "length": 105,
+        "start": 5861,
+        "word_aligned": true
+      },
+      {
+        "annotation_index": 1,
+        "best_iou": 0.5142857142857142,
+        "end": 6149,
+        "label": "Justification",
+        "length": 70,
+        "start": 6079,
+        "word_aligned": false
+      },
+      {
+        "annotation_index": 1,
+        "best_iou": 0.4507042253521127,
+        "end": 6384,
+        "label": "Call",
+        "length": 142,
+        "start": 6242,
+        "word_aligned": true
+      },
+      {
+        "annotation_index": 1,
+        "best_iou": 0.49166666666666664,
+        "end": 6600,
+        "label": "Simplification",
+        "length": 120,
+        "start": 6480,
+        "word_aligned": true
+      }
+    ],
+    "words": 993
+  },
+  {
+    "candidate_count": 8724,
+    "characters": 5870,
+    "doc_id": "ng:15_8127_vision",
+    "exact_recall": 0.5172413793103449,
+    "generation_seconds": 0.006055381996702636,
+    "iou50_coverage": 0.7931034482758621,
+    "mean_best_iou": 0.7807064174002475,
+    "misses": [
+      {
+        "annotation_index": 0,
+        "best_iou": 0.5036496350364964,
+        "end": 364,
+        "label": "Simplification",
+        "length": 137,
+        "start": 227,
+        "word_aligned": true
+      },
+      {
+        "annotation_index": 0,
+        "best_iou": 0.281767955801105,
+        "end": 1923,
+        "label": "Simplification",
+        "length": 181,
+        "start": 1742,
+        "word_aligned": true
+      },
+      {
+        "annotation_index": 0,
+        "best_iou": 0.8478260869565217,
+        "end": 1913,
+        "label": "Manipulative Wording",
+        "length": 46,
+        "start": 1867,
+        "word_aligned": true
+      },
+      {
+        "annotation_index": 0,
+        "best_iou": 0.725,
+        "end": 2049,
+        "label": "Simplification",
+        "length": 80,
+        "start": 1969,
+        "word_aligned": true
+      },
+      {
+        "annotation_index": 0,
+        "best_iou": 0.3445378151260504,
+        "end": 2478,
+        "label": "Call",
+        "length": 119,
+        "start": 2359,
+        "word_aligned": true
+      },
+      {
+        "annotation_index": 0,
+        "best_iou": 0.17507418397626112,
+        "end": 3810,
+        "label": "Simplification",
+        "length": 337,
+        "start": 3473,
+        "word_aligned": true
+      },
+      {
+        "annotation_index": 0,
+        "best_iou": 0.8490566037735849,
+        "end": 4200,
+        "label": "Simplification",
+        "length": 53,
+        "start": 4147,
+        "word_aligned": true
+      },
+      {
+        "annotation_index": 0,
+        "best_iou": 0.5492957746478874,
+        "end": 4374,
+        "label": "Call",
+        "length": 71,
+        "start": 4303,
+        "word_aligned": true
+      },
+      {
+        "annotation_index": 0,
+        "best_iou": 0.5875,
+        "end": 4460,
+        "label": "Simplification",
+        "length": 80,
+        "start": 4380,
+        "word_aligned": true
+      },
+      {
+        "annotation_index": 0,
+        "best_iou": 0.7,
+        "end": 4611,
+        "label": "Attack on Reputation",
+        "length": 80,
+        "start": 4531,
+        "word_aligned": true
+      },
+      {
+        "annotation_index": 0,
+        "best_iou": 0.3893129770992366,
+        "end": 4837,
+        "label": "Call",
+        "length": 131,
+        "start": 4706,
+        "word_aligned": true
+      },
+      {
+        "annotation_index": 0,
+        "best_iou": 0.381294964028777,
+        "end": 5544,
+        "label": "Manipulative Wording",
+        "length": 139,
+        "start": 5405,
+        "word_aligned": true
+      },
+      {
+        "annotation_index": 0,
+        "best_iou": 0.48672566371681414,
+        "end": 5797,
+        "label": "Manipulative Wording",
+        "length": 113,
+        "start": 5684,
+        "word_aligned": true
+      },
+      {
+        "annotation_index": 0,
+        "best_iou": 0.8194444444444444,
+        "end": 5870,
+        "label": "Manipulative Wording",
+        "length": 72,
+        "start": 5798,
+        "word_aligned": true
+      }
+    ],
+    "words": 1094
+  },
+  {
+    "candidate_count": 8988,
+    "characters": 6836,
+    "doc_id": "ng:5_9074_vision",
+    "exact_recall": 0.3333333333333333,
+    "generation_seconds": 0.005962770002952311,
+    "iou50_coverage": 0.7142857142857143,
+    "mean_best_iou": 0.7243829581915722,
+    "misses": [
+      {
+        "annotation_index": 0,
+        "best_iou": 0.8571428571428571,
+        "end": 654,
+        "label": "Manipulative Wording",
+        "length": 7,
+        "start": 647,
+        "word_aligned": false
+      },
+      {
+        "annotation_index": 0,
+        "best_iou": 0.22707423580786026,
+        "end": 1046,
+        "label": "Manipulative Wording",
+        "length": 229,
+        "start": 817,
+        "word_aligned": false
+      },
+      {
+        "annotation_index": 0,
+        "best_iou": 0.9166666666666666,
+        "end": 1135,
+        "label": "Manipulative Wording",
+        "length": 12,
+        "start": 1123,
+        "word_aligned": false
+      },
+      {
+        "annotation_index": 0,
+        "best_iou": 0.9516129032258065,
+        "end": 2557,
+        "label": "Manipulative Wording",
+        "length": 62,
+        "start": 2495,
+        "word_aligned": false
+      },
+      {
+        "annotation_index": 0,
+        "best_iou": 0.6363636363636364,
+        "end": 3009,
+        "label": "Attack on Reputation",
+        "length": 88,
+        "start": 2921,
+        "word_aligned": true
+      },
+      {
+        "annotation_index": 0,
+        "best_iou": 0.96,
+        "end": 4109,
+        "label": "Simplification",
+        "length": 25,
+        "start": 4084,
+        "word_aligned": false
+      },
+      {
+        "annotation_index": 0,
+        "best_iou": 0.252,
+        "end": 4361,
+        "label": "Justification",
+        "length": 250,
+        "start": 4111,
+        "word_aligned": false
+      },
+      {
+        "annotation_index": 0,
+        "best_iou": 0.5272727272727272,
+        "end": 4588,
+        "label": "Simplification",
+        "length": 110,
+        "start": 4478,
+        "word_aligned": true
+      },
+      {
+        "annotation_index": 0,
+        "best_iou": 0.36464088397790057,
+        "end": 4770,
+        "label": "Justification",
+        "length": 181,
+        "start": 4589,
+        "word_aligned": false
+      },
+      {
+        "annotation_index": 0,
+        "best_iou": 0.9848484848484849,
+        "end": 5062,
+        "label": "Simplification",
+        "length": 66,
+        "start": 4996,
+        "word_aligned": true
+      },
+      {
+        "annotation_index": 0,
+        "best_iou": 0.31048387096774194,
+        "end": 6229,
+        "label": "Attack on Reputation",
+        "length": 248,
+        "start": 5981,
+        "word_aligned": true
+      },
+      {
+        "annotation_index": 0,
+        "best_iou": 0.5073529411764706,
+        "end": 6366,
+        "label": "Call",
+        "length": 136,
+        "start": 6230,
+        "word_aligned": true
+      },
+      {
+        "annotation_index": 0,
+        "best_iou": 0.4,
+        "end": 6482,
+        "label": "Simplification",
+        "length": 115,
+        "start": 6367,
+        "word_aligned": true
+      },
+      {
+        "annotation_index": 0,
+        "best_iou": 0.3165829145728643,
+        "end": 6732,
+        "label": "Call",
+        "length": 199,
+        "start": 6533,
+        "word_aligned": true
+      }
+    ],
+    "words": 1127
+  },
+  {
+    "candidate_count": 6300,
+    "characters": 4769,
+    "doc_id": "ng:5_9292_migrants",
+    "exact_recall": 0.5185185185185185,
+    "generation_seconds": 0.004116471998713678,
+    "iou50_coverage": 0.7037037037037037,
+    "mean_best_iou": 0.7655740403342629,
+    "misses": [
+      {
+        "annotation_index": 0,
+        "best_iou": 0.9019607843137255,
+        "end": 163,
+        "label": "Justification",
+        "length": 51,
+        "start": 112,
+        "word_aligned": true
+      },
+      {
+        "annotation_index": 0,
+        "best_iou": 0.6575342465753424,
+        "end": 238,
+        "label": "Justification",
+        "length": 73,
+        "start": 165,
+        "word_aligned": true
+      },
+      {
+        "annotation_index": 0,
+        "best_iou": 0.44047619047619047,
+        "end": 407,
+        "label": "Justification",
+        "length": 168,
+        "start": 239,
+        "word_aligned": true
+      },
+      {
+        "annotation_index": 0,
+        "best_iou": 0.4230769230769231,
+        "end": 538,
+        "label": "Justification",
+        "length": 130,
+        "start": 408,
+        "word_aligned": true
+      },
+      {
+        "annotation_index": 0,
+        "best_iou": 0.308411214953271,
+        "end": 754,
+        "label": "Justification",
+        "length": 214,
+        "start": 540,
+        "word_aligned": true
+      },
+      {
+        "annotation_index": 0,
+        "best_iou": 0.39325842696629215,
+        "end": 1337,
+        "label": "Attack on Reputation",
+        "length": 89,
+        "start": 1248,
+        "word_aligned": true
+      },
+      {
+        "annotation_index": 0,
+        "best_iou": 0.9333333333333333,
+        "end": 1596,
+        "label": "Manipulative Wording",
+        "length": 15,
+        "start": 1581,
+        "word_aligned": false
+      },
+      {
+        "annotation_index": 0,
+        "best_iou": 0.8125,
+        "end": 2206,
+        "label": "Justification",
+        "length": 48,
+        "start": 2158,
+        "word_aligned": true
+      },
+      {
+        "annotation_index": 0,
+        "best_iou": 0.4452054794520548,
+        "end": 2667,
+        "label": "Attack on Reputation",
+        "length": 146,
+        "start": 2521,
+        "word_aligned": true
+      },
+      {
+        "annotation_index": 0,
+        "best_iou": 0.2581967213114754,
+        "end": 3160,
+        "label": "Justification",
+        "length": 244,
+        "start": 2916,
+        "word_aligned": true
+      },
+      {
+        "annotation_index": 0,
+        "best_iou": 0.16321243523316062,
+        "end": 3848,
+        "label": "Justification",
+        "length": 386,
+        "start": 3462,
+        "word_aligned": false
+      },
+      {
+        "annotation_index": 0,
+        "best_iou": 0.3446808510638298,
+        "end": 4096,
+        "label": "Justification",
+        "length": 235,
+        "start": 3861,
+        "word_aligned": true
+      },
+      {
+        "annotation_index": 0,
+        "best_iou": 0.5886524822695035,
+        "end": 4238,
+        "label": "Justification",
+        "length": 141,
+        "start": 4097,
+        "word_aligned": false
+      }
+    ],
+    "words": 791
+  },
+  {
+    "candidate_count": 8196,
+    "characters": 6232,
+    "doc_id": "ng:6_8272_vision",
+    "exact_recall": 0.4117647058823529,
+    "generation_seconds": 0.0063035339990165085,
+    "iou50_coverage": 0.9411764705882353,
+    "mean_best_iou": 0.7827571905616032,
+    "misses": [
+      {
+        "annotation_index": 0,
+        "best_iou": 0.4552238805970149,
+        "end": 1227,
+        "label": "Attack on Reputation",
+        "length": 134,
+        "start": 1093,
+        "word_aligned": true
+      },
+      {
+        "annotation_index": 0,
+        "best_iou": 0.5,
+        "end": 1513,
+        "label": "Manipulative Wording",
+        "length": 142,
+        "start": 1371,
+        "word_aligned": true
+      },
+      {
+        "annotation_index": 0,
+        "best_iou": 0.6024096385542169,
+        "end": 1597,
+        "label": "Manipulative Wording",
+        "length": 83,
+        "start": 1514,
+        "word_aligned": true
+      },
+      {
+        "annotation_index": 0,
+        "best_iou": 0.6421052631578947,
+        "end": 1710,
+        "label": "Manipulative Wording",
+        "length": 95,
+        "start": 1615,
+        "word_aligned": true
+      },
+      {
+        "annotation_index": 0,
+        "best_iou": 0.6375,
+        "end": 2271,
+        "label": "Manipulative Wording",
+        "length": 80,
+        "start": 2191,
+        "word_aligned": true
+      },
+      {
+        "annotation_index": 0,
+        "best_iou": 0.5772357723577236,
+        "end": 2861,
+        "label": "Justification",
+        "length": 123,
+        "start": 2738,
+        "word_aligned": true
+      },
+      {
+        "annotation_index": 0,
+        "best_iou": 0.8225806451612904,
+        "end": 3084,
+        "label": "Attack on Reputation",
+        "length": 62,
+        "start": 3022,
+        "word_aligned": true
+      },
+      {
+        "annotation_index": 0,
+        "best_iou": 0.8225806451612904,
+        "end": 3084,
+        "label": "Distraction",
+        "length": 62,
+        "start": 3022,
+        "word_aligned": true
+      },
+      {
+        "annotation_index": 0,
+        "best_iou": 0.6145833333333334,
+        "end": 3216,
+        "label": "Manipulative Wording",
+        "length": 96,
+        "start": 3120,
+        "word_aligned": true
+      },
+      {
+        "annotation_index": 0,
+        "best_iou": 0.6326530612244898,
+        "end": 4004,
+        "label": "Manipulative Wording",
+        "length": 98,
+        "start": 3906,
+        "word_aligned": true
+      }
+    ],
+    "words": 1028
+  },
+  {
+    "candidate_count": 7412,
+    "characters": 5006,
+    "doc_id": "ng:6_8326_vision",
+    "exact_recall": 0.4782608695652174,
+    "generation_seconds": 0.005010532000596868,
+    "iou50_coverage": 0.8043478260869565,
+    "mean_best_iou": 0.8046448988664335,
+    "misses": [
+      {
+        "annotation_index": 0,
+        "best_iou": 0.5308641975308642,
+        "end": 510,
+        "label": "Simplification",
+        "length": 81,
+        "start": 429,
+        "word_aligned": true
+      },
+      {
+        "annotation_index": 0,
+        "best_iou": 0.8275862068965517,
+        "end": 938,
+        "label": "Justification",
+        "length": 58,
+        "start": 880,
+        "word_aligned": true
+      },
+      {
+        "annotation_index": 0,
+        "best_iou": 0.9814814814814815,
+        "end": 1127,
+        "label": "Attack on Reputation",
+        "length": 54,
+        "start": 1073,
+        "word_aligned": true
+      },
+      {
+        "annotation_index": 0,
+        "best_iou": 0.9615384615384616,
+        "end": 1184,
+        "label": "Manipulative Wording",
+        "length": 25,
+        "start": 1159,
+        "word_aligned": false
+      },
+      {
+        "annotation_index": 0,
+        "best_iou": 0.8333333333333334,
+        "end": 1364,
+        "label": "Manipulative Wording",
+        "length": 54,
+        "start": 1310,
+        "word_aligned": true
+      },
+      {
+        "annotation_index": 0,
+        "best_iou": 0.5185185185185185,
+        "end": 1447,
+        "label": "Attack on Reputation",
+        "length": 81,
+        "start": 1366,
+        "word_aligned": true
+      },
+      {
+        "annotation_index": 0,
+        "best_iou": 0.45454545454545453,
+        "end": 2190,
+        "label": "Justification",
+        "length": 143,
+        "start": 2047,
+        "word_aligned": false
+      },
+      {
+        "annotation_index": 0,
+        "best_iou": 0.6363636363636364,
+        "end": 2256,
+        "label": "Manipulative Wording",
+        "length": 66,
+        "start": 2190,
+        "word_aligned": false
+      },
+      {
+        "annotation_index": 0,
+        "best_iou": 0.7948717948717948,
+        "end": 2295,
+        "label": "Manipulative Wording",
+        "length": 39,
+        "start": 2256,
+        "word_aligned": true
+      },
+      {
+        "annotation_index": 0,
+        "best_iou": 0.3179190751445087,
+        "end": 2679,
+        "label": "Justification",
+        "length": 173,
+        "start": 2506,
+        "word_aligned": true
+      },
+      {
+        "annotation_index": 0,
+        "best_iou": 0.6875,
+        "end": 2679,
+        "label": "Attack on Reputation",
+        "length": 48,
+        "start": 2631,
+        "word_aligned": true
+      },
+      {
+        "annotation_index": 0,
+        "best_iou": 0.16706443914081145,
+        "end": 3430,
+        "label": "Justification",
+        "length": 419,
+        "start": 3011,
+        "word_aligned": true
+      },
+      {
+        "annotation_index": 0,
+        "best_iou": 0.7818181818181819,
+        "end": 3282,
+        "label": "Manipulative Wording",
+        "length": 55,
+        "start": 3227,
+        "word_aligned": false
+      },
+      {
+        "annotation_index": 0,
+        "best_iou": 0.4636363636363636,
+        "end": 3635,
+        "label": "Justification",
+        "length": 110,
+        "start": 3525,
+        "word_aligned": true
+      },
+      {
+        "annotation_index": 0,
+        "best_iou": 0.9230769230769231,
+        "end": 3599,
+        "label": "Manipulative Wording",
+        "length": 52,
+        "start": 3547,
+        "word_aligned": true
+      },
+      {
+        "annotation_index": 0,
+        "best_iou": 0.48717948717948717,
+        "end": 3714,
+        "label": "Manipulative Wording",
+        "length": 78,
+        "start": 3636,
+        "word_aligned": true
+      },
+      {
+        "annotation_index": 0,
+        "best_iou": 0.746268656716418,
+        "end": 3875,
+        "label": "Attack on Reputation",
+        "length": 67,
+        "start": 3808,
+        "word_aligned": true
+      },
+      {
+        "annotation_index": 0,
+        "best_iou": 0.3107344632768362,
+        "end": 4053,
+        "label": "Manipulative Wording",
+        "length": 177,
+        "start": 3876,
+        "word_aligned": true
+      },
+      {
+        "annotation_index": 0,
+        "best_iou": 0.3236994219653179,
+        "end": 4227,
+        "label": "Attack on Reputation",
+        "length": 173,
+        "start": 4054,
+        "word_aligned": true
+      },
+      {
+        "annotation_index": 0,
+        "best_iou": 0.2878787878787879,
+        "end": 4534,
+        "label": "Attack on Reputation",
+        "length": 198,
+        "start": 4336,
+        "word_aligned": true
+      },
+      {
+        "annotation_index": 0,
+        "best_iou": 0.9855072463768116,
+        "end": 4605,
+        "label": "Attack on Reputation",
+        "length": 69,
+        "start": 4536,
+        "word_aligned": true
+      },
+      {
+        "annotation_index": 0,
+        "best_iou": 0.7272727272727273,
+        "end": 4684,
+        "label": "Attack on Reputation",
+        "length": 66,
+        "start": 4618,
+        "word_aligned": false
+      },
+      {
+        "annotation_index": 0,
+        "best_iou": 0.9552238805970149,
+        "end": 4783,
+        "label": "Manipulative Wording",
+        "length": 67,
+        "start": 4716,
+        "word_aligned": true
+      },
+      {
+        "annotation_index": 0,
+        "best_iou": 0.30978260869565216,
+        "end": 4969,
+        "label": "Manipulative Wording",
+        "length": 184,
+        "start": 4785,
+        "word_aligned": false
+      }
+    ],
+    "words": 930
+  },
+  {
+    "candidate_count": 8564,
+    "characters": 5550,
+    "doc_id": "ng:7_9537_duty",
+    "exact_recall": 0.625,
+    "generation_seconds": 0.005928337999648647,
+    "iou50_coverage": 0.875,
+    "mean_best_iou": 0.8971766808082873,
+    "misses": [
+      {
+        "annotation_index": 0,
+        "best_iou": 0.43283582089552236,
+        "end": 1321,
+        "label": "Manipulative Wording",
+        "length": 134,
+        "start": 1187,
+        "word_aligned": true
+      },
+      {
+        "annotation_index": 0,
+        "best_iou": 0.8541666666666666,
+        "end": 2689,
+        "label": "Manipulative Wording",
+        "length": 48,
+        "start": 2641,
+        "word_aligned": true
+      },
+      {
+        "annotation_index": 0,
+        "best_iou": 0.8904109589041096,
+        "end": 3291,
+        "label": "Manipulative Wording",
+        "length": 73,
+        "start": 3218,
+        "word_aligned": true
+      }
+    ],
+    "words": 1074
+  },
+  {
+    "candidate_count": 9764,
+    "characters": 7760,
+    "doc_id": "ng:8_7915_realy",
+    "exact_recall": 0.4117647058823529,
+    "generation_seconds": 0.008275689000583952,
+    "iou50_coverage": 0.6470588235294118,
+    "mean_best_iou": 0.7034503029860607,
+    "misses": [
+      {
+        "annotation_index": 0,
+        "best_iou": 0.9642857142857143,
+        "end": 120,
+        "label": "Manipulative Wording",
+        "length": 28,
+        "start": 92,
+        "word_aligned": false
+      },
+      {
+        "annotation_index": 0,
+        "best_iou": 0.16441441441441443,
+        "end": 822,
+        "label": "Justification",
+        "length": 444,
+        "start": 378,
+        "word_aligned": true
+      },
+      {
+        "annotation_index": 0,
+        "best_iou": 0.35678391959798994,
+        "end": 1085,
+        "label": "Justification",
+        "length": 199,
+        "start": 886,
+        "word_aligned": false
+      },
+      {
+        "annotation_index": 0,
+        "best_iou": 0.9692307692307692,
+        "end": 1943,
+        "label": "Manipulative Wording",
+        "length": 65,
+        "start": 1878,
+        "word_aligned": true
+      },
+      {
+        "annotation_index": 0,
+        "best_iou": 0.13494809688581316,
+        "end": 3029,
+        "label": "Justification",
+        "length": 578,
+        "start": 2451,
+        "word_aligned": true
+      },
+      {
+        "annotation_index": 0,
+        "best_iou": 0.21613832853025935,
+        "end": 3377,
+        "label": "Justification",
+        "length": 347,
+        "start": 3030,
+        "word_aligned": true
+      },
+      {
+        "annotation_index": 0,
+        "best_iou": 0.6634615384615384,
+        "end": 3482,
+        "label": "Manipulative Wording",
+        "length": 104,
+        "start": 3378,
+        "word_aligned": true
+      },
+      {
+        "annotation_index": 0,
+        "best_iou": 0.4088050314465409,
+        "end": 4086,
+        "label": "Attack on Reputation",
+        "length": 159,
+        "start": 3927,
+        "word_aligned": true
+      },
+      {
+        "annotation_index": 0,
+        "best_iou": 0.9833333333333333,
+        "end": 4147,
+        "label": "Attack on Reputation",
+        "length": 60,
+        "start": 4087,
+        "word_aligned": false
+      },
+      {
+        "annotation_index": 0,
+        "best_iou": 0.09725400457665904,
+        "end": 5021,
+        "label": "Justification",
+        "length": 874,
+        "start": 4147,
+        "word_aligned": true
+      }
+    ],
+    "words": 1224
+  },
+  {
+    "candidate_count": 7060,
+    "characters": 5238,
+    "doc_id": "ng:8_8046_vision",
+    "exact_recall": 0.8125,
+    "generation_seconds": 0.004743383000459289,
+    "iou50_coverage": 1.0,
+    "mean_best_iou": 0.9591098154606219,
+    "misses": [
+      {
+        "annotation_index": 0,
+        "best_iou": 0.8108108108108109,
+        "end": 189,
+        "label": "Manipulative Wording",
+        "length": 37,
+        "start": 152,
+        "word_aligned": true
+      },
+      {
+        "annotation_index": 0,
+        "best_iou": 0.75,
+        "end": 483,
+        "label": "Manipulative Wording",
+        "length": 88,
+        "start": 395,
+        "word_aligned": true
+      },
+      {
+        "annotation_index": 0,
+        "best_iou": 0.7849462365591398,
+        "end": 1412,
+        "label": "Simplification",
+        "length": 93,
+        "start": 1319,
+        "word_aligned": true
+      }
+    ],
+    "words": 886
+  },
+  {
+    "candidate_count": 6636,
+    "characters": 4968,
+    "doc_id": "ng:8_8293_vision",
+    "exact_recall": 0.47023809523809523,
+    "generation_seconds": 0.004567658001178643,
+    "iou50_coverage": 0.7857142857142857,
+    "mean_best_iou": 0.7647514519516538,
+    "misses": [
+      {
+        "annotation_index": 0,
+        "best_iou": 0.8181818181818182,
+        "end": 631,
+        "label": "Attack on Reputation",
+        "length": 77,
+        "start": 554,
+        "word_aligned": true
+      },
+      {
+        "annotation_index": 0,
+        "best_iou": 0.8392857142857143,
+        "end": 3868,
+        "label": "Call",
+        "length": 56,
+        "start": 3812,
+        "word_aligned": true
+      },
+      {
+        "annotation_index": 2,
+        "best_iou": 0.6847826086956522,
+        "end": 631,
+        "label": "Manipulative Wording",
+        "length": 92,
+        "start": 539,
+        "word_aligned": true
+      },
+      {
+        "annotation_index": 2,
+        "best_iou": 0.9285714285714286,
+        "end": 713,
+        "label": "Manipulative Wording",
+        "length": 13,
+        "start": 700,
+        "word_aligned": false
+      },
+      {
+        "annotation_index": 2,
+        "best_iou": 0.6086956521739131,
+        "end": 866,
+        "label": "Attack on Reputation",
+        "length": 115,
+        "start": 751,
+        "word_aligned": true
+      },
+      {
+        "annotation_index": 2,
+        "best_iou": 0.6181818181818182,
+        "end": 978,
+        "label": "Justification",
+        "length": 110,
+        "start": 868,
+        "word_aligned": true
+      },
+      {
+        "annotation_index": 2,
+        "best_iou": 0.2514792899408284,
+        "end": 1874,
+        "label": "Justification",
+        "length": 338,
+        "start": 1536,
+        "word_aligned": true
+      },
+      {
+        "annotation_index": 2,
+        "best_iou": 0.195357833655706,
+        "end": 2392,
+        "label": "Justification",
+        "length": 517,
+        "start": 1875,
+        "word_aligned": true
+      },
+      {
+        "annotation_index": 2,
+        "best_iou": 0.16393442622950818,
+        "end": 2821,
+        "label": "Justification",
+        "length": 427,
+        "start": 2394,
+        "word_aligned": true
+      },
+      {
+        "annotation_index": 2,
+        "best_iou": 0.7184466019417476,
+        "end": 2942,
+        "label": "Justification",
+        "length": 103,
+        "start": 2839,
+        "word_aligned": true
+      },
+      {
+        "annotation_index": 2,
+        "best_iou": 0.3142857142857143,
+        "end": 3156,
+        "label": "Justification",
+        "length": 175,
+        "start": 2981,
+        "word_aligned": false
+      },
+      {
+        "annotation_index": 2,
+        "best_iou": 0.2288135593220339,
+        "end": 3436,
+        "label": "Justification",
+        "length": 236,
+        "start": 3200,
+        "word_aligned": true
+      },
+      {
+        "annotation_index": 2,
+        "best_iou": 0.28502415458937197,
+        "end": 3644,
+        "label": "Justification",
+        "length": 207,
+        "start": 3437,
+        "word_aligned": true
+      },
+      {
+        "annotation_index": 2,
+        "best_iou": 0.5921052631578947,
+        "end": 3779,
+        "label": "Justification",
+        "length": 76,
+        "start": 3703,
+        "word_aligned": true
+      },
+      {
+        "annotation_index": 2,
+        "best_iou": 0.8392857142857143,
+        "end": 3868,
+        "label": "Call",
+        "length": 56,
+        "start": 3812,
+        "word_aligned": true
+      },
+      {
+        "annotation_index": 2,
+        "best_iou": 0.17633410672853828,
+        "end": 4302,
+        "label": "Justification",
+        "length": 431,
+        "start": 3871,
+        "word_aligned": true
+      },
+      {
+        "annotation_index": 2,
+        "best_iou": 0.3169642857142857,
+        "end": 4527,
+        "label": "Simplification",
+        "length": 224,
+        "start": 4303,
+        "word_aligned": false
+      },
+      {
+        "annotation_index": 2,
+        "best_iou": 0.3910891089108911,
+        "end": 4968,
+        "label": "Simplification",
+        "length": 202,
+        "start": 4766,
+        "word_aligned": true
+      },
+      {
+        "annotation_index": 2,
+        "best_iou": 0.7053571428571429,
+        "end": 4968,
+        "label": "Call",
+        "length": 112,
+        "start": 4856,
+        "word_aligned": true
+      }
+    ],
+    "words": 833
+  },
+  {
+    "candidate_count": 8404,
+    "characters": 6115,
+    "doc_id": "ng:8_8710_portfolio",
+    "exact_recall": 0.9333333333333333,
+    "generation_seconds": 0.006735721999575617,
+    "iou50_coverage": 0.9333333333333333,
+    "mean_best_iou": 0.9574561403508771,
+    "misses": [
+      {
+        "annotation_index": 0,
+        "best_iou": 0.3618421052631579,
+        "end": 4863,
+        "label": "Simplification",
+        "length": 152,
+        "start": 4711,
+        "word_aligned": true
+      }
+    ],
+    "words": 1054
+  },
+  {
+    "candidate_count": 6996,
+    "characters": 4803,
+    "doc_id": "ng:8_8764_maths",
+    "exact_recall": 0.4305555555555555,
+    "generation_seconds": 0.00478137699974468,
+    "iou50_coverage": 0.9569444444444445,
+    "mean_best_iou": 0.7889432590166102,
+    "misses": [
+      {
+        "annotation_index": 0,
+        "best_iou": 0.2926829268292683,
+        "end": 623,
+        "label": "Justification",
+        "length": 205,
+        "start": 418,
+        "word_aligned": true
+      },
+      {
+        "annotation_index": 0,
+        "best_iou": 0.7777777777777778,
+        "end": 1089,
+        "label": "Simplification",
+        "length": 54,
+        "start": 1035,
+        "word_aligned": true
+      },
+      {
+        "annotation_index": 0,
+        "best_iou": 0.8947368421052632,
+        "end": 1952,
+        "label": "Call",
+        "length": 38,
+        "start": 1914,
+        "word_aligned": true
+      },
+      {
+        "annotation_index": 0,
+        "best_iou": 0.8444444444444444,
+        "end": 4768,
+        "label": "Manipulative Wording",
+        "length": 45,
+        "start": 4723,
+        "word_aligned": true
+      },
+      {
+        "annotation_index": 0,
+        "best_iou": 0.8444444444444444,
+        "end": 4768,
+        "label": "Call",
+        "length": 45,
+        "start": 4723,
+        "word_aligned": true
+      },
+      {
+        "annotation_index": 1,
+        "best_iou": 0.55,
+        "end": 4803,
+        "label": "Manipulative Wording",
+        "length": 80,
+        "start": 4723,
+        "word_aligned": true
+      },
+      {
+        "annotation_index": 2,
+        "best_iou": 0.6341463414634146,
+        "end": 1014,
+        "label": "Justification",
+        "length": 82,
+        "start": 932,
+        "word_aligned": true
+      },
+      {
+        "annotation_index": 2,
+        "best_iou": 0.2696078431372549,
+        "end": 1416,
+        "label": "Simplification",
+        "length": 204,
+        "start": 1212,
+        "word_aligned": false
+      },
+      {
+        "annotation_index": 2,
+        "best_iou": 0.9152542372881356,
+        "end": 1736,
+        "label": "Justification",
+        "length": 59,
+        "start": 1677,
+        "word_aligned": true
+      },
+      {
+        "annotation_index": 2,
+        "best_iou": 0.7391304347826086,
+        "end": 1960,
+        "label": "Call",
+        "length": 46,
+        "start": 1914,
+        "word_aligned": true
+      },
+      {
+        "annotation_index": 2,
+        "best_iou": 0.9705882352941176,
+        "end": 2011,
+        "label": "Justification",
+        "length": 33,
+        "start": 1978,
+        "word_aligned": false
+      },
+      {
+        "annotation_index": 2,
+        "best_iou": 0.9761904761904762,
+        "end": 2414,
+        "label": "Manipulative Wording",
+        "length": 42,
+        "start": 2372,
+        "word_aligned": false
+      }
+    ],
+    "words": 878
+  },
+  {
+    "candidate_count": 5444,
+    "characters": 3830,
+    "doc_id": "ng:8_8996_textbooks",
+    "exact_recall": 0.41666666666666663,
+    "generation_seconds": 0.0036415409995242953,
+    "iou50_coverage": 0.6041666666666666,
+    "mean_best_iou": 0.6960002422503127,
+    "misses": [
+      {
+        "annotation_index": 0,
+        "best_iou": 0.3296296296296296,
+        "end": 2468,
+        "label": "Manipulative Wording",
+        "length": 270,
+        "start": 2198,
+        "word_aligned": true
+      },
+      {
+        "annotation_index": 0,
+        "best_iou": 0.34394904458598724,
+        "end": 3814,
+        "label": "Manipulative Wording",
+        "length": 157,
+        "start": 3657,
+        "word_aligned": true
+      },
+      {
+        "annotation_index": 1,
+        "best_iou": 0.8793103448275862,
+        "end": 1007,
+        "label": "Manipulative Wording",
+        "length": 58,
+        "start": 949,
+        "word_aligned": true
+      },
+      {
+        "annotation_index": 1,
+        "best_iou": 0.9833333333333333,
+        "end": 1172,
+        "label": "Call",
+        "length": 60,
+        "start": 1112,
+        "word_aligned": true
+      },
+      {
+        "annotation_index": 1,
+        "best_iou": 0.9166666666666666,
+        "end": 1155,
+        "label": "Manipulative Wording",
+        "length": 24,
+        "start": 1131,
+        "word_aligned": false
+      },
+      {
+        "annotation_index": 1,
+        "best_iou": 0.7230769230769231,
+        "end": 1238,
+        "label": "Simplification",
+        "length": 65,
+        "start": 1173,
+        "word_aligned": false
+      },
+      {
+        "annotation_index": 1,
+        "best_iou": 0.6336633663366337,
+        "end": 1339,
+        "label": "Call",
+        "length": 101,
+        "start": 1238,
+        "word_aligned": true
+      },
+      {
+        "annotation_index": 1,
+        "best_iou": 0.2551440329218107,
+        "end": 2166,
+        "label": "Justification",
+        "length": 243,
+        "start": 1923,
+        "word_aligned": true
+      },
+      {
+        "annotation_index": 1,
+        "best_iou": 0.6111111111111112,
+        "end": 2688,
+        "label": "Call",
+        "length": 126,
+        "start": 2562,
+        "word_aligned": true
+      },
+      {
+        "annotation_index": 1,
+        "best_iou": 0.34394904458598724,
+        "end": 3814,
+        "label": "Call",
+        "length": 157,
+        "start": 3657,
+        "word_aligned": true
+      }
+    ],
+    "words": 684
+  },
+  {
+    "candidate_count": 11620,
+    "characters": 8820,
+    "doc_id": "ria_novosti:2042540813",
+    "exact_recall": 0.5172413793103449,
+    "generation_seconds": 0.01518476199998986,
+    "iou50_coverage": 0.8275862068965517,
+    "mean_best_iou": 0.8046902401085907,
+    "misses": [
+      {
+        "annotation_index": 0,
+        "best_iou": 0.9512195121951219,
+        "end": 1386,
+        "label": "Justification",
+        "length": 41,
+        "start": 1345,
+        "word_aligned": true
+      },
+      {
+        "annotation_index": 0,
+        "best_iou": 0.5462962962962963,
+        "end": 2809,
+        "label": "Manipulative Wording",
+        "length": 108,
+        "start": 2701,
+        "word_aligned": true
+      },
+      {
+        "annotation_index": 0,
+        "best_iou": 0.416,
+        "end": 4216,
+        "label": "Call",
+        "length": 125,
+        "start": 4091,
+        "word_aligned": true
+      },
+      {
+        "annotation_index": 0,
+        "best_iou": 0.416,
+        "end": 4216,
+        "label": "Justification",
+        "length": 125,
+        "start": 4091,
+        "word_aligned": true
+      },
+      {
+        "annotation_index": 0,
+        "best_iou": 0.9090909090909091,
+        "end": 4322,
+        "label": "Justification",
+        "length": 55,
+        "start": 4267,
+        "word_aligned": true
+      },
+      {
+        "annotation_index": 0,
+        "best_iou": 0.49640287769784175,
+        "end": 5254,
+        "label": "Attack on Reputation",
+        "length": 139,
+        "start": 5115,
+        "word_aligned": true
+      },
+      {
+        "annotation_index": 0,
+        "best_iou": 0.3360323886639676,
+        "end": 6259,
+        "label": "Call",
+        "length": 247,
+        "start": 6012,
+        "word_aligned": true
+      },
+      {
+        "annotation_index": 0,
+        "best_iou": 0.5446428571428571,
+        "end": 6388,
+        "label": "Call",
+        "length": 112,
+        "start": 6276,
+        "word_aligned": true
+      },
+      {
+        "annotation_index": 0,
+        "best_iou": 0.6881720430107527,
+        "end": 6576,
+        "label": "Call",
+        "length": 93,
+        "start": 6483,
+        "word_aligned": true
+      },
+      {
+        "annotation_index": 0,
+        "best_iou": 0.5434782608695652,
+        "end": 6843,
+        "label": "Call",
+        "length": 92,
+        "start": 6751,
+        "word_aligned": true
+      },
+      {
+        "annotation_index": 0,
+        "best_iou": 0.78125,
+        "end": 6843,
+        "label": "Simplification",
+        "length": 64,
+        "start": 6779,
+        "word_aligned": true
+      },
+      {
+        "annotation_index": 0,
+        "best_iou": 0.78125,
+        "end": 6937,
+        "label": "Call",
+        "length": 64,
+        "start": 6873,
+        "word_aligned": true
+      },
+      {
+        "annotation_index": 0,
+        "best_iou": 0.408,
+        "end": 7518,
+        "label": "Call",
+        "length": 125,
+        "start": 7393,
+        "word_aligned": true
+      },
+      {
+        "annotation_index": 0,
+        "best_iou": 0.5181818181818182,
+        "end": 7923,
+        "label": "Simplification",
+        "length": 110,
+        "start": 7813,
+        "word_aligned": true
+      }
+    ],
+    "words": 1456
+  },
+  {
+    "candidate_count": 12244,
+    "characters": 9682,
+    "doc_id": "ria_novosti:2099824110",
+    "exact_recall": 0.45,
+    "generation_seconds": 0.008589143999415683,
+    "iou50_coverage": 0.75,
+    "mean_best_iou": 0.7726037800416351,
+    "misses": [
+      {
+        "annotation_index": 0,
+        "best_iou": 0.835820895522388,
+        "end": 128,
+        "label": "Attack on Reputation",
+        "length": 67,
+        "start": 61,
+        "word_aligned": true
+      },
+      {
+        "annotation_index": 0,
+        "best_iou": 0.6949152542372882,
+        "end": 474,
+        "label": "Manipulative Wording",
+        "length": 59,
+        "start": 415,
+        "word_aligned": true
+      },
+      {
+        "annotation_index": 0,
+        "best_iou": 0.9722222222222222,
+        "end": 512,
+        "label": "Manipulative Wording",
+        "length": 36,
+        "start": 476,
+        "word_aligned": true
+      },
+      {
+        "annotation_index": 0,
+        "best_iou": 0.9166666666666666,
+        "end": 661,
+        "label": "Manipulative Wording",
+        "length": 12,
+        "start": 649,
+        "word_aligned": false
+      },
+      {
+        "annotation_index": 0,
+        "best_iou": 0.4393939393939394,
+        "end": 1602,
+        "label": "Manipulative Wording",
+        "length": 198,
+        "start": 1404,
+        "word_aligned": true
+      },
+      {
+        "annotation_index": 0,
+        "best_iou": 0.08967082860385925,
+        "end": 2731,
+        "label": "Justification",
+        "length": 881,
+        "start": 1850,
+        "word_aligned": true
+      },
+      {
+        "annotation_index": 0,
+        "best_iou": 0.7083333333333334,
+        "end": 3575,
+        "label": "Simplification",
+        "length": 72,
+        "start": 3503,
+        "word_aligned": true
+      },
+      {
+        "annotation_index": 0,
+        "best_iou": 0.2796208530805687,
+        "end": 5285,
+        "label": "Justification",
+        "length": 211,
+        "start": 5074,
+        "word_aligned": true
+      },
+      {
+        "annotation_index": 0,
+        "best_iou": 0.15612648221343872,
+        "end": 7229,
+        "label": "Justification",
+        "length": 506,
+        "start": 6723,
+        "word_aligned": true
+      },
+      {
+        "annotation_index": 0,
+        "best_iou": 0.38562091503267976,
+        "end": 9067,
+        "label": "Manipulative Wording",
+        "length": 153,
+        "start": 8914,
+        "word_aligned": true
+      },
+      {
+        "annotation_index": 0,
+        "best_iou": 0.9736842105263158,
+        "end": 9278,
+        "label": "Manipulative Wording",
+        "length": 37,
+        "start": 9241,
+        "word_aligned": false
+      }
+    ],
+    "words": 1534
+  },
+  {
+    "candidate_count": 11012,
+    "characters": 8755,
+    "doc_id": "ria_novosti:2106459260",
+    "exact_recall": 0.7307692307692307,
+    "generation_seconds": 0.00907001299856347,
+    "iou50_coverage": 0.9615384615384616,
+    "mean_best_iou": 0.9238711518020223,
+    "misses": [
+      {
+        "annotation_index": 0,
+        "best_iou": 0.819672131147541,
+        "end": 88,
+        "label": "Justification",
+        "length": 61,
+        "start": 27,
+        "word_aligned": true
+      },
+      {
+        "annotation_index": 0,
+        "best_iou": 0.8285714285714286,
+        "end": 247,
+        "label": "Simplification",
+        "length": 70,
+        "start": 177,
+        "word_aligned": true
+      },
+      {
+        "annotation_index": 0,
+        "best_iou": 0.8695652173913043,
+        "end": 1048,
+        "label": "Justification",
+        "length": 46,
+        "start": 1002,
+        "word_aligned": true
+      },
+      {
+        "annotation_index": 0,
+        "best_iou": 0.5,
+        "end": 3711,
+        "label": "Simplification",
+        "length": 140,
+        "start": 3571,
+        "word_aligned": true
+      },
+      {
+        "annotation_index": 0,
+        "best_iou": 0.8135593220338984,
+        "end": 3792,
+        "label": "Justification",
+        "length": 59,
+        "start": 3733,
+        "word_aligned": true
+      },
+      {
+        "annotation_index": 0,
+        "best_iou": 0.4539877300613497,
+        "end": 6416,
+        "label": "Simplification",
+        "length": 163,
+        "start": 6253,
+        "word_aligned": true
+      },
+      {
+        "annotation_index": 0,
+        "best_iou": 0.7352941176470589,
+        "end": 7360,
+        "label": "Manipulative Wording",
+        "length": 68,
+        "start": 7292,
+        "word_aligned": true
+      }
+    ],
+    "words": 1380
+  },
+  {
+    "candidate_count": 15564,
+    "characters": 11895,
+    "doc_id": "theinsider:236745",
+    "exact_recall": null,
+    "generation_seconds": 0.010932933000731282,
+    "iou50_coverage": null,
+    "mean_best_iou": null,
+    "misses": [],
+    "words": 1949
+  },
+  {
+    "candidate_count": 11516,
+    "characters": 8569,
+    "doc_id": "theinsider:238660",
+    "exact_recall": null,
+    "generation_seconds": 0.009236239002348157,
+    "iou50_coverage": null,
+    "mean_best_iou": null,
+    "misses": [],
+    "words": 1443
+  },
+  {
+    "candidate_count": 8844,
+    "characters": 6379,
+    "doc_id": "theinsider:253489",
+    "exact_recall": 0.5625,
+    "generation_seconds": 0.006195488000230398,
+    "iou50_coverage": 0.75,
+    "mean_best_iou": 0.7810322003935812,
+    "misses": [
+      {
+        "annotation_index": 0,
+        "best_iou": 0.9166666666666666,
+        "end": 1550,
+        "label": "Manipulative Wording",
+        "length": 12,
+        "start": 1538,
+        "word_aligned": false
+      },
+      {
+        "annotation_index": 0,
+        "best_iou": 0.38926174496644295,
+        "end": 2653,
+        "label": "Justification",
+        "length": 149,
+        "start": 2504,
+        "word_aligned": false
+      },
+      {
+        "annotation_index": 0,
+        "best_iou": 0.27225130890052357,
+        "end": 2844,
+        "label": "Justification",
+        "length": 191,
+        "start": 2653,
+        "word_aligned": true
+      },
+      {
+        "annotation_index": 0,
+        "best_iou": 0.6201550387596899,
+        "end": 3282,
+        "label": "Justification",
+        "length": 129,
+        "start": 3153,
+        "word_aligned": true
+      },
+      {
+        "annotation_index": 0,
+        "best_iou": 0.1346153846153846,
+        "end": 4238,
+        "label": "Attack on Reputation",
+        "length": 416,
+        "start": 3822,
+        "word_aligned": true
+      },
+      {
+        "annotation_index": 0,
+        "best_iou": 0.33689839572192515,
+        "end": 4497,
+        "label": "Attack on Reputation",
+        "length": 187,
+        "start": 4310,
+        "word_aligned": true
+      },
+      {
+        "annotation_index": 0,
+        "best_iou": 0.8266666666666667,
+        "end": 4573,
+        "label": "Attack on Reputation",
+        "length": 75,
+        "start": 4498,
+        "word_aligned": true
+      }
+    ],
+    "words": 1109
+  },
+  {
+    "candidate_count": 15020,
+    "characters": 11000,
+    "doc_id": "theinsider:260829",
+    "exact_recall": 0.9375,
+    "generation_seconds": 0.010994673997629434,
+    "iou50_coverage": 1.0,
+    "mean_best_iou": 0.9917279411764706,
+    "misses": [
+      {
+        "annotation_index": 0,
+        "best_iou": 0.8676470588235294,
+        "end": 1154,
+        "label": "Manipulative Wording",
+        "length": 68,
+        "start": 1086,
+        "word_aligned": true
+      }
+    ],
+    "words": 1881
+  },
+  {
+    "candidate_count": 11428,
+    "characters": 8286,
+    "doc_id": "theinsider:266563",
+    "exact_recall": 0.4375,
+    "generation_seconds": 0.007616721002705162,
+    "iou50_coverage": 0.875,
+    "mean_best_iou": 0.7897540596719599,
+    "misses": [
+      {
+        "annotation_index": 0,
+        "best_iou": 0.5540540540540541,
+        "end": 1036,
+        "label": "Manipulative Wording",
+        "length": 74,
+        "start": 962,
+        "word_aligned": true
+      },
+      {
+        "annotation_index": 0,
+        "best_iou": 0.5391304347826087,
+        "end": 2141,
+        "label": "Attack on Reputation",
+        "length": 115,
+        "start": 2026,
+        "word_aligned": true
+      },
+      {
+        "annotation_index": 0,
+        "best_iou": 0.5925925925925926,
+        "end": 3979,
+        "label": "Attack on Reputation",
+        "length": 81,
+        "start": 3898,
+        "word_aligned": true
+      },
+      {
+        "annotation_index": 0,
+        "best_iou": 0.7654320987654321,
+        "end": 7125,
+        "label": "Manipulative Wording",
+        "length": 81,
+        "start": 7044,
+        "word_aligned": true
+      },
+      {
+        "annotation_index": 0,
+        "best_iou": 0.5,
+        "end": 7561,
+        "label": "Simplification",
+        "length": 94,
+        "start": 7467,
+        "word_aligned": true
+      },
+      {
+        "annotation_index": 0,
+        "best_iou": 0.7794117647058824,
+        "end": 7703,
+        "label": "Simplification",
+        "length": 68,
+        "start": 7635,
+        "word_aligned": true
+      },
+      {
+        "annotation_index": 0,
+        "best_iou": 0.49572649572649574,
+        "end": 7821,
+        "label": "Simplification",
+        "length": 117,
+        "start": 7704,
+        "word_aligned": true
+      },
+      {
+        "annotation_index": 0,
+        "best_iou": 0.4266666666666667,
+        "end": 7991,
+        "label": "Attack on Reputation",
+        "length": 150,
+        "start": 7841,
+        "word_aligned": true
+      },
+      {
+        "annotation_index": 0,
+        "best_iou": 0.9830508474576272,
+        "end": 8059,
+        "label": "Attack on Reputation",
+        "length": 59,
+        "start": 8000,
+        "word_aligned": true
+      }
+    ],
+    "words": 1432
+  },
+  {
+    "candidate_count": 7012,
+    "characters": 5215,
+    "doc_id": "theinsider:267448",
+    "exact_recall": 0.6666666666666666,
+    "generation_seconds": 0.004494043001614045,
+    "iou50_coverage": 0.8888888888888888,
+    "mean_best_iou": 0.8695585693662498,
+    "misses": [
+      {
+        "annotation_index": 0,
+        "best_iou": 0.5934065934065934,
+        "end": 962,
+        "label": "Justification",
+        "length": 91,
+        "start": 871,
+        "word_aligned": true
+      },
+      {
+        "annotation_index": 0,
+        "best_iou": 0.8505747126436781,
+        "end": 1702,
+        "label": "Attack on Reputation",
+        "length": 87,
+        "start": 1615,
+        "word_aligned": true
+      },
+      {
+        "annotation_index": 0,
+        "best_iou": 0.5567010309278351,
+        "end": 2073,
+        "label": "Manipulative Wording",
+        "length": 97,
+        "start": 1976,
+        "word_aligned": true
+      },
+      {
+        "annotation_index": 0,
+        "best_iou": 0.4793388429752066,
+        "end": 3854,
+        "label": "Call",
+        "length": 121,
+        "start": 3733,
+        "word_aligned": true
+      },
+      {
+        "annotation_index": 0,
+        "best_iou": 0.9827586206896551,
+        "end": 4792,
+        "label": "Call",
+        "length": 58,
+        "start": 4734,
+        "word_aligned": true
+      },
+      {
+        "annotation_index": 0,
+        "best_iou": 0.1892744479495268,
+        "end": 5215,
+        "label": "Justification",
+        "length": 317,
+        "start": 4898,
+        "word_aligned": true
+      }
+    ],
+    "words": 880
+  },
+  {
+    "candidate_count": 9852,
+    "characters": 7878,
+    "doc_id": "theinsider:280997",
+    "exact_recall": 0.36363636363636365,
+    "generation_seconds": 0.007780571999319363,
+    "iou50_coverage": 0.6363636363636364,
+    "mean_best_iou": 0.6714156984078858,
+    "misses": [
+      {
+        "annotation_index": 0,
+        "best_iou": 0.33548387096774196,
+        "end": 377,
+        "label": "Attack on Reputation",
+        "length": 155,
+        "start": 222,
+        "word_aligned": true
+      },
+      {
+        "annotation_index": 0,
+        "best_iou": 0.2938388625592417,
+        "end": 590,
+        "label": "Justification",
+        "length": 211,
+        "start": 379,
+        "word_aligned": true
+      },
+      {
+        "annotation_index": 0,
+        "best_iou": 0.5221238938053098,
+        "end": 1344,
+        "label": "Justification",
+        "length": 113,
+        "start": 1231,
+        "word_aligned": true
+      },
+      {
+        "annotation_index": 0,
+        "best_iou": 0.5913978494623656,
+        "end": 1796,
+        "label": "Attack on Reputation",
+        "length": 93,
+        "start": 1703,
+        "word_aligned": true
+      },
+      {
+        "annotation_index": 0,
+        "best_iou": 0.324468085106383,
+        "end": 5938,
+        "label": "Justification",
+        "length": 188,
+        "start": 5750,
+        "word_aligned": true
+      },
+      {
+        "annotation_index": 0,
+        "best_iou": 0.4108527131782946,
+        "end": 6357,
+        "label": "Justification",
+        "length": 129,
+        "start": 6228,
+        "word_aligned": false
+      },
+      {
+        "annotation_index": 0,
+        "best_iou": 0.9074074074074074,
+        "end": 6950,
+        "label": "Manipulative Wording",
+        "length": 54,
+        "start": 6896,
+        "word_aligned": false
+      }
+    ],
+    "words": 1235
+  }
+]

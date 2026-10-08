@@ -1,0 +1,75 @@
+{
+  "examples": [
+    {
+      "annotator_id": "8",
+      "doc_id": "ng:100_200221_lukashenko",
+      "end": 4140,
+      "human_labels": [
+        "Attack on Reputation"
+      ],
+      "largest_false_label_probability": 0.9999562501907349,
+      "predicted_labels": [
+        "Manipulative Wording"
+      ],
+      "start": 4123,
+      "text": "обвалила доверие "
+    },
+    {
+      "annotator_id": "10",
+      "doc_id": "ria_novosti:2042540813",
+      "end": 914,
+      "human_labels": [
+        "Justification"
+      ],
+      "largest_false_label_probability": 0.9979013204574585,
+      "predicted_labels": [
+        "Manipulative Wording"
+      ],
+      "start": 879,
+      "text": "вряд ли у кого-то вызывает сомнения"
+    },
+    {
+      "annotator_id": "10",
+      "doc_id": "holod:kanny-77-itogi",
+      "end": 8910,
+      "human_labels": [
+        "Attack on Reputation"
+      ],
+      "largest_false_label_probability": 0.9972062706947327,
+      "predicted_labels": [
+        "Manipulative Wording"
+      ],
+      "start": 8829,
+      "text": "никакой другой оптики, кроме сексуальной, Серебренников и на этот раз не придумал"
+    },
+    {
+      "annotator_id": "10",
+      "doc_id": "ria_novosti:2106459260",
+      "end": 4541,
+      "human_labels": [
+        "Attack on Reputation"
+      ],
+      "largest_false_label_probability": 0.9949158430099487,
+      "predicted_labels": [
+        "Manipulative Wording"
+      ],
+      "start": 4504,
+      "text": "с элементами откровенного вероломства"
+    },
+    {
+      "annotator_id": "10",
+      "doc_id": "holod:rossiiskiie-smi-1990",
+      "end": 8948,
+      "human_labels": [
+        "Attack on Reputation"
+      ],
+      "largest_false_label_probability": 0.9940594434738159,
+      "predicted_labels": [
+        "Manipulative Wording"
+      ],
+      "start": 8876,
+      "text": "упивающийся своим положением режиссера грандиозного тотального спектакля"
+    }
+  ],
+  "selection": "top5 false-label probabilities; may repeat span across annotators; descriptive, not adjudicated"
+}

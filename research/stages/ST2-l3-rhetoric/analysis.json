@@ -1,0 +1,1440 @@
+{
+  "comparisons": {
+    "20260928-l3-hard-s42-01_minus_empty": {
+      "difference": 0.042237375929952255,
+      "draws": 10000,
+      "groups": 31,
+      "interval_95": [
+        0.030244199794366034,
+        0.0551611741269804
+      ],
+      "limitation": "descriptive selected-dev fixed-prediction interval, no training-seed or selection correction",
+      "seed": 42
+    },
+    "20260928-l3-negative025-s42-01_minus_empty": {
+      "difference": 0.028242806047672236,
+      "draws": 10000,
+      "groups": 31,
+      "interval_95": [
+        0.020305519092078433,
+        0.03675906983192541
+      ],
+      "limitation": "descriptive selected-dev fixed-prediction interval, no training-seed or selection correction",
+      "seed": 42
+    },
+    "20260928-l3-pilot-s42-01_minus_empty": {
+      "difference": 0.036258754520465994,
+      "draws": 10000,
+      "groups": 31,
+      "interval_95": [
+        0.026650266258214008,
+        0.04646863115007291
+      ],
+      "limitation": "descriptive selected-dev fixed-prediction interval, no training-seed or selection correction",
+      "seed": 42
+    },
+    "hard_minus_primary": {
+      "difference": 0.005978621409486266,
+      "draws": 10000,
+      "groups": 31,
+      "interval_95": [
+        -0.00215976202926371,
+        0.01493921919525524
+      ],
+      "limitation": "descriptive selected-dev fixed-prediction interval, no training-seed or selection correction",
+      "seed": 42
+    },
+    "negative025_minus_primary": {
+      "difference": -0.008015948472793757,
+      "draws": 10000,
+      "groups": 31,
+      "interval_95": [
+        -0.014764461828997509,
+        -0.0015625290330354526
+      ],
+      "limitation": "descriptive selected-dev fixed-prediction interval, no training-seed or selection correction",
+      "seed": 42
+    }
+  },
+  "empty_baseline": {
+    "correctly_empty_answers": 3,
+    "empty_answer_rate": 0.075,
+    "empty_answers": 3,
+    "empty_empty_f1": 0,
+    "exact_f1": 0.0,
+    "exact_precision": 0.0,
+    "exact_recall": 0.0,
+    "exact_weighted_micro_f1": 0.0,
+    "false_nonempty_given_empty": 0.0,
+    "localization_exact_f1": 0.0,
+    "localization_overlap_f1": 0.0,
+    "mean_predictions": 0.0,
+    "n_answers": 40,
+    "n_articles": 31,
+    "nonempty_exact_f1": 0.0,
+    "nonempty_overlap_f1": 0.0,
+    "nonempty_prediction_articles": 0,
+    "overlap_f1": 0.0,
+    "per_family_exact_f1": {
+      "Attack on Reputation": 0.0,
+      "Call": 0.0,
+      "Distraction": 0.0,
+      "Justification": 0.0,
+      "Manipulative Wording": 0.0,
+      "Simplification": 0.0
+    },
+    "proposal_recall": 0.0,
+    "threshold": 0.5
+  },
+  "examples": [
+    {
+      "doc_id": "holod:golosov-hunta",
+      "exact_f1": 0.006289308176100628,
+      "n_predictions": 100,
+      "overlap_f1": 0.018301320188112643,
+      "predicted_examples": [
+        {
+          "end": 5638,
+          "label": "Manipulative Wording",
+          "score": 0.9996050000190735,
+          "start": 5620,
+          "text": "взаимное недоверие"
+        },
+        {
+          "end": 10553,
+          "label": "Manipulative Wording",
+          "score": 0.9995146989822388,
+          "start": 10545,
+          "text": "жестоких"
+        },
+        {
+          "end": 7168,
+          "label": "Manipulative Wording",
+          "score": 0.9994670748710632,
+          "start": 7154,
+          "text": "слишком смелой"
+        }
+      ],
+      "proposal_recall": 0.08585858585858586,
+      "source": "holod",
+      "title": "Придет ли хунта к власти?"
+    },
+    {
+      "doc_id": "holod:golosov-referendumi",
+      "exact_f1": 0.0,
+      "n_predictions": 100,
+      "overlap_f1": 0.0,
+      "predicted_examples": [
+        {
+          "end": 1742,
+          "label": "Manipulative Wording",
+          "score": 0.9998379945755005,
+          "start": 1733,
+          "text": "фальшивые"
+        },
+        {
+          "end": 5980,
+          "label": "Manipulative Wording",
+          "score": 0.9998241066932678,
+          "start": 5940,
+          "text": "Власть достается им не случайным образом"
+        },
+        {
+          "end": 11732,
+          "label": "Manipulative Wording",
+          "score": 0.9997103810310364,
+          "start": 11713,
+          "text": "надежно испорченной"
+        }
+      ],
+      "proposal_recall": 0.16666666666666666,
+      "source": "holod",
+      "title": "Референдумы как имитация"
+    },
+    {
+      "doc_id": "holod:kanny-77-itogi",
+      "exact_f1": 0.03333333333333333,
+      "n_predictions": 100,
+      "overlap_f1": 0.03333333333333333,
+      "predicted_examples": [
+        {
+          "end": 2582,
+          "label": "Manipulative Wording",
+          "score": 0.9998062252998352,
+          "start": 2548,
+          "text": "капризного сына русского олигарха."
+        },
+        {
+          "end": 9566,
+          "label": "Manipulative Wording",
+          "score": 0.9995999932289124,
+          "start": 9544,
+          "text": "мировое правительство»"
+        },
+        {
+          "end": 2581,
+          "label": "Manipulative Wording",
+          "score": 0.9995088577270508,
+          "start": 2548,
+          "text": "капризного сына русского олигарха"
+        }
+      ],
+      "proposal_recall": 0.3,
+      "source": "holod",
+      "title": "Эти смешные русские"
+    },
+    {
+      "doc_id": "holod:lichniy-opit-i-gendernoe-neravenstvo",
+      "exact_f1": 0.048274957365866455,
+      "n_predictions": 100,
+      "overlap_f1": 0.048274957365866455,
+      "predicted_examples": [
+        {
+          "end": 8995,
+          "label": "Manipulative Wording",
+          "score": 0.9997648596763611,
+          "start": 8983,
+          "text": "ангажированы"
+        },
+        {
+          "end": 9378,
+          "label": "Manipulative Wording",
+          "score": 0.9997460246086121,
+          "start": 9363,
+          "text": "бабских штучках"
+        },
+        {
+          "end": 5811,
+          "label": "Manipulative Wording",
+          "score": 0.9996968507766724,
+          "start": 5794,
+          "text": "головными офисами"
+        }
+      ],
+      "proposal_recall": 0.33974358974358976,
+      "source": "holod",
+      "title": "Главная ошибка дискуссий о гендерном равенстве"
+    },
+    {
+      "doc_id": "holod:pochemu-rossiya-sdala-herson",
+      "exact_f1": 0.03636363636363636,
+      "n_predictions": 100,
+      "overlap_f1": 0.03636363636363636,
+      "predicted_examples": [
+        {
+          "end": 5571,
+          "label": "Manipulative Wording",
+          "score": 0.9999165534973145,
+          "start": 5564,
+          "text": "засекут"
+        },
+        {
+          "end": 5583,
+          "label": "Manipulative Wording",
+          "score": 0.9998939037322998,
+          "start": 5574,
+          "text": "разбомбят"
+        },
+        {
+          "end": 5571,
+          "label": "Manipulative Wording",
+          "score": 0.9997722506523132,
+          "start": 5561,
+          "text": "ее засекут"
+        }
+      ],
+      "proposal_recall": 0.2,
+      "source": "holod",
+      "title": "Почему Россия все-таки сдала Херсон? И почему это не слишком радует украинцев?"
+    },
+    {
+      "doc_id": "holod:rossiiskiie-smi-1990",
+      "exact_f1": 0.05172413793103448,
+      "n_predictions": 100,
+      "overlap_f1": 0.08620689655172414,
+      "predicted_examples": [
+        {
+          "end": 2440,
+          "label": "Manipulative Wording",
+          "score": 0.9997557997703552,
+          "start": 2421,
+          "text": "навязанной и лживой"
+        },
+        {
+          "end": 228,
+          "label": "Manipulative Wording",
+          "score": 0.9997221827507019,
+          "start": 214,
+          "text": "пропагандистов"
+        },
+        {
+          "end": 2441,
+          "label": "Manipulative Wording",
+          "score": 0.999653697013855,
+          "start": 2421,
+          "text": "навязанной и лживой."
+        }
+      ],
+      "proposal_recall": 0.1875,
+      "source": "holod",
+      "title": "Журналистика на «поле чудес»"
+    },
+    {
+      "doc_id": "holod:v-etoj-vojne-ne-mozhet-byt-pobedy",
+      "exact_f1": 0.03571428571428571,
+      "n_predictions": 100,
+      "overlap_f1": 0.05357142857142857,
+      "predicted_examples": [
+        {
+          "end": 1365,
+          "label": "Manipulative Wording",
+          "score": 0.9999560117721558,
+          "start": 1347,
+          "text": "умножении насилия?"
+        },
+        {
+          "end": 1365,
+          "label": "Manipulative Wording",
+          "score": 0.9999053478240967,
+          "start": 1345,
+          "text": "в умножении насилия?"
+        },
+        {
+          "end": 1364,
+          "label": "Manipulative Wording",
+          "score": 0.9998981952667236,
+          "start": 1347,
+          "text": "умножении насилия"
+        }
+      ],
+      "proposal_recall": 0.5,
+      "source": "holod",
+      "title": "«В этой войне не может быть победы»"
+    },
+    {
+      "doc_id": "holod:voina-v-ukraine-privediot-k-tretiei-mirovoi-voine",
+      "exact_f1": 0.046153846153846156,
+      "n_predictions": 100,
+      "overlap_f1": 0.07692307692307693,
+      "predicted_examples": [
+        {
+          "end": 5947,
+          "label": "Manipulative Wording",
+          "score": 0.999922513961792,
+          "start": 5937,
+          "text": "неизбежным"
+        },
+        {
+          "end": 7629,
+          "label": "Manipulative Wording",
+          "score": 0.9998200535774231,
+          "start": 7619,
+          "text": "но трудным"
+        },
+        {
+          "end": 8233,
+          "label": "Manipulative Wording",
+          "score": 0.9997609257698059,
+          "start": 8227,
+          "text": "дурные"
+        }
+      ],
+      "proposal_recall": 0.23333333333333334,
+      "source": "holod",
+      "title": "К чему ведут нынешние войны"
+    },
+    {
+      "doc_id": "ng:100_200221_lukashenko",
+      "exact_f1": 0.023506603659275413,
+      "n_predictions": 100,
+      "overlap_f1": 0.0625833030413183,
+      "predicted_examples": [
+        {
+          "end": 5557,
+          "label": "Manipulative Wording",
+          "score": 0.9998782873153687,
+          "start": 5535,
+          "text": "пассивную роль зрителя"
+        },
+        {
+          "end": 2898,
+          "label": "Manipulative Wording",
+          "score": 0.9995429515838623,
+          "start": 2876,
+          "text": "обречена на деградацию"
+        },
+        {
+          "end": 5400,
+          "label": "Manipulative Wording",
+          "score": 0.9995014667510986,
+          "start": 5389,
+          "text": "нко обречен"
+        }
+      ],
+      "proposal_recall": 0.23759305210918114,
+      "source": "ng",
+      "title": "Почему не стоит ждать прорывных решений на переговорах Путина и Лукашенко в Сочи"
+    },
+    {
+      "doc_id": "ng:15_8127_vision",
+      "exact_f1": 0.07751937984496124,
+      "n_predictions": 100,
+      "overlap_f1": 0.10852713178294573,
+      "predicted_examples": [
+        {
+          "end": 3036,
+          "label": "Manipulative Wording",
+          "score": 0.999657154083252,
+          "start": 3028,
+          "text": "Щупальца"
+        },
+        {
+          "end": 4916,
+          "label": "Manipulative Wording",
+          "score": 0.9996258020401001,
+          "start": 4906,
+          "text": "«философия"
+        },
+        {
+          "end": 4199,
+          "label": "Manipulative Wording",
+          "score": 0.9995881915092468,
+          "start": 4181,
+          "text": "«позитивная» наука"
+        }
+      ],
+      "proposal_recall": 0.4827586206896552,
+      "source": "ng",
+      "title": "Самая тяжелая проблема нашей цивилизации – ее успехи"
+    },
+    {
+      "doc_id": "ng:5_9074_vision",
+      "exact_f1": 0.0,
+      "n_predictions": 100,
+      "overlap_f1": 0.049586776859504134,
+      "predicted_examples": [
+        {
+          "end": 423,
+          "label": "Manipulative Wording",
+          "score": 0.9998443126678467,
+          "start": 408,
+          "text": "ярмо западников"
+        },
+        {
+          "end": 1045,
+          "label": "Manipulative Wording",
+          "score": 0.9993764758110046,
+          "start": 1035,
+          "text": "Ныне не то"
+        },
+        {
+          "end": 2294,
+          "label": "Manipulative Wording",
+          "score": 0.999299168586731,
+          "start": 2262,
+          "text": "А мы задаром поставлять не будем"
+        }
+      ],
+      "proposal_recall": 0.14285714285714285,
+      "source": "ng",
+      "title": "Сектор без газа. Что ждет в ближайшие месяцы бывшую советскую Молдавию"
+    },
+    {
+      "doc_id": "ng:5_9292_migrants",
+      "exact_f1": 0.07874015748031496,
+      "n_predictions": 100,
+      "overlap_f1": 0.07874015748031496,
+      "predicted_examples": [
+        {
+          "end": 2473,
+          "label": "Manipulative Wording",
+          "score": 0.9998608827590942,
+          "start": 2450,
+          "text": "ть назревающий конфликт"
+        },
+        {
+          "end": 2473,
+          "label": "Manipulative Wording",
+          "score": 0.9998279809951782,
+          "start": 2455,
+          "text": "зревающий конфликт"
+        },
+        {
+          "end": 4520,
+          "label": "Manipulative Wording",
+          "score": 0.9998219609260559,
+          "start": 4503,
+          "text": "национальных черт"
+        }
+      ],
+      "proposal_recall": 0.4074074074074074,
+      "source": "ng",
+      "title": "Гастарбайтеры как главный драйвер экономического роста Таджикистана"
+    },
+    {
+      "doc_id": "ng:6_8272_vision",
+      "exact_f1": 0.05128205128205128,
+      "n_predictions": 100,
+      "overlap_f1": 0.10256410256410256,
+      "predicted_examples": [
+        {
+          "end": 4207,
+          "label": "Manipulative Wording",
+          "score": 0.999950647354126,
+          "start": 4193,
+          "text": "неубедительное"
+        },
+        {
+          "end": 4207,
+          "label": "Manipulative Wording",
+          "score": 0.9998829364776611,
+          "start": 4186,
+          "text": "весьма неубедительное"
+        },
+        {
+          "end": 4004,
+          "label": "Manipulative Wording",
+          "score": 0.9998812675476074,
+          "start": 3964,
+          "text": "едва ли не обстановка столетней давности"
+        }
+      ],
+      "proposal_recall": 0.5882352941176471,
+      "source": "ng",
+      "title": "Борьба с расизмом в США утратила связь со справедливостью"
+    },
+    {
+      "doc_id": "ng:6_8326_vision",
+      "exact_f1": 0.0547945205479452,
+      "n_predictions": 100,
+      "overlap_f1": 0.1095890410958904,
+      "predicted_examples": [
+        {
+          "end": 4604,
+          "label": "Manipulative Wording",
+          "score": 0.999852180480957,
+          "start": 4597,
+          "text": "фашизму"
+        },
+        {
+          "end": 428,
+          "label": "Manipulative Wording",
+          "score": 0.9996216297149658,
+          "start": 402,
+          "text": "подозрительным персонажем."
+        },
+        {
+          "end": 427,
+          "label": "Manipulative Wording",
+          "score": 0.9994440674781799,
+          "start": 402,
+          "text": "подозрительным персонажем"
+        }
+      ],
+      "proposal_recall": 0.32608695652173914,
+      "source": "ng",
+      "title": "Северная Македония без компаса"
+    },
+    {
+      "doc_id": "ng:7_9537_duty",
+      "exact_f1": 0.018518518518518517,
+      "n_predictions": 100,
+      "overlap_f1": 0.09259259259259259,
+      "predicted_examples": [
+        {
+          "end": 1292,
+          "label": "Manipulative Wording",
+          "score": 0.9998559951782227,
+          "start": 1279,
+          "text": "беспомощность"
+        },
+        {
+          "end": 2795,
+          "label": "Manipulative Wording",
+          "score": 0.9998067021369934,
+          "start": 2781,
+          "text": "справлюсь сама"
+        },
+        {
+          "end": 5080,
+          "label": "Manipulative Wording",
+          "score": 0.9997218251228333,
+          "start": 5063,
+          "text": "бесконечной смене"
+        }
+      ],
+      "proposal_recall": 0.25,
+      "source": "ng",
+      "title": "Дежурство без пересменок и без просвета"
+    },
+    {
+      "doc_id": "ng:8_7915_realy",
+      "exact_f1": 0.03418803418803419,
+      "n_predictions": 100,
+      "overlap_f1": 0.08547008547008547,
+      "predicted_examples": [
+        {
+          "end": 7584,
+          "label": "Manipulative Wording",
+          "score": 0.9998047947883606,
+          "start": 7555,
+          "text": " не постыдное пятно биографии"
+        },
+        {
+          "end": 5989,
+          "label": "Manipulative Wording",
+          "score": 0.9997901320457458,
+          "start": 5965,
+          "text": "будоражит общественность"
+        },
+        {
+          "end": 7585,
+          "label": "Manipulative Wording",
+          "score": 0.9997740387916565,
+          "start": 7555,
+          "text": " не постыдное пятно биографии."
+        }
+      ],
+      "proposal_recall": 0.23529411764705882,
+      "source": "ng",
+      "title": "Фургалометрия дальневосточной действительности"
+    },
+    {
+      "doc_id": "ng:8_8046_vision",
+      "exact_f1": 0.05172413793103448,
+      "n_predictions": 100,
+      "overlap_f1": 0.08620689655172414,
+      "predicted_examples": [
+        {
+          "end": 4381,
+          "label": "Manipulative Wording",
+          "score": 0.9998874664306641,
+          "start": 4368,
+          "text": "мучила диарея"
+        },
+        {
+          "end": 4381,
+          "label": "Manipulative Wording",
+          "score": 0.9998282194137573,
+          "start": 4366,
+          "text": "замучила диарея"
+        },
+        {
+          "end": 637,
+          "label": "Manipulative Wording",
+          "score": 0.9998099207878113,
+          "start": 622,
+          "text": "только не лечит"
+        }
+      ],
+      "proposal_recall": 0.4375,
+      "source": "ng",
+      "title": "Закат патерналистской системы здравоохранения"
+    },
+    {
+      "doc_id": "ng:8_8293_vision",
+      "exact_f1": 0.017855320885623915,
+      "n_predictions": 100,
+      "overlap_f1": 0.046729925517804305,
+      "predicted_examples": [
+        {
+          "end": 724,
+          "label": "Manipulative Wording",
+          "score": 0.999974250793457,
+          "start": 715,
+          "text": "кризисная"
+        },
+        {
+          "end": 2834,
+          "label": "Manipulative Wording",
+          "score": 0.9998960494995117,
+          "start": 2824,
+          "text": "радоксално"
+        },
+        {
+          "end": 725,
+          "label": "Manipulative Wording",
+          "score": 0.9998840093612671,
+          "start": 715,
+          "text": "кризисная."
+        }
+      ],
+      "proposal_recall": 0.5595238095238095,
+      "source": "ng",
+      "title": "Парадоксы бюджета отечественной медицины"
+    },
+    {
+      "doc_id": "ng:8_8710_portfolio",
+      "exact_f1": 0.06956521739130435,
+      "n_predictions": 100,
+      "overlap_f1": 0.08695652173913043,
+      "predicted_examples": [
+        {
+          "end": 4751,
+          "label": "Manipulative Wording",
+          "score": 0.9998401403427124,
+          "start": 4743,
+          "text": "Бабы-ЕГЭ"
+        },
+        {
+          "end": 3812,
+          "label": "Manipulative Wording",
+          "score": 0.9998015761375427,
+          "start": 3796,
+          "text": "спешка ни к чему"
+        },
+        {
+          "end": 1062,
+          "label": "Manipulative Wording",
+          "score": 0.9997543692588806,
+          "start": 1024,
+          "text": "браз экстравагантной «девочки с папкой"
+        }
+      ],
+      "proposal_recall": 0.5333333333333333,
+      "source": "ng",
+      "title": "\"Единый\" портфолио с элементами ЕГЭ"
+    },
+    {
+      "doc_id": "ng:8_8764_maths",
+      "exact_f1": 0.0287856071964018,
+      "n_predictions": 100,
+      "overlap_f1": 0.057671164417791104,
+      "predicted_examples": [
+        {
+          "end": 2406,
+          "label": "Manipulative Wording",
+          "score": 0.9998152852058411,
+          "start": 2396,
+          "text": "нерешаемую"
+        },
+        {
+          "end": 1735,
+          "label": "Manipulative Wording",
+          "score": 0.9997346997261047,
+          "start": 1719,
+          "text": "невнимательность"
+        },
+        {
+          "end": 1736,
+          "label": "Manipulative Wording",
+          "score": 0.9997206330299377,
+          "start": 1719,
+          "text": "невнимательность."
+        }
+      ],
+      "proposal_recall": 0.6777777777777777,
+      "source": "ng",
+      "title": "Почему страна в который раз сдала профильный ЕГЭ по математике на твердую тройку"
+    },
+    {
+      "doc_id": "ng:8_8996_textbooks",
+      "exact_f1": 0.008620689655172414,
+      "n_predictions": 100,
+      "overlap_f1": 0.04310344827586207,
+      "predicted_examples": [
+        {
+          "end": 2164,
+          "label": "Manipulative Wording",
+          "score": 0.9999808073043823,
+          "start": 2148,
+          "text": "вещь невозможная"
+        },
+        {
+          "end": 2165,
+          "label": "Manipulative Wording",
+          "score": 0.9999529123306274,
+          "start": 2148,
+          "text": "вещь невозможная»"
+        },
+        {
+          "end": 2166,
+          "label": "Manipulative Wording",
+          "score": 0.9999288320541382,
+          "start": 2148,
+          "text": "вещь невозможная»."
+        }
+      ],
+      "proposal_recall": 0.41666666666666663,
+      "source": "ng",
+      "title": "Зачем нужны единые учебники"
+    },
+    {
+      "doc_id": "ria_novosti:2042540813",
+      "exact_f1": 0.031007751937984496,
+      "n_predictions": 100,
+      "overlap_f1": 0.046511627906976744,
+      "predicted_examples": [
+        {
+          "end": 5207,
+          "label": "Manipulative Wording",
+          "score": 0.9998509883880615,
+          "start": 5190,
+          "text": "чисто отсутствует"
+        },
+        {
+          "end": 5207,
+          "label": "Manipulative Wording",
+          "score": 0.9996792078018188,
+          "start": 5188,
+          "text": "начисто отсутствует"
+        },
+        {
+          "end": 5182,
+          "label": "Manipulative Wording",
+          "score": 0.999620795249939,
+          "start": 5165,
+          "text": "самопожертвования"
+        }
+      ],
+      "proposal_recall": 0.3793103448275862,
+      "source": "ria_novosti",
+      "title": "Третья мировая — на этот раз экономическая"
+    },
+    {
+      "doc_id": "ria_novosti:2099824110",
+      "exact_f1": 0.0,
+      "n_predictions": 100,
+      "overlap_f1": 0.03333333333333333,
+      "predicted_examples": [
+        {
+          "end": 4533,
+          "label": "Manipulative Wording",
+          "score": 0.9999363422393799,
+          "start": 4519,
+          "text": "предательстве\""
+        },
+        {
+          "end": 4532,
+          "label": "Manipulative Wording",
+          "score": 0.9998879432678223,
+          "start": 4519,
+          "text": "предательстве"
+        },
+        {
+          "end": 4533,
+          "label": "Manipulative Wording",
+          "score": 0.999885082244873,
+          "start": 4518,
+          "text": "\"предательстве\""
+        }
+      ],
+      "proposal_recall": 0.15,
+      "source": "ria_novosti",
+      "title": "Ближневосточный Версаль и его геополитические круги по воде"
+    },
+    {
+      "doc_id": "ria_novosti:2106459260",
+      "exact_f1": 0.07936507936507936,
+      "n_predictions": 100,
+      "overlap_f1": 0.1111111111111111,
+      "predicted_examples": [
+        {
+          "end": 189,
+          "label": "Manipulative Wording",
+          "score": 0.9999233484268188,
+          "start": 177,
+          "text": "силовая игра"
+        },
+        {
+          "end": 8324,
+          "label": "Manipulative Wording",
+          "score": 0.9997430443763733,
+          "start": 8273,
+          "text": "тонут в хоре апологетов неизменности взятого курса."
+        },
+        {
+          "end": 8323,
+          "label": "Manipulative Wording",
+          "score": 0.9997405409812927,
+          "start": 8273,
+          "text": "тонут в хоре апологетов неизменности взятого курса"
+        }
+      ],
+      "proposal_recall": 0.34615384615384615,
+      "source": "ria_novosti",
+      "title": "Куда ведет кризис доверия"
+    },
+    {
+      "doc_id": "theinsider:236745",
+      "exact_f1": 0.0,
+      "n_predictions": 100,
+      "overlap_f1": 0.0,
+      "predicted_examples": [
+        {
+          "end": 6897,
+          "label": "Manipulative Wording",
+          "score": 0.9999470710754395,
+          "start": 6890,
+          "text": "лобовой"
+        },
+        {
+          "end": 446,
+          "label": "Manipulative Wording",
+          "score": 0.9998031258583069,
+          "start": 433,
+          "text": "впечатляющим»"
+        },
+        {
+          "end": 465,
+          "label": "Manipulative Wording",
+          "score": 0.9997920393943787,
+          "start": 454,
+          "text": "«разгромным"
+        }
+      ],
+      "proposal_recall": null,
+      "source": "theinsider",
+      "title": "Не день Путина. Владимир Милов о том, почему российский президент проиграл американские выборы"
+    },
+    {
+      "doc_id": "theinsider:238660",
+      "exact_f1": 0.0,
+      "n_predictions": 100,
+      "overlap_f1": 0.0,
+      "predicted_examples": [
+        {
+          "end": 1465,
+          "label": "Manipulative Wording",
+          "score": 0.9997907280921936,
+          "start": 1456,
+          "text": "морщились"
+        },
+        {
+          "end": 2706,
+          "label": "Manipulative Wording",
+          "score": 0.9997902512550354,
+          "start": 2699,
+          "text": "нахрап»"
+        },
+        {
+          "end": 2759,
+          "label": "Manipulative Wording",
+          "score": 0.9997301697731018,
+          "start": 2745,
+          "text": "дровая чехарда"
+        }
+      ],
+      "proposal_recall": null,
+      "source": "theinsider",
+      "title": "Трамп после Трампа. Борис Макаренко о будущем трампизма и Республиканской партии"
+    },
+    {
+      "doc_id": "theinsider:253489",
+      "exact_f1": 0.017241379310344827,
+      "n_predictions": 100,
+      "overlap_f1": 0.017241379310344827,
+      "predicted_examples": [
+        {
+          "end": 5813,
+          "label": "Manipulative Wording",
+          "score": 0.9999021291732788,
+          "start": 5806,
+          "text": "империя"
+        },
+        {
+          "end": 5547,
+          "label": "Manipulative Wording",
+          "score": 0.9998052716255188,
+          "start": 5530,
+          "text": "едко и язвительно"
+        },
+        {
+          "end": 3933,
+          "label": "Manipulative Wording",
+          "score": 0.9997439980506897,
+          "start": 3924,
+          "text": "брюзжащий"
+        }
+      ],
+      "proposal_recall": 0.25,
+      "source": "theinsider",
+      "title": "Поэт и хулиган. Как «патриоты» пытаются выдать Бродского за своего из-за стихотворения «На независимость Украины»"
+    },
+    {
+      "doc_id": "theinsider:260829",
+      "exact_f1": 0.10344827586206896,
+      "n_predictions": 100,
+      "overlap_f1": 0.1206896551724138,
+      "predicted_examples": [
+        {
+          "end": 1154,
+          "label": "Manipulative Wording",
+          "score": 0.9997509121894836,
+          "start": 1135,
+          "text": "молчаливых анонимов"
+        },
+        {
+          "end": 1154,
+          "label": "Manipulative Wording",
+          "score": 0.9996114373207092,
+          "start": 1129,
+          "text": "толпа молчаливых анонимов"
+        },
+        {
+          "end": 663,
+          "label": "Manipulative Wording",
+          "score": 0.9995799660682678,
+          "start": 652,
+          "text": "болванчиков"
+        }
+      ],
+      "proposal_recall": 0.5,
+      "source": "theinsider",
+      "title": "Если автомат висит на стене. Z-мобилизация может уничтожить российский театр, но не поможет взять Бахмут"
+    },
+    {
+      "doc_id": "theinsider:266563",
+      "exact_f1": 0.017241379310344827,
+      "n_predictions": 100,
+      "overlap_f1": 0.034482758620689655,
+      "predicted_examples": [
+        {
+          "end": 6257,
+          "label": "Manipulative Wording",
+          "score": 0.9998968839645386,
+          "start": 6241,
+          "text": "о шума из ничего"
+        },
+        {
+          "end": 6257,
+          "label": "Manipulative Wording",
+          "score": 0.9998900890350342,
+          "start": 6240,
+          "text": "го шума из ничего"
+        },
+        {
+          "end": 6257,
+          "label": "Manipulative Wording",
+          "score": 0.999845027923584,
+          "start": 6238,
+          "text": "ного шума из ничего"
+        }
+      ],
+      "proposal_recall": 0.25,
+      "source": "theinsider",
+      "title": "На «Дружбе» у Кремля. Как Словакия и Венгрия создают пропутинскую ось в ЕС"
+    },
+    {
+      "doc_id": "theinsider:267448",
+      "exact_f1": 0.0847457627118644,
+      "n_predictions": 100,
+      "overlap_f1": 0.1016949152542373,
+      "predicted_examples": [
+        {
+          "end": 1307,
+          "label": "Manipulative Wording",
+          "score": 0.9999560117721558,
+          "start": 1300,
+          "text": "трудным"
+        },
+        {
+          "end": 190,
+          "label": "Manipulative Wording",
+          "score": 0.9999281167984009,
+          "start": 181,
+          "text": "глубокого"
+        },
+        {
+          "end": 5085,
+          "label": "Manipulative Wording",
+          "score": 0.9998527765274048,
+          "start": 5078,
+          "text": "далекой"
+        }
+      ],
+      "proposal_recall": 0.6666666666666666,
+      "source": "theinsider",
+      "title": "Игра от обороны. Фрэнк Ледвидж о смене стратегии ВСУ в следующем году"
+    },
+    {
+      "doc_id": "theinsider:280997",
+      "exact_f1": 0.018018018018018018,
+      "n_predictions": 100,
+      "overlap_f1": 0.036036036036036036,
+      "predicted_examples": [
+        {
+          "end": 4797,
+          "label": "Manipulative Wording",
+          "score": 0.9997344613075256,
+          "start": 4786,
+          "text": "посредникам"
+        },
+        {
+          "end": 7579,
+          "label": "Manipulative Wording",
+          "score": 0.9996021389961243,
+          "start": 7564,
+          "text": "смысловая пауза"
+        },
+        {
+          "end": 7579,
+          "label": "Manipulative Wording",
+          "score": 0.9993970394134521,
+          "start": 7555,
+          "text": "повисает смысловая пауза"
+        }
+      ],
+      "proposal_recall": 0.36363636363636365,
+      "source": "theinsider",
+      "title": "Уступательное движение. Почему в ближайшее время не стоит ожидать перемирия в Украине"
+    }
+  ],
+  "runs": {
+    "20260928-l3-hard-s42-01": {
+      "cap_saturated_articles": 31,
+      "dev": {
+        "correctly_empty_answers": 0,
+        "empty_answer_rate": 0.075,
+        "empty_answers": 3,
+        "empty_empty_f1": 0,
+        "exact_f1": 0.042237375929952255,
+        "exact_precision": 0.02526881720430108,
+        "exact_recall": 0.14407721810396204,
+        "exact_weighted_micro_f1": 0.04316084301391249,
+        "false_nonempty_given_empty": 1.0,
+        "localization_exact_f1": 0.05806094774761133,
+        "localization_overlap_f1": 0.1084955697269373,
+        "mean_predictions": 100.0,
+        "n_answers": 40,
+        "n_articles": 31,
+        "nonempty_exact_f1": 0.04576599912807393,
+        "nonempty_overlap_f1": 0.08168330408465971,
+        "nonempty_prediction_articles": 31,
+        "overlap_f1": 0.07538241271193112,
+        "per_family_exact_f1": {
+          "Attack on Reputation": 0.03384977356487564,
+          "Call": 0.05421862684516114,
+          "Distraction": 0.0,
+          "Justification": 0.003456221198156682,
+          "Manipulative Wording": 0.05188756417589961,
+          "Simplification": 0.0
+        },
+        "proposal_recall": 0.4193086100654416,
+        "threshold": 0.3
+      },
+      "elapsed_seconds": 329.5059755220009,
+      "epoch": 12,
+      "families": {
+        "Attack on Reputation": {
+          "nonempty_article_mean_exact_f1": 0.040359345404274806,
+          "nonempty_article_mean_overlap_f1": 0.056322542099178814,
+          "observed_spans": 103,
+          "positive_answers": 31,
+          "predicted_spans": 603,
+          "weighted_micro_exact_f1": 0.03913988886204397
+        },
+        "Call": {
+          "nonempty_article_mean_exact_f1": 0.11589520353745984,
+          "nonempty_article_mean_overlap_f1": 0.1409248961739478,
+          "observed_spans": 56,
+          "positive_answers": 18,
+          "predicted_spans": 238,
+          "weighted_micro_exact_f1": 0.04326923076923076
+        },
+        "Distraction": {
+          "nonempty_article_mean_exact_f1": 0.0,
+          "nonempty_article_mean_overlap_f1": 0.0,
+          "observed_spans": 4,
+          "positive_answers": 2,
+          "predicted_spans": 11,
+          "weighted_micro_exact_f1": 0.0
+        },
+        "Justification": {
+          "nonempty_article_mean_exact_f1": 0.0047619047619047615,
+          "nonempty_article_mean_overlap_f1": 0.030146520146520146,
+          "observed_spans": 100,
+          "positive_answers": 28,
+          "predicted_spans": 176,
+          "weighted_micro_exact_f1": 0.010342598577892693
+        },
+        "Manipulative Wording": {
+          "nonempty_article_mean_exact_f1": 0.05720545463584461,
+          "nonempty_article_mean_overlap_f1": 0.09971438463065557,
+          "observed_spans": 328,
+          "positive_answers": 36,
+          "predicted_spans": 1838,
+          "weighted_micro_exact_f1": 0.05439924314096499
+        },
+        "Simplification": {
+          "nonempty_article_mean_exact_f1": 0.0,
+          "nonempty_article_mean_overlap_f1": 0.0524340311105017,
+          "observed_spans": 53,
+          "positive_answers": 21,
+          "predicted_spans": 234,
+          "weighted_micro_exact_f1": 0.0
+        }
+      },
+      "mean_candidates": 8319.806451612903,
+      "threshold": 0.3,
+      "train": {
+        "correctly_empty_answers": 0,
+        "empty_answer_rate": 0.16279069767441862,
+        "empty_answers": 35,
+        "empty_empty_f1": 0,
+        "exact_f1": 0.05385574943468233,
+        "exact_precision": 0.03168965517241379,
+        "exact_recall": 0.2629914532636074,
+        "exact_weighted_micro_f1": 0.055622805955695395,
+        "false_nonempty_given_empty": 1.0,
+        "localization_exact_f1": 0.07207257762082343,
+        "localization_overlap_f1": 0.11883024690344315,
+        "mean_predictions": 100.0,
+        "n_answers": 215,
+        "n_articles": 145,
+        "nonempty_exact_f1": 0.06469997349072168,
+        "nonempty_overlap_f1": 0.1022476853353627,
+        "nonempty_prediction_articles": 145,
+        "overlap_f1": 0.08602899367672517,
+        "per_family_exact_f1": {
+          "Attack on Reputation": 0.027382292934995417,
+          "Call": 0.03917514993674036,
+          "Distraction": 0.0,
+          "Justification": 0.018696848000855037,
+          "Manipulative Wording": 0.06430948719669904,
+          "Simplification": 0.01884938815973299
+        },
+        "proposal_recall": 0.5551740647300588,
+        "threshold": 0.3
+      },
+      "trainable_parameters": 899088
+    },
+    "20260928-l3-negative025-s42-01": {
+      "cap_saturated_articles": 31,
+      "dev": {
+        "correctly_empty_answers": 0,
+        "empty_answer_rate": 0.075,
+        "empty_answers": 3,
+        "empty_empty_f1": 0,
+        "exact_f1": 0.028242806047672236,
+        "exact_precision": 0.016935483870967744,
+        "exact_recall": 0.09535121565240166,
+        "exact_weighted_micro_f1": 0.028926947977409433,
+        "false_nonempty_given_empty": 1.0,
+        "localization_exact_f1": 0.03891411419795965,
+        "localization_overlap_f1": 0.08677753483246015,
+        "mean_predictions": 100.0,
+        "n_answers": 40,
+        "n_articles": 31,
+        "nonempty_exact_f1": 0.030498436135194876,
+        "nonempty_overlap_f1": 0.06392591402546287,
+        "nonempty_prediction_articles": 31,
+        "overlap_f1": 0.05913681822310195,
+        "per_family_exact_f1": {
+          "Attack on Reputation": 0.019642504611115184,
+          "Call": 0.0,
+          "Distraction": 0.0,
+          "Justification": 0.0,
+          "Manipulative Wording": 0.031152956724063416,
+          "Simplification": 0.0
+        },
+        "proposal_recall": 0.3338485427853652,
+        "threshold": 0.9
+      },
+      "elapsed_seconds": 359.71367457400083,
+      "epoch": 10,
+      "families": {
+        "Attack on Reputation": {
+          "nonempty_article_mean_exact_f1": 0.023419909344021952,
+          "nonempty_article_mean_overlap_f1": 0.04838329492121826,
+          "observed_spans": 103,
+          "positive_answers": 31,
+          "predicted_spans": 439,
+          "weighted_micro_exact_f1": 0.02282091917591125
+        },
+        "Call": {
+          "nonempty_article_mean_exact_f1": 0.0,
+          "nonempty_article_mean_overlap_f1": 0.0037037037037037034,
+          "observed_spans": 56,
+          "positive_answers": 18,
+          "predicted_spans": 15,
+          "weighted_micro_exact_f1": 0.0
+        },
+        "Distraction": {
+          "nonempty_article_mean_exact_f1": 0.0,
+          "nonempty_article_mean_overlap_f1": 0.0,
+          "observed_spans": 4,
+          "positive_answers": 2,
+          "predicted_spans": 0,
+          "weighted_micro_exact_f1": 0.0
+        },
+        "Justification": {
+          "nonempty_article_mean_exact_f1": 0.0,
+          "nonempty_article_mean_overlap_f1": 0.0,
+          "observed_spans": 100,
+          "positive_answers": 28,
+          "predicted_spans": 5,
+          "weighted_micro_exact_f1": 0.0
+        },
+        "Manipulative Wording": {
+          "nonempty_article_mean_exact_f1": 0.03396344226501277,
+          "nonempty_article_mean_overlap_f1": 0.07105659701150187,
+          "observed_spans": 328,
+          "positive_answers": 36,
+          "predicted_spans": 2632,
+          "weighted_micro_exact_f1": 0.031980742778541946
+        },
+        "Simplification": {
+          "nonempty_article_mean_exact_f1": 0.0,
+          "nonempty_article_mean_overlap_f1": 0.0,
+          "observed_spans": 53,
+          "positive_answers": 21,
+          "predicted_spans": 9,
+          "weighted_micro_exact_f1": 0.0
+        }
+      },
+      "mean_candidates": 8708.709677419354,
+      "threshold": 0.9,
+      "train": {
+        "correctly_empty_answers": 0,
+        "empty_answer_rate": 0.16279069767441862,
+        "empty_answers": 35,
+        "empty_empty_f1": 0,
+        "exact_f1": 0.03005932338495684,
+        "exact_precision": 0.017898790864308102,
+        "exact_recall": 0.13547434614801404,
+        "exact_weighted_micro_f1": 0.03147440176386106,
+        "false_nonempty_given_empty": 1.0,
+        "localization_exact_f1": 0.043979871283535685,
+        "localization_overlap_f1": 0.08592890435389353,
+        "mean_predictions": 99.70344827586207,
+        "n_answers": 215,
+        "n_articles": 145,
+        "nonempty_exact_f1": 0.036027350979833304,
+        "nonempty_overlap_f1": 0.06786719117901832,
+        "nonempty_prediction_articles": 145,
+        "overlap_f1": 0.057165128661923484,
+        "per_family_exact_f1": {
+          "Attack on Reputation": 0.012264932789406116,
+          "Call": 0.004098389401790333,
+          "Distraction": 0.0,
+          "Justification": 0.0,
+          "Manipulative Wording": 0.0345255155534754,
+          "Simplification": 0.004597701149425287
+        },
+        "proposal_recall": 0.3968301251416851,
+        "threshold": 0.9
+      },
+      "trainable_parameters": 899088
+    },
+    "20260928-l3-pilot-s42-01": {
+      "cap_saturated_articles": 31,
+      "dev": {
+        "correctly_empty_answers": 0,
+        "empty_answer_rate": 0.075,
+        "empty_answers": 3,
+        "empty_empty_f1": 0,
+        "exact_f1": 0.036258754520465994,
+        "exact_precision": 0.021935483870967748,
+        "exact_recall": 0.11847311981403381,
+        "exact_weighted_micro_f1": 0.03746728499931127,
+        "false_nonempty_given_empty": 1.0,
+        "localization_exact_f1": 0.04702622162496405,
+        "localization_overlap_f1": 0.08416046453605133,
+        "mean_predictions": 100.0,
+        "n_answers": 40,
+        "n_articles": 31,
+        "nonempty_exact_f1": 0.039067208640595104,
+        "nonempty_overlap_f1": 0.0650952267651824,
+        "nonempty_prediction_articles": 31,
+        "overlap_f1": 0.060141826239722175,
+        "per_family_exact_f1": {
+          "Attack on Reputation": 0.02515229919129044,
+          "Call": 0.013155751058976865,
+          "Distraction": 0.0,
+          "Justification": 0.0,
+          "Manipulative Wording": 0.038014099270349946,
+          "Simplification": 0.0
+        },
+        "proposal_recall": 0.3522035715702778,
+        "threshold": 0.9
+      },
+      "elapsed_seconds": 332.130541909999,
+      "epoch": 11,
+      "families": {
+        "Attack on Reputation": {
+          "nonempty_article_mean_exact_f1": 0.02998927980500014,
+          "nonempty_article_mean_overlap_f1": 0.04576837250716976,
+          "observed_spans": 103,
+          "positive_answers": 31,
+          "predicted_spans": 390,
+          "weighted_micro_exact_f1": 0.03145753233135267
+        },
+        "Call": {
+          "nonempty_article_mean_exact_f1": 0.03754208754208754,
+          "nonempty_article_mean_overlap_f1": 0.05693602693602694,
+          "observed_spans": 56,
+          "positive_answers": 18,
+          "predicted_spans": 24,
+          "weighted_micro_exact_f1": 0.05789473684210526
+        },
+        "Distraction": {
+          "nonempty_article_mean_exact_f1": 0.0,
+          "nonempty_article_mean_overlap_f1": 0.0,
+          "observed_spans": 4,
+          "positive_answers": 2,
+          "predicted_spans": 0,
+          "weighted_micro_exact_f1": 0.0
+        },
+        "Justification": {
+          "nonempty_article_mean_exact_f1": 0.0,
+          "nonempty_article_mean_overlap_f1": 0.0,
+          "observed_spans": 100,
+          "positive_answers": 28,
+          "predicted_spans": 0,
+          "weighted_micro_exact_f1": 0.0
+        },
+        "Manipulative Wording": {
+          "nonempty_article_mean_exact_f1": 0.041149961362989415,
+          "nonempty_article_mean_overlap_f1": 0.06984129997590424,
+          "observed_spans": 328,
+          "positive_answers": 36,
+          "predicted_spans": 2686,
+          "weighted_micro_exact_f1": 0.03961287418410984
+        },
+        "Simplification": {
+          "nonempty_article_mean_exact_f1": 0.0,
+          "nonempty_article_mean_overlap_f1": 0.0,
+          "observed_spans": 53,
+          "positive_answers": 21,
+          "predicted_spans": 0,
+          "weighted_micro_exact_f1": 0.0
+        }
+      },
+      "mean_candidates": 8675.741935483871,
+      "threshold": 0.9,
+      "train": {
+        "correctly_empty_answers": 0,
+        "empty_answer_rate": 0.16279069767441862,
+        "empty_answers": 35,
+        "empty_empty_f1": 0,
+        "exact_f1": 0.03730063360574968,
+        "exact_precision": 0.02225718390804598,
+        "exact_recall": 0.17248040004930615,
+        "exact_weighted_micro_f1": 0.03922165408651893,
+        "false_nonempty_given_empty": 1.0,
+        "localization_exact_f1": 0.048791261803598364,
+        "localization_overlap_f1": 0.08793442796040515,
+        "mean_predictions": 99.35172413793103,
+        "n_answers": 215,
+        "n_articles": 145,
+        "nonempty_exact_f1": 0.04439304472931267,
+        "nonempty_overlap_f1": 0.07448174822603318,
+        "nonempty_prediction_articles": 145,
+        "overlap_f1": 0.06252065454880475,
+        "per_family_exact_f1": {
+          "Attack on Reputation": 0.014757895967994773,
+          "Call": 0.01141677137139932,
+          "Distraction": 0.0,
+          "Justification": 0.0,
+          "Manipulative Wording": 0.04149902840851937,
+          "Simplification": 0.003908045977011494
+        },
+        "proposal_recall": 0.4257949162844058,
+        "threshold": 0.9
+      },
+      "trainable_parameters": 899088
+    }
+  },
+  "test_scored": false
+}

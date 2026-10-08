@@ -1,0 +1,78 @@
+{
+  "limit_seconds": 1800,
+  "runs": [
+    {
+      "base_unchanged": true,
+      "kind": "preflight",
+      "lora_A_B_and_all_active_heads_changed": true,
+      "next_update_exact": true,
+      "optimizer_exact": true,
+      "peak_reserved_bytes": 2598371328,
+      "predictions_exact": true,
+      "profile_batch_ids": [
+        "ria_novosti:2015434114",
+        "ng:6_9261_ukraine",
+        "ng:6_9456_japan",
+        "holod:bokhan",
+        "ng:100_2412061920",
+        "theinsider:247146",
+        "holod:nejroset-zapreshhenka-chushpany",
+        "theinsider:223648"
+      ],
+      "profile_char_lengths": [
+        2342,
+        5107,
+        6176,
+        7693,
+        9157,
+        10457,
+        11858,
+        14576
+      ],
+      "rough_20_epoch_train_seconds": 604.3273342404063,
+      "seconds": 11.294382816000507,
+      "status": "passed",
+      "technical_optimizer_steps": 3,
+      "test_used": false,
+      "trainable_sha256": "d9e233552e4578b0211f3c52973aeadd39d8fb78ffd48018a1e66b87890395b0",
+      "update_seconds": 1.7774333360011951
+    },
+    {
+      "article_presentations": 2700,
+      "base_unchanged": true,
+      "best_epoch": 13,
+      "kind": "fit",
+      "peak_allocated_bytes": 2633604096,
+      "peak_reserved_bytes": 2745171968,
+      "run_id": "20260929-l1-base-s42-01",
+      "seconds": 537.1306340119991,
+      "status": "completed",
+      "stop_reason": "epoch_limit",
+      "trainable_parameters": 902859,
+      "updates": 340
+    },
+    {
+      "article_presentations": 2700,
+      "base_unchanged": true,
+      "best_epoch": 13,
+      "kind": "fit",
+      "peak_allocated_bytes": 2633604096,
+      "peak_reserved_bytes": 2747269120,
+      "run_id": "20260929-l1-low-lr-s42-01",
+      "seconds": 487.83648721200007,
+      "status": "completed",
+      "stop_reason": "epoch_limit",
+      "trainable_parameters": 902859,
+      "updates": 340
+    },
+    {
+      "initialization_matched": true,
+      "kind": "verification",
+      "metric_sets": 10,
+      "prediction_sets": 6,
+      "seconds": 32.873730688999785,
+      "status": "passed"
+    }
+  ],
+  "seconds": 1069.1352347289994
+}

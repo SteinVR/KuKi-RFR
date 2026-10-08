@@ -1,0 +1,16 @@
+{
+  "data_config": "research/configs/data.json",
+  "seed": 42,
+  "frequency": "mean_of_article_mean_individual_votes_on_train",
+  "linear": "word_1_2_and_char_wb_3_5_tfidf_logistic",
+  "word_max_features": 20000,
+  "char_max_features": 30000,
+  "C": 10.0,
+  "max_iter": 1000,
+  "tolerance": 0.00001,
+  "weighting": "one_per_article_fractional_binary_targets",
+  "hyperparameter_search": "none_fixed_before_dev_scoring",
+  "prediction_threshold": 0.5,
+  "test_access": "disabled",
+  "budget_minutes": 10
+}

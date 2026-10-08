@@ -1,0 +1,147 @@
+{
+  "limitation": "Multiply annotated dev subset only; neither a ceiling nor directly comparable to all-dev model quality",
+  "mean_exact": 0.04506811724362144,
+  "mean_overlap": 0.11130170527525224,
+  "n_articles": 6,
+  "n_pairs": 12,
+  "records": [
+    {
+      "doc_id": "holod:golosov-hunta",
+      "exact": 0.0,
+      "overlap": 0.13445378151260504,
+      "pairs": [
+        {
+          "annotators": [
+            "4",
+            "10"
+          ],
+          "exact": 0.0,
+          "overlap": 0.2857142857142857
+        },
+        {
+          "annotators": [
+            "8",
+            "10"
+          ],
+          "exact": 0.0,
+          "overlap": 0.11764705882352941
+        },
+        {
+          "annotators": [
+            "8",
+            "4"
+          ],
+          "exact": 0.0,
+          "overlap": 0.0
+        }
+      ]
+    },
+    {
+      "doc_id": "holod:lichniy-opit-i-gendernoe-neravenstvo",
+      "exact": 0.0425531914893617,
+      "overlap": 0.1276595744680851,
+      "pairs": [
+        {
+          "annotators": [
+            "8",
+            "10"
+          ],
+          "exact": 0.0425531914893617,
+          "overlap": 0.1276595744680851
+        }
+      ]
+    },
+    {
+      "doc_id": "ng:100_200221_lukashenko",
+      "exact": 0.14035087719298245,
+      "overlap": 0.21052631578947367,
+      "pairs": [
+        {
+          "annotators": [
+            "8",
+            "10"
+          ],
+          "exact": 0.14035087719298245,
+          "overlap": 0.21052631578947367
+        }
+      ]
+    },
+    {
+      "doc_id": "ng:8_8293_vision",
+      "exact": 0.022988505747126436,
+      "overlap": 0.04597701149425287,
+      "pairs": [
+        {
+          "annotators": [
+            "4",
+            "10"
+          ],
+          "exact": 0.0,
+          "overlap": 0.0
+        },
+        {
+          "annotators": [
+            "8",
+            "10"
+          ],
+          "exact": 0.06896551724137931,
+          "overlap": 0.13793103448275862
+        },
+        {
+          "annotators": [
+            "8",
+            "4"
+          ],
+          "exact": 0.0,
+          "overlap": 0.0
+        }
+      ]
+    },
+    {
+      "doc_id": "ng:8_8764_maths",
+      "exact": 0.06451612903225806,
+      "overlap": 0.14919354838709678,
+      "pairs": [
+        {
+          "annotators": [
+            "4",
+            "10"
+          ],
+          "exact": 0.0,
+          "overlap": 0.125
+        },
+        {
+          "annotators": [
+            "8",
+            "10"
+          ],
+          "exact": 0.1935483870967742,
+          "overlap": 0.3225806451612903
+        },
+        {
+          "annotators": [
+            "8",
+            "4"
+          ],
+          "exact": 0.0,
+          "overlap": 0.0
+        }
+      ]
+    },
+    {
+      "doc_id": "ng:8_8996_textbooks",
+      "exact": 0.0,
+      "overlap": 0.0,
+      "pairs": [
+        {
+          "annotators": [
+            "8",
+            "4"
+          ],
+          "exact": 0.0,
+          "overlap": 0.0
+        }
+      ]
+    }
+  ]
+}

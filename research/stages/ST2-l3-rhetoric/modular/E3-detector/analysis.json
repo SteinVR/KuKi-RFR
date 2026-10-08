@@ -1,0 +1,51 @@
+{
+  "article_mean_gold_disposition": [
+    0.43315886934923564,
+    0.4081633676263752,
+    0.15867776302438918
+  ],
+  "bootstrap95": [
+    0.007405982702038567,
+    0.032169546476855035
+  ],
+  "caveat": "post-selection dev comparison, different architecture and compute; not confirmatory",
+  "paired_dev_difference": 0.019489328186725177,
+  "raw_errors": {
+    "Attack on Reputation": {
+      "available_not_emitted": 59,
+      "correct": 2,
+      "gold": 103,
+      "proposal_miss": 42
+    },
+    "Call": {
+      "available_not_emitted": 30,
+      "correct": 5,
+      "gold": 56,
+      "proposal_miss": 21
+    },
+    "Distraction": {
+      "available_not_emitted": 2,
+      "correct": 0,
+      "gold": 4,
+      "proposal_miss": 2
+    },
+    "Justification": {
+      "available_not_emitted": 38,
+      "correct": 2,
+      "gold": 100,
+      "proposal_miss": 60
+    },
+    "Manipulative Wording": {
+      "available_not_emitted": 107,
+      "correct": 92,
+      "gold": 328,
+      "proposal_miss": 129
+    },
+    "Simplification": {
+      "available_not_emitted": 39,
+      "correct": 0,
+      "gold": 53,
+      "proposal_miss": 14
+    }
+  }
+}

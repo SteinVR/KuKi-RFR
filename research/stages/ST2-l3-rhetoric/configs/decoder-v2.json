@@ -1,0 +1,11 @@
+{
+  "status": "development_refinement_after_primary_run",
+  "reason": "initial_max_threshold_0.9_saturates_100_predictions_on_all_31_dev_articles",
+  "parent_checkpoints": "best_checkpoint_of_each_preregistered_training_run_no_refit",
+  "threshold_grid": [0.9, 0.95, 0.99, 0.995, 0.999, 0.9995, 0.9999],
+  "selection": "max_dev_exact_F1_then_overlap_F1_then_higher_threshold",
+  "max_predictions": 100,
+  "near_duplicate_suppression": false,
+  "epoch_reselection": false,
+  "test_access": "disabled"
+}

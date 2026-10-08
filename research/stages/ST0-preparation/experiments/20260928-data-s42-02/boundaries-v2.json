@@ -1,0 +1,1697 @@
+{
+  "by_window_length": {
+    "1024": {
+      "l3_not_contained_in_any_window": 2
+    },
+    "2048": {
+      "l3_not_contained_in_any_window": 1
+    }
+  },
+  "counts": {
+    "l3_boundary_inside_word": 36,
+    "l3_not_exact_token_boundary": 3645,
+    "l3_overlapping_pairs": 259,
+    "l3_same_bounds_different_family": 32,
+    "l3_same_family_overlapping_pairs": 14,
+    "l3_spans": 4344
+  },
+  "documents": [
+    {
+      "doc_id": "holod:antiteza-strelkovu",
+      "tokens": 2303,
+      "windows": {
+        "1024": 3,
+        "2048": 2
+      }
+    },
+    {
+      "doc_id": "holod:berluskoni",
+      "tokens": 2794,
+      "windows": {
+        "1024": 3,
+        "2048": 2
+      }
+    },
+    {
+      "doc_id": "holod:bokhan",
+      "tokens": 1855,
+      "windows": {
+        "1024": 2,
+        "2048": 1
+      }
+    },
+    {
+      "doc_id": "holod:boris-stop-russia-24",
+      "tokens": 1868,
+      "windows": {
+        "1024": 2,
+        "2048": 1
+      }
+    },
+    {
+      "doc_id": "holod:chepel-pelevin",
+      "tokens": 2673,
+      "windows": {
+        "1024": 3,
+        "2048": 2
+      }
+    },
+    {
+      "doc_id": "holod:chto-volnuet-voenkorov-ix",
+      "tokens": 2184,
+      "windows": {
+        "1024": 3,
+        "2048": 2
+      }
+    },
+    {
+      "doc_id": "holod:chto-volnuet-voenkorov-xiv",
+      "tokens": 1754,
+      "windows": {
+        "1024": 2,
+        "2048": 1
+      }
+    },
+    {
+      "doc_id": "holod:chto-volnuet-voenkorov-xix",
+      "tokens": 2000,
+      "windows": {
+        "1024": 3,
+        "2048": 1
+      }
+    },
+    {
+      "doc_id": "holod:chto-volnuet-voenkorov-xvi",
+      "tokens": 1463,
+      "windows": {
+        "1024": 2,
+        "2048": 1
+      }
+    },
+    {
+      "doc_id": "holod:chto-volnuet-voenkorov-xxix",
+      "tokens": 2535,
+      "windows": {
+        "1024": 3,
+        "2048": 2
+      }
+    },
+    {
+      "doc_id": "holod:chto-volnuet-voenkorov-xxvii",
+      "tokens": 2198,
+      "windows": {
+        "1024": 3,
+        "2048": 2
+      }
+    },
+    {
+      "doc_id": "holod:chto-volnuet-voenkorov-xxxii",
+      "tokens": 1857,
+      "windows": {
+        "1024": 2,
+        "2048": 1
+      }
+    },
+    {
+      "doc_id": "holod:chto-volnuet-voenkorov-xxxiii",
+      "tokens": 2105,
+      "windows": {
+        "1024": 3,
+        "2048": 2
+      }
+    },
+    {
+      "doc_id": "holod:davydov-pugacheva-galkin",
+      "tokens": 2020,
+      "windows": {
+        "1024": 3,
+        "2048": 1
+      }
+    },
+    {
+      "doc_id": "holod:film-vyzov",
+      "tokens": 3201,
+      "windows": {
+        "1024": 4,
+        "2048": 2
+      }
+    },
+    {
+      "doc_id": "holod:galiamina-interview",
+      "tokens": 2356,
+      "windows": {
+        "1024": 3,
+        "2048": 2
+      }
+    },
+    {
+      "doc_id": "holod:golosov-hunta",
+      "tokens": 2370,
+      "windows": {
+        "1024": 3,
+        "2048": 2
+      }
+    },
+    {
+      "doc_id": "holod:golosov-referendumi",
+      "tokens": 2459,
+      "windows": {
+        "1024": 3,
+        "2048": 2
+      }
+    },
+    {
+      "doc_id": "holod:hotyat-li-voennye-zaversheniya-vojny",
+      "tokens": 2514,
+      "windows": {
+        "1024": 3,
+        "2048": 2
+      }
+    },
+    {
+      "doc_id": "holod:interview-bucci",
+      "tokens": 1697,
+      "windows": {
+        "1024": 2,
+        "2048": 1
+      }
+    },
+    {
+      "doc_id": "holod:interview-pluzhnikov",
+      "tokens": 3131,
+      "windows": {
+        "1024": 4,
+        "2048": 2
+      }
+    },
+    {
+      "doc_id": "holod:izrossilovanie-interview",
+      "tokens": 2388,
+      "windows": {
+        "1024": 3,
+        "2048": 2
+      }
+    },
+    {
+      "doc_id": "holod:kanny-77-itogi",
+      "tokens": 2462,
+      "windows": {
+        "1024": 3,
+        "2048": 2
+      }
+    },
+    {
+      "doc_id": "holod:kogo-shvatyat-ugovoryat-ili-prinudyat-togo-i-zaberut",
+      "tokens": 1548,
+      "windows": {
+        "1024": 2,
+        "2048": 1
+      }
+    },
+    {
+      "doc_id": "holod:kontrnastuplenie",
+      "tokens": 2668,
+      "windows": {
+        "1024": 3,
+        "2048": 2
+      }
+    },
+    {
+      "doc_id": "holod:kremlin-jive",
+      "tokens": 2400,
+      "windows": {
+        "1024": 3,
+        "2048": 2
+      }
+    },
+    {
+      "doc_id": "holod:lapshin-direktor-zlo",
+      "tokens": 2177,
+      "windows": {
+        "1024": 3,
+        "2048": 2
+      }
+    },
+    {
+      "doc_id": "holod:lgbt-propaganda",
+      "tokens": 2323,
+      "windows": {
+        "1024": 3,
+        "2048": 2
+      }
+    },
+    {
+      "doc_id": "holod:lichniy-opit-i-gendernoe-neravenstvo",
+      "tokens": 2228,
+      "windows": {
+        "1024": 3,
+        "2048": 2
+      }
+    },
+    {
+      "doc_id": "holod:malika-musaeva",
+      "tokens": 3066,
+      "windows": {
+        "1024": 4,
+        "2048": 2
+      }
+    },
+    {
+      "doc_id": "holod:master-i-margarita-lokshin",
+      "tokens": 3038,
+      "windows": {
+        "1024": 4,
+        "2048": 2
+      }
+    },
+    {
+      "doc_id": "holod:mat",
+      "tokens": 1887,
+      "windows": {
+        "1024": 2,
+        "2048": 1
+      }
+    },
+    {
+      "doc_id": "holod:miagkii-protest",
+      "tokens": 1725,
+      "windows": {
+        "1024": 2,
+        "2048": 1
+      }
+    },
+    {
+      "doc_id": "holod:musaelyan-freedom",
+      "tokens": 1669,
+      "windows": {
+        "1024": 2,
+        "2048": 1
+      }
+    },
+    {
+      "doc_id": "holod:muzh-ne-hochet-uezzhat-posle-obyavleniya-mobilizaczii-zhena-prosit-ego-uehat",
+      "tokens": 1404,
+      "windows": {
+        "1024": 2,
+        "2048": 1
+      }
+    },
+    {
+      "doc_id": "holod:navalny-last-words",
+      "tokens": 1378,
+      "windows": {
+        "1024": 2,
+        "2048": 1
+      }
+    },
+    {
+      "doc_id": "holod:navalnyi-stal-khristianinom",
+      "tokens": 3043,
+      "windows": {
+        "1024": 4,
+        "2048": 2
+      }
+    },
+    {
+      "doc_id": "holod:ne-hodi-na-akczii-ne-risuj",
+      "tokens": 1326,
+      "windows": {
+        "1024": 2,
+        "2048": 1
+      }
+    },
+    {
+      "doc_id": "holod:nejroset-zapreshhenka-chushpany",
+      "tokens": 2835,
+      "windows": {
+        "1024": 4,
+        "2048": 2
+      }
+    },
+    {
+      "doc_id": "holod:nizovkina",
+      "tokens": 2685,
+      "windows": {
+        "1024": 3,
+        "2048": 2
+      }
+    },
+    {
+      "doc_id": "holod:novolodskii-o-skochilenko",
+      "tokens": 1634,
+      "windows": {
+        "1024": 2,
+        "2048": 1
+      }
+    },
+    {
+      "doc_id": "holod:o-chem-noet-zahar-prilepin%ef%bf%bc",
+      "tokens": 2230,
+      "windows": {
+        "1024": 3,
+        "2048": 2
+      }
+    },
+    {
+      "doc_id": "holod:playlist-2022",
+      "tokens": 925,
+      "windows": {
+        "1024": 1,
+        "2048": 1
+      }
+    },
+    {
+      "doc_id": "holod:pochemu-rossiya-sdala-herson",
+      "tokens": 2354,
+      "windows": {
+        "1024": 3,
+        "2048": 2
+      }
+    },
+    {
+      "doc_id": "holod:poland-ukraine",
+      "tokens": 2150,
+      "windows": {
+        "1024": 3,
+        "2048": 2
+      }
+    },
+    {
+      "doc_id": "holod:politicheskoe-i-esteticheskoe",
+      "tokens": 1959,
+      "windows": {
+        "1024": 3,
+        "2048": 1
+      }
+    },
+    {
+      "doc_id": "holod:porazhenie-rossii",
+      "tokens": 2471,
+      "windows": {
+        "1024": 3,
+        "2048": 2
+      }
+    },
+    {
+      "doc_id": "holod:povestki-zaderzhannim-miting",
+      "tokens": 1682,
+      "windows": {
+        "1024": 2,
+        "2048": 1
+      }
+    },
+    {
+      "doc_id": "holod:rossiiane-stali-ukraintsami",
+      "tokens": 2137,
+      "windows": {
+        "1024": 3,
+        "2048": 2
+      }
+    },
+    {
+      "doc_id": "holod:rossiiskiie-smi-1990",
+      "tokens": 2204,
+      "windows": {
+        "1024": 3,
+        "2048": 2
+      }
+    },
+    {
+      "doc_id": "holod:science-isolation",
+      "tokens": 2733,
+      "windows": {
+        "1024": 3,
+        "2048": 2
+      }
+    },
+    {
+      "doc_id": "holod:sorokin-nasledie",
+      "tokens": 2178,
+      "windows": {
+        "1024": 3,
+        "2048": 2
+      }
+    },
+    {
+      "doc_id": "holod:strashno-chto-situacziya-otbrasyvaet-nas-na-desyat-let-nazad-v-razvitii-blagotvoritelnogo-sektora",
+      "tokens": 2402,
+      "windows": {
+        "1024": 3,
+        "2048": 2
+      }
+    },
+    {
+      "doc_id": "holod:strelkov-opinion",
+      "tokens": 1768,
+      "windows": {
+        "1024": 2,
+        "2048": 1
+      }
+    },
+    {
+      "doc_id": "holod:svobodnye-vybory",
+      "tokens": 2225,
+      "windows": {
+        "1024": 3,
+        "2048": 2
+      }
+    },
+    {
+      "doc_id": "holod:tanki-leopard",
+      "tokens": 1514,
+      "windows": {
+        "1024": 2,
+        "2048": 1
+      }
+    },
+    {
+      "doc_id": "holod:tufta-will-kill-us",
+      "tokens": 2467,
+      "windows": {
+        "1024": 3,
+        "2048": 2
+      }
+    },
+    {
+      "doc_id": "holod:v-etoj-vojne-ne-mozhet-byt-pobedy",
+      "tokens": 1118,
+      "windows": {
+        "1024": 2,
+        "2048": 1
+      }
+    },
+    {
+      "doc_id": "holod:voina-v-ukraine-privediot-k-tretiei-mirovoi-voine",
+      "tokens": 2002,
+      "windows": {
+        "1024": 3,
+        "2048": 1
+      }
+    },
+    {
+      "doc_id": "holod:war-vs-childhood",
+      "tokens": 1193,
+      "windows": {
+        "1024": 2,
+        "2048": 1
+      }
+    },
+    {
+      "doc_id": "ng:100_154321042025",
+      "tokens": 2756,
+      "windows": {
+        "1024": 3,
+        "2048": 2
+      }
+    },
+    {
+      "doc_id": "ng:100_1700150102021",
+      "tokens": 892,
+      "windows": {
+        "1024": 1,
+        "2048": 1
+      }
+    },
+    {
+      "doc_id": "ng:100_200221_lukashenko",
+      "tokens": 1364,
+      "windows": {
+        "1024": 2,
+        "2048": 1
+      }
+    },
+    {
+      "doc_id": "ng:100_200618problem",
+      "tokens": 951,
+      "windows": {
+        "1024": 1,
+        "2048": 1
+      }
+    },
+    {
+      "doc_id": "ng:100_2306161240",
+      "tokens": 1353,
+      "windows": {
+        "1024": 2,
+        "2048": 1
+      }
+    },
+    {
+      "doc_id": "ng:100_2412061920",
+      "tokens": 1851,
+      "windows": {
+        "1024": 2,
+        "2048": 1
+      }
+    },
+    {
+      "doc_id": "ng:100_2412261340",
+      "tokens": 922,
+      "windows": {
+        "1024": 1,
+        "2048": 1
+      }
+    },
+    {
+      "doc_id": "ng:100_euro10092020",
+      "tokens": 1110,
+      "windows": {
+        "1024": 2,
+        "2048": 1
+      }
+    },
+    {
+      "doc_id": "ng:100_gas110723",
+      "tokens": 1768,
+      "windows": {
+        "1024": 2,
+        "2048": 1
+      }
+    },
+    {
+      "doc_id": "ng:100_mouse17052020",
+      "tokens": 2353,
+      "windows": {
+        "1024": 3,
+        "2048": 2
+      }
+    },
+    {
+      "doc_id": "ng:10_9230_astronauts",
+      "tokens": 1506,
+      "windows": {
+        "1024": 2,
+        "2048": 1
+      }
+    },
+    {
+      "doc_id": "ng:15_8127_vision",
+      "tokens": 1404,
+      "windows": {
+        "1024": 2,
+        "2048": 1
+      }
+    },
+    {
+      "doc_id": "ng:2_8695_vw",
+      "tokens": 851,
+      "windows": {
+        "1024": 1,
+        "2048": 1
+      }
+    },
+    {
+      "doc_id": "ng:5_7883_vision",
+      "tokens": 1051,
+      "windows": {
+        "1024": 2,
+        "2048": 1
+      }
+    },
+    {
+      "doc_id": "ng:5_8413_vision",
+      "tokens": 1058,
+      "windows": {
+        "1024": 2,
+        "2048": 1
+      }
+    },
+    {
+      "doc_id": "ng:5_9074_vision",
+      "tokens": 1629,
+      "windows": {
+        "1024": 2,
+        "2048": 1
+      }
+    },
+    {
+      "doc_id": "ng:5_9292_migrants",
+      "tokens": 1014,
+      "windows": {
+        "1024": 1,
+        "2048": 1
+      }
+    },
+    {
+      "doc_id": "ng:5_9505_asia",
+      "tokens": 1034,
+      "windows": {
+        "1024": 2,
+        "2048": 1
+      }
+    },
+    {
+      "doc_id": "ng:5_9507_europe",
+      "tokens": 1146,
+      "windows": {
+        "1024": 2,
+        "2048": 1
+      }
+    },
+    {
+      "doc_id": "ng:5_9519_georgia",
+      "tokens": 1229,
+      "windows": {
+        "1024": 2,
+        "2048": 1
+      }
+    },
+    {
+      "doc_id": "ng:6_7800_vision",
+      "tokens": 1226,
+      "windows": {
+        "1024": 2,
+        "2048": 1
+      }
+    },
+    {
+      "doc_id": "ng:6_7818_vision",
+      "tokens": 1067,
+      "windows": {
+        "1024": 2,
+        "2048": 1
+      }
+    },
+    {
+      "doc_id": "ng:6_7837_vision",
+      "tokens": 1094,
+      "windows": {
+        "1024": 2,
+        "2048": 1
+      }
+    },
+    {
+      "doc_id": "ng:6_7843_vision",
+      "tokens": 1282,
+      "windows": {
+        "1024": 2,
+        "2048": 1
+      }
+    },
+    {
+      "doc_id": "ng:6_7862_vision",
+      "tokens": 1328,
+      "windows": {
+        "1024": 2,
+        "2048": 1
+      }
+    },
+    {
+      "doc_id": "ng:6_7892_vision",
+      "tokens": 1288,
+      "windows": {
+        "1024": 2,
+        "2048": 1
+      }
+    },
+    {
+      "doc_id": "ng:6_7922_vision",
+      "tokens": 1187,
+      "windows": {
+        "1024": 2,
+        "2048": 1
+      }
+    },
+    {
+      "doc_id": "ng:6_8156_vision",
+      "tokens": 1148,
+      "windows": {
+        "1024": 2,
+        "2048": 1
+      }
+    },
+    {
+      "doc_id": "ng:6_8206_vision",
+      "tokens": 1314,
+      "windows": {
+        "1024": 2,
+        "2048": 1
+      }
+    },
+    {
+      "doc_id": "ng:6_8242_vision",
+      "tokens": 1255,
+      "windows": {
+        "1024": 2,
+        "2048": 1
+      }
+    },
+    {
+      "doc_id": "ng:6_8272_vision",
+      "tokens": 1454,
+      "windows": {
+        "1024": 2,
+        "2048": 1
+      }
+    },
+    {
+      "doc_id": "ng:6_8326_vision",
+      "tokens": 1254,
+      "windows": {
+        "1024": 2,
+        "2048": 1
+      }
+    },
+    {
+      "doc_id": "ng:6_8481_vision",
+      "tokens": 990,
+      "windows": {
+        "1024": 1,
+        "2048": 1
+      }
+    },
+    {
+      "doc_id": "ng:6_8488_w05",
+      "tokens": 1256,
+      "windows": {
+        "1024": 2,
+        "2048": 1
+      }
+    },
+    {
+      "doc_id": "ng:6_8543_vision",
+      "tokens": 1237,
+      "windows": {
+        "1024": 2,
+        "2048": 1
+      }
+    },
+    {
+      "doc_id": "ng:6_8704_uranium",
+      "tokens": 1234,
+      "windows": {
+        "1024": 2,
+        "2048": 1
+      }
+    },
+    {
+      "doc_id": "ng:6_8968_poland",
+      "tokens": 1453,
+      "windows": {
+        "1024": 2,
+        "2048": 1
+      }
+    },
+    {
+      "doc_id": "ng:6_9036_germany",
+      "tokens": 1056,
+      "windows": {
+        "1024": 2,
+        "2048": 1
+      }
+    },
+    {
+      "doc_id": "ng:6_9110_germany",
+      "tokens": 1254,
+      "windows": {
+        "1024": 2,
+        "2048": 1
+      }
+    },
+    {
+      "doc_id": "ng:6_9116_germany",
+      "tokens": 893,
+      "windows": {
+        "1024": 1,
+        "2048": 1
+      }
+    },
+    {
+      "doc_id": "ng:6_9153_africa",
+      "tokens": 947,
+      "windows": {
+        "1024": 1,
+        "2048": 1
+      }
+    },
+    {
+      "doc_id": "ng:6_9236_cambodia",
+      "tokens": 1637,
+      "windows": {
+        "1024": 2,
+        "2048": 1
+      }
+    },
+    {
+      "doc_id": "ng:6_9261_ukraine",
+      "tokens": 1104,
+      "windows": {
+        "1024": 2,
+        "2048": 1
+      }
+    },
+    {
+      "doc_id": "ng:6_9456_japan",
+      "tokens": 1372,
+      "windows": {
+        "1024": 2,
+        "2048": 1
+      }
+    },
+    {
+      "doc_id": "ng:7_7792_vision",
+      "tokens": 1608,
+      "windows": {
+        "1024": 2,
+        "2048": 1
+      }
+    },
+    {
+      "doc_id": "ng:7_9537_duty",
+      "tokens": 1351,
+      "windows": {
+        "1024": 2,
+        "2048": 1
+      }
+    },
+    {
+      "doc_id": "ng:8_7915_realy",
+      "tokens": 1764,
+      "windows": {
+        "1024": 2,
+        "2048": 1
+      }
+    },
+    {
+      "doc_id": "ng:8_8046_vision",
+      "tokens": 1143,
+      "windows": {
+        "1024": 2,
+        "2048": 1
+      }
+    },
+    {
+      "doc_id": "ng:8_8109_zd03",
+      "tokens": 1189,
+      "windows": {
+        "1024": 2,
+        "2048": 1
+      }
+    },
+    {
+      "doc_id": "ng:8_8110_vision",
+      "tokens": 1318,
+      "windows": {
+        "1024": 2,
+        "2048": 1
+      }
+    },
+    {
+      "doc_id": "ng:8_8293_vision",
+      "tokens": 1099,
+      "windows": {
+        "1024": 2,
+        "2048": 1
+      }
+    },
+    {
+      "doc_id": "ng:8_8458_vision",
+      "tokens": 1495,
+      "windows": {
+        "1024": 2,
+        "2048": 1
+      }
+    },
+    {
+      "doc_id": "ng:8_8647_themis",
+      "tokens": 1213,
+      "windows": {
+        "1024": 2,
+        "2048": 1
+      }
+    },
+    {
+      "doc_id": "ng:8_8710_portfolio",
+      "tokens": 1454,
+      "windows": {
+        "1024": 2,
+        "2048": 1
+      }
+    },
+    {
+      "doc_id": "ng:8_8764_maths",
+      "tokens": 1119,
+      "windows": {
+        "1024": 2,
+        "2048": 1
+      }
+    },
+    {
+      "doc_id": "ng:8_8986_edu05",
+      "tokens": 1068,
+      "windows": {
+        "1024": 2,
+        "2048": 1
+      }
+    },
+    {
+      "doc_id": "ng:8_8996_textbooks",
+      "tokens": 884,
+      "windows": {
+        "1024": 1,
+        "2048": 1
+      }
+    },
+    {
+      "doc_id": "ng:8_9360_vision",
+      "tokens": 928,
+      "windows": {
+        "1024": 1,
+        "2048": 1
+      }
+    },
+    {
+      "doc_id": "ng:8_9424_crisis",
+      "tokens": 1331,
+      "windows": {
+        "1024": 2,
+        "2048": 1
+      }
+    },
+    {
+      "doc_id": "ng:8_9448_vision",
+      "tokens": 1530,
+      "windows": {
+        "1024": 2,
+        "2048": 1
+      }
+    },
+    {
+      "doc_id": "ria_novosti:2008793019",
+      "tokens": 570,
+      "windows": {
+        "1024": 1,
+        "2048": 1
+      }
+    },
+    {
+      "doc_id": "ria_novosti:2008880498",
+      "tokens": 1213,
+      "windows": {
+        "1024": 2,
+        "2048": 1
+      }
+    },
+    {
+      "doc_id": "ria_novosti:2008880921",
+      "tokens": 2770,
+      "windows": {
+        "1024": 3,
+        "2048": 2
+      }
+    },
+    {
+      "doc_id": "ria_novosti:2015434114",
+      "tokens": 538,
+      "windows": {
+        "1024": 1,
+        "2048": 1
+      }
+    },
+    {
+      "doc_id": "ria_novosti:2021055778",
+      "tokens": 3057,
+      "windows": {
+        "1024": 4,
+        "2048": 2
+      }
+    },
+    {
+      "doc_id": "ria_novosti:2021812270",
+      "tokens": 1577,
+      "windows": {
+        "1024": 2,
+        "2048": 1
+      }
+    },
+    {
+      "doc_id": "ria_novosti:2032407686",
+      "tokens": 2654,
+      "windows": {
+        "1024": 3,
+        "2048": 2
+      }
+    },
+    {
+      "doc_id": "ria_novosti:2032508259",
+      "tokens": 569,
+      "windows": {
+        "1024": 1,
+        "2048": 1
+      }
+    },
+    {
+      "doc_id": "ria_novosti:2034478917",
+      "tokens": 2852,
+      "windows": {
+        "1024": 4,
+        "2048": 2
+      }
+    },
+    {
+      "doc_id": "ria_novosti:2037337669",
+      "tokens": 1731,
+      "windows": {
+        "1024": 2,
+        "2048": 1
+      }
+    },
+    {
+      "doc_id": "ria_novosti:2038686731",
+      "tokens": 1823,
+      "windows": {
+        "1024": 2,
+        "2048": 1
+      }
+    },
+    {
+      "doc_id": "ria_novosti:2039556731",
+      "tokens": 1548,
+      "windows": {
+        "1024": 2,
+        "2048": 1
+      }
+    },
+    {
+      "doc_id": "ria_novosti:2040767325",
+      "tokens": 2321,
+      "windows": {
+        "1024": 3,
+        "2048": 2
+      }
+    },
+    {
+      "doc_id": "ria_novosti:2042540813",
+      "tokens": 1943,
+      "windows": {
+        "1024": 3,
+        "2048": 1
+      }
+    },
+    {
+      "doc_id": "ria_novosti:2043628402",
+      "tokens": 1071,
+      "windows": {
+        "1024": 2,
+        "2048": 1
+      }
+    },
+    {
+      "doc_id": "ria_novosti:2044017508",
+      "tokens": 1736,
+      "windows": {
+        "1024": 2,
+        "2048": 1
+      }
+    },
+    {
+      "doc_id": "ria_novosti:2045155530",
+      "tokens": 2150,
+      "windows": {
+        "1024": 3,
+        "2048": 2
+      }
+    },
+    {
+      "doc_id": "ria_novosti:2050947329",
+      "tokens": 1676,
+      "windows": {
+        "1024": 2,
+        "2048": 1
+      }
+    },
+    {
+      "doc_id": "ria_novosti:2052198418",
+      "tokens": 2351,
+      "windows": {
+        "1024": 3,
+        "2048": 2
+      }
+    },
+    {
+      "doc_id": "ria_novosti:2056396848",
+      "tokens": 2317,
+      "windows": {
+        "1024": 3,
+        "2048": 2
+      }
+    },
+    {
+      "doc_id": "ria_novosti:2058781062",
+      "tokens": 1599,
+      "windows": {
+        "1024": 2,
+        "2048": 1
+      }
+    },
+    {
+      "doc_id": "ria_novosti:2075669540",
+      "tokens": 2168,
+      "windows": {
+        "1024": 3,
+        "2048": 2
+      }
+    },
+    {
+      "doc_id": "ria_novosti:2081087907",
+      "tokens": 2255,
+      "windows": {
+        "1024": 3,
+        "2048": 2
+      }
+    },
+    {
+      "doc_id": "ria_novosti:2099824110",
+      "tokens": 2187,
+      "windows": {
+        "1024": 3,
+        "2048": 2
+      }
+    },
+    {
+      "doc_id": "ria_novosti:2106459260",
+      "tokens": 1932,
+      "windows": {
+        "1024": 3,
+        "2048": 1
+      }
+    },
+    {
+      "doc_id": "theinsider:196533",
+      "tokens": 1483,
+      "windows": {
+        "1024": 2,
+        "2048": 1
+      }
+    },
+    {
+      "doc_id": "theinsider:196788",
+      "tokens": 1741,
+      "windows": {
+        "1024": 2,
+        "2048": 1
+      }
+    },
+    {
+      "doc_id": "theinsider:197929",
+      "tokens": 2690,
+      "windows": {
+        "1024": 3,
+        "2048": 2
+      }
+    },
+    {
+      "doc_id": "theinsider:198526",
+      "tokens": 2478,
+      "windows": {
+        "1024": 3,
+        "2048": 2
+      }
+    },
+    {
+      "doc_id": "theinsider:205290",
+      "tokens": 2824,
+      "windows": {
+        "1024": 4,
+        "2048": 2
+      }
+    },
+    {
+      "doc_id": "theinsider:207276",
+      "tokens": 1711,
+      "windows": {
+        "1024": 2,
+        "2048": 1
+      }
+    },
+    {
+      "doc_id": "theinsider:209607",
+      "tokens": 2016,
+      "windows": {
+        "1024": 3,
+        "2048": 1
+      }
+    },
+    {
+      "doc_id": "theinsider:216627",
+      "tokens": 923,
+      "windows": {
+        "1024": 1,
+        "2048": 1
+      }
+    },
+    {
+      "doc_id": "theinsider:223648",
+      "tokens": 2984,
+      "windows": {
+        "1024": 4,
+        "2048": 2
+      }
+    },
+    {
+      "doc_id": "theinsider:225823",
+      "tokens": 1960,
+      "windows": {
+        "1024": 3,
+        "2048": 1
+      }
+    },
+    {
+      "doc_id": "theinsider:229406",
+      "tokens": 2077,
+      "windows": {
+        "1024": 3,
+        "2048": 2
+      }
+    },
+    {
+      "doc_id": "theinsider:230336",
+      "tokens": 1883,
+      "windows": {
+        "1024": 2,
+        "2048": 1
+      }
+    },
+    {
+      "doc_id": "theinsider:230677",
+      "tokens": 2381,
+      "windows": {
+        "1024": 3,
+        "2048": 2
+      }
+    },
+    {
+      "doc_id": "theinsider:234418",
+      "tokens": 2391,
+      "windows": {
+        "1024": 3,
+        "2048": 2
+      }
+    },
+    {
+      "doc_id": "theinsider:235715",
+      "tokens": 2594,
+      "windows": {
+        "1024": 3,
+        "2048": 2
+      }
+    },
+    {
+      "doc_id": "theinsider:236745",
+      "tokens": 2724,
+      "windows": {
+        "1024": 3,
+        "2048": 2
+      }
+    },
+    {
+      "doc_id": "theinsider:237336",
+      "tokens": 2404,
+      "windows": {
+        "1024": 3,
+        "2048": 2
+      }
+    },
+    {
+      "doc_id": "theinsider:237951",
+      "tokens": 2294,
+      "windows": {
+        "1024": 3,
+        "2048": 2
+      }
+    },
+    {
+      "doc_id": "theinsider:238025",
+      "tokens": 2734,
+      "windows": {
+        "1024": 3,
+        "2048": 2
+      }
+    },
+    {
+      "doc_id": "theinsider:238362",
+      "tokens": 1970,
+      "windows": {
+        "1024": 3,
+        "2048": 1
+      }
+    },
+    {
+      "doc_id": "theinsider:238660",
+      "tokens": 2000,
+      "windows": {
+        "1024": 3,
+        "2048": 1
+      }
+    },
+    {
+      "doc_id": "theinsider:239886",
+      "tokens": 2592,
+      "windows": {
+        "1024": 3,
+        "2048": 2
+      }
+    },
+    {
+      "doc_id": "theinsider:240028",
+      "tokens": 2475,
+      "windows": {
+        "1024": 3,
+        "2048": 2
+      }
+    },
+    {
+      "doc_id": "theinsider:240512",
+      "tokens": 2021,
+      "windows": {
+        "1024": 3,
+        "2048": 1
+      }
+    },
+    {
+      "doc_id": "theinsider:240978",
+      "tokens": 2464,
+      "windows": {
+        "1024": 3,
+        "2048": 2
+      }
+    },
+    {
+      "doc_id": "theinsider:242333",
+      "tokens": 2135,
+      "windows": {
+        "1024": 3,
+        "2048": 2
+      }
+    },
+    {
+      "doc_id": "theinsider:242615",
+      "tokens": 2215,
+      "windows": {
+        "1024": 3,
+        "2048": 2
+      }
+    },
+    {
+      "doc_id": "theinsider:245471",
+      "tokens": 2974,
+      "windows": {
+        "1024": 4,
+        "2048": 2
+      }
+    },
+    {
+      "doc_id": "theinsider:247146",
+      "tokens": 2426,
+      "windows": {
+        "1024": 3,
+        "2048": 2
+      }
+    },
+    {
+      "doc_id": "theinsider:247249",
+      "tokens": 1941,
+      "windows": {
+        "1024": 3,
+        "2048": 1
+      }
+    },
+    {
+      "doc_id": "theinsider:247833",
+      "tokens": 2038,
+      "windows": {
+        "1024": 3,
+        "2048": 1
+      }
+    },
+    {
+      "doc_id": "theinsider:247994",
+      "tokens": 2469,
+      "windows": {
+        "1024": 3,
+        "2048": 2
+      }
+    },
+    {
+      "doc_id": "theinsider:249442",
+      "tokens": 2218,
+      "windows": {
+        "1024": 3,
+        "2048": 2
+      }
+    },
+    {
+      "doc_id": "theinsider:251613",
+      "tokens": 1780,
+      "windows": {
+        "1024": 2,
+        "2048": 1
+      }
+    },
+    {
+      "doc_id": "theinsider:252826",
+      "tokens": 1594,
+      "windows": {
+        "1024": 2,
+        "2048": 1
+      }
+    },
+    {
+      "doc_id": "theinsider:253489",
+      "tokens": 1628,
+      "windows": {
+        "1024": 2,
+        "2048": 1
+      }
+    },
+    {
+      "doc_id": "theinsider:254322",
+      "tokens": 2585,
+      "windows": {
+        "1024": 3,
+        "2048": 2
+      }
+    },
+    {
+      "doc_id": "theinsider:256843",
+      "tokens": 2383,
+      "windows": {
+        "1024": 3,
+        "2048": 2
+      }
+    },
+    {
+      "doc_id": "theinsider:257597",
+      "tokens": 3099,
+      "windows": {
+        "1024": 4,
+        "2048": 2
+      }
+    },
+    {
+      "doc_id": "theinsider:257618",
+      "tokens": 2671,
+      "windows": {
+        "1024": 3,
+        "2048": 2
+      }
+    },
+    {
+      "doc_id": "theinsider:258086",
+      "tokens": 2148,
+      "windows": {
+        "1024": 3,
+        "2048": 2
+      }
+    },
+    {
+      "doc_id": "theinsider:260829",
+      "tokens": 2708,
+      "windows": {
+        "1024": 3,
+        "2048": 2
+      }
+    },
+    {
+      "doc_id": "theinsider:262340",
+      "tokens": 1900,
+      "windows": {
+        "1024": 2,
+        "2048": 1
+      }
+    },
+    {
+      "doc_id": "theinsider:266563",
+      "tokens": 1924,
+      "windows": {
+        "1024": 3,
+        "2048": 1
+      }
+    },
+    {
+      "doc_id": "theinsider:267448",
+      "tokens": 1149,
+      "windows": {
+        "1024": 2,
+        "2048": 1
+      }
+    },
+    {
+      "doc_id": "theinsider:267624",
+      "tokens": 2680,
+      "windows": {
+        "1024": 3,
+        "2048": 2
+      }
+    },
+    {
+      "doc_id": "theinsider:269354",
+      "tokens": 3231,
+      "windows": {
+        "1024": 4,
+        "2048": 2
+      }
+    },
+    {
+      "doc_id": "theinsider:271609",
+      "tokens": 3128,
+      "windows": {
+        "1024": 4,
+        "2048": 2
+      }
+    },
+    {
+      "doc_id": "theinsider:272442",
+      "tokens": 2701,
+      "windows": {
+        "1024": 3,
+        "2048": 2
+      }
+    },
+    {
+      "doc_id": "theinsider:278394",
+      "tokens": 2474,
+      "windows": {
+        "1024": 3,
+        "2048": 2
+      }
+    },
+    {
+      "doc_id": "theinsider:278708",
+      "tokens": 2345,
+      "windows": {
+        "1024": 3,
+        "2048": 2
+      }
+    },
+    {
+      "doc_id": "theinsider:279444",
+      "tokens": 1976,
+      "windows": {
+        "1024": 3,
+        "2048": 1
+      }
+    },
+    {
+      "doc_id": "theinsider:279931",
+      "tokens": 2620,
+      "windows": {
+        "1024": 3,
+        "2048": 2
+      }
+    },
+    {
+      "doc_id": "theinsider:280997",
+      "tokens": 1636,
+      "windows": {
+        "1024": 2,
+        "2048": 1
+      }
+    },
+    {
+      "doc_id": "theinsider:282486",
+      "tokens": 2181,
+      "windows": {
+        "1024": 3,
+        "2048": 2
+      }
+    },
+    {
+      "doc_id": "theinsider:285069",
+      "tokens": 2807,
+      "windows": {
+        "1024": 3,
+        "2048": 2
+      }
+    },
+    {
+      "doc_id": "theinsider:285786",
+      "tokens": 3136,
+      "windows": {
+        "1024": 4,
+        "2048": 2
+      }
+    },
+    {
+      "doc_id": "theinsider:286236",
+      "tokens": 1967,
+      "windows": {
+        "1024": 3,
+        "2048": 1
+      }
+    },
+    {
+      "doc_id": "theinsider:288289",
+      "tokens": 2185,
+      "windows": {
+        "1024": 3,
+        "2048": 2
+      }
+    },
+    {
+      "doc_id": "theinsider:291880",
+      "tokens": 1956,
+      "windows": {
+        "1024": 3,
+        "2048": 1
+      }
+    },
+    {
+      "doc_id": "theinsider:292001",
+      "tokens": 2377,
+      "windows": {
+        "1024": 3,
+        "2048": 2
+      }
+    },
+    {
+      "doc_id": "theinsider:295616",
+      "tokens": 2387,
+      "windows": {
+        "1024": 3,
+        "2048": 2
+      }
+    }
+  ],
+  "model": {
+    "attention": "sdpa",
+    "base_dtype": "bfloat16",
+    "lora": {
+      "alpha": 16,
+      "dropout": 0.1,
+      "rank": 8,
+      "target_modules": ".*\\.attn\\.(Wqkv|Wo)"
+    },
+    "model_id": "deepvk/RuModernBERT-base",
+    "overlap": 128,
+    "reference_compile": false,
+    "requested_revision": "patched-tokenizer",
+    "revision": "8aee6f818db9070b635a549580dc64dcfa03e39a",
+    "window_lengths": [
+      1024,
+      2048
+    ]
+  },
+  "prepared_sha256": "592357226642e126d5641e9620e3e585cb2f4873e65b675e1f26b9f7eef82fa2",
+  "status": "raw_character_spans_roundtrip_verified; token_only_or_window_local_L3_not_approved"
+}

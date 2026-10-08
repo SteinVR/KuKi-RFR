@@ -1,0 +1,11 @@
+{
+  "best_dev_system": "control",
+  "confirmatory_evidence": false,
+  "criterion_met": false,
+  "rule": "families best Brier strictly better than baseline AND control best",
+  "selected_epochs": {
+    "control": 12,
+    "families": 1
+  },
+  "test_used": false
+}

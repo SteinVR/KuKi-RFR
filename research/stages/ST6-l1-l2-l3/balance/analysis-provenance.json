@@ -1,0 +1,21 @@
+{
+  "files": {
+    "/home/xeliaray/Projects/Kuki-Labeling/research/stages/ST6-l1-l2-l3/balance/analyze.py": "d872f50b2d258dff0e8cbaeb4cb8cbc47580cfb9c278a1630488b9677a839bdb",
+    "/home/xeliaray/Projects/Kuki-Labeling/research/stages/ST6-l1-l2-l3/balance/budget.json": "c437644d870553c10a57567e93795067bc5438326ff44da40b63c9b7c4e9e147",
+    "/home/xeliaray/Projects/Kuki-Labeling/research/stages/ST6-l1-l2-l3/balance/experiments/20260929-st6-balance-frames-s42-01/best/dev-metrics.json": "6be3ced966b19f45fd1448cecc0d262eddbd8045b478e83ddf22167b6418b557",
+    "/home/xeliaray/Projects/Kuki-Labeling/research/stages/ST6-l1-l2-l3/balance/experiments/20260929-st6-balance-frames-s42-01/best/train-metrics.json": "f7cb92b7b58eda776d5cb667e47c2b336cbd1b794de1af01528645aea8393bfb",
+    "/home/xeliaray/Projects/Kuki-Labeling/research/stages/ST6-l1-l2-l3/balance/experiments/20260929-st6-balance-frames-s42-01/last/dev-metrics.json": "786db7c4c268a3635ba449a0346021e3fe62b50c8c4b3314706315eedb96dd98",
+    "/home/xeliaray/Projects/Kuki-Labeling/research/stages/ST6-l1-l2-l3/balance/experiments/20260929-st6-balance-frames-s42-01/progress.json": "d6004f7c98a4b73b6bf5799e98fa730f797d0ac5cb2c0124c1cf6836b6f6a050",
+    "/home/xeliaray/Projects/Kuki-Labeling/research/stages/ST6-l1-l2-l3/balance/experiments/20260929-st6-balance-roles-s42-01/best/dev-metrics.json": "39836cceedc0274707b734618c209713d3874664a3986a79c280ea20ac66f969",
+    "/home/xeliaray/Projects/Kuki-Labeling/research/stages/ST6-l1-l2-l3/balance/experiments/20260929-st6-balance-roles-s42-01/best/train-metrics.json": "ca1ac888da90926b3bb6fd0f529e62cfd2a4291ca3651f052ddca4479b1313db",
+    "/home/xeliaray/Projects/Kuki-Labeling/research/stages/ST6-l1-l2-l3/balance/experiments/20260929-st6-balance-roles-s42-01/last/dev-metrics.json": "5fe436959aa5ecdff2adbdff22d582b277e255ec96ffb71af3038531a5398c4b",
+    "/home/xeliaray/Projects/Kuki-Labeling/research/stages/ST6-l1-l2-l3/balance/experiments/20260929-st6-balance-roles-s42-01/progress.json": "ba3a43f5de85a98f4118bdfdc24c07bb622f53943cbb1edde82e5f8c137c12a3",
+    "/home/xeliaray/Projects/Kuki-Labeling/research/stages/ST6-l1-l2-l3/balance/references.json": "fa2de378f7a5541a8255bd962700c01a2fcf54db9af5c9406f3c871c18a47f06",
+    "/home/xeliaray/Projects/Kuki-Labeling/research/stages/ST6-l1-l2-l3/balance/verification.json": "827af7fbe80f92b6e7ff0fc00df53b2e4f267c17c9bb743bae38a36ff6816554",
+    "research/stages/ST6-l1-l2-l3/experiments/20260929-st6a-joint-s42-01/best/dev-metrics.json": "9d5ad95c09a430a5463badac53daf611b43393d28562588bd71bc9a698e12594",
+    "research/stages/ST6-l1-l2-l3/experiments/20260929-st6a-joint-s42-01/best/train-metrics.json": "7d01897c7e08394b9d1a48d97be5fb58b76a3d65af48583bb6cdd38ffc154526",
+    "research/stages/ST6-l1-l2-l3/experiments/20260929-st6a-joint-s42-01/last/dev-metrics.json": "5eb9773818a4b00ff03f76c789ecfaf55209c1b07b9144b428beaf2677a1d430",
+    "research/stages/ST6-l1-l2-l3/experiments/20260929-st6a-joint-s42-01/progress.json": "a52e56b455c39728d96a9ce6e06d01259414e2f1e8afd85ba6738b622b04fbb1"
+  },
+  "test_used": false
+}

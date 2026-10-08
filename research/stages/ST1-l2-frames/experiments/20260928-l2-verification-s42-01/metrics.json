@@ -1,0 +1,28 @@
+{
+  "baseline_pickle_predictions_exact": true,
+  "elapsed_seconds": 5.754776346000654,
+  "fresh_gpu_checkpoint_dev_predictions_max_difference": 0.0,
+  "gpu_resume": {
+    "continuous_losses": [
+      0.42996296286582947
+    ],
+    "learning_rates_equal": true,
+    "losses_equal": true,
+    "max_parameter_difference": 0.0,
+    "resumed_losses": [
+      0.42996296286582947
+    ]
+  },
+  "independent_metric_recalculation": true,
+  "parent_epoch": 7,
+  "parent_run": "20260928-l2-pilot-s42-01",
+  "parent_updates": 133,
+  "snapshot_and_current_code_hashes_match": true,
+  "split_source_prepared_hashes_match": true,
+  "status": "passed",
+  "technical_optimizer_updates_including_repeat": 3,
+  "test_predictions_absent": true,
+  "training_counts_correct": true,
+  "uv_lock_hashes_match": true,
+  "verification_script_sha256": "61becab8be4802d35fe673a1e2a1c3991ce877e5bf4c5b475d0f1604cf384a24"
+}

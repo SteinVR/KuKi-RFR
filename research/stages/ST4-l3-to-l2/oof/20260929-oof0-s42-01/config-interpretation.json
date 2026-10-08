@@ -1,0 +1,10 @@
+{
+  "actual_selection": "fixed final epoch13, no dev or heldout tuning",
+  "note": "Original copied E3 descriptive fields are unused in oof_train; metadata and snapshots preserve exact executed configuration.",
+  "unused_inherited_fields": [
+    "selection",
+    "threshold_grid",
+    "early_stopping_patience_epochs",
+    "early_stopping_min_delta"
+  ]
+}

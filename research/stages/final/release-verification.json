@@ -1,0 +1,64 @@
+{
+  "absolute_tolerance": 1e-12,
+  "annotations": 301,
+  "articles": 207,
+  "bootstrap_replicates": 10000,
+  "code_tests": {
+    "mode": "CPU validation; original Linux/CUDA training stack retained in uv.lock",
+    "passed": 80,
+    "platform": "macOS arm64",
+    "python": "3.14.8",
+    "skip_reason": "Pinned tokenizer is not cached",
+    "skipped": 1,
+    "torch": "2.14.1",
+    "transformers": "5.19.0"
+  },
+  "metrics": {
+    "l1": {
+      "l1_f1": 0.7067167452323401
+    },
+    "l2": {
+      "l2_brier": 0.13623707978939936
+    },
+    "l3": {
+      "l3_conditional": 0.6934425183558884,
+      "l3_exact": 0.05614755666557266
+    },
+    "st3": {
+      "l2_brier": 0.1328164649515301,
+      "l3_conditional": 0.7004096198047863,
+      "l3_exact": 0.07641130573505671
+    },
+    "st4_control": {
+      "l2_brier": 0.1343260975058059,
+      "l3_conditional": 0.7004096198047863,
+      "l3_exact": 0.07641130573505671
+    },
+    "st4_families": {
+      "l2_brier": 0.13263693988150446,
+      "l3_conditional": 0.7004096198047863,
+      "l3_exact": 0.07641130573505671
+    },
+    "st6": {
+      "l1_f1": 0.6934681142949963,
+      "l2_brier": 0.13789252845975886
+    }
+  },
+  "paired_comparisons": 8,
+  "paper": {
+    "academic_integrity_declaration": false,
+    "pages": 15,
+    "sha256": "4f247ca2673c06f1d5e8a39c04321a6b31388a049ab1880286705f71d14be6b0",
+    "title_page": false,
+    "visual_review": "All pages rendered and inspected; tables and figures kept with their captions"
+  },
+  "source_commit": "d0a8886d0ddb0661312ce7211325fd6f6fc6f0dd",
+  "split": [
+    145,
+    31,
+    31
+  ],
+  "status": "passed",
+  "systems": 7,
+  "test_articles": 31
+}

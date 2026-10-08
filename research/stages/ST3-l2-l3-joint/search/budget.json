@@ -1,0 +1,24 @@
+{
+  "limit_seconds": 1347.6447626869995,
+  "original_seconds": 2252.3552373130005,
+  "runs": [
+    {
+      "kind": "fit",
+      "run_id": "20260929-joint200-s42-01",
+      "seconds": 575.2160711979996,
+      "status": "completed"
+    },
+    {
+      "kind": "fit",
+      "run_id": "20260929-joint400-s42-01",
+      "seconds": 581.4398525909965,
+      "status": "completed"
+    },
+    {
+      "kind": "fresh_reload_verification",
+      "seconds": 11.73789044199657,
+      "status": "passed"
+    }
+  ],
+  "seconds": 1168.3938142309926
+}

@@ -1,0 +1,152 @@
+{
+  "limit_seconds": 3600,
+  "runs": [
+    {
+      "forward_l2_max_abs_diff": 0.0,
+      "forward_l3_max_abs_diff": 0.0,
+      "frozen_base_unchanged": true,
+      "gradient_norms": {
+        "l2": {
+          "encoder.": 0.19010615399871675,
+          "head.l2.": 4.048693868386588,
+          "head.span.": 0.0
+        },
+        "l3": {
+          "encoder.": 0.044734623647557516,
+          "head.l2.": 0.0,
+          "head.span.": 0.4970632343687623
+        }
+      },
+      "initialization": {
+        "all_heads": "459ba41b0f0da02840396e2b133572f6bbde9d9ff39a70e58c4006aae86a78ef",
+        "encoder": "4b96856acd1e14f6d592e1e61fae0e934e2276710efc652ab299e4f7e7baca49"
+      },
+      "kind": "preflight",
+      "peak_reserved_bytes": 4324327424,
+      "profile_batch_char_lengths": [
+        2342,
+        5023,
+        6144,
+        7390,
+        9094,
+        10388,
+        12027,
+        14726
+      ],
+      "profile_batch_doc_ids": [
+        "ria_novosti:2015434114",
+        "holod:war-vs-childhood",
+        "ng:10_9230_astronauts",
+        "theinsider:207276",
+        "theinsider:247833",
+        "theinsider:278708",
+        "holod:master-i-margarita-lokshin",
+        "ria_novosti:2021055778"
+      ],
+      "profile_update_seconds": 1.5145830159999605,
+      "resume_next_update_parameters_exact": true,
+      "resume_optimizer_exact": true,
+      "rough_20_epoch_train_seconds": 575.541546079985,
+      "seconds": 10.882486178998079,
+      "status": "passed",
+      "technical_optimizer_steps": 3,
+      "test_used": false
+    },
+    {
+      "article_presentations": 2900,
+      "base_unchanged": true,
+      "best_epoch": 8,
+      "kind": "fit",
+      "l3_article_presentations": 0,
+      "peak_allocated_bytes": 2595892736,
+      "peak_reserved_bytes": 2703228928,
+      "run_id": "20260929-l2-only-s42-01",
+      "seconds": 509.2711413469988,
+      "status": "completed",
+      "trainable_parameters": 821774,
+      "updates": 380
+    },
+    {
+      "article_presentations": 2900,
+      "base_unchanged": true,
+      "best_epoch": 13,
+      "kind": "fit",
+      "l3_article_presentations": 2580,
+      "peak_allocated_bytes": 2633599488,
+      "peak_reserved_bytes": 2747269120,
+      "run_id": "20260929-l3-only-s42-01",
+      "seconds": 570.4653733960004,
+      "status": "completed",
+      "trainable_parameters": 898958,
+      "updates": 380
+    },
+    {
+      "article_presentations": 2900,
+      "base_unchanged": true,
+      "best_epoch": 8,
+      "kind": "fit",
+      "l3_article_presentations": 2580,
+      "peak_allocated_bytes": 2633732608,
+      "peak_reserved_bytes": 2747269120,
+      "run_id": "20260929-joint025-s42-01",
+      "seconds": 571.686338243002,
+      "status": "completed",
+      "trainable_parameters": 909724,
+      "updates": 380
+    },
+    {
+      "article_presentations": 2900,
+      "base_unchanged": true,
+      "best_epoch": 8,
+      "kind": "fit",
+      "l3_article_presentations": 2580,
+      "peak_allocated_bytes": 2633732608,
+      "peak_reserved_bytes": 2747269120,
+      "run_id": "20260929-joint100-s42-01",
+      "seconds": 574.4354100819983,
+      "status": "completed",
+      "trainable_parameters": 909724,
+      "updates": 380
+    },
+    {
+      "checks": {
+        "joint025": {
+          "best_epoch": 8,
+          "max_abs_differences": {
+            "conditional": 0.0,
+            "full_chain": 0.0,
+            "l2": 0.0,
+            "l2_invariant_to_l3_head_perturbation": true
+          }
+        },
+        "joint100": {
+          "best_epoch": 8,
+          "max_abs_differences": {
+            "conditional": 0.0,
+            "full_chain": 0.0,
+            "l2": 0.0,
+            "l2_invariant_to_l3_head_perturbation": true
+          }
+        },
+        "l2-only": {
+          "best_epoch": 8,
+          "max_abs_differences": {
+            "l2": 0.0
+          }
+        },
+        "l3-only": {
+          "best_epoch": 13,
+          "max_abs_differences": {
+            "conditional": 0.0,
+            "full_chain": 0.0
+          }
+        }
+      },
+      "kind": "fresh_reload_verification",
+      "seconds": 15.614488066003105,
+      "status": "passed",
+      "test_used": false
+    }
+  ],
+  "seconds": 2252.3552373130005
+}

@@ -1,0 +1,51 @@
+{
+  "config": {
+    "adapter_lr": 0.0002,
+    "condition": "base",
+    "data_config": "research/configs/data.json",
+    "encoder_config": "research/configs/encoder.json",
+    "gradient_accumulation_articles": 8,
+    "gradient_checkpointing": false,
+    "gradient_clip_norm": 1.0,
+    "head_dropout": 0.1,
+    "head_lr": 0.001,
+    "max_epochs": 20,
+    "max_updates": 340,
+    "overlap": 128,
+    "run_budget_seconds": 750,
+    "run_id": "20260929-l1-base-s42-01",
+    "seed": 42,
+    "span_dimension": 64,
+    "warmup_updates": 34,
+    "weight_decay": 0.01,
+    "window_length": 1024
+  },
+  "data": {
+    "policy_config": "research/stages/ST0-preparation/configs/data-v2.json",
+    "prepared_path": "research/data/kuki-ru-v1.jsonl",
+    "split_manifest": "research/stages/ST0-preparation/experiments/20260928-data-s42-02/split.json",
+    "split_sha256": "c696d2734e60e93b28bb3cc17ba625fadb1d34831a427dfde12e9ef3ed479455"
+  },
+  "encoder": {
+    "attention": "kernels-community/flash-attn2@f50dc99ed079b35990bc895d43fd353ea0cb376d",
+    "base_dtype": "bfloat16",
+    "deterministic_flash_attn": true,
+    "gradient_checkpointing": false,
+    "local_attention": 128,
+    "lora": {
+      "alpha": 16,
+      "dropout": 0.1,
+      "rank": 8,
+      "target_modules": ".*\\.attn\\.(Wqkv|Wo)"
+    },
+    "model_id": "deepvk/RuModernBERT-base",
+    "overlap": 128,
+    "reference_compile": false,
+    "requested_revision": "patched-tokenizer",
+    "revision": "8aee6f818db9070b635a549580dc64dcfa03e39a",
+    "window_lengths": [
+      1024,
+      2048
+    ]
+  }
+}

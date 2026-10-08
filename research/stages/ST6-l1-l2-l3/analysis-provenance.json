@@ -1,0 +1,17 @@
+{
+  "files": {
+    "/home/xeliaray/Projects/Kuki-Labeling/research/stages/ST6-l1-l2-l3/analyze.py": "1db824cf38b4b09b4d1c3ec8fd91bbe5622825245ccdac7d2381974e30f261b4",
+    "/home/xeliaray/Projects/Kuki-Labeling/research/stages/ST6-l1-l2-l3/experiments/20260929-st6a-joint-s42-01/best/dev-l1.jsonl": "caff0ce0ffcdc84c5a2c7002356237feadda0972705e462a9373e9384effcabb",
+    "/home/xeliaray/Projects/Kuki-Labeling/research/stages/ST6-l1-l2-l3/experiments/20260929-st6a-joint-s42-01/best/dev-l2.jsonl": "3b375f76a9bace2d23943193fd92795821c8b82348d19abbaf606a09a941c466",
+    "/home/xeliaray/Projects/Kuki-Labeling/research/stages/ST6-l1-l2-l3/experiments/20260929-st6a-joint-s42-01/best/dev-metrics.json": "9d5ad95c09a430a5463badac53daf611b43393d28562588bd71bc9a698e12594",
+    "/home/xeliaray/Projects/Kuki-Labeling/research/stages/ST6-l1-l2-l3/experiments/20260929-st6a-joint-s42-01/best/train-l1.jsonl": "dba1266d00508f690c421778cb84bae2ef90219d45d4258524d7ab81983c91b1",
+    "/home/xeliaray/Projects/Kuki-Labeling/research/stages/ST6-l1-l2-l3/experiments/20260929-st6a-joint-s42-01/best/train-l2.jsonl": "eabb2db88fe56b79b3140871f3909c0135725acc54c6a010aa24f61c7411602e",
+    "/home/xeliaray/Projects/Kuki-Labeling/research/stages/ST6-l1-l2-l3/experiments/20260929-st6a-joint-s42-01/best/train-metrics.json": "7d01897c7e08394b9d1a48d97be5fb58b76a3d65af48583bb6cdd38ffc154526",
+    "/home/xeliaray/Projects/Kuki-Labeling/research/stages/ST6-l1-l2-l3/experiments/20260929-st6a-joint-s42-01/progress.json": "a52e56b455c39728d96a9ce6e06d01259414e2f1e8afd85ba6738b622b04fbb1",
+    "/home/xeliaray/Projects/Kuki-Labeling/research/stages/ST6-l1-l2-l3/references.json": "92f3ef0834853147179e5945ed958d77165ad391f1cc9d3cbd6f632d3db8be8e",
+    "/home/xeliaray/Projects/Kuki-Labeling/research/stages/ST6-l1-l2-l3/verification.json": "8e1135d539609b10b560a19eac38bd144bf185e2f36334cbb4d5b685e42bd5b2",
+    "research/stages/ST3-l2-l3-joint/experiments/20260929-l2-only-s42-01/last/metrics.json": "dc402d1c247a7875c6811131033b5de37194cd36c3f930380c3d885ed882b13f",
+    "research/stages/ST5-l1-roles/search/experiments/20260929-l1-search-dropout-s42-01/last/dev-metrics.json": "cf797a3aed0262ed8a22b25ef0ab6b6925926603d8571eca5e7301c58f90979f"
+  },
+  "test_used": false
+}

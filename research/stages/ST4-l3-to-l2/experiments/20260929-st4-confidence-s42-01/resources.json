@@ -1,0 +1,10 @@
+{
+  "articles_seen": 1160,
+  "base_unchanged": true,
+  "best_epoch": 0,
+  "condition": "confidence",
+  "peak_reserved_bytes": 2747269120,
+  "status": "completed",
+  "trainable_parameters": 915370,
+  "updates": 152
+}

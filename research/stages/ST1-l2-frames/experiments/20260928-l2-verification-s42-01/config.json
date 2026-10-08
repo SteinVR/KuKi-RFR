@@ -1,0 +1,20 @@
+{
+  "accumulation": [
+    8,
+    1
+  ],
+  "parent_run": "20260928-l2-pilot-s42-01",
+  "purpose": "technical_train_only_no_model_selection",
+  "repeat_final_update": true,
+  "train_ids": [
+    "holod:antiteza-strelkovu",
+    "holod:berluskoni",
+    "holod:bokhan",
+    "holod:boris-stop-russia-24",
+    "holod:chto-volnuet-voenkorov-xvi",
+    "holod:chto-volnuet-voenkorov-xxix",
+    "holod:chto-volnuet-voenkorov-xxvii",
+    "holod:chto-volnuet-voenkorov-xxxii",
+    "holod:chto-volnuet-voenkorov-xxxiii"
+  ]
+}

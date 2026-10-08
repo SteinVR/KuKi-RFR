@@ -1,0 +1,111 @@
+{
+  "caveat": "5 train documents, CPU/tokenization/setup separate; no optimizer steps; only cost estimate, not trained performance",
+  "config": {
+    "adapter_lr": 0.0002,
+    "boundary_loss_weight": 0.5,
+    "data_config": "research/configs/data.json",
+    "deterministic": true,
+    "early_stopping_min_delta": 0.0001,
+    "early_stopping_patience_epochs": 4,
+    "empty_empty_f1": 0,
+    "encoder_config": "research/configs/encoder.json",
+    "gradient_accumulation_articles": 8,
+    "gradient_checkpointing": false,
+    "gradient_clip_norm": 1.0,
+    "hard_negative_minimum": 64,
+    "hard_negative_ratio": 8,
+    "head_dropout": 0.1,
+    "head_lr": 0.001,
+    "inference_candidates": "predicted_top_k_boundaries_only_cartesian_start_lt_end_no_length_cap",
+    "initial_state": "pinned_pretrained_base_fresh_lora_and_heads_no_ST1_weights",
+    "loss": "per_answer_balanced_positive_negative_BCE_then_mean_annotators_then_articles",
+    "max_epochs": 12,
+    "max_predictions": 100,
+    "max_updates": 228,
+    "negative_sampling": "all_unmarked_decisions_in_selected_candidate_set",
+    "negative_weight": 1.0,
+    "overlap": 128,
+    "overlap_match": "one_to_one_same_family_IoU_at_least_0.5_max_cardinality_then_IoU",
+    "pair_block_size": 512,
+    "pair_negative_policy": "hard_top_max64_8P",
+    "pointer_dimension": 64,
+    "proposal_top_k": 128,
+    "seed": 42,
+    "selection": "highest_dev_article_annotator_mean_exact_typed_F1_then_overlap_F1_then_higher_threshold_then_earlier_epoch",
+    "session_save_stop_minutes": 50,
+    "span_dimension": 64,
+    "stage_budget_minutes": 60,
+    "test_access": "disabled",
+    "threshold_grid": [
+      0.3,
+      0.5,
+      0.7,
+      0.9
+    ],
+    "training_candidates": "predicted_top_k_boundaries_augmented_with_train_gold_boundaries_cartesian_start_lt_end",
+    "variant_reason": "all-negative mean diluted high-confidence false predictions; thresholds and near-duplicate suppression did not improve exact F1",
+    "warmup_updates": 23,
+    "weight_decay": 0.01,
+    "window_length": 1024
+  },
+  "data_hashes": {
+    "prepared_sha256": "592357226642e126d5641e9620e3e585cb2f4873e65b675e1f26b9f7eef82fa2",
+    "source_sha256": "d882e69064885823ecb9d7652bfc59795551a8c5defe4265703e845b2d6431d0",
+    "split_sha256": "c696d2734e60e93b28bb3cc17ba625fadb1d34831a427dfde12e9ef3ed479455"
+  },
+  "elapsed_seconds": 4.140353333998064,
+  "peak_reserved_bytes": 2776629248,
+  "records": [
+    {
+      "answers": 1,
+      "characters": 2342,
+      "doc_id": "ria_novosti:2015434114",
+      "inference_seconds": 0.07629783700031112,
+      "loss": 17.0347900390625,
+      "proposals": 500,
+      "tokens": 538,
+      "training_seconds": 0.5611298709991388
+    },
+    {
+      "answers": 1,
+      "characters": 5807,
+      "doc_id": "ng:6_8488_w05",
+      "inference_seconds": 0.0703659360005986,
+      "loss": 19.556474685668945,
+      "proposals": 500,
+      "tokens": 1256,
+      "training_seconds": 0.15705172599700745
+    },
+    {
+      "answers": 1,
+      "characters": 8245,
+      "doc_id": "ria_novosti:2038686731",
+      "inference_seconds": 0.0964005250025366,
+      "loss": 20.17095947265625,
+      "proposals": 500,
+      "tokens": 1823,
+      "training_seconds": 0.18410741800107644
+    },
+    {
+      "answers": 1,
+      "characters": 10875,
+      "doc_id": "theinsider:256843",
+      "inference_seconds": 0.1554417059996922,
+      "loss": 20.601181030273438,
+      "proposals": 500,
+      "tokens": 2383,
+      "training_seconds": 0.2779219379990536
+    },
+    {
+      "answers": 2,
+      "characters": 14726,
+      "doc_id": "ria_novosti:2021055778",
+      "inference_seconds": 0.22518785500142258,
+      "loss": 21.30759620666504,
+      "proposals": 500,
+      "tokens": 3057,
+      "training_seconds": 0.5759026310006448
+    }
+  ],
+  "rough_epoch_seconds": 43.28709728494141
+}

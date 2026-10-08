@@ -1,0 +1,7 @@
+{
+  "budget": "budget.json",
+  "confidence": "confidence-diagnostics.json",
+  "generated_after_replay": true,
+  "generation_script": "analysis/report.py",
+  "selection": "selection.json"
+}

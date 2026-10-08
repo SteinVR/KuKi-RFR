@@ -1,0 +1,6930 @@
+{
+  "articles": [
+    {
+      "delta_brier": 0.018268970284369884,
+      "doc_id": "holod:golosov-hunta",
+      "group_id": "holod:golosov-hunta",
+      "l1_joint": {
+        "article_accuracy": 0.8939393939393939,
+        "brier": 0.05251078087008866,
+        "confusion": [
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            13,
+            0
+          ],
+          [
+            0,
+            6,
+            5
+          ]
+        ],
+        "cross_entropy": 0.44196196216726774,
+        "macro_f1": 0.5213768115942029,
+        "mention_accuracy": 0.72,
+        "mention_macro_f1": 0.47095959595959597,
+        "n_answers": 3,
+        "n_articles": 1,
+        "n_mentions": 25,
+        "per_role": {
+          "ANTAGONIST": {
+            "f1": 0.9391304347826087,
+            "mentions": 13,
+            "precision": 0.8852459016393444,
+            "recall": 1.0,
+            "weighted_support": 0.818181818181818
+          },
+          "INNOCENT": {
+            "f1": 0.6250000000000001,
+            "mentions": 11,
+            "precision": 1.0,
+            "recall": 0.45454545454545464,
+            "weighted_support": 0.16666666666666663
+          },
+          "PROTAGONIST": {
+            "f1": 0.0,
+            "mentions": 1,
+            "precision": 0.0,
+            "recall": 0.0,
+            "weighted_support": 0.015151515151515152
+          }
+        },
+        "role_order": [
+          "PROTAGONIST",
+          "ANTAGONIST",
+          "INNOCENT"
+        ],
+        "weighted_confusion": [
+          [
+            0.0,
+            0.015151515151515152,
+            0.0
+          ],
+          [
+            0.0,
+            0.818181818181818,
+            0.0
+          ],
+          [
+            0.0,
+            0.09090909090909091,
+            0.07575757575757576
+          ]
+        ]
+      },
+      "l1_reference": {
+        "article_accuracy": 0.7727272727272727,
+        "brier": 0.13536589861780135,
+        "confusion": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            1,
+            10,
+            2
+          ],
+          [
+            0,
+            2,
+            9
+          ]
+        ],
+        "cross_entropy": 1.281129389909838,
+        "macro_f1": 0.6915091638029782,
+        "mention_accuracy": 0.8,
+        "mention_macro_f1": 0.7616161616161617,
+        "n_answers": 3,
+        "n_articles": 1,
+        "n_mentions": 25,
+        "per_role": {
+          "ANTAGONIST": {
+            "f1": 0.8453608247422681,
+            "mentions": 13,
+            "precision": 0.9534883720930233,
+            "recall": 0.7592592592592593,
+            "weighted_support": 0.818181818181818
+          },
+          "INNOCENT": {
+            "f1": 0.5625000000000001,
+            "mentions": 11,
+            "precision": 0.4285714285714286,
+            "recall": 0.8181818181818183,
+            "weighted_support": 0.16666666666666663
+          },
+          "PROTAGONIST": {
+            "f1": 0.6666666666666666,
+            "mentions": 1,
+            "precision": 0.5,
+            "recall": 1.0,
+            "weighted_support": 0.015151515151515152
+          }
+        },
+        "role_order": [
+          "PROTAGONIST",
+          "ANTAGONIST",
+          "INNOCENT"
+        ],
+        "weighted_confusion": [
+          [
+            0.015151515151515152,
+            0.0,
+            0.0
+          ],
+          [
+            0.015151515151515152,
+            0.6212121212121211,
+            0.18181818181818182
+          ],
+          [
+            0.0,
+            0.030303030303030304,
+            0.13636363636363635
+          ]
+        ]
+      },
+      "l2_joint": 0.09014654568428601,
+      "l2_reference": 0.07187757539991613,
+      "source": "holod"
+    },
+    {
+      "delta_brier": 0.016608262834798583,
+      "doc_id": "holod:golosov-referendumi",
+      "group_id": "holod:golosov-referendumi",
+      "l1_joint": {
+        "article_accuracy": 1.0,
+        "brier": 0.0019914610459131226,
+        "confusion": [
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            4,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "cross_entropy": 0.02957130970320624,
+        "macro_f1": 0.3333333333333333,
+        "mention_accuracy": 1.0,
+        "mention_macro_f1": 0.3333333333333333,
+        "n_answers": 1,
+        "n_articles": 1,
+        "n_mentions": 4,
+        "per_role": {
+          "ANTAGONIST": {
+            "f1": 1.0,
+            "mentions": 4,
+            "precision": 1.0,
+            "recall": 1.0,
+            "weighted_support": 1.0
+          },
+          "INNOCENT": {
+            "f1": 0.0,
+            "mentions": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "weighted_support": 0.0
+          },
+          "PROTAGONIST": {
+            "f1": 0.0,
+            "mentions": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "weighted_support": 0.0
+          }
+        },
+        "role_order": [
+          "PROTAGONIST",
+          "ANTAGONIST",
+          "INNOCENT"
+        ],
+        "weighted_confusion": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ]
+      },
+      "l1_reference": {
+        "article_accuracy": 0.75,
+        "brier": 0.16619813804860223,
+        "confusion": [
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            3,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "cross_entropy": 1.702663068510502,
+        "macro_f1": 0.2857142857142857,
+        "mention_accuracy": 0.75,
+        "mention_macro_f1": 0.2857142857142857,
+        "n_answers": 1,
+        "n_articles": 1,
+        "n_mentions": 4,
+        "per_role": {
+          "ANTAGONIST": {
+            "f1": 0.8571428571428571,
+            "mentions": 4,
+            "precision": 1.0,
+            "recall": 0.75,
+            "weighted_support": 1.0
+          },
+          "INNOCENT": {
+            "f1": 0.0,
+            "mentions": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "weighted_support": 0.0
+          },
+          "PROTAGONIST": {
+            "f1": 0.0,
+            "mentions": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "weighted_support": 0.0
+          }
+        },
+        "role_order": [
+          "PROTAGONIST",
+          "ANTAGONIST",
+          "INNOCENT"
+        ],
+        "weighted_confusion": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.25,
+            0.75,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ]
+      },
+      "l2_joint": 0.07188481252592496,
+      "l2_reference": 0.05527654969112638,
+      "source": "holod"
+    },
+    {
+      "delta_brier": 0.00869884625446149,
+      "doc_id": "holod:kanny-77-itogi",
+      "group_id": "holod:kanny-77-itogi",
+      "l1_joint": {
+        "article_accuracy": 0.7142857142857143,
+        "brier": 0.12402174515762066,
+        "confusion": [
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            2,
+            2,
+            0
+          ],
+          [
+            0,
+            0,
+            3
+          ]
+        ],
+        "cross_entropy": 0.9802502481559524,
+        "macro_f1": 0.5555555555555555,
+        "mention_accuracy": 0.7142857142857143,
+        "mention_macro_f1": 0.5555555555555555,
+        "n_answers": 1,
+        "n_articles": 1,
+        "n_mentions": 7,
+        "per_role": {
+          "ANTAGONIST": {
+            "f1": 0.6666666666666666,
+            "mentions": 4,
+            "precision": 1.0,
+            "recall": 0.5,
+            "weighted_support": 0.5714285714285714
+          },
+          "INNOCENT": {
+            "f1": 1.0,
+            "mentions": 3,
+            "precision": 1.0,
+            "recall": 1.0,
+            "weighted_support": 0.42857142857142855
+          },
+          "PROTAGONIST": {
+            "f1": 0.0,
+            "mentions": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "weighted_support": 0.0
+          }
+        },
+        "role_order": [
+          "PROTAGONIST",
+          "ANTAGONIST",
+          "INNOCENT"
+        ],
+        "weighted_confusion": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.2857142857142857,
+            0.2857142857142857,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.42857142857142855
+          ]
+        ]
+      },
+      "l1_reference": {
+        "article_accuracy": 0.8571428571428572,
+        "brier": 0.09527499441657464,
+        "confusion": [
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            3,
+            0
+          ],
+          [
+            0,
+            0,
+            3
+          ]
+        ],
+        "cross_entropy": 1.4864387785874136,
+        "macro_f1": 0.6190476190476191,
+        "mention_accuracy": 0.8571428571428571,
+        "mention_macro_f1": 0.6190476190476191,
+        "n_answers": 1,
+        "n_articles": 1,
+        "n_mentions": 7,
+        "per_role": {
+          "ANTAGONIST": {
+            "f1": 0.8571428571428571,
+            "mentions": 4,
+            "precision": 1.0,
+            "recall": 0.75,
+            "weighted_support": 0.5714285714285714
+          },
+          "INNOCENT": {
+            "f1": 1.0,
+            "mentions": 3,
+            "precision": 1.0,
+            "recall": 1.0,
+            "weighted_support": 0.42857142857142855
+          },
+          "PROTAGONIST": {
+            "f1": 0.0,
+            "mentions": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "weighted_support": 0.0
+          }
+        },
+        "role_order": [
+          "PROTAGONIST",
+          "ANTAGONIST",
+          "INNOCENT"
+        ],
+        "weighted_confusion": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.14285714285714285,
+            0.42857142857142855,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.42857142857142855
+          ]
+        ]
+      },
+      "l2_joint": 0.3442838751397828,
+      "l2_reference": 0.3355850288853213,
+      "source": "holod"
+    },
+    {
+      "delta_brier": -0.05255257012194217,
+      "doc_id": "holod:lichniy-opit-i-gendernoe-neravenstvo",
+      "group_id": "holod:lichniy-opit-i-gendernoe-neravenstvo",
+      "l1_joint": {
+        "article_accuracy": 1.0,
+        "brier": 0.00021205102359792808,
+        "confusion": [
+          [
+            4,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "cross_entropy": 0.009314335735172373,
+        "macro_f1": 0.3333333333333333,
+        "mention_accuracy": 1.0,
+        "mention_macro_f1": 0.3333333333333333,
+        "n_answers": 2,
+        "n_articles": 1,
+        "n_mentions": 4,
+        "per_role": {
+          "ANTAGONIST": {
+            "f1": 0.0,
+            "mentions": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "weighted_support": 0.0
+          },
+          "INNOCENT": {
+            "f1": 0.0,
+            "mentions": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "weighted_support": 0.0
+          },
+          "PROTAGONIST": {
+            "f1": 1.0,
+            "mentions": 4,
+            "precision": 1.0,
+            "recall": 1.0,
+            "weighted_support": 1.0
+          }
+        },
+        "role_order": [
+          "PROTAGONIST",
+          "ANTAGONIST",
+          "INNOCENT"
+        ],
+        "weighted_confusion": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ]
+      },
+      "l1_reference": {
+        "article_accuracy": 1.0,
+        "brier": 5.877482917524138e-06,
+        "confusion": [
+          [
+            4,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "cross_entropy": 0.0019660804975765297,
+        "macro_f1": 0.3333333333333333,
+        "mention_accuracy": 1.0,
+        "mention_macro_f1": 0.3333333333333333,
+        "n_answers": 2,
+        "n_articles": 1,
+        "n_mentions": 4,
+        "per_role": {
+          "ANTAGONIST": {
+            "f1": 0.0,
+            "mentions": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "weighted_support": 0.0
+          },
+          "INNOCENT": {
+            "f1": 0.0,
+            "mentions": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "weighted_support": 0.0
+          },
+          "PROTAGONIST": {
+            "f1": 1.0,
+            "mentions": 4,
+            "precision": 1.0,
+            "recall": 1.0,
+            "weighted_support": 1.0
+          }
+        },
+        "role_order": [
+          "PROTAGONIST",
+          "ANTAGONIST",
+          "INNOCENT"
+        ],
+        "weighted_confusion": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ]
+      },
+      "l2_joint": 0.2127897730603812,
+      "l2_reference": 0.26534234318232336,
+      "source": "holod"
+    },
+    {
+      "delta_brier": -0.0028383866899293064,
+      "doc_id": "holod:pochemu-rossiya-sdala-herson",
+      "group_id": "holod:pochemu-rossiya-sdala-herson",
+      "l1_joint": {
+        "article_accuracy": 0.6000000000000001,
+        "brier": 0.22875839989915875,
+        "confusion": [
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            1,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            2
+          ]
+        ],
+        "cross_entropy": 1.8539440801872336,
+        "macro_f1": 0.5,
+        "mention_accuracy": 0.6,
+        "mention_macro_f1": 0.5,
+        "n_answers": 1,
+        "n_articles": 1,
+        "n_mentions": 5,
+        "per_role": {
+          "ANTAGONIST": {
+            "f1": 0.5,
+            "mentions": 2,
+            "precision": 0.5,
+            "recall": 0.5,
+            "weighted_support": 0.4
+          },
+          "INNOCENT": {
+            "f1": 1.0,
+            "mentions": 2,
+            "precision": 1.0,
+            "recall": 1.0,
+            "weighted_support": 0.4
+          },
+          "PROTAGONIST": {
+            "f1": 0.0,
+            "mentions": 1,
+            "precision": 0.0,
+            "recall": 0.0,
+            "weighted_support": 0.2
+          }
+        },
+        "role_order": [
+          "PROTAGONIST",
+          "ANTAGONIST",
+          "INNOCENT"
+        ],
+        "weighted_confusion": [
+          [
+            0.0,
+            0.2,
+            0.0
+          ],
+          [
+            0.2,
+            0.2,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.4
+          ]
+        ]
+      },
+      "l1_reference": {
+        "article_accuracy": 0.8,
+        "brier": 0.13391425135176202,
+        "confusion": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            1,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            2
+          ]
+        ],
+        "cross_entropy": 2.0304442514714762,
+        "macro_f1": 0.7777777777777777,
+        "mention_accuracy": 0.8,
+        "mention_macro_f1": 0.7777777777777777,
+        "n_answers": 1,
+        "n_articles": 1,
+        "n_mentions": 5,
+        "per_role": {
+          "ANTAGONIST": {
+            "f1": 0.6666666666666666,
+            "mentions": 2,
+            "precision": 1.0,
+            "recall": 0.5,
+            "weighted_support": 0.4
+          },
+          "INNOCENT": {
+            "f1": 1.0,
+            "mentions": 2,
+            "precision": 1.0,
+            "recall": 1.0,
+            "weighted_support": 0.4
+          },
+          "PROTAGONIST": {
+            "f1": 0.6666666666666666,
+            "mentions": 1,
+            "precision": 0.5,
+            "recall": 1.0,
+            "weighted_support": 0.2
+          }
+        },
+        "role_order": [
+          "PROTAGONIST",
+          "ANTAGONIST",
+          "INNOCENT"
+        ],
+        "weighted_confusion": [
+          [
+            0.2,
+            0.0,
+            0.0
+          ],
+          [
+            0.2,
+            0.2,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.4
+          ]
+        ]
+      },
+      "l2_joint": 0.20613553980015034,
+      "l2_reference": 0.20897392649007965,
+      "source": "holod"
+    },
+    {
+      "delta_brier": 0.0022311981720701535,
+      "doc_id": "holod:rossiiskiie-smi-1990",
+      "group_id": "holod:rossiiskiie-smi-1990",
+      "l1_joint": {
+        "article_accuracy": 1.0,
+        "brier": 0.010117685055204054,
+        "confusion": [
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            4,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "cross_entropy": 0.0849797626586091,
+        "macro_f1": 0.3333333333333333,
+        "mention_accuracy": 1.0,
+        "mention_macro_f1": 0.3333333333333333,
+        "n_answers": 1,
+        "n_articles": 1,
+        "n_mentions": 4,
+        "per_role": {
+          "ANTAGONIST": {
+            "f1": 1.0,
+            "mentions": 4,
+            "precision": 1.0,
+            "recall": 1.0,
+            "weighted_support": 1.0
+          },
+          "INNOCENT": {
+            "f1": 0.0,
+            "mentions": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "weighted_support": 0.0
+          },
+          "PROTAGONIST": {
+            "f1": 0.0,
+            "mentions": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "weighted_support": 0.0
+          }
+        },
+        "role_order": [
+          "PROTAGONIST",
+          "ANTAGONIST",
+          "INNOCENT"
+        ],
+        "weighted_confusion": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ]
+      },
+      "l1_reference": {
+        "article_accuracy": 1.0,
+        "brier": 0.00020533135664396295,
+        "confusion": [
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            4,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "cross_entropy": 0.010076372324606281,
+        "macro_f1": 0.3333333333333333,
+        "mention_accuracy": 1.0,
+        "mention_macro_f1": 0.3333333333333333,
+        "n_answers": 1,
+        "n_articles": 1,
+        "n_mentions": 4,
+        "per_role": {
+          "ANTAGONIST": {
+            "f1": 1.0,
+            "mentions": 4,
+            "precision": 1.0,
+            "recall": 1.0,
+            "weighted_support": 1.0
+          },
+          "INNOCENT": {
+            "f1": 0.0,
+            "mentions": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "weighted_support": 0.0
+          },
+          "PROTAGONIST": {
+            "f1": 0.0,
+            "mentions": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "weighted_support": 0.0
+          }
+        },
+        "role_order": [
+          "PROTAGONIST",
+          "ANTAGONIST",
+          "INNOCENT"
+        ],
+        "weighted_confusion": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ]
+      },
+      "l2_joint": 0.24446369109320473,
+      "l2_reference": 0.24223249292113458,
+      "source": "holod"
+    },
+    {
+      "delta_brier": 0.029163280276807313,
+      "doc_id": "holod:v-etoj-vojne-ne-mozhet-byt-pobedy",
+      "group_id": "holod:v-etoj-vojne-ne-mozhet-byt-pobedy",
+      "l1_joint": {
+        "article_accuracy": 0.875,
+        "brier": 0.08600125017787273,
+        "confusion": [
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            5,
+            0
+          ],
+          [
+            0,
+            0,
+            2
+          ]
+        ],
+        "cross_entropy": 1.1622310621267453,
+        "macro_f1": 0.6363636363636364,
+        "mention_accuracy": 0.875,
+        "mention_macro_f1": 0.6363636363636364,
+        "n_answers": 1,
+        "n_articles": 1,
+        "n_mentions": 8,
+        "per_role": {
+          "ANTAGONIST": {
+            "f1": 0.9090909090909091,
+            "mentions": 6,
+            "precision": 1.0,
+            "recall": 0.8333333333333334,
+            "weighted_support": 0.75
+          },
+          "INNOCENT": {
+            "f1": 1.0,
+            "mentions": 2,
+            "precision": 1.0,
+            "recall": 1.0,
+            "weighted_support": 0.25
+          },
+          "PROTAGONIST": {
+            "f1": 0.0,
+            "mentions": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "weighted_support": 0.0
+          }
+        },
+        "role_order": [
+          "PROTAGONIST",
+          "ANTAGONIST",
+          "INNOCENT"
+        ],
+        "weighted_confusion": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.125,
+            0.625,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.25
+          ]
+        ]
+      },
+      "l1_reference": {
+        "article_accuracy": 0.75,
+        "brier": 0.1282011937849745,
+        "confusion": [
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            2,
+            4,
+            0
+          ],
+          [
+            0,
+            0,
+            2
+          ]
+        ],
+        "cross_entropy": 1.390340798267307,
+        "macro_f1": 0.6,
+        "mention_accuracy": 0.75,
+        "mention_macro_f1": 0.6,
+        "n_answers": 1,
+        "n_articles": 1,
+        "n_mentions": 8,
+        "per_role": {
+          "ANTAGONIST": {
+            "f1": 0.8,
+            "mentions": 6,
+            "precision": 1.0,
+            "recall": 0.6666666666666666,
+            "weighted_support": 0.75
+          },
+          "INNOCENT": {
+            "f1": 1.0,
+            "mentions": 2,
+            "precision": 1.0,
+            "recall": 1.0,
+            "weighted_support": 0.25
+          },
+          "PROTAGONIST": {
+            "f1": 0.0,
+            "mentions": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "weighted_support": 0.0
+          }
+        },
+        "role_order": [
+          "PROTAGONIST",
+          "ANTAGONIST",
+          "INNOCENT"
+        ],
+        "weighted_confusion": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.25,
+            0.5,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.25
+          ]
+        ]
+      },
+      "l2_joint": 0.15902671070403449,
+      "l2_reference": 0.12986343042722717,
+      "source": "holod"
+    },
+    {
+      "delta_brier": 0.01302341652637376,
+      "doc_id": "holod:voina-v-ukraine-privediot-k-tretiei-mirovoi-voine",
+      "group_id": "holod:voina-v-ukraine-privediot-k-tretiei-mirovoi-voine",
+      "l1_joint": {
+        "article_accuracy": 0.25,
+        "brier": 0.42826114504100854,
+        "confusion": [
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            3,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ]
+        ],
+        "cross_entropy": 2.556039411197449,
+        "macro_f1": 0.3333333333333333,
+        "mention_accuracy": 0.25,
+        "mention_macro_f1": 0.3333333333333333,
+        "n_answers": 1,
+        "n_articles": 1,
+        "n_mentions": 4,
+        "per_role": {
+          "ANTAGONIST": {
+            "f1": 0.0,
+            "mentions": 3,
+            "precision": 0.0,
+            "recall": 0.0,
+            "weighted_support": 0.75
+          },
+          "INNOCENT": {
+            "f1": 1.0,
+            "mentions": 1,
+            "precision": 1.0,
+            "recall": 1.0,
+            "weighted_support": 0.25
+          },
+          "PROTAGONIST": {
+            "f1": 0.0,
+            "mentions": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "weighted_support": 0.0
+          }
+        },
+        "role_order": [
+          "PROTAGONIST",
+          "ANTAGONIST",
+          "INNOCENT"
+        ],
+        "weighted_confusion": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.75,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.25
+          ]
+        ]
+      },
+      "l1_reference": {
+        "article_accuracy": 0.5,
+        "brier": 0.3413852173850813,
+        "confusion": [
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            2,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ]
+        ],
+        "cross_entropy": 3.695910200763763,
+        "macro_f1": 0.5,
+        "mention_accuracy": 0.5,
+        "mention_macro_f1": 0.5,
+        "n_answers": 1,
+        "n_articles": 1,
+        "n_mentions": 4,
+        "per_role": {
+          "ANTAGONIST": {
+            "f1": 0.5,
+            "mentions": 3,
+            "precision": 1.0,
+            "recall": 0.3333333333333333,
+            "weighted_support": 0.75
+          },
+          "INNOCENT": {
+            "f1": 1.0,
+            "mentions": 1,
+            "precision": 1.0,
+            "recall": 1.0,
+            "weighted_support": 0.25
+          },
+          "PROTAGONIST": {
+            "f1": 0.0,
+            "mentions": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "weighted_support": 0.0
+          }
+        },
+        "role_order": [
+          "PROTAGONIST",
+          "ANTAGONIST",
+          "INNOCENT"
+        ],
+        "weighted_confusion": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.5,
+            0.25,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.25
+          ]
+        ]
+      },
+      "l2_joint": 0.15713143053548534,
+      "l2_reference": 0.14410801400911158,
+      "source": "holod"
+    },
+    {
+      "delta_brier": 0.03624895821349938,
+      "doc_id": "ng:100_200221_lukashenko",
+      "group_id": "ng:100_200221_lukashenko",
+      "l1_joint": {
+        "article_accuracy": 0.9166666666666667,
+        "brier": 0.015443293179097962,
+        "confusion": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            11,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ]
+        ],
+        "cross_entropy": 0.07560337565618463,
+        "macro_f1": 0.6507936507936508,
+        "mention_accuracy": 0.9230769230769231,
+        "mention_macro_f1": 0.6521739130434783,
+        "n_answers": 2,
+        "n_articles": 1,
+        "n_mentions": 13,
+        "per_role": {
+          "ANTAGONIST": {
+            "f1": 0.9523809523809524,
+            "mentions": 11,
+            "precision": 0.9090909090909092,
+            "recall": 1.0,
+            "weighted_support": 0.8333333333333331
+          },
+          "INNOCENT": {
+            "f1": 0.0,
+            "mentions": 1,
+            "precision": 0.0,
+            "recall": 0.0,
+            "weighted_support": 0.08333333333333333
+          },
+          "PROTAGONIST": {
+            "f1": 1.0,
+            "mentions": 1,
+            "precision": 1.0,
+            "recall": 1.0,
+            "weighted_support": 0.08333333333333333
+          }
+        },
+        "role_order": [
+          "PROTAGONIST",
+          "ANTAGONIST",
+          "INNOCENT"
+        ],
+        "weighted_confusion": [
+          [
+            0.08333333333333333,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.8333333333333331,
+            0.0
+          ],
+          [
+            0.0,
+            0.08333333333333333,
+            0.0
+          ]
+        ]
+      },
+      "l1_reference": {
+        "article_accuracy": 0.9166666666666667,
+        "brier": 0.025637577315759583,
+        "confusion": [
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            11,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ]
+        ],
+        "cross_entropy": 0.12466304710129908,
+        "macro_f1": 0.5555555555555555,
+        "mention_accuracy": 0.9230769230769231,
+        "mention_macro_f1": 0.5555555555555555,
+        "n_answers": 2,
+        "n_articles": 1,
+        "n_mentions": 13,
+        "per_role": {
+          "ANTAGONIST": {
+            "f1": 1.0,
+            "mentions": 11,
+            "precision": 1.0,
+            "recall": 1.0,
+            "weighted_support": 0.8333333333333331
+          },
+          "INNOCENT": {
+            "f1": 0.6666666666666666,
+            "mentions": 1,
+            "precision": 0.5,
+            "recall": 1.0,
+            "weighted_support": 0.08333333333333333
+          },
+          "PROTAGONIST": {
+            "f1": 0.0,
+            "mentions": 1,
+            "precision": 0.0,
+            "recall": 0.0,
+            "weighted_support": 0.08333333333333333
+          }
+        },
+        "role_order": [
+          "PROTAGONIST",
+          "ANTAGONIST",
+          "INNOCENT"
+        ],
+        "weighted_confusion": [
+          [
+            0.0,
+            0.0,
+            0.08333333333333333
+          ],
+          [
+            0.0,
+            0.8333333333333331,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.08333333333333333
+          ]
+        ]
+      },
+      "l2_joint": 0.2830430262622911,
+      "l2_reference": 0.24679406804879173,
+      "source": "ng"
+    },
+    {
+      "delta_brier": -0.015909424393857466,
+      "doc_id": "ng:15_8127_vision",
+      "group_id": "ng:15_8127_vision",
+      "l1_joint": null,
+      "l1_reference": null,
+      "l2_joint": 0.0763489394476869,
+      "l2_reference": 0.09225836384154437,
+      "source": "ng"
+    },
+    {
+      "delta_brier": 0.016700522060259543,
+      "doc_id": "ng:5_9074_vision",
+      "group_id": "ng:5_9074_vision",
+      "l1_joint": {
+        "article_accuracy": 1.0,
+        "brier": 0.00018614011606699776,
+        "confusion": [
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            6,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "cross_entropy": 0.007710660210331795,
+        "macro_f1": 0.3333333333333333,
+        "mention_accuracy": 1.0,
+        "mention_macro_f1": 0.3333333333333333,
+        "n_answers": 1,
+        "n_articles": 1,
+        "n_mentions": 6,
+        "per_role": {
+          "ANTAGONIST": {
+            "f1": 1.0,
+            "mentions": 6,
+            "precision": 1.0,
+            "recall": 1.0,
+            "weighted_support": 0.9999999999999999
+          },
+          "INNOCENT": {
+            "f1": 0.0,
+            "mentions": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "weighted_support": 0.0
+          },
+          "PROTAGONIST": {
+            "f1": 0.0,
+            "mentions": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "weighted_support": 0.0
+          }
+        },
+        "role_order": [
+          "PROTAGONIST",
+          "ANTAGONIST",
+          "INNOCENT"
+        ],
+        "weighted_confusion": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.9999999999999999,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ]
+      },
+      "l1_reference": {
+        "article_accuracy": 0.8333333333333334,
+        "brier": 0.039743571237326254,
+        "confusion": [
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            5,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "cross_entropy": 0.1767350281063171,
+        "macro_f1": 0.30303030303030304,
+        "mention_accuracy": 0.8333333333333334,
+        "mention_macro_f1": 0.30303030303030304,
+        "n_answers": 1,
+        "n_articles": 1,
+        "n_mentions": 6,
+        "per_role": {
+          "ANTAGONIST": {
+            "f1": 0.9090909090909092,
+            "mentions": 6,
+            "precision": 1.0,
+            "recall": 0.8333333333333334,
+            "weighted_support": 0.9999999999999999
+          },
+          "INNOCENT": {
+            "f1": 0.0,
+            "mentions": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "weighted_support": 0.0
+          },
+          "PROTAGONIST": {
+            "f1": 0.0,
+            "mentions": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "weighted_support": 0.0
+          }
+        },
+        "role_order": [
+          "PROTAGONIST",
+          "ANTAGONIST",
+          "INNOCENT"
+        ],
+        "weighted_confusion": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.16666666666666666,
+            0.8333333333333333,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ]
+      },
+      "l2_joint": 0.12205770132971139,
+      "l2_reference": 0.10535717926945184,
+      "source": "ng"
+    },
+    {
+      "delta_brier": -0.06041335433452641,
+      "doc_id": "ng:5_9292_migrants",
+      "group_id": "ng:5_9292_migrants",
+      "l1_joint": {
+        "article_accuracy": 1.0,
+        "brier": 0.0012056883706494867,
+        "confusion": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "cross_entropy": 0.05011339213573798,
+        "macro_f1": 0.3333333333333333,
+        "mention_accuracy": 1.0,
+        "mention_macro_f1": 0.3333333333333333,
+        "n_answers": 1,
+        "n_articles": 1,
+        "n_mentions": 1,
+        "per_role": {
+          "ANTAGONIST": {
+            "f1": 0.0,
+            "mentions": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "weighted_support": 0.0
+          },
+          "INNOCENT": {
+            "f1": 0.0,
+            "mentions": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "weighted_support": 0.0
+          },
+          "PROTAGONIST": {
+            "f1": 1.0,
+            "mentions": 1,
+            "precision": 1.0,
+            "recall": 1.0,
+            "weighted_support": 1.0
+          }
+        },
+        "role_order": [
+          "PROTAGONIST",
+          "ANTAGONIST",
+          "INNOCENT"
+        ],
+        "weighted_confusion": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ]
+      },
+      "l1_reference": {
+        "article_accuracy": 1.0,
+        "brier": 0.0911679346567631,
+        "confusion": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "cross_entropy": 0.48897576424637323,
+        "macro_f1": 0.3333333333333333,
+        "mention_accuracy": 1.0,
+        "mention_macro_f1": 0.3333333333333333,
+        "n_answers": 1,
+        "n_articles": 1,
+        "n_mentions": 1,
+        "per_role": {
+          "ANTAGONIST": {
+            "f1": 0.0,
+            "mentions": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "weighted_support": 0.0
+          },
+          "INNOCENT": {
+            "f1": 0.0,
+            "mentions": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "weighted_support": 0.0
+          },
+          "PROTAGONIST": {
+            "f1": 1.0,
+            "mentions": 1,
+            "precision": 1.0,
+            "recall": 1.0,
+            "weighted_support": 1.0
+          }
+        },
+        "role_order": [
+          "PROTAGONIST",
+          "ANTAGONIST",
+          "INNOCENT"
+        ],
+        "weighted_confusion": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ]
+      },
+      "l2_joint": 0.17821369586679972,
+      "l2_reference": 0.23862705020132613,
+      "source": "ng"
+    },
+    {
+      "delta_brier": 0.0207917221888545,
+      "doc_id": "ng:6_8272_vision",
+      "group_id": "ng:6_8272_vision",
+      "l1_joint": {
+        "article_accuracy": 0.8,
+        "brier": 0.1457393287608459,
+        "confusion": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            1,
+            2,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ]
+        ],
+        "cross_entropy": 0.8052461376038728,
+        "macro_f1": 0.8222222222222223,
+        "mention_accuracy": 0.8,
+        "mention_macro_f1": 0.8222222222222223,
+        "n_answers": 1,
+        "n_articles": 1,
+        "n_mentions": 5,
+        "per_role": {
+          "ANTAGONIST": {
+            "f1": 0.8,
+            "mentions": 3,
+            "precision": 1.0,
+            "recall": 0.6666666666666666,
+            "weighted_support": 0.6000000000000001
+          },
+          "INNOCENT": {
+            "f1": 1.0,
+            "mentions": 1,
+            "precision": 1.0,
+            "recall": 1.0,
+            "weighted_support": 0.2
+          },
+          "PROTAGONIST": {
+            "f1": 0.6666666666666666,
+            "mentions": 1,
+            "precision": 0.5,
+            "recall": 1.0,
+            "weighted_support": 0.2
+          }
+        },
+        "role_order": [
+          "PROTAGONIST",
+          "ANTAGONIST",
+          "INNOCENT"
+        ],
+        "weighted_confusion": [
+          [
+            0.2,
+            0.0,
+            0.0
+          ],
+          [
+            0.2,
+            0.4,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.2
+          ]
+        ]
+      },
+      "l1_reference": {
+        "article_accuracy": 0.8,
+        "brier": 0.1329481673210795,
+        "confusion": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            3,
+            0
+          ],
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "cross_entropy": 1.3071061609147976,
+        "macro_f1": 0.5555555555555555,
+        "mention_accuracy": 0.8,
+        "mention_macro_f1": 0.5555555555555555,
+        "n_answers": 1,
+        "n_articles": 1,
+        "n_mentions": 5,
+        "per_role": {
+          "ANTAGONIST": {
+            "f1": 1.0,
+            "mentions": 3,
+            "precision": 1.0,
+            "recall": 1.0,
+            "weighted_support": 0.6000000000000001
+          },
+          "INNOCENT": {
+            "f1": 0.0,
+            "mentions": 1,
+            "precision": 0.0,
+            "recall": 0.0,
+            "weighted_support": 0.2
+          },
+          "PROTAGONIST": {
+            "f1": 0.6666666666666666,
+            "mentions": 1,
+            "precision": 0.5,
+            "recall": 1.0,
+            "weighted_support": 0.2
+          }
+        },
+        "role_order": [
+          "PROTAGONIST",
+          "ANTAGONIST",
+          "INNOCENT"
+        ],
+        "weighted_confusion": [
+          [
+            0.2,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.6000000000000001,
+            0.0
+          ],
+          [
+            0.2,
+            0.0,
+            0.0
+          ]
+        ]
+      },
+      "l2_joint": 0.24860540847914475,
+      "l2_reference": 0.22781368629029025,
+      "source": "ng"
+    },
+    {
+      "delta_brier": 0.028735165638185095,
+      "doc_id": "ng:6_8326_vision",
+      "group_id": "ng:6_8326_vision",
+      "l1_joint": {
+        "article_accuracy": 0.4545454545454546,
+        "brier": 0.3093083158381028,
+        "confusion": [
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            3,
+            5,
+            0
+          ],
+          [
+            3,
+            0,
+            0
+          ]
+        ],
+        "cross_entropy": 2.503996659378617,
+        "macro_f1": 0.2564102564102564,
+        "mention_accuracy": 0.45454545454545453,
+        "mention_macro_f1": 0.25641025641025644,
+        "n_answers": 1,
+        "n_articles": 1,
+        "n_mentions": 11,
+        "per_role": {
+          "ANTAGONIST": {
+            "f1": 0.7692307692307692,
+            "mentions": 8,
+            "precision": 1.0,
+            "recall": 0.6249999999999999,
+            "weighted_support": 0.7272727272727274
+          },
+          "INNOCENT": {
+            "f1": 0.0,
+            "mentions": 3,
+            "precision": 0.0,
+            "recall": 0.0,
+            "weighted_support": 0.2727272727272727
+          },
+          "PROTAGONIST": {
+            "f1": 0.0,
+            "mentions": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "weighted_support": 0.0
+          }
+        },
+        "role_order": [
+          "PROTAGONIST",
+          "ANTAGONIST",
+          "INNOCENT"
+        ],
+        "weighted_confusion": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.2727272727272727,
+            0.4545454545454546,
+            0.0
+          ],
+          [
+            0.2727272727272727,
+            0.0,
+            0.0
+          ]
+        ]
+      },
+      "l1_reference": {
+        "article_accuracy": 0.4545454545454546,
+        "brier": 0.23340087772154422,
+        "confusion": [
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            5,
+            3
+          ],
+          [
+            2,
+            1,
+            0
+          ]
+        ],
+        "cross_entropy": 1.658023749445023,
+        "macro_f1": 0.23809523809523805,
+        "mention_accuracy": 0.45454545454545453,
+        "mention_macro_f1": 0.2380952380952381,
+        "n_answers": 1,
+        "n_articles": 1,
+        "n_mentions": 11,
+        "per_role": {
+          "ANTAGONIST": {
+            "f1": 0.7142857142857142,
+            "mentions": 8,
+            "precision": 0.8333333333333333,
+            "recall": 0.6249999999999999,
+            "weighted_support": 0.7272727272727274
+          },
+          "INNOCENT": {
+            "f1": 0.0,
+            "mentions": 3,
+            "precision": 0.0,
+            "recall": 0.0,
+            "weighted_support": 0.2727272727272727
+          },
+          "PROTAGONIST": {
+            "f1": 0.0,
+            "mentions": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "weighted_support": 0.0
+          }
+        },
+        "role_order": [
+          "PROTAGONIST",
+          "ANTAGONIST",
+          "INNOCENT"
+        ],
+        "weighted_confusion": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.4545454545454546,
+            0.2727272727272727
+          ],
+          [
+            0.18181818181818182,
+            0.09090909090909091,
+            0.0
+          ]
+        ]
+      },
+      "l2_joint": 0.2546620238318081,
+      "l2_reference": 0.225926858193623,
+      "source": "ng"
+    },
+    {
+      "delta_brier": -0.009006899738783089,
+      "doc_id": "ng:7_9537_duty",
+      "group_id": "ng:7_9537_duty",
+      "l1_joint": null,
+      "l1_reference": null,
+      "l2_joint": 0.10955509560297395,
+      "l2_reference": 0.11856199534175704,
+      "source": "ng"
+    },
+    {
+      "delta_brier": 0.009900594217897907,
+      "doc_id": "ng:8_7915_realy",
+      "group_id": "ng:8_7915_realy",
+      "l1_joint": {
+        "article_accuracy": 0.5,
+        "brier": 0.13927472570041333,
+        "confusion": [
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            1
+          ]
+        ],
+        "cross_entropy": 0.6025488283639324,
+        "macro_f1": 0.2222222222222222,
+        "mention_accuracy": 0.5,
+        "mention_macro_f1": 0.2222222222222222,
+        "n_answers": 1,
+        "n_articles": 1,
+        "n_mentions": 2,
+        "per_role": {
+          "ANTAGONIST": {
+            "f1": 0.0,
+            "mentions": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "weighted_support": 0.0
+          },
+          "INNOCENT": {
+            "f1": 0.6666666666666666,
+            "mentions": 2,
+            "precision": 1.0,
+            "recall": 0.5,
+            "weighted_support": 1.0
+          },
+          "PROTAGONIST": {
+            "f1": 0.0,
+            "mentions": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "weighted_support": 0.0
+          }
+        },
+        "role_order": [
+          "PROTAGONIST",
+          "ANTAGONIST",
+          "INNOCENT"
+        ],
+        "weighted_confusion": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.5,
+            0.5
+          ]
+        ]
+      },
+      "l1_reference": {
+        "article_accuracy": 1.0,
+        "brier": 0.07130644405306209,
+        "confusion": [
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            2
+          ]
+        ],
+        "cross_entropy": 0.31257634223595027,
+        "macro_f1": 0.3333333333333333,
+        "mention_accuracy": 1.0,
+        "mention_macro_f1": 0.3333333333333333,
+        "n_answers": 1,
+        "n_articles": 1,
+        "n_mentions": 2,
+        "per_role": {
+          "ANTAGONIST": {
+            "f1": 0.0,
+            "mentions": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "weighted_support": 0.0
+          },
+          "INNOCENT": {
+            "f1": 1.0,
+            "mentions": 2,
+            "precision": 1.0,
+            "recall": 1.0,
+            "weighted_support": 1.0
+          },
+          "PROTAGONIST": {
+            "f1": 0.0,
+            "mentions": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "weighted_support": 0.0
+          }
+        },
+        "role_order": [
+          "PROTAGONIST",
+          "ANTAGONIST",
+          "INNOCENT"
+        ],
+        "weighted_confusion": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      "l2_joint": 0.17754439895258015,
+      "l2_reference": 0.16764380473468224,
+      "source": "ng"
+    },
+    {
+      "delta_brier": -0.020666368043755767,
+      "doc_id": "ng:8_8046_vision",
+      "group_id": "ng:8_8046_vision",
+      "l1_joint": {
+        "article_accuracy": 1.0,
+        "brier": 0.014258117634581584,
+        "confusion": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "cross_entropy": 0.15928850428434269,
+        "macro_f1": 0.3333333333333333,
+        "mention_accuracy": 1.0,
+        "mention_macro_f1": 0.3333333333333333,
+        "n_answers": 1,
+        "n_articles": 1,
+        "n_mentions": 1,
+        "per_role": {
+          "ANTAGONIST": {
+            "f1": 0.0,
+            "mentions": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "weighted_support": 0.0
+          },
+          "INNOCENT": {
+            "f1": 0.0,
+            "mentions": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "weighted_support": 0.0
+          },
+          "PROTAGONIST": {
+            "f1": 1.0,
+            "mentions": 1,
+            "precision": 1.0,
+            "recall": 1.0,
+            "weighted_support": 1.0
+          }
+        },
+        "role_order": [
+          "PROTAGONIST",
+          "ANTAGONIST",
+          "INNOCENT"
+        ],
+        "weighted_confusion": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ]
+      },
+      "l1_reference": {
+        "article_accuracy": 1.0,
+        "brier": 0.01934271212549728,
+        "confusion": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "cross_entropy": 0.21614375933767235,
+        "macro_f1": 0.3333333333333333,
+        "mention_accuracy": 1.0,
+        "mention_macro_f1": 0.3333333333333333,
+        "n_answers": 1,
+        "n_articles": 1,
+        "n_mentions": 1,
+        "per_role": {
+          "ANTAGONIST": {
+            "f1": 0.0,
+            "mentions": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "weighted_support": 0.0
+          },
+          "INNOCENT": {
+            "f1": 0.0,
+            "mentions": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "weighted_support": 0.0
+          },
+          "PROTAGONIST": {
+            "f1": 1.0,
+            "mentions": 1,
+            "precision": 1.0,
+            "recall": 1.0,
+            "weighted_support": 1.0
+          }
+        },
+        "role_order": [
+          "PROTAGONIST",
+          "ANTAGONIST",
+          "INNOCENT"
+        ],
+        "weighted_confusion": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ]
+      },
+      "l2_joint": 0.14440152591859293,
+      "l2_reference": 0.1650678939623487,
+      "source": "ng"
+    },
+    {
+      "delta_brier": -0.008775483902214672,
+      "doc_id": "ng:8_8293_vision",
+      "group_id": "ng:8_8293_vision",
+      "l1_joint": {
+        "article_accuracy": 0.8888888888888888,
+        "brier": 0.0743712141000917,
+        "confusion": [
+          [
+            6,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ]
+        ],
+        "cross_entropy": 0.5920028661054269,
+        "macro_f1": 0.8632478632478632,
+        "mention_accuracy": 0.8888888888888888,
+        "mention_macro_f1": 0.8632478632478633,
+        "n_answers": 1,
+        "n_articles": 1,
+        "n_mentions": 9,
+        "per_role": {
+          "ANTAGONIST": {
+            "f1": 0.6666666666666666,
+            "mentions": 1,
+            "precision": 0.5,
+            "recall": 1.0,
+            "weighted_support": 0.1111111111111111
+          },
+          "INNOCENT": {
+            "f1": 1.0,
+            "mentions": 1,
+            "precision": 1.0,
+            "recall": 1.0,
+            "weighted_support": 0.1111111111111111
+          },
+          "PROTAGONIST": {
+            "f1": 0.923076923076923,
+            "mentions": 7,
+            "precision": 1.0,
+            "recall": 0.8571428571428571,
+            "weighted_support": 0.7777777777777779
+          }
+        },
+        "role_order": [
+          "PROTAGONIST",
+          "ANTAGONIST",
+          "INNOCENT"
+        ],
+        "weighted_confusion": [
+          [
+            0.6666666666666667,
+            0.1111111111111111,
+            0.0
+          ],
+          [
+            0.0,
+            0.1111111111111111,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.1111111111111111
+          ]
+        ]
+      },
+      "l1_reference": {
+        "article_accuracy": 0.8888888888888888,
+        "brier": 0.08139122293953709,
+        "confusion": [
+          [
+            6,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ]
+        ],
+        "cross_entropy": 0.6695577423833405,
+        "macro_f1": 0.8632478632478632,
+        "mention_accuracy": 0.8888888888888888,
+        "mention_macro_f1": 0.8632478632478633,
+        "n_answers": 1,
+        "n_articles": 1,
+        "n_mentions": 9,
+        "per_role": {
+          "ANTAGONIST": {
+            "f1": 0.6666666666666666,
+            "mentions": 1,
+            "precision": 0.5,
+            "recall": 1.0,
+            "weighted_support": 0.1111111111111111
+          },
+          "INNOCENT": {
+            "f1": 1.0,
+            "mentions": 1,
+            "precision": 1.0,
+            "recall": 1.0,
+            "weighted_support": 0.1111111111111111
+          },
+          "PROTAGONIST": {
+            "f1": 0.923076923076923,
+            "mentions": 7,
+            "precision": 1.0,
+            "recall": 0.8571428571428571,
+            "weighted_support": 0.7777777777777779
+          }
+        },
+        "role_order": [
+          "PROTAGONIST",
+          "ANTAGONIST",
+          "INNOCENT"
+        ],
+        "weighted_confusion": [
+          [
+            0.6666666666666667,
+            0.1111111111111111,
+            0.0
+          ],
+          [
+            0.0,
+            0.1111111111111111,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.1111111111111111
+          ]
+        ]
+      },
+      "l2_joint": 0.052016070374217606,
+      "l2_reference": 0.06079155427643228,
+      "source": "ng"
+    },
+    {
+      "delta_brier": 0.061527251193317894,
+      "doc_id": "ng:8_8710_portfolio",
+      "group_id": "ng:8_8710_portfolio",
+      "l1_joint": {
+        "article_accuracy": 1.0,
+        "brier": 5.817992999846555e-07,
+        "confusion": [
+          [
+            2,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ]
+        ],
+        "cross_entropy": 0.0007924758105644202,
+        "macro_f1": 1.0,
+        "mention_accuracy": 1.0,
+        "mention_macro_f1": 1.0,
+        "n_answers": 1,
+        "n_articles": 1,
+        "n_mentions": 4,
+        "per_role": {
+          "ANTAGONIST": {
+            "f1": 1.0,
+            "mentions": 1,
+            "precision": 1.0,
+            "recall": 1.0,
+            "weighted_support": 0.25
+          },
+          "INNOCENT": {
+            "f1": 1.0,
+            "mentions": 1,
+            "precision": 1.0,
+            "recall": 1.0,
+            "weighted_support": 0.25
+          },
+          "PROTAGONIST": {
+            "f1": 1.0,
+            "mentions": 2,
+            "precision": 1.0,
+            "recall": 1.0,
+            "weighted_support": 0.5
+          }
+        },
+        "role_order": [
+          "PROTAGONIST",
+          "ANTAGONIST",
+          "INNOCENT"
+        ],
+        "weighted_confusion": [
+          [
+            0.5,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.25,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.25
+          ]
+        ]
+      },
+      "l1_reference": {
+        "article_accuracy": 1.0,
+        "brier": 0.016556399687372596,
+        "confusion": [
+          [
+            2,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ]
+        ],
+        "cross_entropy": 0.10546306085441068,
+        "macro_f1": 1.0,
+        "mention_accuracy": 1.0,
+        "mention_macro_f1": 1.0,
+        "n_answers": 1,
+        "n_articles": 1,
+        "n_mentions": 4,
+        "per_role": {
+          "ANTAGONIST": {
+            "f1": 1.0,
+            "mentions": 1,
+            "precision": 1.0,
+            "recall": 1.0,
+            "weighted_support": 0.25
+          },
+          "INNOCENT": {
+            "f1": 1.0,
+            "mentions": 1,
+            "precision": 1.0,
+            "recall": 1.0,
+            "weighted_support": 0.25
+          },
+          "PROTAGONIST": {
+            "f1": 1.0,
+            "mentions": 2,
+            "precision": 1.0,
+            "recall": 1.0,
+            "weighted_support": 0.5
+          }
+        },
+        "role_order": [
+          "PROTAGONIST",
+          "ANTAGONIST",
+          "INNOCENT"
+        ],
+        "weighted_confusion": [
+          [
+            0.5,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.25,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.25
+          ]
+        ]
+      },
+      "l2_joint": 0.2972747553576419,
+      "l2_reference": 0.23574750416432402,
+      "source": "ng"
+    },
+    {
+      "delta_brier": 0.0002959076277811584,
+      "doc_id": "ng:8_8764_maths",
+      "group_id": "ng:8_8764_maths",
+      "l1_joint": {
+        "article_accuracy": 0.25,
+        "brier": 0.4802002012333634,
+        "confusion": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            2
+          ],
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "cross_entropy": 3.614280595079271,
+        "macro_f1": 0.3333333333333333,
+        "mention_accuracy": 0.3333333333333333,
+        "mention_macro_f1": 0.3333333333333333,
+        "n_answers": 2,
+        "n_articles": 1,
+        "n_mentions": 3,
+        "per_role": {
+          "ANTAGONIST": {
+            "f1": 0.0,
+            "mentions": 2,
+            "precision": 0.0,
+            "recall": 0.0,
+            "weighted_support": 0.75
+          },
+          "INNOCENT": {
+            "f1": 0.0,
+            "mentions": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "weighted_support": 0.0
+          },
+          "PROTAGONIST": {
+            "f1": 1.0,
+            "mentions": 1,
+            "precision": 1.0,
+            "recall": 1.0,
+            "weighted_support": 0.25
+          }
+        },
+        "role_order": [
+          "PROTAGONIST",
+          "ANTAGONIST",
+          "INNOCENT"
+        ],
+        "weighted_confusion": [
+          [
+            0.25,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.75
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ]
+      },
+      "l1_reference": {
+        "article_accuracy": 0.25,
+        "brier": 0.4991998212368399,
+        "confusion": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            2
+          ],
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "cross_entropy": 6.481838307823744,
+        "macro_f1": 0.3333333333333333,
+        "mention_accuracy": 0.3333333333333333,
+        "mention_macro_f1": 0.3333333333333333,
+        "n_answers": 2,
+        "n_articles": 1,
+        "n_mentions": 3,
+        "per_role": {
+          "ANTAGONIST": {
+            "f1": 0.0,
+            "mentions": 2,
+            "precision": 0.0,
+            "recall": 0.0,
+            "weighted_support": 0.75
+          },
+          "INNOCENT": {
+            "f1": 0.0,
+            "mentions": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "weighted_support": 0.0
+          },
+          "PROTAGONIST": {
+            "f1": 1.0,
+            "mentions": 1,
+            "precision": 1.0,
+            "recall": 1.0,
+            "weighted_support": 0.25
+          }
+        },
+        "role_order": [
+          "PROTAGONIST",
+          "ANTAGONIST",
+          "INNOCENT"
+        ],
+        "weighted_confusion": [
+          [
+            0.25,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.75
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ]
+      },
+      "l2_joint": 0.08810055956458515,
+      "l2_reference": 0.08780465193680399,
+      "source": "ng"
+    },
+    {
+      "delta_brier": -0.0026655985717858044,
+      "doc_id": "ng:8_8996_textbooks",
+      "group_id": "ng:8_8996_textbooks",
+      "l1_joint": {
+        "article_accuracy": 1.0,
+        "brier": 0.004130214521128966,
+        "confusion": [
+          [
+            2,
+            0,
+            0
+          ],
+          [
+            0,
+            2,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "cross_entropy": 0.05384714069153852,
+        "macro_f1": 0.6666666666666666,
+        "mention_accuracy": 1.0,
+        "mention_macro_f1": 0.6666666666666666,
+        "n_answers": 1,
+        "n_articles": 1,
+        "n_mentions": 4,
+        "per_role": {
+          "ANTAGONIST": {
+            "f1": 1.0,
+            "mentions": 2,
+            "precision": 1.0,
+            "recall": 1.0,
+            "weighted_support": 0.5
+          },
+          "INNOCENT": {
+            "f1": 0.0,
+            "mentions": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "weighted_support": 0.0
+          },
+          "PROTAGONIST": {
+            "f1": 1.0,
+            "mentions": 2,
+            "precision": 1.0,
+            "recall": 1.0,
+            "weighted_support": 0.5
+          }
+        },
+        "role_order": [
+          "PROTAGONIST",
+          "ANTAGONIST",
+          "INNOCENT"
+        ],
+        "weighted_confusion": [
+          [
+            0.5,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.5,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ]
+      },
+      "l1_reference": {
+        "article_accuracy": 0.75,
+        "brier": 0.1580355650432939,
+        "confusion": [
+          [
+            1,
+            1,
+            0
+          ],
+          [
+            0,
+            2,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "cross_entropy": 1.1803774417325632,
+        "macro_f1": 0.48888888888888893,
+        "mention_accuracy": 0.75,
+        "mention_macro_f1": 0.48888888888888893,
+        "n_answers": 1,
+        "n_articles": 1,
+        "n_mentions": 4,
+        "per_role": {
+          "ANTAGONIST": {
+            "f1": 0.8,
+            "mentions": 2,
+            "precision": 0.6666666666666666,
+            "recall": 1.0,
+            "weighted_support": 0.5
+          },
+          "INNOCENT": {
+            "f1": 0.0,
+            "mentions": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "weighted_support": 0.0
+          },
+          "PROTAGONIST": {
+            "f1": 0.6666666666666666,
+            "mentions": 2,
+            "precision": 1.0,
+            "recall": 0.5,
+            "weighted_support": 0.5
+          }
+        },
+        "role_order": [
+          "PROTAGONIST",
+          "ANTAGONIST",
+          "INNOCENT"
+        ],
+        "weighted_confusion": [
+          [
+            0.25,
+            0.25,
+            0.0
+          ],
+          [
+            0.0,
+            0.5,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ]
+      },
+      "l2_joint": 0.1373800151140198,
+      "l2_reference": 0.1400456136858056,
+      "source": "ng"
+    },
+    {
+      "delta_brier": -0.010867247677345773,
+      "doc_id": "ria_novosti:2042540813",
+      "group_id": "ria_novosti:2042540813",
+      "l1_joint": {
+        "article_accuracy": 1.0,
+        "brier": 0.032254864333583586,
+        "confusion": [
+          [
+            3,
+            0,
+            0
+          ],
+          [
+            0,
+            7,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ]
+        ],
+        "cross_entropy": 0.171822734367207,
+        "macro_f1": 1.0,
+        "mention_accuracy": 1.0,
+        "mention_macro_f1": 1.0,
+        "n_answers": 1,
+        "n_articles": 1,
+        "n_mentions": 11,
+        "per_role": {
+          "ANTAGONIST": {
+            "f1": 1.0,
+            "mentions": 7,
+            "precision": 1.0,
+            "recall": 1.0,
+            "weighted_support": 0.6363636363636365
+          },
+          "INNOCENT": {
+            "f1": 1.0,
+            "mentions": 1,
+            "precision": 1.0,
+            "recall": 1.0,
+            "weighted_support": 0.09090909090909091
+          },
+          "PROTAGONIST": {
+            "f1": 1.0,
+            "mentions": 3,
+            "precision": 1.0,
+            "recall": 1.0,
+            "weighted_support": 0.2727272727272727
+          }
+        },
+        "role_order": [
+          "PROTAGONIST",
+          "ANTAGONIST",
+          "INNOCENT"
+        ],
+        "weighted_confusion": [
+          [
+            0.2727272727272727,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.6363636363636365,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.09090909090909091
+          ]
+        ]
+      },
+      "l1_reference": {
+        "article_accuracy": 0.7272727272727273,
+        "brier": 0.13947769844126037,
+        "confusion": [
+          [
+            3,
+            0,
+            0
+          ],
+          [
+            3,
+            4,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ]
+        ],
+        "cross_entropy": 0.7982286147550317,
+        "macro_f1": 0.797979797979798,
+        "mention_accuracy": 0.7272727272727273,
+        "mention_macro_f1": 0.797979797979798,
+        "n_answers": 1,
+        "n_articles": 1,
+        "n_mentions": 11,
+        "per_role": {
+          "ANTAGONIST": {
+            "f1": 0.7272727272727273,
+            "mentions": 7,
+            "precision": 1.0,
+            "recall": 0.5714285714285714,
+            "weighted_support": 0.6363636363636365
+          },
+          "INNOCENT": {
+            "f1": 1.0,
+            "mentions": 1,
+            "precision": 1.0,
+            "recall": 1.0,
+            "weighted_support": 0.09090909090909091
+          },
+          "PROTAGONIST": {
+            "f1": 0.6666666666666666,
+            "mentions": 3,
+            "precision": 0.4999999999999999,
+            "recall": 1.0,
+            "weighted_support": 0.2727272727272727
+          }
+        },
+        "role_order": [
+          "PROTAGONIST",
+          "ANTAGONIST",
+          "INNOCENT"
+        ],
+        "weighted_confusion": [
+          [
+            0.2727272727272727,
+            0.0,
+            0.0
+          ],
+          [
+            0.2727272727272727,
+            0.36363636363636365,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.09090909090909091
+          ]
+        ]
+      },
+      "l2_joint": 0.11033951817907063,
+      "l2_reference": 0.1212067658564164,
+      "source": "ria_novosti"
+    },
+    {
+      "delta_brier": -0.009640158009134162,
+      "doc_id": "ria_novosti:2099824110",
+      "group_id": "ria_novosti:2099824110",
+      "l1_joint": {
+        "article_accuracy": 0.6666666666666666,
+        "brier": 0.22221989712020368,
+        "confusion": [
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            2,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "cross_entropy": 4.025199261053836,
+        "macro_f1": 0.26666666666666666,
+        "mention_accuracy": 0.6666666666666666,
+        "mention_macro_f1": 0.26666666666666666,
+        "n_answers": 1,
+        "n_articles": 1,
+        "n_mentions": 3,
+        "per_role": {
+          "ANTAGONIST": {
+            "f1": 0.8,
+            "mentions": 2,
+            "precision": 0.6666666666666666,
+            "recall": 1.0,
+            "weighted_support": 0.6666666666666666
+          },
+          "INNOCENT": {
+            "f1": 0.0,
+            "mentions": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "weighted_support": 0.0
+          },
+          "PROTAGONIST": {
+            "f1": 0.0,
+            "mentions": 1,
+            "precision": 0.0,
+            "recall": 0.0,
+            "weighted_support": 0.3333333333333333
+          }
+        },
+        "role_order": [
+          "PROTAGONIST",
+          "ANTAGONIST",
+          "INNOCENT"
+        ],
+        "weighted_confusion": [
+          [
+            0.0,
+            0.3333333333333333,
+            0.0
+          ],
+          [
+            0.0,
+            0.6666666666666666,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ]
+      },
+      "l1_reference": {
+        "article_accuracy": 0.6666666666666666,
+        "brier": 0.22219694504203893,
+        "confusion": [
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            2,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "cross_entropy": 3.266740914332937,
+        "macro_f1": 0.26666666666666666,
+        "mention_accuracy": 0.6666666666666666,
+        "mention_macro_f1": 0.26666666666666666,
+        "n_answers": 1,
+        "n_articles": 1,
+        "n_mentions": 3,
+        "per_role": {
+          "ANTAGONIST": {
+            "f1": 0.8,
+            "mentions": 2,
+            "precision": 0.6666666666666666,
+            "recall": 1.0,
+            "weighted_support": 0.6666666666666666
+          },
+          "INNOCENT": {
+            "f1": 0.0,
+            "mentions": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "weighted_support": 0.0
+          },
+          "PROTAGONIST": {
+            "f1": 0.0,
+            "mentions": 1,
+            "precision": 0.0,
+            "recall": 0.0,
+            "weighted_support": 0.3333333333333333
+          }
+        },
+        "role_order": [
+          "PROTAGONIST",
+          "ANTAGONIST",
+          "INNOCENT"
+        ],
+        "weighted_confusion": [
+          [
+            0.0,
+            0.3333333333333333,
+            0.0
+          ],
+          [
+            0.0,
+            0.6666666666666666,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ]
+      },
+      "l2_joint": 0.06896747118428133,
+      "l2_reference": 0.07860762919341549,
+      "source": "ria_novosti"
+    },
+    {
+      "delta_brier": -0.0015473608293933988,
+      "doc_id": "ria_novosti:2106459260",
+      "group_id": "ria_novosti:2106459260",
+      "l1_joint": {
+        "article_accuracy": 0.5,
+        "brier": 0.27449067155386453,
+        "confusion": [
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            2,
+            0
+          ],
+          [
+            1,
+            1,
+            0
+          ]
+        ],
+        "cross_entropy": 2.0163775336172574,
+        "macro_f1": 0.26666666666666666,
+        "mention_accuracy": 0.5,
+        "mention_macro_f1": 0.26666666666666666,
+        "n_answers": 1,
+        "n_articles": 1,
+        "n_mentions": 4,
+        "per_role": {
+          "ANTAGONIST": {
+            "f1": 0.8,
+            "mentions": 2,
+            "precision": 0.6666666666666666,
+            "recall": 1.0,
+            "weighted_support": 0.5
+          },
+          "INNOCENT": {
+            "f1": 0.0,
+            "mentions": 2,
+            "precision": 0.0,
+            "recall": 0.0,
+            "weighted_support": 0.5
+          },
+          "PROTAGONIST": {
+            "f1": 0.0,
+            "mentions": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "weighted_support": 0.0
+          }
+        },
+        "role_order": [
+          "PROTAGONIST",
+          "ANTAGONIST",
+          "INNOCENT"
+        ],
+        "weighted_confusion": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.5,
+            0.0
+          ],
+          [
+            0.25,
+            0.25,
+            0.0
+          ]
+        ]
+      },
+      "l1_reference": {
+        "article_accuracy": 0.5,
+        "brier": 0.2336440836697738,
+        "confusion": [
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            2,
+            0
+          ],
+          [
+            2,
+            0,
+            0
+          ]
+        ],
+        "cross_entropy": 1.1099574118721287,
+        "macro_f1": 0.3333333333333333,
+        "mention_accuracy": 0.5,
+        "mention_macro_f1": 0.3333333333333333,
+        "n_answers": 1,
+        "n_articles": 1,
+        "n_mentions": 4,
+        "per_role": {
+          "ANTAGONIST": {
+            "f1": 1.0,
+            "mentions": 2,
+            "precision": 1.0,
+            "recall": 1.0,
+            "weighted_support": 0.5
+          },
+          "INNOCENT": {
+            "f1": 0.0,
+            "mentions": 2,
+            "precision": 0.0,
+            "recall": 0.0,
+            "weighted_support": 0.5
+          },
+          "PROTAGONIST": {
+            "f1": 0.0,
+            "mentions": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "weighted_support": 0.0
+          }
+        },
+        "role_order": [
+          "PROTAGONIST",
+          "ANTAGONIST",
+          "INNOCENT"
+        ],
+        "weighted_confusion": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.5,
+            0.0
+          ],
+          [
+            0.5,
+            0.0,
+            0.0
+          ]
+        ]
+      },
+      "l2_joint": 0.08529862623419933,
+      "l2_reference": 0.08684598706359273,
+      "source": "ria_novosti"
+    },
+    {
+      "delta_brier": 0.01664288043897083,
+      "doc_id": "theinsider:236745",
+      "group_id": "theinsider:236745",
+      "l1_joint": {
+        "article_accuracy": 0.6470588235294117,
+        "brier": 0.18842413677472686,
+        "confusion": [
+          [
+            4,
+            0,
+            1
+          ],
+          [
+            0,
+            6,
+            0
+          ],
+          [
+            1,
+            4,
+            1
+          ]
+        ],
+        "cross_entropy": 2.295671161087835,
+        "macro_f1": 0.6,
+        "mention_accuracy": 0.6470588235294118,
+        "mention_macro_f1": 0.6,
+        "n_answers": 1,
+        "n_articles": 1,
+        "n_mentions": 17,
+        "per_role": {
+          "ANTAGONIST": {
+            "f1": 0.7500000000000001,
+            "mentions": 6,
+            "precision": 0.6,
+            "recall": 1.0,
+            "weighted_support": 0.35294117647058826
+          },
+          "INNOCENT": {
+            "f1": 0.25,
+            "mentions": 6,
+            "precision": 0.5,
+            "recall": 0.16666666666666666,
+            "weighted_support": 0.35294117647058826
+          },
+          "PROTAGONIST": {
+            "f1": 0.7999999999999999,
+            "mentions": 5,
+            "precision": 0.7999999999999999,
+            "recall": 0.7999999999999999,
+            "weighted_support": 0.29411764705882354
+          }
+        },
+        "role_order": [
+          "PROTAGONIST",
+          "ANTAGONIST",
+          "INNOCENT"
+        ],
+        "weighted_confusion": [
+          [
+            0.23529411764705882,
+            0.0,
+            0.058823529411764705
+          ],
+          [
+            0.0,
+            0.35294117647058826,
+            0.0
+          ],
+          [
+            0.058823529411764705,
+            0.23529411764705882,
+            0.058823529411764705
+          ]
+        ]
+      },
+      "l1_reference": {
+        "article_accuracy": 0.7058823529411764,
+        "brier": 0.1985515156757732,
+        "confusion": [
+          [
+            5,
+            0,
+            0
+          ],
+          [
+            2,
+            4,
+            0
+          ],
+          [
+            0,
+            3,
+            3
+          ]
+        ],
+        "cross_entropy": 2.118537946617303,
+        "macro_f1": 0.705128205128205,
+        "mention_accuracy": 0.7058823529411765,
+        "mention_macro_f1": 0.7051282051282052,
+        "n_answers": 1,
+        "n_articles": 1,
+        "n_mentions": 17,
+        "per_role": {
+          "ANTAGONIST": {
+            "f1": 0.6153846153846153,
+            "mentions": 6,
+            "precision": 0.5714285714285714,
+            "recall": 0.6666666666666666,
+            "weighted_support": 0.35294117647058826
+          },
+          "INNOCENT": {
+            "f1": 0.6666666666666666,
+            "mentions": 6,
+            "precision": 1.0,
+            "recall": 0.49999999999999994,
+            "weighted_support": 0.35294117647058826
+          },
+          "PROTAGONIST": {
+            "f1": 0.8333333333333333,
+            "mentions": 5,
+            "precision": 0.7142857142857143,
+            "recall": 1.0,
+            "weighted_support": 0.29411764705882354
+          }
+        },
+        "role_order": [
+          "PROTAGONIST",
+          "ANTAGONIST",
+          "INNOCENT"
+        ],
+        "weighted_confusion": [
+          [
+            0.29411764705882354,
+            0.0,
+            0.0
+          ],
+          [
+            0.11764705882352941,
+            0.23529411764705882,
+            0.0
+          ],
+          [
+            0.0,
+            0.1764705882352941,
+            0.1764705882352941
+          ]
+        ]
+      },
+      "l2_joint": 0.14622048924363776,
+      "l2_reference": 0.12957760880466693,
+      "source": "theinsider"
+    },
+    {
+      "delta_brier": 0.02965650641967555,
+      "doc_id": "theinsider:238660",
+      "group_id": "theinsider:238660",
+      "l1_joint": {
+        "article_accuracy": 0.5,
+        "brier": 0.23901637685714688,
+        "confusion": [
+          [
+            1,
+            1,
+            0
+          ],
+          [
+            1,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "cross_entropy": 1.4050307739676609,
+        "macro_f1": 0.3333333333333333,
+        "mention_accuracy": 0.5,
+        "mention_macro_f1": 0.3333333333333333,
+        "n_answers": 1,
+        "n_articles": 1,
+        "n_mentions": 4,
+        "per_role": {
+          "ANTAGONIST": {
+            "f1": 0.5,
+            "mentions": 2,
+            "precision": 0.5,
+            "recall": 0.5,
+            "weighted_support": 0.5
+          },
+          "INNOCENT": {
+            "f1": 0.0,
+            "mentions": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "weighted_support": 0.0
+          },
+          "PROTAGONIST": {
+            "f1": 0.5,
+            "mentions": 2,
+            "precision": 0.5,
+            "recall": 0.5,
+            "weighted_support": 0.5
+          }
+        },
+        "role_order": [
+          "PROTAGONIST",
+          "ANTAGONIST",
+          "INNOCENT"
+        ],
+        "weighted_confusion": [
+          [
+            0.25,
+            0.25,
+            0.0
+          ],
+          [
+            0.25,
+            0.25,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ]
+      },
+      "l1_reference": {
+        "article_accuracy": 0.75,
+        "brier": 0.16485718198585422,
+        "confusion": [
+          [
+            2,
+            0,
+            0
+          ],
+          [
+            1,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "cross_entropy": 1.233019027199229,
+        "macro_f1": 0.48888888888888893,
+        "mention_accuracy": 0.75,
+        "mention_macro_f1": 0.48888888888888893,
+        "n_answers": 1,
+        "n_articles": 1,
+        "n_mentions": 4,
+        "per_role": {
+          "ANTAGONIST": {
+            "f1": 0.6666666666666666,
+            "mentions": 2,
+            "precision": 1.0,
+            "recall": 0.5,
+            "weighted_support": 0.5
+          },
+          "INNOCENT": {
+            "f1": 0.0,
+            "mentions": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "weighted_support": 0.0
+          },
+          "PROTAGONIST": {
+            "f1": 0.8,
+            "mentions": 2,
+            "precision": 0.6666666666666666,
+            "recall": 1.0,
+            "weighted_support": 0.5
+          }
+        },
+        "role_order": [
+          "PROTAGONIST",
+          "ANTAGONIST",
+          "INNOCENT"
+        ],
+        "weighted_confusion": [
+          [
+            0.5,
+            0.0,
+            0.0
+          ],
+          [
+            0.25,
+            0.25,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ]
+      },
+      "l2_joint": 0.07245048248342194,
+      "l2_reference": 0.04279397606374639,
+      "source": "theinsider"
+    },
+    {
+      "delta_brier": -0.005697750094610182,
+      "doc_id": "theinsider:253489",
+      "group_id": "theinsider:253489",
+      "l1_joint": {
+        "article_accuracy": 0.8333333333333334,
+        "brier": 0.11087848778025931,
+        "confusion": [
+          [
+            3,
+            0,
+            0
+          ],
+          [
+            0,
+            2,
+            0
+          ],
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "cross_entropy": 1.0541326686615864,
+        "macro_f1": 0.6190476190476191,
+        "mention_accuracy": 0.8333333333333334,
+        "mention_macro_f1": 0.6190476190476191,
+        "n_answers": 1,
+        "n_articles": 1,
+        "n_mentions": 6,
+        "per_role": {
+          "ANTAGONIST": {
+            "f1": 1.0,
+            "mentions": 2,
+            "precision": 1.0,
+            "recall": 1.0,
+            "weighted_support": 0.3333333333333333
+          },
+          "INNOCENT": {
+            "f1": 0.0,
+            "mentions": 1,
+            "precision": 0.0,
+            "recall": 0.0,
+            "weighted_support": 0.16666666666666666
+          },
+          "PROTAGONIST": {
+            "f1": 0.8571428571428572,
+            "mentions": 3,
+            "precision": 0.75,
+            "recall": 1.0,
+            "weighted_support": 0.5
+          }
+        },
+        "role_order": [
+          "PROTAGONIST",
+          "ANTAGONIST",
+          "INNOCENT"
+        ],
+        "weighted_confusion": [
+          [
+            0.5,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.3333333333333333,
+            0.0
+          ],
+          [
+            0.16666666666666666,
+            0.0,
+            0.0
+          ]
+        ]
+      },
+      "l1_reference": {
+        "article_accuracy": 1.0,
+        "brier": 1.3277380506812298e-06,
+        "confusion": [
+          [
+            3,
+            0,
+            0
+          ],
+          [
+            0,
+            2,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ]
+        ],
+        "cross_entropy": 0.0008970395570051335,
+        "macro_f1": 1.0,
+        "mention_accuracy": 1.0,
+        "mention_macro_f1": 1.0,
+        "n_answers": 1,
+        "n_articles": 1,
+        "n_mentions": 6,
+        "per_role": {
+          "ANTAGONIST": {
+            "f1": 1.0,
+            "mentions": 2,
+            "precision": 1.0,
+            "recall": 1.0,
+            "weighted_support": 0.3333333333333333
+          },
+          "INNOCENT": {
+            "f1": 1.0,
+            "mentions": 1,
+            "precision": 1.0,
+            "recall": 1.0,
+            "weighted_support": 0.16666666666666666
+          },
+          "PROTAGONIST": {
+            "f1": 1.0,
+            "mentions": 3,
+            "precision": 1.0,
+            "recall": 1.0,
+            "weighted_support": 0.5
+          }
+        },
+        "role_order": [
+          "PROTAGONIST",
+          "ANTAGONIST",
+          "INNOCENT"
+        ],
+        "weighted_confusion": [
+          [
+            0.5,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.3333333333333333,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.16666666666666666
+          ]
+        ]
+      },
+      "l2_joint": 0.06569657998094948,
+      "l2_reference": 0.07139433007555966,
+      "source": "theinsider"
+    },
+    {
+      "delta_brier": 0.002107454392763747,
+      "doc_id": "theinsider:260829",
+      "group_id": "theinsider:260829",
+      "l1_joint": {
+        "article_accuracy": 0.7142857142857143,
+        "brier": 0.14390204074734075,
+        "confusion": [
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            5,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ]
+        ],
+        "cross_entropy": 0.8487227898006896,
+        "macro_f1": 0.2777777777777778,
+        "mention_accuracy": 0.7142857142857143,
+        "mention_macro_f1": 0.2777777777777778,
+        "n_answers": 1,
+        "n_articles": 1,
+        "n_mentions": 7,
+        "per_role": {
+          "ANTAGONIST": {
+            "f1": 0.8333333333333334,
+            "mentions": 5,
+            "precision": 0.7142857142857143,
+            "recall": 1.0,
+            "weighted_support": 0.7142857142857142
+          },
+          "INNOCENT": {
+            "f1": 0.0,
+            "mentions": 1,
+            "precision": 0.0,
+            "recall": 0.0,
+            "weighted_support": 0.14285714285714285
+          },
+          "PROTAGONIST": {
+            "f1": 0.0,
+            "mentions": 1,
+            "precision": 0.0,
+            "recall": 0.0,
+            "weighted_support": 0.14285714285714285
+          }
+        },
+        "role_order": [
+          "PROTAGONIST",
+          "ANTAGONIST",
+          "INNOCENT"
+        ],
+        "weighted_confusion": [
+          [
+            0.0,
+            0.14285714285714285,
+            0.0
+          ],
+          [
+            0.0,
+            0.7142857142857142,
+            0.0
+          ],
+          [
+            0.0,
+            0.14285714285714285,
+            0.0
+          ]
+        ]
+      },
+      "l1_reference": {
+        "article_accuracy": 0.8571428571428572,
+        "brier": 0.054701263177218615,
+        "confusion": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            5,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ]
+        ],
+        "cross_entropy": 0.22895286307608842,
+        "macro_f1": 0.6363636363636364,
+        "mention_accuracy": 0.8571428571428571,
+        "mention_macro_f1": 0.6363636363636364,
+        "n_answers": 1,
+        "n_articles": 1,
+        "n_mentions": 7,
+        "per_role": {
+          "ANTAGONIST": {
+            "f1": 0.9090909090909092,
+            "mentions": 5,
+            "precision": 0.8333333333333334,
+            "recall": 1.0,
+            "weighted_support": 0.7142857142857142
+          },
+          "INNOCENT": {
+            "f1": 0.0,
+            "mentions": 1,
+            "precision": 0.0,
+            "recall": 0.0,
+            "weighted_support": 0.14285714285714285
+          },
+          "PROTAGONIST": {
+            "f1": 1.0,
+            "mentions": 1,
+            "precision": 1.0,
+            "recall": 1.0,
+            "weighted_support": 0.14285714285714285
+          }
+        },
+        "role_order": [
+          "PROTAGONIST",
+          "ANTAGONIST",
+          "INNOCENT"
+        ],
+        "weighted_confusion": [
+          [
+            0.14285714285714285,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.7142857142857142,
+            0.0
+          ],
+          [
+            0.0,
+            0.14285714285714285,
+            0.0
+          ]
+        ]
+      },
+      "l2_joint": 0.1402519836544444,
+      "l2_reference": 0.13814452926168067,
+      "source": "theinsider"
+    },
+    {
+      "delta_brier": 0.02103987887690298,
+      "doc_id": "theinsider:266563",
+      "group_id": "theinsider:266563",
+      "l1_joint": {
+        "article_accuracy": 0.7777777777777777,
+        "brier": 0.14744275076253088,
+        "confusion": [
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            6,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ]
+        ],
+        "cross_entropy": 1.4951527142674037,
+        "macro_f1": 0.5299145299145299,
+        "mention_accuracy": 0.7777777777777778,
+        "mention_macro_f1": 0.5299145299145299,
+        "n_answers": 1,
+        "n_articles": 1,
+        "n_mentions": 9,
+        "per_role": {
+          "ANTAGONIST": {
+            "f1": 0.923076923076923,
+            "mentions": 6,
+            "precision": 0.8571428571428571,
+            "recall": 1.0,
+            "weighted_support": 0.6666666666666667
+          },
+          "INNOCENT": {
+            "f1": 0.6666666666666666,
+            "mentions": 1,
+            "precision": 0.5,
+            "recall": 1.0,
+            "weighted_support": 0.1111111111111111
+          },
+          "PROTAGONIST": {
+            "f1": 0.0,
+            "mentions": 2,
+            "precision": 0.0,
+            "recall": 0.0,
+            "weighted_support": 0.2222222222222222
+          }
+        },
+        "role_order": [
+          "PROTAGONIST",
+          "ANTAGONIST",
+          "INNOCENT"
+        ],
+        "weighted_confusion": [
+          [
+            0.0,
+            0.1111111111111111,
+            0.1111111111111111
+          ],
+          [
+            0.0,
+            0.6666666666666667,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.1111111111111111
+          ]
+        ]
+      },
+      "l1_reference": {
+        "article_accuracy": 0.7777777777777777,
+        "brier": 0.1636762897486716,
+        "confusion": [
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            6,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ]
+        ],
+        "cross_entropy": 1.1509201744129527,
+        "macro_f1": 0.5299145299145299,
+        "mention_accuracy": 0.7777777777777778,
+        "mention_macro_f1": 0.5299145299145299,
+        "n_answers": 1,
+        "n_articles": 1,
+        "n_mentions": 9,
+        "per_role": {
+          "ANTAGONIST": {
+            "f1": 0.923076923076923,
+            "mentions": 6,
+            "precision": 0.8571428571428571,
+            "recall": 1.0,
+            "weighted_support": 0.6666666666666667
+          },
+          "INNOCENT": {
+            "f1": 0.6666666666666666,
+            "mentions": 1,
+            "precision": 0.5,
+            "recall": 1.0,
+            "weighted_support": 0.1111111111111111
+          },
+          "PROTAGONIST": {
+            "f1": 0.0,
+            "mentions": 2,
+            "precision": 0.0,
+            "recall": 0.0,
+            "weighted_support": 0.2222222222222222
+          }
+        },
+        "role_order": [
+          "PROTAGONIST",
+          "ANTAGONIST",
+          "INNOCENT"
+        ],
+        "weighted_confusion": [
+          [
+            0.0,
+            0.1111111111111111,
+            0.1111111111111111
+          ],
+          [
+            0.0,
+            0.6666666666666667,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.1111111111111111
+          ]
+        ]
+      },
+      "l2_joint": 0.22358805749045438,
+      "l2_reference": 0.2025481786135514,
+      "source": "theinsider"
+    },
+    {
+      "delta_brier": 0.004660264404857409,
+      "doc_id": "theinsider:267448",
+      "group_id": "theinsider:267448",
+      "l1_joint": {
+        "article_accuracy": 0.875,
+        "brier": 0.0830511236234842,
+        "confusion": [
+          [
+            2,
+            1,
+            0
+          ],
+          [
+            0,
+            3,
+            0
+          ],
+          [
+            0,
+            0,
+            2
+          ]
+        ],
+        "cross_entropy": 0.7906869579314112,
+        "macro_f1": 0.8857142857142857,
+        "mention_accuracy": 0.875,
+        "mention_macro_f1": 0.8857142857142857,
+        "n_answers": 1,
+        "n_articles": 1,
+        "n_mentions": 8,
+        "per_role": {
+          "ANTAGONIST": {
+            "f1": 0.8571428571428571,
+            "mentions": 3,
+            "precision": 0.75,
+            "recall": 1.0,
+            "weighted_support": 0.375
+          },
+          "INNOCENT": {
+            "f1": 1.0,
+            "mentions": 2,
+            "precision": 1.0,
+            "recall": 1.0,
+            "weighted_support": 0.25
+          },
+          "PROTAGONIST": {
+            "f1": 0.8,
+            "mentions": 3,
+            "precision": 1.0,
+            "recall": 0.6666666666666666,
+            "weighted_support": 0.375
+          }
+        },
+        "role_order": [
+          "PROTAGONIST",
+          "ANTAGONIST",
+          "INNOCENT"
+        ],
+        "weighted_confusion": [
+          [
+            0.25,
+            0.125,
+            0.0
+          ],
+          [
+            0.0,
+            0.375,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.25
+          ]
+        ]
+      },
+      "l1_reference": {
+        "article_accuracy": 0.875,
+        "brier": 0.10160315684688222,
+        "confusion": [
+          [
+            2,
+            1,
+            0
+          ],
+          [
+            0,
+            3,
+            0
+          ],
+          [
+            0,
+            0,
+            2
+          ]
+        ],
+        "cross_entropy": 0.8125156426599809,
+        "macro_f1": 0.8857142857142857,
+        "mention_accuracy": 0.875,
+        "mention_macro_f1": 0.8857142857142857,
+        "n_answers": 1,
+        "n_articles": 1,
+        "n_mentions": 8,
+        "per_role": {
+          "ANTAGONIST": {
+            "f1": 0.8571428571428571,
+            "mentions": 3,
+            "precision": 0.75,
+            "recall": 1.0,
+            "weighted_support": 0.375
+          },
+          "INNOCENT": {
+            "f1": 1.0,
+            "mentions": 2,
+            "precision": 1.0,
+            "recall": 1.0,
+            "weighted_support": 0.25
+          },
+          "PROTAGONIST": {
+            "f1": 0.8,
+            "mentions": 3,
+            "precision": 1.0,
+            "recall": 0.6666666666666666,
+            "weighted_support": 0.375
+          }
+        },
+        "role_order": [
+          "PROTAGONIST",
+          "ANTAGONIST",
+          "INNOCENT"
+        ],
+        "weighted_confusion": [
+          [
+            0.25,
+            0.125,
+            0.0
+          ],
+          [
+            0.0,
+            0.375,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.25
+          ]
+        ]
+      },
+      "l2_joint": 0.11709854708126233,
+      "l2_reference": 0.11243828267640492,
+      "source": "theinsider"
+    },
+    {
+      "delta_brier": -0.011399083491215885,
+      "doc_id": "theinsider:280997",
+      "group_id": "theinsider:280997",
+      "l1_joint": {
+        "article_accuracy": 0.4545454545454546,
+        "brier": 0.3134567545314925,
+        "confusion": [
+          [
+            0,
+            4,
+            0
+          ],
+          [
+            1,
+            5,
+            1
+          ],
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "cross_entropy": 2.8606206454231633,
+        "macro_f1": 0.2083333333333333,
+        "mention_accuracy": 0.45454545454545453,
+        "mention_macro_f1": 0.20833333333333334,
+        "n_answers": 1,
+        "n_articles": 1,
+        "n_mentions": 11,
+        "per_role": {
+          "ANTAGONIST": {
+            "f1": 0.6249999999999999,
+            "mentions": 7,
+            "precision": 0.5555555555555555,
+            "recall": 0.7142857142857142,
+            "weighted_support": 0.6363636363636365
+          },
+          "INNOCENT": {
+            "f1": 0.0,
+            "mentions": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "weighted_support": 0.0
+          },
+          "PROTAGONIST": {
+            "f1": 0.0,
+            "mentions": 4,
+            "precision": 0.0,
+            "recall": 0.0,
+            "weighted_support": 0.36363636363636365
+          }
+        },
+        "role_order": [
+          "PROTAGONIST",
+          "ANTAGONIST",
+          "INNOCENT"
+        ],
+        "weighted_confusion": [
+          [
+            0.0,
+            0.36363636363636365,
+            0.0
+          ],
+          [
+            0.09090909090909091,
+            0.4545454545454546,
+            0.09090909090909091
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ]
+      },
+      "l1_reference": {
+        "article_accuracy": 0.5454545454545455,
+        "brier": 0.26489431597254315,
+        "confusion": [
+          [
+            1,
+            1,
+            2
+          ],
+          [
+            1,
+            5,
+            1
+          ],
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "cross_entropy": 1.7419672263255752,
+        "macro_f1": 0.36752136752136755,
+        "mention_accuracy": 0.5454545454545454,
+        "mention_macro_f1": 0.36752136752136755,
+        "n_answers": 1,
+        "n_articles": 1,
+        "n_mentions": 11,
+        "per_role": {
+          "ANTAGONIST": {
+            "f1": 0.7692307692307692,
+            "mentions": 7,
+            "precision": 0.8333333333333333,
+            "recall": 0.7142857142857142,
+            "weighted_support": 0.6363636363636365
+          },
+          "INNOCENT": {
+            "f1": 0.0,
+            "mentions": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "weighted_support": 0.0
+          },
+          "PROTAGONIST": {
+            "f1": 0.33333333333333337,
+            "mentions": 4,
+            "precision": 0.5,
+            "recall": 0.25,
+            "weighted_support": 0.36363636363636365
+          }
+        },
+        "role_order": [
+          "PROTAGONIST",
+          "ANTAGONIST",
+          "INNOCENT"
+        ],
+        "weighted_confusion": [
+          [
+            0.09090909090909091,
+            0.09090909090909091,
+            0.18181818181818182
+          ],
+          [
+            0.09090909090909091,
+            0.4545454545454546,
+            0.09090909090909091
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ]
+      },
+      "l2_joint": 0.05586731695114049,
+      "l2_reference": 0.06726640044235638,
+      "source": "theinsider"
+    }
+  ],
+  "errors": {
+    "corrected": 14,
+    "directions": {
+      "ANTAGONIST -> INNOCENT": 3,
+      "ANTAGONIST -> PROTAGONIST": 13,
+      "INNOCENT -> ANTAGONIST": 14,
+      "INNOCENT -> PROTAGONIST": 6,
+      "PROTAGONIST -> ANTAGONIST": 12,
+      "PROTAGONIST -> INNOCENT": 2
+    },
+    "introduced": 18,
+    "joint": {
+      "errors": 50,
+      "wrong_confidence_ge_90": 31,
+      "wrong_confidence_ge_99": 20
+    },
+    "reference": {
+      "errors": 46,
+      "wrong_confidence_ge_90": 29,
+      "wrong_confidence_ge_99": 19
+    }
+  },
+  "last": {
+    "l1": {
+      "article_accuracy": 0.7536006252030594,
+      "brier": 0.1382459428151642,
+      "confusion": [
+        [
+          32,
+          12,
+          2
+        ],
+        [
+          15,
+          94,
+          3
+        ],
+        [
+          6,
+          14,
+          22
+        ]
+      ],
+      "cross_entropy": 1.1909618081772007,
+      "macro_f1": 0.7283496146276122,
+      "mention_accuracy": 0.74,
+      "mention_macro_f1": 0.6981635444903812,
+      "n_answers": 34,
+      "n_articles": 29,
+      "n_mentions": 200,
+      "per_role": {
+        "ANTAGONIST": {
+          "f1": 0.7962738833472566,
+          "mentions": 112,
+          "precision": 0.80465114256078,
+          "recall": 0.7880692588701765,
+          "weighted_support": 15.442948391477811
+        },
+        "INNOCENT": {
+          "f1": 0.6603675153633628,
+          "mentions": 42,
+          "precision": 0.7464731911433002,
+          "recall": 0.5920720139610635,
+          "weighted_support": 5.02689500042441
+        },
+        "PROTAGONIST": {
+          "f1": 0.7284074451722172,
+          "mentions": 46,
+          "precision": 0.6783888830587559,
+          "recall": 0.786389007677341,
+          "weighted_support": 8.530156608097787
+        }
+      },
+      "role_order": [
+        "PROTAGONIST",
+        "ANTAGONIST",
+        "INNOCENT"
+      ],
+      "weighted_confusion": [
+        [
+          6.7080213903743315,
+          1.6522005772005768,
+          0.16993464052287582
+        ],
+        [
+          2.4319264069264066,
+          12.170112893642303,
+          0.8409090909090909
+        ],
+        [
+          0.7482174688057041,
+          1.302393684746626,
+          2.976283846872082
+        ]
+      ]
+    },
+    "l2": {
+      "brier": 0.15712276785859008,
+      "f1_reference": "strict_majority_votes_gt_half_empty_allowed",
+      "macro_f1": 0.5491780045351474,
+      "micro_f1": 0.6352941176470588,
+      "n_answers": 40,
+      "n_articles": 31,
+      "observed_disagreement_floor": 0.008896569380440348,
+      "per_frame": [
+        {
+          "brier": 0.15413844491920872,
+          "f1": 0.6,
+          "frame": "Economic",
+          "majority_support": 11,
+          "positive_vote_mass": 11.5,
+          "precision": 0.6666666666666666,
+          "predicted_positive": 9,
+          "recall": 0.5454545454545454,
+          "ties": 1
+        },
+        {
+          "brier": 0.2021105725529297,
+          "f1": 0.5,
+          "frame": "Capacity & resources",
+          "majority_support": 16,
+          "positive_vote_mass": 16.0,
+          "precision": 0.75,
+          "predicted_positive": 8,
+          "recall": 0.375,
+          "ties": 0
+        },
+        {
+          "brier": 0.2220779326359656,
+          "f1": 0.6,
+          "frame": "Morality",
+          "majority_support": 10,
+          "positive_vote_mass": 10.5,
+          "precision": 0.6,
+          "predicted_positive": 10,
+          "recall": 0.6,
+          "ties": 1
+        },
+        {
+          "brier": 0.12165120930157088,
+          "f1": 0.4444444444444444,
+          "frame": "Fairness & equality",
+          "majority_support": 4,
+          "positive_vote_mass": 4.833333333333333,
+          "precision": 0.4,
+          "predicted_positive": 5,
+          "recall": 0.5,
+          "ties": 1
+        },
+        {
+          "brier": 0.20971209482849282,
+          "f1": 0.2,
+          "frame": "Legality, constitutionality, jurisprudence",
+          "majority_support": 6,
+          "positive_vote_mass": 6.5,
+          "precision": 0.25,
+          "predicted_positive": 4,
+          "recall": 0.16666666666666666,
+          "ties": 1
+        },
+        {
+          "brier": 0.21467104175563834,
+          "f1": 0.6857142857142857,
+          "frame": "Policy prescription & evaluation",
+          "majority_support": 18,
+          "positive_vote_mass": 18.166666666666664,
+          "precision": 0.7058823529411765,
+          "predicted_positive": 17,
+          "recall": 0.6666666666666666,
+          "ties": 1
+        },
+        {
+          "brier": 0.18033686565168636,
+          "f1": 0.0,
+          "frame": "Crime & punishment",
+          "majority_support": 4,
+          "positive_vote_mass": 4.5,
+          "precision": 0.0,
+          "predicted_positive": 2,
+          "recall": 0.0,
+          "ties": 1
+        },
+        {
+          "brier": 0.13860106495955768,
+          "f1": 0.8,
+          "frame": "Security & defense",
+          "majority_support": 14,
+          "positive_vote_mass": 14.0,
+          "precision": 0.9090909090909091,
+          "predicted_positive": 11,
+          "recall": 0.7142857142857143,
+          "ties": 0
+        },
+        {
+          "brier": 0.0052187697892893126,
+          "f1": 1.0,
+          "frame": "Health & safety",
+          "majority_support": 4,
+          "positive_vote_mass": 4.0,
+          "precision": 1.0,
+          "predicted_positive": 4,
+          "recall": 1.0,
+          "ties": 0
+        },
+        {
+          "brier": 0.10350544132014226,
+          "f1": 0.4,
+          "frame": "Quality of life",
+          "majority_support": 3,
+          "positive_vote_mass": 4.0,
+          "precision": 0.5,
+          "predicted_positive": 2,
+          "recall": 0.3333333333333333,
+          "ties": 2
+        },
+        {
+          "brier": 0.1695165102456654,
+          "f1": 0.625,
+          "frame": "Cultural identity",
+          "majority_support": 7,
+          "positive_vote_mass": 8.0,
+          "precision": 0.5555555555555556,
+          "predicted_positive": 9,
+          "recall": 0.7142857142857143,
+          "ties": 2
+        },
+        {
+          "brier": 0.21334808628868385,
+          "f1": 0.16666666666666666,
+          "frame": "Public opinion",
+          "majority_support": 6,
+          "positive_vote_mass": 6.333333333333333,
+          "precision": 0.16666666666666666,
+          "predicted_positive": 6,
+          "recall": 0.16666666666666666,
+          "ties": 0
+        },
+        {
+          "brier": 0.16483463733044948,
+          "f1": 0.8205128205128205,
+          "frame": "Political",
+          "majority_support": 19,
+          "positive_vote_mass": 19.5,
+          "precision": 0.8,
+          "predicted_positive": 20,
+          "recall": 0.8421052631578947,
+          "ties": 1
+        },
+        {
+          "brier": 0.09999607844098038,
+          "f1": 0.8461538461538461,
+          "frame": "External regulation & reputation",
+          "majority_support": 13,
+          "positive_vote_mass": 13.0,
+          "precision": 0.8461538461538461,
+          "predicted_positive": 13,
+          "recall": 0.8461538461538461,
+          "ties": 0
+        }
+      ],
+      "threshold": 0.5,
+      "vote_fraction_mse": 0.14822619847814972
+    }
+  },
+  "sources": {
+    "holod": {
+      "l1_joint": {
+        "article_accuracy": 0.7916531385281386,
+        "brier": 0.11648431478380807,
+        "confusion": [
+          [
+            4,
+            2,
+            0
+          ],
+          [
+            7,
+            29,
+            0
+          ],
+          [
+            0,
+            6,
+            13
+          ]
+        ],
+        "cross_entropy": 0.8897865214914544,
+        "macro_f1": 0.7843183399375367,
+        "mention_accuracy": 0.7540983606557377,
+        "mention_macro_f1": 0.6925362610797743,
+        "n_answers": 11,
+        "n_articles": 8,
+        "n_mentions": 61,
+        "per_role": {
+          "ANTAGONIST": {
+            "f1": 0.8250025566148146,
+            "mentions": 36,
+            "precision": 0.9277299327898597,
+            "recall": 0.7427571814387428,
+            "weighted_support": 5.28961038961039
+          },
+          "INNOCENT": {
+            "f1": 0.9686473574201254,
+            "mentions": 19,
+            "precision": 1.0,
+            "recall": 0.939200926462073,
+            "weighted_support": 1.495238095238095
+          },
+          "PROTAGONIST": {
+            "f1": 0.5593051057776702,
+            "mentions": 6,
+            "precision": 0.4236006051437216,
+            "recall": 0.8229426433915212,
+            "weighted_support": 1.215151515151515
+          }
+        },
+        "role_order": [
+          "PROTAGONIST",
+          "ANTAGONIST",
+          "INNOCENT"
+        ],
+        "weighted_confusion": [
+          [
+            1.0,
+            0.21515151515151515,
+            0.0
+          ],
+          [
+            1.3607142857142858,
+            3.9288961038961037,
+            0.0
+          ],
+          [
+            0.0,
+            0.09090909090909091,
+            1.4043290043290042
+          ]
+        ]
+      },
+      "l1_reference": {
+        "article_accuracy": 0.8037337662337662,
+        "brier": 0.12506886280554466,
+        "confusion": [
+          [
+            6,
+            0,
+            0
+          ],
+          [
+            8,
+            26,
+            2
+          ],
+          [
+            0,
+            2,
+            17
+          ]
+        ],
+        "cross_entropy": 1.4498711175415604,
+        "macro_f1": 0.8002989144009218,
+        "mention_accuracy": 0.8032786885245902,
+        "mention_macro_f1": 0.7690789473684211,
+        "n_answers": 11,
+        "n_articles": 8,
+        "n_mentions": 61,
+        "per_role": {
+          "ANTAGONIST": {
+            "f1": 0.8268817717531382,
+            "mentions": 36,
+            "precision": 0.9919835089326614,
+            "recall": 0.7088959816678941,
+            "weighted_support": 5.28961038961039
+          },
+          "INNOCENT": {
+            "f1": 0.9324882887847891,
+            "mentions": 19,
+            "precision": 0.8895899053627759,
+            "recall": 0.9797336421540244,
+            "weighted_support": 1.495238095238095
+          },
+          "PROTAGONIST": {
+            "f1": 0.6415266826648384,
+            "mentions": 6,
+            "precision": 0.4722409152086137,
+            "recall": 1.0,
+            "weighted_support": 1.215151515151515
+          }
+        },
+        "role_order": [
+          "PROTAGONIST",
+          "ANTAGONIST",
+          "INNOCENT"
+        ],
+        "weighted_confusion": [
+          [
+            1.215151515151515,
+            0.0,
+            0.0
+          ],
+          [
+            1.358008658008658,
+            3.749783549783549,
+            0.18181818181818182
+          ],
+          [
+            0.0,
+            0.030303030303030304,
+            1.4649350649350648
+          ]
+        ]
+      },
+      "l2_joint": {
+        "brier": 0.18573279731790623,
+        "f1_reference": "strict_majority_votes_gt_half_empty_allowed",
+        "macro_f1": 0.4122448979591837,
+        "micro_f1": 0.5671641791044776,
+        "n_answers": 11,
+        "n_articles": 8,
+        "observed_disagreement_floor": 0.008680555555555556,
+        "per_frame": [
+          {
+            "brier": 0.2336265320570151,
+            "f1": 0.5,
+            "frame": "Economic",
+            "majority_support": 3,
+            "positive_vote_mass": 3.0,
+            "precision": 1.0,
+            "predicted_positive": 1,
+            "recall": 0.3333333333333333,
+            "ties": 0
+          },
+          {
+            "brier": 0.2778905017284361,
+            "f1": 0.4,
+            "frame": "Capacity & resources",
+            "majority_support": 2,
+            "positive_vote_mass": 2.333333333333333,
+            "precision": 0.3333333333333333,
+            "predicted_positive": 3,
+            "recall": 0.5,
+            "ties": 0
+          },
+          {
+            "brier": 0.20419554602306172,
+            "f1": 0.6666666666666666,
+            "frame": "Morality",
+            "majority_support": 3,
+            "positive_vote_mass": 3.0,
+            "precision": 0.6666666666666666,
+            "predicted_positive": 3,
+            "recall": 0.6666666666666666,
+            "ties": 0
+          },
+          {
+            "brier": 0.10573034860009847,
+            "f1": 0.6666666666666666,
+            "frame": "Fairness & equality",
+            "majority_support": 2,
+            "positive_vote_mass": 2.0,
+            "precision": 1.0,
+            "predicted_positive": 1,
+            "recall": 0.5,
+            "ties": 0
+          },
+          {
+            "brier": 0.210505569882485,
+            "f1": 0.0,
+            "frame": "Legality, constitutionality, jurisprudence",
+            "majority_support": 1,
+            "positive_vote_mass": 1.0,
+            "precision": 0.0,
+            "predicted_positive": 1,
+            "recall": 0.0,
+            "ties": 0
+          },
+          {
+            "brier": 0.16930277635432733,
+            "f1": 0.5714285714285714,
+            "frame": "Policy prescription & evaluation",
+            "majority_support": 3,
+            "positive_vote_mass": 3.5,
+            "precision": 0.5,
+            "predicted_positive": 4,
+            "recall": 0.6666666666666666,
+            "ties": 1
+          },
+          {
+            "brier": 0.15740384557882847,
+            "f1": 0.0,
+            "frame": "Crime & punishment",
+            "majority_support": 1,
+            "positive_vote_mass": 1.0,
+            "precision": 0.0,
+            "predicted_positive": 1,
+            "recall": 0.0,
+            "ties": 0
+          },
+          {
+            "brier": 0.22852359405434258,
+            "f1": 0.8,
+            "frame": "Security & defense",
+            "majority_support": 6,
+            "positive_vote_mass": 6.0,
+            "precision": 1.0,
+            "predicted_positive": 4,
+            "recall": 0.6666666666666666,
+            "ties": 0
+          },
+          {
+            "brier": 0.020792452128953594,
+            "f1": 0.0,
+            "frame": "Health & safety",
+            "majority_support": 0,
+            "positive_vote_mass": 0.0,
+            "precision": 0.0,
+            "predicted_positive": 0,
+            "recall": 0.0,
+            "ties": 0
+          },
+          {
+            "brier": 0.2326307684914299,
+            "f1": 0.0,
+            "frame": "Quality of life",
+            "majority_support": 2,
+            "positive_vote_mass": 2.5,
+            "precision": 0.0,
+            "predicted_positive": 1,
+            "recall": 0.0,
+            "ties": 1
+          },
+          {
+            "brier": 0.1497741552235905,
+            "f1": 0.6666666666666666,
+            "frame": "Cultural identity",
+            "majority_support": 1,
+            "positive_vote_mass": 1.5,
+            "precision": 0.5,
+            "predicted_positive": 2,
+            "recall": 1.0,
+            "ties": 1
+          },
+          {
+            "brier": 0.22940996125519844,
+            "f1": 0.0,
+            "frame": "Public opinion",
+            "majority_support": 1,
+            "positive_vote_mass": 1.0,
+            "precision": 0.0,
+            "predicted_positive": 3,
+            "recall": 0.0,
+            "ties": 0
+          },
+          {
+            "brier": 0.178153643969986,
+            "f1": 0.8333333333333334,
+            "frame": "Political",
+            "majority_support": 7,
+            "positive_vote_mass": 7.0,
+            "precision": 1.0,
+            "predicted_positive": 5,
+            "recall": 0.7142857142857143,
+            "ties": 0
+          },
+          {
+            "brier": 0.20231946710293414,
+            "f1": 0.6666666666666666,
+            "frame": "External regulation & reputation",
+            "majority_support": 3,
+            "positive_vote_mass": 3.0,
+            "precision": 0.6666666666666666,
+            "predicted_positive": 3,
+            "recall": 0.6666666666666666,
+            "ties": 0
+          }
+        ],
+        "threshold": 0.5,
+        "vote_fraction_mse": 0.1770522417623507
+      },
+      "l2_reference": {
+        "brier": 0.18165742012578004,
+        "f1_reference": "strict_majority_votes_gt_half_empty_allowed",
+        "macro_f1": 0.34285714285714286,
+        "micro_f1": 0.576271186440678,
+        "n_answers": 11,
+        "n_articles": 8,
+        "observed_disagreement_floor": 0.008680555555555556,
+        "per_frame": [
+          {
+            "brier": 0.28750449155767455,
+            "f1": 0.0,
+            "frame": "Economic",
+            "majority_support": 3,
+            "positive_vote_mass": 3.0,
+            "precision": 0.0,
+            "predicted_positive": 0,
+            "recall": 0.0,
+            "ties": 0
+          },
+          {
+            "brier": 0.23550135116060886,
+            "f1": 0.5,
+            "frame": "Capacity & resources",
+            "majority_support": 2,
+            "positive_vote_mass": 2.333333333333333,
+            "precision": 0.5,
+            "predicted_positive": 2,
+            "recall": 0.5,
+            "ties": 0
+          },
+          {
+            "brier": 0.15782027615247698,
+            "f1": 0.6666666666666666,
+            "frame": "Morality",
+            "majority_support": 3,
+            "positive_vote_mass": 3.0,
+            "precision": 0.6666666666666666,
+            "predicted_positive": 3,
+            "recall": 0.6666666666666666,
+            "ties": 0
+          },
+          {
+            "brier": 0.15254953457282966,
+            "f1": 0.0,
+            "frame": "Fairness & equality",
+            "majority_support": 2,
+            "positive_vote_mass": 2.0,
+            "precision": 0.0,
+            "predicted_positive": 0,
+            "recall": 0.0,
+            "ties": 0
+          },
+          {
+            "brier": 0.17119060385746648,
+            "f1": 0.0,
+            "frame": "Legality, constitutionality, jurisprudence",
+            "majority_support": 1,
+            "positive_vote_mass": 1.0,
+            "precision": 0.0,
+            "predicted_positive": 1,
+            "recall": 0.0,
+            "ties": 0
+          },
+          {
+            "brier": 0.21568936909760494,
+            "f1": 0.6666666666666666,
+            "frame": "Policy prescription & evaluation",
+            "majority_support": 3,
+            "positive_vote_mass": 3.5,
+            "precision": 0.6666666666666666,
+            "predicted_positive": 3,
+            "recall": 0.6666666666666666,
+            "ties": 1
+          },
+          {
+            "brier": 0.12607951128394684,
+            "f1": 0.0,
+            "frame": "Crime & punishment",
+            "majority_support": 1,
+            "positive_vote_mass": 1.0,
+            "precision": 0.0,
+            "predicted_positive": 0,
+            "recall": 0.0,
+            "ties": 0
+          },
+          {
+            "brier": 0.2338711476213931,
+            "f1": 0.8,
+            "frame": "Security & defense",
+            "majority_support": 6,
+            "positive_vote_mass": 6.0,
+            "precision": 1.0,
+            "predicted_positive": 4,
+            "recall": 0.6666666666666666,
+            "ties": 0
+          },
+          {
+            "brier": 0.020138565310881106,
+            "f1": 0.0,
+            "frame": "Health & safety",
+            "majority_support": 0,
+            "positive_vote_mass": 0.0,
+            "precision": 0.0,
+            "predicted_positive": 0,
+            "recall": 0.0,
+            "ties": 0
+          },
+          {
+            "brier": 0.2374115745426002,
+            "f1": 0.0,
+            "frame": "Quality of life",
+            "majority_support": 2,
+            "positive_vote_mass": 2.5,
+            "precision": 0.0,
+            "predicted_positive": 1,
+            "recall": 0.0,
+            "ties": 1
+          },
+          {
+            "brier": 0.14843898597364574,
+            "f1": 0.6666666666666666,
+            "frame": "Cultural identity",
+            "majority_support": 1,
+            "positive_vote_mass": 1.5,
+            "precision": 0.5,
+            "predicted_positive": 2,
+            "recall": 1.0,
+            "ties": 1
+          },
+          {
+            "brier": 0.16546121349546725,
+            "f1": 0.0,
+            "frame": "Public opinion",
+            "majority_support": 1,
+            "positive_vote_mass": 1.0,
+            "precision": 0.0,
+            "predicted_positive": 0,
+            "recall": 0.0,
+            "ties": 0
+          },
+          {
+            "brier": 0.1819024535201158,
+            "f1": 0.8333333333333334,
+            "frame": "Political",
+            "majority_support": 7,
+            "positive_vote_mass": 7.0,
+            "precision": 1.0,
+            "predicted_positive": 5,
+            "recall": 0.7142857142857143,
+            "ties": 0
+          },
+          {
+            "brier": 0.2096448036142089,
+            "f1": 0.6666666666666666,
+            "frame": "External regulation & reputation",
+            "majority_support": 3,
+            "positive_vote_mass": 3.0,
+            "precision": 0.6666666666666666,
+            "predicted_positive": 3,
+            "recall": 0.6666666666666666,
+            "ties": 0
+          }
+        ],
+        "threshold": 0.5,
+        "vote_fraction_mse": 0.1729768645702245
+      },
+      "n_articles": 8
+    },
+    "ng": {
+      "l1_joint": {
+        "article_accuracy": 0.8009182736455464,
+        "brier": 0.10764707465942201,
+        "confusion": [
+          [
+            15,
+            1,
+            0
+          ],
+          [
+            4,
+            28,
+            2
+          ],
+          [
+            3,
+            2,
+            4
+          ]
+        ],
+        "cross_entropy": 0.7695846032108928,
+        "macro_f1": 0.7546751193478188,
+        "mention_accuracy": 0.7966101694915254,
+        "mention_macro_f1": 0.7281151596941071,
+        "n_answers": 13,
+        "n_articles": 11,
+        "n_mentions": 59,
+        "per_role": {
+          "ANTAGONIST": {
+            "f1": 0.7873389355742297,
+            "mentions": 34,
+            "precision": 0.8363484884551299,
+            "recall": 0.7437552921253175,
+            "weighted_support": 4.771717171717172
+          },
+          "INNOCENT": {
+            "f1": 0.5692224329450014,
+            "mentions": 9,
+            "precision": 0.5858895705521472,
+            "recall": 0.5534773445732349,
+            "weighted_support": 1.9171717171717173
+          },
+          "PROTAGONIST": {
+            "f1": 0.9074639895242252,
+            "mentions": 16,
+            "precision": 0.849264705882353,
+            "recall": 0.9742268041237112,
+            "weighted_support": 4.311111111111112
+          }
+        },
+        "role_order": [
+          "PROTAGONIST",
+          "ANTAGONIST",
+          "INNOCENT"
+        ],
+        "weighted_confusion": [
+          [
+            4.2,
+            0.1111111111111111,
+            0.0
+          ],
+          [
+            0.4727272727272728,
+            3.548989898989899,
+            0.75
+          ],
+          [
+            0.2727272727272727,
+            0.5833333333333334,
+            1.0611111111111111
+          ]
+        ]
+      },
+      "l1_reference": {
+        "article_accuracy": 0.8084940312213039,
+        "brier": 0.12443002666709777,
+        "confusion": [
+          [
+            13,
+            2,
+            1
+          ],
+          [
+            1,
+            28,
+            5
+          ],
+          [
+            3,
+            1,
+            5
+          ]
+        ],
+        "cross_entropy": 1.1564964003801357,
+        "macro_f1": 0.782145886992938,
+        "mention_accuracy": 0.7796610169491526,
+        "mention_macro_f1": 0.7164724164724164,
+        "n_answers": 13,
+        "n_articles": 11,
+        "n_mentions": 59,
+        "per_role": {
+          "ANTAGONIST": {
+            "f1": 0.8136040376233082,
+            "mentions": 34,
+            "precision": 0.8879569354031047,
+            "recall": 0.7507408975444538,
+            "weighted_support": 4.771717171717172
+          },
+          "INNOCENT": {
+            "f1": 0.6466199412163691,
+            "mentions": 9,
+            "precision": 0.5663366336633664,
+            "recall": 0.7534246575342466,
+            "weighted_support": 1.9171717171717173
+          },
+          "PROTAGONIST": {
+            "f1": 0.8862136821391364,
+            "mentions": 16,
+            "precision": 0.8757721345229926,
+            "recall": 0.8969072164948453,
+            "weighted_support": 4.311111111111112
+          }
+        },
+        "role_order": [
+          "PROTAGONIST",
+          "ANTAGONIST",
+          "INNOCENT"
+        ],
+        "weighted_confusion": [
+          [
+            3.866666666666667,
+            0.3611111111111111,
+            0.08333333333333333
+          ],
+          [
+            0.16666666666666666,
+            3.5823232323232324,
+            1.0227272727272727
+          ],
+          [
+            0.38181818181818183,
+            0.09090909090909091,
+            1.4444444444444446
+          ]
+        ]
+      },
+      "l2_joint": {
+        "brier": 0.16686178585400407,
+        "f1_reference": "strict_majority_votes_gt_half_empty_allowed",
+        "macro_f1": 0.5638734281591424,
+        "micro_f1": 0.6213592233009708,
+        "n_answers": 19,
+        "n_articles": 13,
+        "observed_disagreement_floor": 0.015873015873015872,
+        "per_frame": [
+          {
+            "brier": 0.18278481409160258,
+            "f1": 0.5454545454545454,
+            "frame": "Economic",
+            "majority_support": 5,
+            "positive_vote_mass": 5.5,
+            "precision": 0.5,
+            "predicted_positive": 6,
+            "recall": 0.6,
+            "ties": 1
+          },
+          {
+            "brier": 0.1890234166909598,
+            "f1": 0.5714285714285714,
+            "frame": "Capacity & resources",
+            "majority_support": 9,
+            "positive_vote_mass": 8.666666666666668,
+            "precision": 0.8,
+            "predicted_positive": 5,
+            "recall": 0.4444444444444444,
+            "ties": 0
+          },
+          {
+            "brier": 0.29205242081080496,
+            "f1": 0.4444444444444444,
+            "frame": "Morality",
+            "majority_support": 4,
+            "positive_vote_mass": 4.5,
+            "precision": 0.4,
+            "predicted_positive": 5,
+            "recall": 0.5,
+            "ties": 1
+          },
+          {
+            "brier": 0.21049354361327127,
+            "f1": 0.3333333333333333,
+            "frame": "Fairness & equality",
+            "majority_support": 2,
+            "positive_vote_mass": 2.8333333333333335,
+            "precision": 0.25,
+            "predicted_positive": 4,
+            "recall": 0.5,
+            "ties": 1
+          },
+          {
+            "brier": 0.23637632359332242,
+            "f1": 0.4,
+            "frame": "Legality, constitutionality, jurisprudence",
+            "majority_support": 4,
+            "positive_vote_mass": 4.5,
+            "precision": 1.0,
+            "predicted_positive": 1,
+            "recall": 0.25,
+            "ties": 1
+          },
+          {
+            "brier": 0.29347895384825934,
+            "f1": 0.6666666666666666,
+            "frame": "Policy prescription & evaluation",
+            "majority_support": 10,
+            "positive_vote_mass": 9.666666666666668,
+            "precision": 0.75,
+            "predicted_positive": 8,
+            "recall": 0.6,
+            "ties": 0
+          },
+          {
+            "brier": 0.17445060933988366,
+            "f1": 0.0,
+            "frame": "Crime & punishment",
+            "majority_support": 1,
+            "positive_vote_mass": 1.5,
+            "precision": 0.0,
+            "predicted_positive": 1,
+            "recall": 0.0,
+            "ties": 1
+          },
+          {
+            "brier": 0.13412102665020414,
+            "f1": 0.5,
+            "frame": "Security & defense",
+            "majority_support": 2,
+            "positive_vote_mass": 2.0,
+            "precision": 0.5,
+            "predicted_positive": 2,
+            "recall": 0.5,
+            "ties": 0
+          },
+          {
+            "brier": 0.006324000531682953,
+            "f1": 1.0,
+            "frame": "Health & safety",
+            "majority_support": 4,
+            "positive_vote_mass": 4.0,
+            "precision": 1.0,
+            "predicted_positive": 4,
+            "recall": 1.0,
+            "ties": 0
+          },
+          {
+            "brier": 0.10363541413747179,
+            "f1": 1.0,
+            "frame": "Quality of life",
+            "majority_support": 1,
+            "positive_vote_mass": 1.5,
+            "precision": 1.0,
+            "predicted_positive": 1,
+            "recall": 1.0,
+            "ties": 1
+          },
+          {
+            "brier": 0.11655586845120698,
+            "f1": 0.6666666666666666,
+            "frame": "Cultural identity",
+            "majority_support": 1,
+            "positive_vote_mass": 1.5,
+            "precision": 0.5,
+            "predicted_positive": 2,
+            "recall": 1.0,
+            "ties": 1
+          },
+          {
+            "brier": 0.20505100383117889,
+            "f1": 0.0,
+            "frame": "Public opinion",
+            "majority_support": 3,
+            "positive_vote_mass": 3.3333333333333335,
+            "precision": 0.0,
+            "predicted_positive": 0,
+            "recall": 0.0,
+            "ties": 0
+          },
+          {
+            "brier": 0.11073285734364302,
+            "f1": 0.9090909090909091,
+            "frame": "Political",
+            "majority_support": 5,
+            "positive_vote_mass": 5.5,
+            "precision": 0.8333333333333334,
+            "predicted_positive": 6,
+            "recall": 1.0,
+            "ties": 1
+          },
+          {
+            "brier": 0.08098474902256571,
+            "f1": 0.8571428571428571,
+            "frame": "External regulation & reputation",
+            "majority_support": 3,
+            "positive_vote_mass": 3.0,
+            "precision": 0.75,
+            "predicted_positive": 4,
+            "recall": 1.0,
+            "ties": 0
+          }
+        ],
+        "threshold": 0.5,
+        "vote_fraction_mse": 0.15098876998098823
+      },
+      "l2_reference": {
+        "brier": 0.16249540184209085,
+        "f1_reference": "strict_majority_votes_gt_half_empty_allowed",
+        "macro_f1": 0.5144225657383553,
+        "micro_f1": 0.6122448979591837,
+        "n_answers": 19,
+        "n_articles": 13,
+        "observed_disagreement_floor": 0.015873015873015872,
+        "per_frame": [
+          {
+            "brier": 0.15584903083791435,
+            "f1": 0.75,
+            "frame": "Economic",
+            "majority_support": 5,
+            "positive_vote_mass": 5.5,
+            "precision": 1.0,
+            "predicted_positive": 3,
+            "recall": 0.6,
+            "ties": 1
+          },
+          {
+            "brier": 0.22932433968470076,
+            "f1": 0.46153846153846156,
+            "frame": "Capacity & resources",
+            "majority_support": 9,
+            "positive_vote_mass": 8.666666666666668,
+            "precision": 0.75,
+            "predicted_positive": 4,
+            "recall": 0.3333333333333333,
+            "ties": 0
+          },
+          {
+            "brier": 0.268827723475381,
+            "f1": 0.4444444444444444,
+            "frame": "Morality",
+            "majority_support": 4,
+            "positive_vote_mass": 4.5,
+            "precision": 0.4,
+            "predicted_positive": 5,
+            "recall": 0.5,
+            "ties": 1
+          },
+          {
+            "brier": 0.2176816806459543,
+            "f1": 0.0,
+            "frame": "Fairness & equality",
+            "majority_support": 2,
+            "positive_vote_mass": 2.8333333333333335,
+            "precision": 0.0,
+            "predicted_positive": 2,
+            "recall": 0.0,
+            "ties": 1
+          },
+          {
+            "brier": 0.24372855554686895,
+            "f1": 0.4,
+            "frame": "Legality, constitutionality, jurisprudence",
+            "majority_support": 4,
+            "positive_vote_mass": 4.5,
+            "precision": 1.0,
+            "predicted_positive": 1,
+            "recall": 0.25,
+            "ties": 1
+          },
+          {
+            "brier": 0.25862653841406863,
+            "f1": 0.7368421052631579,
+            "frame": "Policy prescription & evaluation",
+            "majority_support": 10,
+            "positive_vote_mass": 9.666666666666668,
+            "precision": 0.7777777777777778,
+            "predicted_positive": 9,
+            "recall": 0.7,
+            "ties": 0
+          },
+          {
+            "brier": 0.13339174824567757,
+            "f1": 0.0,
+            "frame": "Crime & punishment",
+            "majority_support": 1,
+            "positive_vote_mass": 1.5,
+            "precision": 0.0,
+            "predicted_positive": 1,
+            "recall": 0.0,
+            "ties": 1
+          },
+          {
+            "brier": 0.11976493814980856,
+            "f1": 0.5,
+            "frame": "Security & defense",
+            "majority_support": 2,
+            "positive_vote_mass": 2.0,
+            "precision": 0.5,
+            "predicted_positive": 2,
+            "recall": 0.5,
+            "ties": 0
+          },
+          {
+            "brier": 0.011471304851624807,
+            "f1": 1.0,
+            "frame": "Health & safety",
+            "majority_support": 4,
+            "positive_vote_mass": 4.0,
+            "precision": 1.0,
+            "predicted_positive": 4,
+            "recall": 1.0,
+            "ties": 0
+          },
+          {
+            "brier": 0.14713628920300345,
+            "f1": 0.6666666666666666,
+            "frame": "Quality of life",
+            "majority_support": 1,
+            "positive_vote_mass": 1.5,
+            "precision": 0.5,
+            "predicted_positive": 2,
+            "recall": 1.0,
+            "ties": 1
+          },
+          {
+            "brier": 0.08499833966204692,
+            "f1": 0.6666666666666666,
+            "frame": "Cultural identity",
+            "majority_support": 1,
+            "positive_vote_mass": 1.5,
+            "precision": 0.5,
+            "predicted_positive": 2,
+            "recall": 1.0,
+            "ties": 1
+          },
+          {
+            "brier": 0.19210437786181137,
+            "f1": 0.0,
+            "frame": "Public opinion",
+            "majority_support": 3,
+            "positive_vote_mass": 3.3333333333333335,
+            "precision": 0.0,
+            "predicted_positive": 0,
+            "recall": 0.0,
+            "ties": 0
+          },
+          {
+            "brier": 0.10917197667677335,
+            "f1": 0.9090909090909091,
+            "frame": "Political",
+            "majority_support": 5,
+            "positive_vote_mass": 5.5,
+            "precision": 0.8333333333333334,
+            "predicted_positive": 6,
+            "recall": 1.0,
+            "ties": 1
+          },
+          {
+            "brier": 0.10285878253363799,
+            "f1": 0.6666666666666666,
+            "frame": "External regulation & reputation",
+            "majority_support": 3,
+            "positive_vote_mass": 3.0,
+            "precision": 0.6666666666666666,
+            "predicted_positive": 3,
+            "recall": 0.6666666666666666,
+            "ties": 0
+          }
+        ],
+        "threshold": 0.5,
+        "vote_fraction_mse": 0.14662238596907498
+      },
+      "n_articles": 13
+    },
+    "ria_novosti": {
+      "l1_joint": {
+        "article_accuracy": 0.7222222222222222,
+        "brier": 0.1763218110025506,
+        "confusion": [
+          [
+            3,
+            1,
+            0
+          ],
+          [
+            0,
+            11,
+            0
+          ],
+          [
+            1,
+            1,
+            1
+          ]
+        ],
+        "cross_entropy": 2.0711331763460996,
+        "macro_f1": 0.5368825456158732,
+        "mention_accuracy": 0.8333333333333334,
+        "mention_macro_f1": 0.7222222222222222,
+        "n_answers": 3,
+        "n_articles": 3,
+        "n_mentions": 18,
+        "per_role": {
+          "ANTAGONIST": {
+            "f1": 0.860759493670886,
+            "mentions": 11,
+            "precision": 0.7555555555555555,
+            "recall": 1.0,
+            "weighted_support": 1.803030303030303
+          },
+          "INNOCENT": {
+            "f1": 0.26666666666666666,
+            "mentions": 3,
+            "precision": 1.0,
+            "recall": 0.15384615384615385,
+            "weighted_support": 0.5909090909090909
+          },
+          "PROTAGONIST": {
+            "f1": 0.48322147651006714,
+            "mentions": 4,
+            "precision": 0.5217391304347826,
+            "recall": 0.45,
+            "weighted_support": 0.606060606060606
+          }
+        },
+        "role_order": [
+          "PROTAGONIST",
+          "ANTAGONIST",
+          "INNOCENT"
+        ],
+        "weighted_confusion": [
+          [
+            0.2727272727272727,
+            0.3333333333333333,
+            0.0
+          ],
+          [
+            0.0,
+            1.803030303030303,
+            0.0
+          ],
+          [
+            0.25,
+            0.25,
+            0.09090909090909091
+          ]
+        ]
+      },
+      "l1_reference": {
+        "article_accuracy": 0.6313131313131314,
+        "brier": 0.19843957571769102,
+        "confusion": [
+          [
+            3,
+            1,
+            0
+          ],
+          [
+            3,
+            8,
+            0
+          ],
+          [
+            2,
+            0,
+            1
+          ]
+        ],
+        "cross_entropy": 1.7249756469866988,
+        "macro_f1": 0.47721754660870586,
+        "mention_accuracy": 0.6666666666666666,
+        "mention_macro_f1": 0.6,
+        "n_answers": 3,
+        "n_articles": 3,
+        "n_mentions": 18,
+        "per_role": {
+          "ANTAGONIST": {
+            "f1": 0.8347107438016529,
+            "mentions": 11,
+            "precision": 0.8211382113821138,
+            "recall": 0.8487394957983193,
+            "weighted_support": 1.803030303030303
+          },
+          "INNOCENT": {
+            "f1": 0.26666666666666666,
+            "mentions": 3,
+            "precision": 1.0,
+            "recall": 0.15384615384615385,
+            "weighted_support": 0.5909090909090909
+          },
+          "PROTAGONIST": {
+            "f1": 0.3302752293577982,
+            "mentions": 4,
+            "precision": 0.2608695652173913,
+            "recall": 0.45,
+            "weighted_support": 0.606060606060606
+          }
+        },
+        "role_order": [
+          "PROTAGONIST",
+          "ANTAGONIST",
+          "INNOCENT"
+        ],
+        "weighted_confusion": [
+          [
+            0.2727272727272727,
+            0.3333333333333333,
+            0.0
+          ],
+          [
+            0.2727272727272727,
+            1.5303030303030303,
+            0.0
+          ],
+          [
+            0.5,
+            0.0,
+            0.09090909090909091
+          ]
+        ]
+      },
+      "l2_joint": {
+        "brier": 0.08820187186585042,
+        "f1_reference": "strict_majority_votes_gt_half_empty_allowed",
+        "macro_f1": 0.3666666666666667,
+        "micro_f1": 0.7857142857142857,
+        "n_answers": 3,
+        "n_articles": 3,
+        "observed_disagreement_floor": 0.0,
+        "per_frame": [
+          {
+            "brier": 0.05493948338139224,
+            "f1": 1.0,
+            "frame": "Economic",
+            "majority_support": 1,
+            "positive_vote_mass": 1.0,
+            "precision": 1.0,
+            "predicted_positive": 1,
+            "recall": 1.0,
+            "ties": 0
+          },
+          {
+            "brier": 0.15579609337915348,
+            "f1": 0.6666666666666666,
+            "frame": "Capacity & resources",
+            "majority_support": 2,
+            "positive_vote_mass": 2.0,
+            "precision": 1.0,
+            "predicted_positive": 1,
+            "recall": 0.5,
+            "ties": 0
+          },
+          {
+            "brier": 0.002332668327577434,
+            "f1": 0.0,
+            "frame": "Morality",
+            "majority_support": 0,
+            "positive_vote_mass": 0.0,
+            "precision": 0.0,
+            "predicted_positive": 0,
+            "recall": 0.0,
+            "ties": 0
+          },
+          {
+            "brier": 0.0007174618363401898,
+            "f1": 0.0,
+            "frame": "Fairness & equality",
+            "majority_support": 0,
+            "positive_vote_mass": 0.0,
+            "precision": 0.0,
+            "predicted_positive": 0,
+            "recall": 0.0,
+            "ties": 0
+          },
+          {
+            "brier": 0.022823117131099194,
+            "f1": 0.0,
+            "frame": "Legality, constitutionality, jurisprudence",
+            "majority_support": 0,
+            "positive_vote_mass": 0.0,
+            "precision": 0.0,
+            "predicted_positive": 0,
+            "recall": 0.0,
+            "ties": 0
+          },
+          {
+            "brier": 0.19562229061655265,
+            "f1": 0.8,
+            "frame": "Policy prescription & evaluation",
+            "majority_support": 2,
+            "positive_vote_mass": 2.0,
+            "precision": 0.6666666666666666,
+            "predicted_positive": 3,
+            "recall": 1.0,
+            "ties": 0
+          },
+          {
+            "brier": 2.248643349694379e-06,
+            "f1": 0.0,
+            "frame": "Crime & punishment",
+            "majority_support": 0,
+            "positive_vote_mass": 0.0,
+            "precision": 0.0,
+            "predicted_positive": 0,
+            "recall": 0.0,
+            "ties": 0
+          },
+          {
+            "brier": 9.907564673265294e-05,
+            "f1": 1.0,
+            "frame": "Security & defense",
+            "majority_support": 3,
+            "positive_vote_mass": 3.0,
+            "precision": 1.0,
+            "predicted_positive": 3,
+            "recall": 1.0,
+            "ties": 0
+          },
+          {
+            "brier": 8.16919461575271e-08,
+            "f1": 0.0,
+            "frame": "Health & safety",
+            "majority_support": 0,
+            "positive_vote_mass": 0.0,
+            "precision": 0.0,
+            "predicted_positive": 0,
+            "recall": 0.0,
+            "ties": 0
+          },
+          {
+            "brier": 7.39995341127501e-08,
+            "f1": 0.0,
+            "frame": "Quality of life",
+            "majority_support": 0,
+            "positive_vote_mass": 0.0,
+            "precision": 0.0,
+            "predicted_positive": 0,
+            "recall": 0.0,
+            "ties": 0
+          },
+          {
+            "brier": 0.3888533074075314,
+            "f1": 0.6666666666666666,
+            "frame": "Cultural identity",
+            "majority_support": 2,
+            "positive_vote_mass": 2.0,
+            "precision": 1.0,
+            "predicted_positive": 1,
+            "recall": 0.5,
+            "ties": 0
+          },
+          {
+            "brier": 1.5002686645929007e-05,
+            "f1": 0.0,
+            "frame": "Public opinion",
+            "majority_support": 0,
+            "positive_vote_mass": 0.0,
+            "precision": 0.0,
+            "predicted_positive": 0,
+            "recall": 0.0,
+            "ties": 0
+          },
+          {
+            "brier": 0.41362529231447454,
+            "f1": 0.0,
+            "frame": "Political",
+            "majority_support": 0,
+            "positive_vote_mass": 0.0,
+            "precision": 0.0,
+            "predicted_positive": 3,
+            "recall": 0.0,
+            "ties": 0
+          },
+          {
+            "brier": 9.059576200343145e-09,
+            "f1": 1.0,
+            "frame": "External regulation & reputation",
+            "majority_support": 3,
+            "positive_vote_mass": 3.0,
+            "precision": 1.0,
+            "predicted_positive": 3,
+            "recall": 1.0,
+            "ties": 0
+          }
+        ],
+        "threshold": 0.5,
+        "vote_fraction_mse": 0.08820187186585042
+      },
+      "l2_reference": {
+        "brier": 0.09555346070447487,
+        "f1_reference": "strict_majority_votes_gt_half_empty_allowed",
+        "macro_f1": 0.3190476190476191,
+        "micro_f1": 0.7407407407407407,
+        "n_answers": 3,
+        "n_articles": 3,
+        "observed_disagreement_floor": 0.0,
+        "per_frame": [
+          {
+            "brier": 0.060453889034726004,
+            "f1": 1.0,
+            "frame": "Economic",
+            "majority_support": 1,
+            "positive_vote_mass": 1.0,
+            "precision": 1.0,
+            "predicted_positive": 1,
+            "recall": 1.0,
+            "ties": 0
+          },
+          {
+            "brier": 0.2189617961434116,
+            "f1": 0.6666666666666666,
+            "frame": "Capacity & resources",
+            "majority_support": 2,
+            "positive_vote_mass": 2.0,
+            "precision": 1.0,
+            "predicted_positive": 1,
+            "recall": 0.5,
+            "ties": 0
+          },
+          {
+            "brier": 0.012690854216890077,
+            "f1": 0.0,
+            "frame": "Morality",
+            "majority_support": 0,
+            "positive_vote_mass": 0.0,
+            "precision": 0.0,
+            "predicted_positive": 0,
+            "recall": 0.0,
+            "ties": 0
+          },
+          {
+            "brier": 0.013108368267438756,
+            "f1": 0.0,
+            "frame": "Fairness & equality",
+            "majority_support": 0,
+            "positive_vote_mass": 0.0,
+            "precision": 0.0,
+            "predicted_positive": 0,
+            "recall": 0.0,
+            "ties": 0
+          },
+          {
+            "brier": 0.007914770291497309,
+            "f1": 0.0,
+            "frame": "Legality, constitutionality, jurisprudence",
+            "majority_support": 0,
+            "positive_vote_mass": 0.0,
+            "precision": 0.0,
+            "predicted_positive": 0,
+            "recall": 0.0,
+            "ties": 0
+          },
+          {
+            "brier": 0.1976422988236166,
+            "f1": 0.8,
+            "frame": "Policy prescription & evaluation",
+            "majority_support": 2,
+            "positive_vote_mass": 2.0,
+            "precision": 0.6666666666666666,
+            "predicted_positive": 3,
+            "recall": 1.0,
+            "ties": 0
+          },
+          {
+            "brier": 7.404553867139535e-06,
+            "f1": 0.0,
+            "frame": "Crime & punishment",
+            "majority_support": 0,
+            "positive_vote_mass": 0.0,
+            "precision": 0.0,
+            "predicted_positive": 0,
+            "recall": 0.0,
+            "ties": 0
+          },
+          {
+            "brier": 0.00415810125813465,
+            "f1": 1.0,
+            "frame": "Security & defense",
+            "majority_support": 3,
+            "positive_vote_mass": 3.0,
+            "precision": 1.0,
+            "predicted_positive": 3,
+            "recall": 1.0,
+            "ties": 0
+          },
+          {
+            "brier": 9.806820184615717e-07,
+            "f1": 0.0,
+            "frame": "Health & safety",
+            "majority_support": 0,
+            "positive_vote_mass": 0.0,
+            "precision": 0.0,
+            "predicted_positive": 0,
+            "recall": 0.0,
+            "ties": 0
+          },
+          {
+            "brier": 3.8867661972348194e-06,
+            "f1": 0.0,
+            "frame": "Quality of life",
+            "majority_support": 0,
+            "positive_vote_mass": 0.0,
+            "precision": 0.0,
+            "predicted_positive": 0,
+            "recall": 0.0,
+            "ties": 0
+          },
+          {
+            "brier": 0.3905668058210257,
+            "f1": 0.0,
+            "frame": "Cultural identity",
+            "majority_support": 2,
+            "positive_vote_mass": 2.0,
+            "precision": 0.0,
+            "predicted_positive": 0,
+            "recall": 0.0,
+            "ties": 0
+          },
+          {
+            "brier": 1.8393979757836217e-05,
+            "f1": 0.0,
+            "frame": "Public opinion",
+            "majority_support": 0,
+            "positive_vote_mass": 0.0,
+            "precision": 0.0,
+            "predicted_positive": 0,
+            "recall": 0.0,
+            "ties": 0
+          },
+          {
+            "brier": 0.4322205402827149,
+            "f1": 0.0,
+            "frame": "Political",
+            "majority_support": 0,
+            "positive_vote_mass": 0.0,
+            "precision": 0.0,
+            "predicted_positive": 3,
+            "recall": 0.0,
+            "ties": 0
+          },
+          {
+            "brier": 3.5974135196662854e-07,
+            "f1": 1.0,
+            "frame": "External regulation & reputation",
+            "majority_support": 3,
+            "positive_vote_mass": 3.0,
+            "precision": 1.0,
+            "predicted_positive": 3,
+            "recall": 1.0,
+            "ties": 0
+          }
+        ],
+        "threshold": 0.5,
+        "vote_fraction_mse": 0.09555346070447487
+      },
+      "n_articles": 3
+    },
+    "theinsider": {
+      "l1_joint": {
+        "article_accuracy": 0.6860001576388131,
+        "brier": 0.17516738158242587,
+        "confusion": [
+          [
+            10,
+            8,
+            2
+          ],
+          [
+            2,
+            28,
+            1
+          ],
+          [
+            2,
+            5,
+            4
+          ]
+        ],
+        "cross_entropy": 1.5357168158771068,
+        "macro_f1": 0.6194778038031351,
+        "mention_accuracy": 0.6774193548387096,
+        "mention_macro_f1": 0.6034858387799564,
+        "n_answers": 7,
+        "n_articles": 7,
+        "n_mentions": 62,
+        "per_role": {
+          "ANTAGONIST": {
+            "f1": 0.7773533077428139,
+            "mentions": 31,
+            "precision": 0.6965694932451475,
+            "recall": 0.8793328885923949,
+            "weighted_support": 3.5785905271199385
+          },
+          "INNOCENT": {
+            "f1": 0.4927785248269336,
+            "mentions": 11,
+            "precision": 0.6168448614444687,
+            "recall": 0.4102622576966932,
+            "weighted_support": 1.023576097105509
+          },
+          "PROTAGONIST": {
+            "f1": 0.5883015788396577,
+            "mentions": 20,
+            "precision": 0.6856294830571358,
+            "recall": 0.515170958135501,
+            "weighted_support": 2.3978333757745522
+          }
+        },
+        "role_order": [
+          "PROTAGONIST",
+          "ANTAGONIST",
+          "INNOCENT"
+        ],
+        "weighted_confusion": [
+          [
+            1.2352941176470589,
+            0.9926046176046177,
+            0.16993464052287582
+          ],
+          [
+            0.34090909090909094,
+            3.1467723453017564,
+            0.09090909090909091
+          ],
+          [
+            0.22549019607843135,
+            0.37815126050420167,
+            0.4199346405228758
+          ]
+        ]
+      },
+      "l1_reference": {
+        "article_accuracy": 0.7873225047594794,
+        "brier": 0.13546929302071334,
+        "confusion": [
+          [
+            14,
+            3,
+            3
+          ],
+          [
+            4,
+            26,
+            1
+          ],
+          [
+            0,
+            4,
+            7
+          ]
+        ],
+        "cross_entropy": 1.0409728456925906,
+        "macro_f1": 0.7564790693850726,
+        "mention_accuracy": 0.7580645161290323,
+        "mention_macro_f1": 0.7285685805422647,
+        "n_answers": 7,
+        "n_articles": 7,
+        "n_mentions": 62,
+        "per_role": {
+          "ANTAGONIST": {
+            "f1": 0.835152651602136,
+            "mentions": 31,
+            "precision": 0.82414565567571,
+            "recall": 0.8464576384256169,
+            "weighted_support": 3.5785905271199385
+          },
+          "INNOCENT": {
+            "f1": 0.6670083408702642,
+            "mentions": 11,
+            "precision": 0.647235494880546,
+            "recall": 0.6880273660205244,
+            "weighted_support": 1.023576097105509
+          },
+          "PROTAGONIST": {
+            "f1": 0.7672762156828177,
+            "mentions": 20,
+            "precision": 0.7949615713065755,
+            "recall": 0.7414543057024394,
+            "weighted_support": 2.3978333757745522
+          }
+        },
+        "role_order": [
+          "PROTAGONIST",
+          "ANTAGONIST",
+          "INNOCENT"
+        ],
+        "weighted_confusion": [
+          [
+            1.7778838808250572,
+            0.327020202020202,
+            0.29292929292929293
+          ],
+          [
+            0.4585561497326204,
+            3.029125286478227,
+            0.09090909090909091
+          ],
+          [
+            0.0,
+            0.31932773109243695,
+            0.7042483660130718
+          ]
+        ]
+      },
+      "l2_joint": {
+        "brier": 0.11731049384075867,
+        "f1_reference": "strict_majority_votes_gt_half_empty_allowed",
+        "macro_f1": 0.47171637885923595,
+        "micro_f1": 0.7241379310344828,
+        "n_answers": 7,
+        "n_articles": 7,
+        "observed_disagreement_floor": 0.0,
+        "per_frame": [
+          {
+            "brier": 0.05577111547096434,
+            "f1": 0.6666666666666666,
+            "frame": "Economic",
+            "majority_support": 2,
+            "positive_vote_mass": 2.0,
+            "precision": 1.0,
+            "predicted_positive": 1,
+            "recall": 0.5,
+            "ties": 0
+          },
+          {
+            "brier": 0.09815692234612342,
+            "f1": 0.5,
+            "frame": "Capacity & resources",
+            "majority_support": 3,
+            "positive_vote_mass": 3.0,
+            "precision": 1.0,
+            "predicted_positive": 1,
+            "recall": 0.3333333333333333,
+            "ties": 0
+          },
+          {
+            "brier": 0.17189888018625,
+            "f1": 0.8,
+            "frame": "Morality",
+            "majority_support": 3,
+            "positive_vote_mass": 3.0,
+            "precision": 1.0,
+            "predicted_positive": 2,
+            "recall": 0.6666666666666666,
+            "ties": 0
+          },
+          {
+            "brier": 0.01157395868791603,
+            "f1": 0.0,
+            "frame": "Fairness & equality",
+            "majority_support": 0,
+            "positive_vote_mass": 0.0,
+            "precision": 0.0,
+            "predicted_positive": 0,
+            "recall": 0.0,
+            "ties": 0
+          },
+          {
+            "brier": 0.21253831952934993,
+            "f1": 0.0,
+            "frame": "Legality, constitutionality, jurisprudence",
+            "majority_support": 1,
+            "positive_vote_mass": 1.0,
+            "precision": 0.0,
+            "predicted_positive": 1,
+            "recall": 0.0,
+            "ties": 0
+          },
+          {
+            "brier": 0.10045675690732632,
+            "f1": 0.8571428571428571,
+            "frame": "Policy prescription & evaluation",
+            "majority_support": 3,
+            "positive_vote_mass": 3.0,
+            "precision": 0.75,
+            "predicted_positive": 4,
+            "recall": 1.0,
+            "ties": 0
+          },
+          {
+            "brier": 0.28364997608560805,
+            "f1": 0.0,
+            "frame": "Crime & punishment",
+            "majority_support": 2,
+            "positive_vote_mass": 2.0,
+            "precision": 0.0,
+            "predicted_positive": 0,
+            "recall": 0.0,
+            "ties": 0
+          },
+          {
+            "brier": 0.10928911524078679,
+            "f1": 0.8,
+            "frame": "Security & defense",
+            "majority_support": 3,
+            "positive_vote_mass": 3.0,
+            "precision": 1.0,
+            "predicted_positive": 2,
+            "recall": 0.6666666666666666,
+            "ties": 0
+          },
+          {
+            "brier": 0.00048189933166655396,
+            "f1": 0.0,
+            "frame": "Health & safety",
+            "majority_support": 0,
+            "positive_vote_mass": 0.0,
+            "precision": 0.0,
+            "predicted_positive": 0,
+            "recall": 0.0,
+            "ties": 0
+          },
+          {
+            "brier": 0.003173449073827856,
+            "f1": 0.0,
+            "frame": "Quality of life",
+            "majority_support": 0,
+            "positive_vote_mass": 0.0,
+            "precision": 0.0,
+            "predicted_positive": 0,
+            "recall": 0.0,
+            "ties": 0
+          },
+          {
+            "brier": 0.14504364146539642,
+            "f1": 0.8,
+            "frame": "Cultural identity",
+            "majority_support": 3,
+            "positive_vote_mass": 3.0,
+            "precision": 1.0,
+            "predicted_positive": 2,
+            "recall": 0.6666666666666666,
+            "ties": 0
+          },
+          {
+            "brier": 0.2697837932183736,
+            "f1": 0.4,
+            "frame": "Public opinion",
+            "majority_support": 2,
+            "positive_vote_mass": 2.0,
+            "precision": 0.3333333333333333,
+            "predicted_positive": 3,
+            "recall": 0.5,
+            "ties": 0
+          },
+          {
+            "brier": 0.12039392035746947,
+            "f1": 0.9230769230769231,
+            "frame": "Political",
+            "majority_support": 7,
+            "positive_vote_mass": 7.0,
+            "precision": 1.0,
+            "predicted_positive": 6,
+            "recall": 0.8571428571428571,
+            "ties": 0
+          },
+          {
+            "brier": 0.06013516586956295,
+            "f1": 0.8571428571428571,
+            "frame": "External regulation & reputation",
+            "majority_support": 4,
+            "positive_vote_mass": 4.0,
+            "precision": 1.0,
+            "predicted_positive": 3,
+            "recall": 0.75,
+            "ties": 0
+          }
+        ],
+        "threshold": 0.5,
+        "vote_fraction_mse": 0.11731049384075867
+      },
+      "l2_reference": {
+        "brier": 0.10916618656256663,
+        "f1_reference": "strict_majority_votes_gt_half_empty_allowed",
+        "macro_f1": 0.4747776033490319,
+        "micro_f1": 0.7636363636363637,
+        "n_answers": 7,
+        "n_articles": 7,
+        "observed_disagreement_floor": 0.0,
+        "per_frame": [
+          {
+            "brier": 0.12378735393987696,
+            "f1": 0.6666666666666666,
+            "frame": "Economic",
+            "majority_support": 2,
+            "positive_vote_mass": 2.0,
+            "precision": 1.0,
+            "predicted_positive": 1,
+            "recall": 0.5,
+            "ties": 0
+          },
+          {
+            "brier": 0.11630407653875278,
+            "f1": 0.8,
+            "frame": "Capacity & resources",
+            "majority_support": 3,
+            "positive_vote_mass": 3.0,
+            "precision": 1.0,
+            "predicted_positive": 2,
+            "recall": 0.6666666666666666,
+            "ties": 0
+          },
+          {
+            "brier": 0.1536003703585318,
+            "f1": 0.8,
+            "frame": "Morality",
+            "majority_support": 3,
+            "positive_vote_mass": 3.0,
+            "precision": 1.0,
+            "predicted_positive": 2,
+            "recall": 0.6666666666666666,
+            "ties": 0
+          },
+          {
+            "brier": 0.015312390757887737,
+            "f1": 0.0,
+            "frame": "Fairness & equality",
+            "majority_support": 0,
+            "positive_vote_mass": 0.0,
+            "precision": 0.0,
+            "predicted_positive": 0,
+            "recall": 0.0,
+            "ties": 0
+          },
+          {
+            "brier": 0.11822626926034634,
+            "f1": 0.0,
+            "frame": "Legality, constitutionality, jurisprudence",
+            "majority_support": 1,
+            "positive_vote_mass": 1.0,
+            "precision": 0.0,
+            "predicted_positive": 0,
+            "recall": 0.0,
+            "ties": 0
+          },
+          {
+            "brier": 0.05365742190613991,
+            "f1": 1.0,
+            "frame": "Policy prescription & evaluation",
+            "majority_support": 3,
+            "positive_vote_mass": 3.0,
+            "precision": 1.0,
+            "predicted_positive": 3,
+            "recall": 1.0,
+            "ties": 0
+          },
+          {
+            "brier": 0.27790792770846157,
+            "f1": 0.0,
+            "frame": "Crime & punishment",
+            "majority_support": 2,
+            "positive_vote_mass": 2.0,
+            "precision": 0.0,
+            "predicted_positive": 0,
+            "recall": 0.0,
+            "ties": 0
+          },
+          {
+            "brier": 0.0797559531934422,
+            "f1": 0.8,
+            "frame": "Security & defense",
+            "majority_support": 3,
+            "positive_vote_mass": 3.0,
+            "precision": 1.0,
+            "predicted_positive": 2,
+            "recall": 0.6666666666666666,
+            "ties": 0
+          },
+          {
+            "brier": 0.00049548308744758,
+            "f1": 0.0,
+            "frame": "Health & safety",
+            "majority_support": 0,
+            "positive_vote_mass": 0.0,
+            "precision": 0.0,
+            "predicted_positive": 0,
+            "recall": 0.0,
+            "ties": 0
+          },
+          {
+            "brier": 0.0030678807346834007,
+            "f1": 0.0,
+            "frame": "Quality of life",
+            "majority_support": 0,
+            "positive_vote_mass": 0.0,
+            "precision": 0.0,
+            "predicted_positive": 0,
+            "recall": 0.0,
+            "ties": 0
+          },
+          {
+            "brier": 0.14238774602860269,
+            "f1": 0.8,
+            "frame": "Cultural identity",
+            "majority_support": 3,
+            "positive_vote_mass": 3.0,
+            "precision": 1.0,
+            "predicted_positive": 2,
+            "recall": 0.6666666666666666,
+            "ties": 0
+          },
+          {
+            "brier": 0.2393826668616228,
+            "f1": 0.0,
+            "frame": "Public opinion",
+            "majority_support": 2,
+            "positive_vote_mass": 2.0,
+            "precision": 0.0,
+            "predicted_positive": 1,
+            "recall": 0.0,
+            "ties": 0
+          },
+          {
+            "brier": 0.12192542751859291,
+            "f1": 0.9230769230769231,
+            "frame": "Political",
+            "majority_support": 7,
+            "positive_vote_mass": 7.0,
+            "precision": 1.0,
+            "predicted_positive": 6,
+            "recall": 0.8571428571428571,
+            "ties": 0
+          },
+          {
+            "brier": 0.08251564398154408,
+            "f1": 0.8571428571428571,
+            "frame": "External regulation & reputation",
+            "majority_support": 4,
+            "positive_vote_mass": 4.0,
+            "precision": 1.0,
+            "predicted_positive": 3,
+            "recall": 0.75,
+            "ties": 0
+          }
+        ],
+        "threshold": 0.5,
+        "vote_fraction_mse": 0.10916618656256663
+      },
+      "n_articles": 7
+    }
+  },
+  "train": {
+    "l1": {
+      "article_accuracy": 0.996613809864615,
+      "brier": 0.0015218543643117815,
+      "confusion": [
+        [
+          300,
+          3,
+          6
+        ],
+        [
+          0,
+          664,
+          4
+        ],
+        [
+          1,
+          0,
+          256
+        ]
+      ],
+      "cross_entropy": 0.008609397662387917,
+      "macro_f1": 0.9953563842422093,
+      "mention_accuracy": 0.9886547811993517,
+      "mention_macro_f1": 0.9857768689680168,
+      "n_answers": 194,
+      "n_articles": 135,
+      "n_mentions": 1234,
+      "per_role": {
+        "ANTAGONIST": {
+          "f1": 0.9987296270931807,
+          "mentions": 668,
+          "precision": 0.9988797328686233,
+          "recall": 0.9985795664249869,
+          "weighted_support": 72.34245286855744
+        },
+        "INNOCENT": {
+          "f1": 0.9917983327531128,
+          "mentions": 257,
+          "precision": 0.9872890786583854,
+          "recall": 0.9963489661516934,
+          "weighted_support": 22.824585253292362
+        },
+        "PROTAGONIST": {
+          "f1": 0.9955411928803343,
+          "mentions": 309,
+          "precision": 0.9978980248017414,
+          "recall": 0.9931954674417768,
+          "weighted_support": 39.83296187815085
+        }
+      },
+      "role_order": [
+        "PROTAGONIST",
+        "ANTAGONIST",
+        "INNOCENT"
+      ],
+      "weighted_confusion": [
+        [
+          39.56191719216051,
+          0.08101851851851852,
+          0.19002616747181966
+        ],
+        [
+          0.0,
+          72.23969521960414,
+          0.10275764895330113
+        ],
+        [
+          0.08333333333333333,
+          0.0,
+          22.741251919959034
+        ]
+      ]
+    },
+    "l2": {
+      "brier": 0.0700177477490208,
+      "f1_reference": "strict_majority_votes_gt_half_empty_allowed",
+      "macro_f1": 0.854035809620908,
+      "micro_f1": 0.8637873754152824,
+      "n_answers": 215,
+      "n_articles": 145,
+      "observed_disagreement_floor": 0.021510673234811168,
+      "per_frame": [
+        {
+          "brier": 0.06995089780126214,
+          "f1": 0.9038461538461539,
+          "frame": "Economic",
+          "majority_support": 51,
+          "positive_vote_mass": 55.0,
+          "precision": 0.8867924528301887,
+          "predicted_positive": 53,
+          "recall": 0.9215686274509803,
+          "ties": 8
+        },
+        {
+          "brier": 0.08916711920654166,
+          "f1": 0.8125,
+          "frame": "Capacity & resources",
+          "majority_support": 45,
+          "positive_vote_mass": 50.33333333333333,
+          "precision": 0.7647058823529411,
+          "predicted_positive": 51,
+          "recall": 0.8666666666666667,
+          "ties": 10
+        },
+        {
+          "brier": 0.06712270851050357,
+          "f1": 0.896551724137931,
+          "frame": "Morality",
+          "majority_support": 46,
+          "positive_vote_mass": 50.0,
+          "precision": 0.9512195121951219,
+          "predicted_positive": 41,
+          "recall": 0.8478260869565217,
+          "ties": 6
+        },
+        {
+          "brier": 0.0632408629273471,
+          "f1": 0.7894736842105263,
+          "frame": "Fairness & equality",
+          "majority_support": 21,
+          "positive_vote_mass": 24.5,
+          "precision": 0.8823529411764706,
+          "predicted_positive": 17,
+          "recall": 0.7142857142857143,
+          "ties": 7
+        },
+        {
+          "brier": 0.06521130972068655,
+          "f1": 0.7857142857142857,
+          "frame": "Legality, constitutionality, jurisprudence",
+          "majority_support": 30,
+          "positive_vote_mass": 31.499999999999996,
+          "precision": 0.8461538461538461,
+          "predicted_positive": 26,
+          "recall": 0.7333333333333333,
+          "ties": 3
+        },
+        {
+          "brier": 0.15213928311901762,
+          "f1": 0.7801418439716312,
+          "frame": "Policy prescription & evaluation",
+          "majority_support": 63,
+          "positive_vote_mass": 68.5,
+          "precision": 0.7051282051282052,
+          "predicted_positive": 78,
+          "recall": 0.873015873015873,
+          "ties": 17
+        },
+        {
+          "brier": 0.03555916873911161,
+          "f1": 0.8648648648648649,
+          "frame": "Crime & punishment",
+          "majority_support": 20,
+          "positive_vote_mass": 21.333333333333332,
+          "precision": 0.9411764705882353,
+          "predicted_positive": 17,
+          "recall": 0.8,
+          "ties": 4
+        },
+        {
+          "brier": 0.073820280312051,
+          "f1": 0.9285714285714286,
+          "frame": "Security & defense",
+          "majority_support": 67,
+          "positive_vote_mass": 68.5,
+          "precision": 0.8904109589041096,
+          "predicted_positive": 73,
+          "recall": 0.9701492537313433,
+          "ties": 5
+        },
+        {
+          "brier": 0.01400139304137812,
+          "f1": 0.9655172413793104,
+          "frame": "Health & safety",
+          "majority_support": 14,
+          "positive_vote_mass": 15.0,
+          "precision": 0.9333333333333333,
+          "predicted_positive": 15,
+          "recall": 1.0,
+          "ties": 2
+        },
+        {
+          "brier": 0.04074301864960267,
+          "f1": 0.7692307692307693,
+          "frame": "Quality of life",
+          "majority_support": 13,
+          "positive_vote_mass": 17.5,
+          "precision": 0.7692307692307693,
+          "predicted_positive": 13,
+          "recall": 0.7692307692307693,
+          "ties": 7
+        },
+        {
+          "brier": 0.0562929131244182,
+          "f1": 0.8253968253968254,
+          "frame": "Cultural identity",
+          "majority_support": 34,
+          "positive_vote_mass": 37.166666666666664,
+          "precision": 0.896551724137931,
+          "predicted_positive": 29,
+          "recall": 0.7647058823529411,
+          "ties": 5
+        },
+        {
+          "brier": 0.08323073486467468,
+          "f1": 0.8125,
+          "frame": "Public opinion",
+          "majority_support": 34,
+          "positive_vote_mass": 36.0,
+          "precision": 0.8666666666666667,
+          "predicted_positive": 30,
+          "recall": 0.7647058823529411,
+          "ties": 6
+        },
+        {
+          "brier": 0.1273963035599974,
+          "f1": 0.8663101604278075,
+          "frame": "Political",
+          "majority_support": 85,
+          "positive_vote_mass": 90.0,
+          "precision": 0.7941176470588235,
+          "predicted_positive": 102,
+          "recall": 0.9529411764705882,
+          "ties": 10
+        },
+        {
+          "brier": 0.04237247490969894,
+          "f1": 0.9558823529411765,
+          "frame": "External regulation & reputation",
+          "majority_support": 66,
+          "positive_vote_mass": 71.0,
+          "precision": 0.9285714285714286,
+          "predicted_positive": 70,
+          "recall": 0.9848484848484849,
+          "ties": 10
+        }
+      ],
+      "threshold": 0.5,
+      "vote_fraction_mse": 0.04850707451420964
+    }
+  }
+}

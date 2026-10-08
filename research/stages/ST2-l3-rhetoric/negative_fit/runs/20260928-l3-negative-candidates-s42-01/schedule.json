@@ -1,0 +1,1010 @@
+{
+  "doc_ids": [
+    "holod:antiteza-strelkovu",
+    "holod:bokhan",
+    "holod:boris-stop-russia-24",
+    "holod:chto-volnuet-voenkorov-xvi",
+    "holod:chto-volnuet-voenkorov-xxix",
+    "holod:chto-volnuet-voenkorov-xxvii",
+    "holod:chto-volnuet-voenkorov-xxxii",
+    "holod:chto-volnuet-voenkorov-xxxiii",
+    "holod:film-vyzov",
+    "holod:galiamina-interview",
+    "holod:hotyat-li-voennye-zaversheniya-vojny",
+    "holod:interview-bucci",
+    "holod:kremlin-jive",
+    "holod:lapshin-direktor-zlo",
+    "holod:lgbt-propaganda",
+    "holod:malika-musaeva",
+    "holod:mat",
+    "holod:miagkii-protest",
+    "holod:musaelyan-freedom",
+    "holod:muzh-ne-hochet-uezzhat-posle-obyavleniya-mobilizaczii-zhena-prosit-ego-uehat",
+    "holod:navalny-last-words",
+    "holod:ne-hodi-na-akczii-ne-risuj",
+    "holod:nejroset-zapreshhenka-chushpany",
+    "holod:nizovkina",
+    "holod:novolodskii-o-skochilenko",
+    "holod:o-chem-noet-zahar-prilepin%ef%bf%bc",
+    "holod:playlist-2022",
+    "holod:poland-ukraine",
+    "holod:politicheskoe-i-esteticheskoe",
+    "holod:povestki-zaderzhannim-miting",
+    "holod:science-isolation",
+    "holod:strashno-chto-situacziya-otbrasyvaet-nas-na-desyat-let-nazad-v-razvitii-blagotvoritelnogo-sektora",
+    "holod:strelkov-opinion",
+    "holod:tufta-will-kill-us",
+    "holod:war-vs-childhood",
+    "ng:100_154321042025",
+    "ng:100_1700150102021",
+    "ng:100_200618problem",
+    "ng:100_2306161240",
+    "ng:100_2412061920",
+    "ng:100_2412261340",
+    "ng:100_gas110723",
+    "ng:100_mouse17052020",
+    "ng:10_9230_astronauts",
+    "ng:2_8695_vw",
+    "ng:5_7883_vision",
+    "ng:5_8413_vision",
+    "ng:5_9505_asia",
+    "ng:5_9507_europe",
+    "ng:6_7800_vision",
+    "ng:6_7818_vision",
+    "ng:6_7837_vision",
+    "ng:6_7843_vision",
+    "ng:6_7862_vision",
+    "ng:6_7922_vision",
+    "ng:6_8206_vision",
+    "ng:6_8242_vision",
+    "ng:6_8481_vision",
+    "ng:6_8488_w05",
+    "ng:6_8704_uranium",
+    "ng:6_8968_poland",
+    "ng:6_9036_germany",
+    "ng:6_9110_germany",
+    "ng:6_9116_germany",
+    "ng:6_9153_africa",
+    "ng:6_9236_cambodia",
+    "ng:6_9261_ukraine",
+    "ng:7_7792_vision",
+    "ng:8_8109_zd03",
+    "ng:8_8110_vision",
+    "ng:8_8647_themis",
+    "ng:8_9360_vision",
+    "ng:8_9424_crisis",
+    "ng:8_9448_vision",
+    "ria_novosti:2008793019",
+    "ria_novosti:2008880498",
+    "ria_novosti:2008880921",
+    "ria_novosti:2015434114",
+    "ria_novosti:2021055778",
+    "ria_novosti:2021812270",
+    "ria_novosti:2032407686",
+    "ria_novosti:2032508259",
+    "ria_novosti:2034478917",
+    "ria_novosti:2037337669",
+    "ria_novosti:2038686731",
+    "ria_novosti:2040767325",
+    "ria_novosti:2043628402",
+    "ria_novosti:2052198418",
+    "ria_novosti:2056396848",
+    "ria_novosti:2058781062",
+    "ria_novosti:2075669540",
+    "theinsider:196533",
+    "theinsider:197929",
+    "theinsider:205290",
+    "theinsider:207276",
+    "theinsider:209607",
+    "theinsider:216627",
+    "theinsider:223648",
+    "theinsider:225823",
+    "theinsider:230336",
+    "theinsider:237336",
+    "theinsider:238025",
+    "theinsider:238362",
+    "theinsider:239886",
+    "theinsider:240028",
+    "theinsider:240978",
+    "theinsider:242333",
+    "theinsider:242615",
+    "theinsider:245471",
+    "theinsider:247146",
+    "theinsider:247833",
+    "theinsider:247994",
+    "theinsider:252826",
+    "theinsider:256843",
+    "theinsider:257597",
+    "theinsider:257618",
+    "theinsider:258086",
+    "theinsider:262340",
+    "theinsider:267624",
+    "theinsider:269354",
+    "theinsider:272442",
+    "theinsider:278394",
+    "theinsider:278708",
+    "theinsider:279444",
+    "theinsider:279931",
+    "theinsider:285786",
+    "theinsider:286236",
+    "theinsider:291880",
+    "theinsider:295616"
+  ],
+  "steps": [
+    {
+      "epoch_index": 20,
+      "indices": [
+        125,
+        35,
+        16,
+        64,
+        94,
+        32,
+        65,
+        57
+      ],
+      "position": 0
+    },
+    {
+      "epoch_index": 20,
+      "indices": [
+        15,
+        89,
+        93,
+        29,
+        23,
+        85,
+        103,
+        10
+      ],
+      "position": 8
+    },
+    {
+      "epoch_index": 20,
+      "indices": [
+        18,
+        60,
+        36,
+        30,
+        49,
+        78,
+        75,
+        70
+      ],
+      "position": 16
+    },
+    {
+      "epoch_index": 20,
+      "indices": [
+        54,
+        66,
+        109,
+        128,
+        34,
+        106,
+        92,
+        91
+      ],
+      "position": 24
+    },
+    {
+      "epoch_index": 20,
+      "indices": [
+        46,
+        53,
+        120,
+        50,
+        117,
+        102,
+        11,
+        104
+      ],
+      "position": 32
+    },
+    {
+      "epoch_index": 20,
+      "indices": [
+        59,
+        124,
+        112,
+        33,
+        79,
+        61,
+        58,
+        52
+      ],
+      "position": 40
+    },
+    {
+      "epoch_index": 20,
+      "indices": [
+        56,
+        77,
+        13,
+        37,
+        55,
+        40,
+        90,
+        26
+      ],
+      "position": 48
+    },
+    {
+      "epoch_index": 20,
+      "indices": [
+        17,
+        127,
+        84,
+        8,
+        39,
+        21,
+        25,
+        72
+      ],
+      "position": 56
+    },
+    {
+      "epoch_index": 20,
+      "indices": [
+        114,
+        80,
+        42,
+        123,
+        19,
+        47,
+        28,
+        115
+      ],
+      "position": 64
+    },
+    {
+      "epoch_index": 20,
+      "indices": [
+        96,
+        86,
+        62,
+        43,
+        67,
+        121,
+        22,
+        97
+      ],
+      "position": 72
+    },
+    {
+      "epoch_index": 20,
+      "indices": [
+        1,
+        27,
+        116,
+        45,
+        118,
+        110,
+        111,
+        101
+      ],
+      "position": 80
+    },
+    {
+      "epoch_index": 20,
+      "indices": [
+        5,
+        4,
+        74,
+        82,
+        6,
+        2,
+        68,
+        12
+      ],
+      "position": 88
+    },
+    {
+      "epoch_index": 20,
+      "indices": [
+        98,
+        20,
+        126,
+        87,
+        9,
+        48,
+        113,
+        108
+      ],
+      "position": 96
+    },
+    {
+      "epoch_index": 20,
+      "indices": [
+        119,
+        44,
+        95,
+        107,
+        99,
+        100,
+        88,
+        73
+      ],
+      "position": 104
+    },
+    {
+      "epoch_index": 20,
+      "indices": [
+        41,
+        63,
+        81,
+        31,
+        122,
+        0,
+        76,
+        69
+      ],
+      "position": 112
+    },
+    {
+      "epoch_index": 20,
+      "indices": [
+        7,
+        71,
+        24,
+        105,
+        83,
+        38,
+        14,
+        3
+      ],
+      "position": 120
+    },
+    {
+      "epoch_index": 20,
+      "indices": [
+        51
+      ],
+      "position": 128
+    },
+    {
+      "epoch_index": 21,
+      "indices": [
+        99,
+        118,
+        76,
+        26,
+        74,
+        80,
+        13,
+        24
+      ],
+      "position": 0
+    },
+    {
+      "epoch_index": 21,
+      "indices": [
+        42,
+        27,
+        58,
+        111,
+        47,
+        122,
+        17,
+        41
+      ],
+      "position": 8
+    },
+    {
+      "epoch_index": 21,
+      "indices": [
+        20,
+        2,
+        126,
+        23,
+        12,
+        83,
+        121,
+        69
+      ],
+      "position": 16
+    },
+    {
+      "epoch_index": 21,
+      "indices": [
+        70,
+        124,
+        91,
+        67,
+        98,
+        32,
+        28,
+        106
+      ],
+      "position": 24
+    },
+    {
+      "epoch_index": 21,
+      "indices": [
+        44,
+        85,
+        46,
+        56,
+        105,
+        109,
+        127,
+        52
+      ],
+      "position": 32
+    },
+    {
+      "epoch_index": 21,
+      "indices": [
+        43,
+        114,
+        57,
+        33,
+        113,
+        110,
+        77,
+        16
+      ],
+      "position": 40
+    },
+    {
+      "epoch_index": 21,
+      "indices": [
+        119,
+        15,
+        96,
+        93,
+        1,
+        84,
+        50,
+        75
+      ],
+      "position": 48
+    },
+    {
+      "epoch_index": 21,
+      "indices": [
+        30,
+        73,
+        14,
+        62,
+        7,
+        19,
+        39,
+        5
+      ],
+      "position": 56
+    },
+    {
+      "epoch_index": 21,
+      "indices": [
+        34,
+        54,
+        9,
+        31,
+        66,
+        49,
+        107,
+        53
+      ],
+      "position": 64
+    },
+    {
+      "epoch_index": 21,
+      "indices": [
+        37,
+        60,
+        101,
+        29,
+        112,
+        97,
+        72,
+        65
+      ],
+      "position": 72
+    },
+    {
+      "epoch_index": 21,
+      "indices": [
+        87,
+        48,
+        38,
+        120,
+        86,
+        89,
+        36,
+        51
+      ],
+      "position": 80
+    },
+    {
+      "epoch_index": 21,
+      "indices": [
+        4,
+        104,
+        64,
+        117,
+        92,
+        11,
+        22,
+        10
+      ],
+      "position": 88
+    },
+    {
+      "epoch_index": 21,
+      "indices": [
+        40,
+        81,
+        6,
+        8,
+        90,
+        25,
+        88,
+        95
+      ],
+      "position": 96
+    },
+    {
+      "epoch_index": 21,
+      "indices": [
+        55,
+        82,
+        116,
+        79,
+        115,
+        108,
+        18,
+        68
+      ],
+      "position": 104
+    },
+    {
+      "epoch_index": 21,
+      "indices": [
+        123,
+        35,
+        45,
+        78,
+        21,
+        103,
+        3,
+        0
+      ],
+      "position": 112
+    },
+    {
+      "epoch_index": 21,
+      "indices": [
+        59,
+        94,
+        125,
+        128,
+        63,
+        61,
+        100,
+        102
+      ],
+      "position": 120
+    },
+    {
+      "epoch_index": 21,
+      "indices": [
+        71
+      ],
+      "position": 128
+    },
+    {
+      "epoch_index": 22,
+      "indices": [
+        59,
+        57,
+        78,
+        68,
+        92,
+        80,
+        2,
+        50
+      ],
+      "position": 0
+    },
+    {
+      "epoch_index": 22,
+      "indices": [
+        20,
+        95,
+        54,
+        21,
+        49,
+        81,
+        46,
+        89
+      ],
+      "position": 8
+    },
+    {
+      "epoch_index": 22,
+      "indices": [
+        73,
+        76,
+        123,
+        55,
+        83,
+        69,
+        15,
+        64
+      ],
+      "position": 16
+    },
+    {
+      "epoch_index": 22,
+      "indices": [
+        16,
+        45,
+        107,
+        40,
+        126,
+        67,
+        35,
+        97
+      ],
+      "position": 24
+    },
+    {
+      "epoch_index": 22,
+      "indices": [
+        13,
+        116,
+        33,
+        56,
+        118,
+        125,
+        65,
+        109
+      ],
+      "position": 32
+    },
+    {
+      "epoch_index": 22,
+      "indices": [
+        74,
+        39,
+        70,
+        41,
+        96,
+        114,
+        9,
+        6
+      ],
+      "position": 40
+    },
+    {
+      "epoch_index": 22,
+      "indices": [
+        104,
+        7,
+        127,
+        28,
+        34,
+        5,
+        25,
+        31
+      ],
+      "position": 48
+    },
+    {
+      "epoch_index": 22,
+      "indices": [
+        22,
+        101,
+        58,
+        106,
+        84,
+        98,
+        23,
+        72
+      ],
+      "position": 56
+    },
+    {
+      "epoch_index": 22,
+      "indices": [
+        27,
+        12,
+        111,
+        48,
+        44,
+        11,
+        100,
+        14
+      ],
+      "position": 64
+    },
+    {
+      "epoch_index": 22,
+      "indices": [
+        71,
+        61,
+        85,
+        42,
+        86,
+        87,
+        32,
+        53
+      ],
+      "position": 72
+    },
+    {
+      "epoch_index": 22,
+      "indices": [
+        119,
+        24,
+        88,
+        51,
+        122,
+        121,
+        108,
+        124
+      ],
+      "position": 80
+    },
+    {
+      "epoch_index": 22,
+      "indices": [
+        4,
+        30,
+        29,
+        8,
+        77,
+        128,
+        47,
+        17
+      ],
+      "position": 88
+    },
+    {
+      "epoch_index": 22,
+      "indices": [
+        66,
+        99,
+        120,
+        18,
+        3,
+        37,
+        94,
+        110
+      ],
+      "position": 96
+    },
+    {
+      "epoch_index": 22,
+      "indices": [
+        103,
+        52,
+        26,
+        82,
+        60,
+        75,
+        90,
+        19
+      ],
+      "position": 104
+    },
+    {
+      "epoch_index": 22,
+      "indices": [
+        105,
+        63,
+        113,
+        115,
+        62,
+        43,
+        79,
+        117
+      ],
+      "position": 112
+    },
+    {
+      "epoch_index": 22,
+      "indices": [
+        0,
+        10,
+        112,
+        91,
+        102,
+        93,
+        1,
+        36
+      ],
+      "position": 120
+    },
+    {
+      "epoch_index": 22,
+      "indices": [
+        38
+      ],
+      "position": 128
+    },
+    {
+      "epoch_index": 23,
+      "indices": [
+        120,
+        22,
+        42,
+        92,
+        66,
+        6,
+        36,
+        97
+      ],
+      "position": 0
+    },
+    {
+      "epoch_index": 23,
+      "indices": [
+        2,
+        95,
+        24,
+        127,
+        63,
+        51,
+        100,
+        113
+      ],
+      "position": 8
+    },
+    {
+      "epoch_index": 23,
+      "indices": [
+        69,
+        79,
+        99,
+        122,
+        70,
+        76,
+        18,
+        28
+      ],
+      "position": 16
+    },
+    {
+      "epoch_index": 23,
+      "indices": [
+        126,
+        38,
+        86,
+        15,
+        114,
+        3,
+        73,
+        108
+      ],
+      "position": 24
+    },
+    {
+      "epoch_index": 23,
+      "indices": [
+        5,
+        60,
+        4,
+        82,
+        44,
+        12,
+        89,
+        128
+      ],
+      "position": 32
+    },
+    {
+      "epoch_index": 23,
+      "indices": [
+        16,
+        67,
+        10,
+        118,
+        26,
+        29,
+        124,
+        25
+      ],
+      "position": 40
+    },
+    {
+      "epoch_index": 23,
+      "indices": [
+        90,
+        58,
+        87,
+        0,
+        77,
+        37,
+        54,
+        43
+      ],
+      "position": 48
+    },
+    {
+      "epoch_index": 23,
+      "indices": [
+        71,
+        46,
+        13,
+        112,
+        57,
+        105,
+        107,
+        103
+      ],
+      "position": 56
+    },
+    {
+      "epoch_index": 23,
+      "indices": [
+        111,
+        45,
+        9,
+        33,
+        50,
+        125,
+        78,
+        106
+      ],
+      "position": 64
+    },
+    {
+      "epoch_index": 23,
+      "indices": [
+        74,
+        61,
+        109,
+        98,
+        41,
+        34,
+        39,
+        93
+      ],
+      "position": 72
+    },
+    {
+      "epoch_index": 23,
+      "indices": [
+        110,
+        20,
+        31,
+        55,
+        35,
+        116,
+        30,
+        101
+      ],
+      "position": 80
+    },
+    {
+      "epoch_index": 23,
+      "indices": [
+        17,
+        59,
+        65,
+        104,
+        64,
+        14,
+        48,
+        83
+      ],
+      "position": 88
+    },
+    {
+      "epoch_index": 23,
+      "indices": [
+        47,
+        56,
+        91,
+        121,
+        8,
+        19,
+        7,
+        53
+      ],
+      "position": 96
+    }
+  ]
+}

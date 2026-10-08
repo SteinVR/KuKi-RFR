@@ -1,0 +1,43 @@
+{
+  "best_baseline": "tfidf_C1",
+  "bootstrap95": [
+    0.06601653288318429,
+    0.1792247287009287
+  ],
+  "exact_labelset_accuracy_article_weighted": 0.665435059697291,
+  "paired_dev_difference": 0.12374875928531973,
+  "raw_family_counts": {
+    "Attack on Reputation": {
+      "fn": 68,
+      "fp": 45,
+      "tp": 35
+    },
+    "Call": {
+      "fn": 21,
+      "fp": 11,
+      "tp": 35
+    },
+    "Distraction": {
+      "fn": 4,
+      "fp": 0,
+      "tp": 0
+    },
+    "Justification": {
+      "fn": 35,
+      "fp": 36,
+      "tp": 65
+    },
+    "Manipulative Wording": {
+      "fn": 41,
+      "fp": 121,
+      "tp": 287
+    },
+    "Simplification": {
+      "fn": 41,
+      "fp": 13,
+      "tp": 12
+    }
+  },
+  "selected_run": "/home/xeliaray/Projects/Kuki-Labeling/research/stages/ST2-l3-rhetoric/experiments/20260928-classifier-low-lr-s42-01",
+  "warning": "descriptive post-selection dev interval; fixed fitted models; does not include training/selection uncertainty"
+}

@@ -1,0 +1,56 @@
+{
+  "limit_seconds": 1500,
+  "runs": [
+    {
+      "all_active_heads_and_lora_changed": true,
+      "base_unchanged": true,
+      "empty_l1_masked": true,
+      "historical_l2_update_exact": true,
+      "kind": "preflight",
+      "l1_architecture_exact": true,
+      "next_update_exact": true,
+      "optimizer_exact": true,
+      "peak_reserved_bytes": 2604662784,
+      "predictions_exact": true,
+      "profile_batch_ids": [
+        "ria_novosti:2015434114",
+        "holod:war-vs-childhood",
+        "ng:10_9230_astronauts",
+        "theinsider:207276",
+        "theinsider:247833",
+        "theinsider:278708",
+        "holod:master-i-margarita-lokshin",
+        "ria_novosti:2021055778"
+      ],
+      "seconds": 16.691063543999917,
+      "status": "passed",
+      "technical_optimizer_steps": 5,
+      "test_used": false,
+      "trainable_sha256": "38be339de95e2b39489c23bf078d2a93c3b0bbf620f9f6aae474c71fb2f9d073",
+      "update_seconds": 1.492843306998111
+    },
+    {
+      "article_presentations": 2900,
+      "base_unchanged": true,
+      "best_epoch": 17,
+      "kind": "fit",
+      "l1_labeled_presentations": 2700,
+      "peak_allocated_bytes": 2633798656,
+      "peak_reserved_bytes": 2749366272,
+      "run_id": "20260929-st6a-joint-s42-01",
+      "seconds": 569.9093966170003,
+      "status": "completed",
+      "stop_reason": "epoch_limit",
+      "trainable_parameters": 913625,
+      "updates": 380
+    },
+    {
+      "kind": "verification",
+      "prediction_sets": 8,
+      "seconds": 27.24212317600177,
+      "status": "passed",
+      "test_used": false
+    }
+  ],
+  "seconds": 613.842583337002
+}

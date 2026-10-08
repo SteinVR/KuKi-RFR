@@ -1,0 +1,911 @@
+{
+  "dev": {
+    "candidate_diagnostics": {
+      "accepted_pairs_before_cap": 124.45161290322581,
+      "ap": 0.05116486456774549,
+      "ap_eligible_answers": 36,
+      "ap_eligible_articles": 29,
+      "ap_excluded_answers": [
+        {
+          "annotation_index": 1,
+          "annotator_id": "4",
+          "doc_id": "holod:golosov-hunta",
+          "observed_gold_count": 1
+        },
+        {
+          "annotation_index": 1,
+          "annotator_id": "4",
+          "doc_id": "ng:8_8293_vision",
+          "observed_gold_count": 0
+        },
+        {
+          "annotation_index": 0,
+          "annotator_id": "4",
+          "doc_id": "theinsider:236745",
+          "observed_gold_count": 0
+        },
+        {
+          "annotation_index": 0,
+          "annotator_id": "4",
+          "doc_id": "theinsider:238660",
+          "observed_gold_count": 0
+        }
+      ],
+      "articles": [
+        {
+          "accepted_pairs_before_cap": 106.0,
+          "ap": 0.021415695774496816,
+          "doc_id": "holod:golosov-hunta",
+          "individuals": [
+            {
+              "accepted_pairs_before_cap": 106,
+              "annotation_index": 0,
+              "annotator_id": "10",
+              "ap": 0.007496258845439876,
+              "candidate_positive_pairs": 3,
+              "candidate_positive_typed": 3,
+              "negative_pair_acceptance": 0.21327967806841047,
+              "positive_pair_retention": 0.0,
+              "positive_typed_retention": 0.0
+            },
+            {
+              "accepted_pairs_before_cap": 106,
+              "annotation_index": 1,
+              "annotator_id": "4",
+              "ap": null,
+              "candidate_positive_pairs": 0,
+              "candidate_positive_typed": 0,
+              "negative_pair_acceptance": 0.212,
+              "positive_pair_retention": null,
+              "positive_typed_retention": null
+            },
+            {
+              "accepted_pairs_before_cap": 106,
+              "annotation_index": 2,
+              "annotator_id": "8",
+              "ap": 0.035335132703553755,
+              "candidate_positive_pairs": 4,
+              "candidate_positive_typed": 4,
+              "negative_pair_acceptance": 0.20766129032258066,
+              "positive_pair_retention": 0.75,
+              "positive_typed_retention": 0.75
+            }
+          ],
+          "negative_pair_acceptance": 0.21098032279699705,
+          "positive_pair_retention": 0.375,
+          "positive_typed_retention": 0.375
+        },
+        {
+          "accepted_pairs_before_cap": 83.0,
+          "ap": 0.001976284584980237,
+          "doc_id": "holod:golosov-referendumi",
+          "individuals": [
+            {
+              "accepted_pairs_before_cap": 83,
+              "annotation_index": 0,
+              "annotator_id": "8",
+              "ap": 0.001976284584980237,
+              "candidate_positive_pairs": 1,
+              "candidate_positive_typed": 1,
+              "negative_pair_acceptance": 0.16633266533066132,
+              "positive_pair_retention": 0.0,
+              "positive_typed_retention": 0.0
+            }
+          ],
+          "negative_pair_acceptance": 0.16633266533066132,
+          "positive_pair_retention": 0.0,
+          "positive_typed_retention": 0.0
+        },
+        {
+          "accepted_pairs_before_cap": 205.0,
+          "ap": 0.01746806647934078,
+          "doc_id": "holod:kanny-77-itogi",
+          "individuals": [
+            {
+              "accepted_pairs_before_cap": 205,
+              "annotation_index": 0,
+              "annotator_id": "10",
+              "ap": 0.01746806647934078,
+              "candidate_positive_pairs": 7,
+              "candidate_positive_typed": 8,
+              "negative_pair_acceptance": 0.40973630831643004,
+              "positive_pair_retention": 0.42857142857142855,
+              "positive_typed_retention": 0.375
+            }
+          ],
+          "negative_pair_acceptance": 0.40973630831643004,
+          "positive_pair_retention": 0.42857142857142855,
+          "positive_typed_retention": 0.375
+        },
+        {
+          "accepted_pairs_before_cap": 144.0,
+          "ap": 0.02298879148424433,
+          "doc_id": "holod:lichniy-opit-i-gendernoe-neravenstvo",
+          "individuals": [
+            {
+              "accepted_pairs_before_cap": 144,
+              "annotation_index": 0,
+              "annotator_id": "10",
+              "ap": 0.013432181783191369,
+              "candidate_positive_pairs": 13,
+              "candidate_positive_typed": 13,
+              "negative_pair_acceptance": 0.28952772073921973,
+              "positive_pair_retention": 0.23076923076923078,
+              "positive_typed_retention": 0.15384615384615385
+            },
+            {
+              "accepted_pairs_before_cap": 144,
+              "annotation_index": 1,
+              "annotator_id": "8",
+              "ap": 0.03254540118529729,
+              "candidate_positive_pairs": 12,
+              "candidate_positive_typed": 12,
+              "negative_pair_acceptance": 0.2827868852459016,
+              "positive_pair_retention": 0.5,
+              "positive_typed_retention": 0.5
+            }
+          ],
+          "negative_pair_acceptance": 0.2861573029925607,
+          "positive_pair_retention": 0.3653846153846154,
+          "positive_typed_retention": 0.3269230769230769
+        },
+        {
+          "accepted_pairs_before_cap": 38.0,
+          "ap": 0.07438040246098901,
+          "doc_id": "holod:pochemu-rossiya-sdala-herson",
+          "individuals": [
+            {
+              "accepted_pairs_before_cap": 38,
+              "annotation_index": 0,
+              "annotator_id": "10",
+              "ap": 0.07438040246098901,
+              "candidate_positive_pairs": 5,
+              "candidate_positive_typed": 5,
+              "negative_pair_acceptance": 0.07272727272727272,
+              "positive_pair_retention": 0.4,
+              "positive_typed_retention": 0.4
+            }
+          ],
+          "negative_pair_acceptance": 0.07272727272727272,
+          "positive_pair_retention": 0.4,
+          "positive_typed_retention": 0.4
+        },
+        {
+          "accepted_pairs_before_cap": 223.0,
+          "ap": 0.06273042944437826,
+          "doc_id": "holod:rossiiskiie-smi-1990",
+          "individuals": [
+            {
+              "accepted_pairs_before_cap": 223,
+              "annotation_index": 0,
+              "annotator_id": "10",
+              "ap": 0.06273042944437826,
+              "candidate_positive_pairs": 10,
+              "candidate_positive_typed": 10,
+              "negative_pair_acceptance": 0.44081632653061226,
+              "positive_pair_retention": 0.7,
+              "positive_typed_retention": 0.6
+            }
+          ],
+          "negative_pair_acceptance": 0.44081632653061226,
+          "positive_pair_retention": 0.7,
+          "positive_typed_retention": 0.6
+        },
+        {
+          "accepted_pairs_before_cap": 43.0,
+          "ap": 0.047535401974055466,
+          "doc_id": "holod:v-etoj-vojne-ne-mozhet-byt-pobedy",
+          "individuals": [
+            {
+              "accepted_pairs_before_cap": 43,
+              "annotation_index": 0,
+              "annotator_id": "8",
+              "ap": 0.047535401974055466,
+              "candidate_positive_pairs": 7,
+              "candidate_positive_typed": 7,
+              "negative_pair_acceptance": 0.08113590263691683,
+              "positive_pair_retention": 0.42857142857142855,
+              "positive_typed_retention": 0.42857142857142855
+            }
+          ],
+          "negative_pair_acceptance": 0.08113590263691683,
+          "positive_pair_retention": 0.42857142857142855,
+          "positive_typed_retention": 0.42857142857142855
+        },
+        {
+          "accepted_pairs_before_cap": 145.0,
+          "ap": 0.04521161660159219,
+          "doc_id": "holod:voina-v-ukraine-privediot-k-tretiei-mirovoi-voine",
+          "individuals": [
+            {
+              "accepted_pairs_before_cap": 145,
+              "annotation_index": 0,
+              "annotator_id": "8",
+              "ap": 0.04521161660159219,
+              "candidate_positive_pairs": 13,
+              "candidate_positive_typed": 13,
+              "negative_pair_acceptance": 0.2874743326488706,
+              "positive_pair_retention": 0.38461538461538464,
+              "positive_typed_retention": 0.3076923076923077
+            }
+          ],
+          "negative_pair_acceptance": 0.2874743326488706,
+          "positive_pair_retention": 0.38461538461538464,
+          "positive_typed_retention": 0.3076923076923077
+        },
+        {
+          "accepted_pairs_before_cap": 138.0,
+          "ap": 0.04097720990248441,
+          "doc_id": "ng:100_200221_lukashenko",
+          "individuals": [
+            {
+              "accepted_pairs_before_cap": 138,
+              "annotation_index": 0,
+              "annotator_id": "10",
+              "ap": 0.05484280575559191,
+              "candidate_positive_pairs": 21,
+              "candidate_positive_typed": 21,
+              "negative_pair_acceptance": 0.2630480167014614,
+              "positive_pair_retention": 0.5714285714285714,
+              "positive_typed_retention": 0.42857142857142855
+            },
+            {
+              "accepted_pairs_before_cap": 138,
+              "annotation_index": 1,
+              "annotator_id": "8",
+              "ap": 0.027111614049376898,
+              "candidate_positive_pairs": 19,
+              "candidate_positive_typed": 20,
+              "negative_pair_acceptance": 0.2785862785862786,
+              "positive_pair_retention": 0.21052631578947367,
+              "positive_typed_retention": 0.15
+            }
+          ],
+          "negative_pair_acceptance": 0.27081714764387,
+          "positive_pair_retention": 0.39097744360902253,
+          "positive_typed_retention": 0.28928571428571426
+        },
+        {
+          "accepted_pairs_before_cap": 187.0,
+          "ap": 0.06809884567969363,
+          "doc_id": "ng:15_8127_vision",
+          "individuals": [
+            {
+              "accepted_pairs_before_cap": 187,
+              "annotation_index": 0,
+              "annotator_id": "10",
+              "ap": 0.06809884567969363,
+              "candidate_positive_pairs": 20,
+              "candidate_positive_typed": 20,
+              "negative_pair_acceptance": 0.36875,
+              "positive_pair_retention": 0.5,
+              "positive_typed_retention": 0.45
+            }
+          ],
+          "negative_pair_acceptance": 0.36875,
+          "positive_pair_retention": 0.5,
+          "positive_typed_retention": 0.45
+        },
+        {
+          "accepted_pairs_before_cap": 86.0,
+          "ap": 0.011467333259558368,
+          "doc_id": "ng:5_9074_vision",
+          "individuals": [
+            {
+              "accepted_pairs_before_cap": 86,
+              "annotation_index": 0,
+              "annotator_id": "8",
+              "ap": 0.011467333259558368,
+              "candidate_positive_pairs": 11,
+              "candidate_positive_typed": 11,
+              "negative_pair_acceptance": 0.17586912065439672,
+              "positive_pair_retention": 0.0,
+              "positive_typed_retention": 0.0
+            }
+          ],
+          "negative_pair_acceptance": 0.17586912065439672,
+          "positive_pair_retention": 0.0,
+          "positive_typed_retention": 0.0
+        },
+        {
+          "accepted_pairs_before_cap": 48.0,
+          "ap": 0.05850473990495099,
+          "doc_id": "ng:5_9292_migrants",
+          "individuals": [
+            {
+              "accepted_pairs_before_cap": 48,
+              "annotation_index": 0,
+              "annotator_id": "8",
+              "ap": 0.05850473990495099,
+              "candidate_positive_pairs": 14,
+              "candidate_positive_typed": 14,
+              "negative_pair_acceptance": 0.09259259259259259,
+              "positive_pair_retention": 0.21428571428571427,
+              "positive_typed_retention": 0.21428571428571427
+            }
+          ],
+          "negative_pair_acceptance": 0.09259259259259259,
+          "positive_pair_retention": 0.21428571428571427,
+          "positive_typed_retention": 0.21428571428571427
+        },
+        {
+          "accepted_pairs_before_cap": 129.0,
+          "ap": 0.027220411641145484,
+          "doc_id": "ng:6_8272_vision",
+          "individuals": [
+            {
+              "accepted_pairs_before_cap": 129,
+              "annotation_index": 0,
+              "annotator_id": "10",
+              "ap": 0.027220411641145484,
+              "candidate_positive_pairs": 13,
+              "candidate_positive_typed": 14,
+              "negative_pair_acceptance": 0.25256673511293637,
+              "positive_pair_retention": 0.46153846153846156,
+              "positive_typed_retention": 0.35714285714285715
+            }
+          ],
+          "negative_pair_acceptance": 0.25256673511293637,
+          "positive_pair_retention": 0.46153846153846156,
+          "positive_typed_retention": 0.35714285714285715
+        },
+        {
+          "accepted_pairs_before_cap": 185.0,
+          "ap": 0.15940819949933635,
+          "doc_id": "ng:6_8326_vision",
+          "individuals": [
+            {
+              "accepted_pairs_before_cap": 185,
+              "annotation_index": 0,
+              "annotator_id": "8",
+              "ap": 0.15940819949933635,
+              "candidate_positive_pairs": 27,
+              "candidate_positive_typed": 27,
+              "negative_pair_acceptance": 0.36363636363636365,
+              "positive_pair_retention": 0.48148148148148145,
+              "positive_typed_retention": 0.4444444444444444
+            }
+          ],
+          "negative_pair_acceptance": 0.36363636363636365,
+          "positive_pair_retention": 0.48148148148148145,
+          "positive_typed_retention": 0.4444444444444444
+        },
+        {
+          "accepted_pairs_before_cap": 172.0,
+          "ap": 0.017115756052660604,
+          "doc_id": "ng:7_9537_duty",
+          "individuals": [
+            {
+              "accepted_pairs_before_cap": 172,
+              "annotation_index": 0,
+              "annotator_id": "10",
+              "ap": 0.017115756052660604,
+              "candidate_positive_pairs": 5,
+              "candidate_positive_typed": 5,
+              "negative_pair_acceptance": 0.3434343434343434,
+              "positive_pair_retention": 0.4,
+              "positive_typed_retention": 0.4
+            }
+          ],
+          "negative_pair_acceptance": 0.3434343434343434,
+          "positive_pair_retention": 0.4,
+          "positive_typed_retention": 0.4
+        },
+        {
+          "accepted_pairs_before_cap": 218.0,
+          "ap": 0.008462456326004031,
+          "doc_id": "ng:8_7915_realy",
+          "individuals": [
+            {
+              "accepted_pairs_before_cap": 218,
+              "annotation_index": 0,
+              "annotator_id": "8",
+              "ap": 0.008462456326004031,
+              "candidate_positive_pairs": 5,
+              "candidate_positive_typed": 5,
+              "negative_pair_acceptance": 0.43434343434343436,
+              "positive_pair_retention": 0.6,
+              "positive_typed_retention": 0.4
+            }
+          ],
+          "negative_pair_acceptance": 0.43434343434343436,
+          "positive_pair_retention": 0.6,
+          "positive_typed_retention": 0.4
+        },
+        {
+          "accepted_pairs_before_cap": 162.0,
+          "ap": 0.04267292957152952,
+          "doc_id": "ng:8_8046_vision",
+          "individuals": [
+            {
+              "accepted_pairs_before_cap": 162,
+              "annotation_index": 0,
+              "annotator_id": "10",
+              "ap": 0.04267292957152952,
+              "candidate_positive_pairs": 12,
+              "candidate_positive_typed": 12,
+              "negative_pair_acceptance": 0.3176229508196721,
+              "positive_pair_retention": 0.5833333333333334,
+              "positive_typed_retention": 0.5833333333333334
+            }
+          ],
+          "negative_pair_acceptance": 0.3176229508196721,
+          "positive_pair_retention": 0.5833333333333334,
+          "positive_typed_retention": 0.5833333333333334
+        },
+        {
+          "accepted_pairs_before_cap": 97.0,
+          "ap": 0.040701212902915396,
+          "doc_id": "ng:8_8293_vision",
+          "individuals": [
+            {
+              "accepted_pairs_before_cap": 97,
+              "annotation_index": 0,
+              "annotator_id": "10",
+              "ap": 0.05527573326119467,
+              "candidate_positive_pairs": 7,
+              "candidate_positive_typed": 7,
+              "negative_pair_acceptance": 0.18864097363083165,
+              "positive_pair_retention": 0.5714285714285714,
+              "positive_typed_retention": 0.5714285714285714
+            },
+            {
+              "accepted_pairs_before_cap": 97,
+              "annotation_index": 1,
+              "annotator_id": "4",
+              "ap": null,
+              "candidate_positive_pairs": 0,
+              "candidate_positive_typed": 0,
+              "negative_pair_acceptance": 0.194,
+              "positive_pair_retention": null,
+              "positive_typed_retention": null
+            },
+            {
+              "accepted_pairs_before_cap": 97,
+              "annotation_index": 2,
+              "annotator_id": "8",
+              "ap": 0.026126692544636124,
+              "candidate_positive_pairs": 12,
+              "candidate_positive_typed": 12,
+              "negative_pair_acceptance": 0.1885245901639344,
+              "positive_pair_retention": 0.4166666666666667,
+              "positive_typed_retention": 0.25
+            }
+          ],
+          "negative_pair_acceptance": 0.19038852126492203,
+          "positive_pair_retention": 0.49404761904761907,
+          "positive_typed_retention": 0.4107142857142857
+        },
+        {
+          "accepted_pairs_before_cap": 171.0,
+          "ap": 0.07604492264964126,
+          "doc_id": "ng:8_8710_portfolio",
+          "individuals": [
+            {
+              "accepted_pairs_before_cap": 171,
+              "annotation_index": 0,
+              "annotator_id": "10",
+              "ap": 0.07604492264964126,
+              "candidate_positive_pairs": 9,
+              "candidate_positive_typed": 9,
+              "negative_pair_acceptance": 0.3380855397148676,
+              "positive_pair_retention": 0.5555555555555556,
+              "positive_typed_retention": 0.5555555555555556
+            }
+          ],
+          "negative_pair_acceptance": 0.3380855397148676,
+          "positive_pair_retention": 0.5555555555555556,
+          "positive_typed_retention": 0.5555555555555556
+        },
+        {
+          "accepted_pairs_before_cap": 96.0,
+          "ap": 0.03993987701813569,
+          "doc_id": "ng:8_8764_maths",
+          "individuals": [
+            {
+              "accepted_pairs_before_cap": 96,
+              "annotation_index": 0,
+              "annotator_id": "10",
+              "ap": 0.05309619858147096,
+              "candidate_positive_pairs": 10,
+              "candidate_positive_typed": 11,
+              "negative_pair_acceptance": 0.19183673469387755,
+              "positive_pair_retention": 0.2,
+              "positive_typed_retention": 0.18181818181818182
+            },
+            {
+              "accepted_pairs_before_cap": 96,
+              "annotation_index": 1,
+              "annotator_id": "4",
+              "ap": 0.0024813895781637717,
+              "candidate_positive_pairs": 1,
+              "candidate_positive_typed": 1,
+              "negative_pair_acceptance": 0.19238476953907815,
+              "positive_pair_retention": 0.0,
+              "positive_typed_retention": 0.0
+            },
+            {
+              "accepted_pairs_before_cap": 96,
+              "annotation_index": 2,
+              "annotator_id": "8",
+              "ap": 0.06424204289477234,
+              "candidate_positive_pairs": 12,
+              "candidate_positive_typed": 12,
+              "negative_pair_acceptance": 0.1864754098360656,
+              "positive_pair_retention": 0.4166666666666667,
+              "positive_typed_retention": 0.4166666666666667
+            }
+          ],
+          "negative_pair_acceptance": 0.19023230468967375,
+          "positive_pair_retention": 0.20555555555555557,
+          "positive_typed_retention": 0.1994949494949495
+        },
+        {
+          "accepted_pairs_before_cap": 86.0,
+          "ap": 0.05340617656547189,
+          "doc_id": "ng:8_8996_textbooks",
+          "individuals": [
+            {
+              "accepted_pairs_before_cap": 86,
+              "annotation_index": 0,
+              "annotator_id": "4",
+              "ap": 0.005784789644012945,
+              "candidate_positive_pairs": 2,
+              "candidate_positive_typed": 2,
+              "negative_pair_acceptance": 0.17269076305220885,
+              "positive_pair_retention": 0.0,
+              "positive_typed_retention": 0.0
+            },
+            {
+              "accepted_pairs_before_cap": 86,
+              "annotation_index": 1,
+              "annotator_id": "8",
+              "ap": 0.10102756348693084,
+              "candidate_positive_pairs": 11,
+              "candidate_positive_typed": 11,
+              "negative_pair_acceptance": 0.1656441717791411,
+              "positive_pair_retention": 0.45454545454545453,
+              "positive_typed_retention": 0.45454545454545453
+            }
+          ],
+          "negative_pair_acceptance": 0.16916746741567495,
+          "positive_pair_retention": 0.22727272727272727,
+          "positive_typed_retention": 0.22727272727272727
+        },
+        {
+          "accepted_pairs_before_cap": 140.0,
+          "ap": 0.05702813554015788,
+          "doc_id": "ria_novosti:2042540813",
+          "individuals": [
+            {
+              "accepted_pairs_before_cap": 140,
+              "annotation_index": 0,
+              "annotator_id": "10",
+              "ap": 0.05702813554015788,
+              "candidate_positive_pairs": 14,
+              "candidate_positive_typed": 14,
+              "negative_pair_acceptance": 0.2757201646090535,
+              "positive_pair_retention": 0.42857142857142855,
+              "positive_typed_retention": 0.2857142857142857
+            }
+          ],
+          "negative_pair_acceptance": 0.2757201646090535,
+          "positive_pair_retention": 0.42857142857142855,
+          "positive_typed_retention": 0.2857142857142857
+        },
+        {
+          "accepted_pairs_before_cap": 83.0,
+          "ap": 0.01185667285236552,
+          "doc_id": "ria_novosti:2099824110",
+          "individuals": [
+            {
+              "accepted_pairs_before_cap": 83,
+              "annotation_index": 0,
+              "annotator_id": "8",
+              "ap": 0.01185667285236552,
+              "candidate_positive_pairs": 7,
+              "candidate_positive_typed": 7,
+              "negative_pair_acceptance": 0.16835699797160245,
+              "positive_pair_retention": 0.0,
+              "positive_typed_retention": 0.0
+            }
+          ],
+          "negative_pair_acceptance": 0.16835699797160245,
+          "positive_pair_retention": 0.0,
+          "positive_typed_retention": 0.0
+        },
+        {
+          "accepted_pairs_before_cap": 133.0,
+          "ap": 0.03383459242072317,
+          "doc_id": "ria_novosti:2106459260",
+          "individuals": [
+            {
+              "accepted_pairs_before_cap": 133,
+              "annotation_index": 0,
+              "annotator_id": "10",
+              "ap": 0.03383459242072317,
+              "candidate_positive_pairs": 17,
+              "candidate_positive_typed": 18,
+              "negative_pair_acceptance": 0.2608695652173913,
+              "positive_pair_retention": 0.4117647058823529,
+              "positive_typed_retention": 0.2777777777777778
+            }
+          ],
+          "negative_pair_acceptance": 0.2608695652173913,
+          "positive_pair_retention": 0.4117647058823529,
+          "positive_typed_retention": 0.2777777777777778
+        },
+        {
+          "accepted_pairs_before_cap": 164.0,
+          "ap": null,
+          "doc_id": "theinsider:236745",
+          "individuals": [
+            {
+              "accepted_pairs_before_cap": 164,
+              "annotation_index": 0,
+              "annotator_id": "4",
+              "ap": null,
+              "candidate_positive_pairs": 0,
+              "candidate_positive_typed": 0,
+              "negative_pair_acceptance": 0.328,
+              "positive_pair_retention": null,
+              "positive_typed_retention": null
+            }
+          ],
+          "negative_pair_acceptance": 0.328,
+          "positive_pair_retention": null,
+          "positive_typed_retention": null
+        },
+        {
+          "accepted_pairs_before_cap": 65.0,
+          "ap": null,
+          "doc_id": "theinsider:238660",
+          "individuals": [
+            {
+              "accepted_pairs_before_cap": 65,
+              "annotation_index": 0,
+              "annotator_id": "4",
+              "ap": null,
+              "candidate_positive_pairs": 0,
+              "candidate_positive_typed": 0,
+              "negative_pair_acceptance": 0.13,
+              "positive_pair_retention": null,
+              "positive_typed_retention": null
+            }
+          ],
+          "negative_pair_acceptance": 0.13,
+          "positive_pair_retention": null,
+          "positive_typed_retention": null
+        },
+        {
+          "accepted_pairs_before_cap": 82.0,
+          "ap": 0.15821153436046603,
+          "doc_id": "theinsider:253489",
+          "individuals": [
+            {
+              "accepted_pairs_before_cap": 82,
+              "annotation_index": 0,
+              "annotator_id": "8",
+              "ap": 0.15821153436046603,
+              "candidate_positive_pairs": 7,
+              "candidate_positive_typed": 7,
+              "negative_pair_acceptance": 0.15821501014198783,
+              "positive_pair_retention": 0.5714285714285714,
+              "positive_typed_retention": 0.5714285714285714
+            }
+          ],
+          "negative_pair_acceptance": 0.15821501014198783,
+          "positive_pair_retention": 0.5714285714285714,
+          "positive_typed_retention": 0.5714285714285714
+        },
+        {
+          "accepted_pairs_before_cap": 180.0,
+          "ap": 0.1042596310071116,
+          "doc_id": "theinsider:260829",
+          "individuals": [
+            {
+              "accepted_pairs_before_cap": 180,
+              "annotation_index": 0,
+              "annotator_id": "10",
+              "ap": 0.1042596310071116,
+              "candidate_positive_pairs": 10,
+              "candidate_positive_typed": 10,
+              "negative_pair_acceptance": 0.3489795918367347,
+              "positive_pair_retention": 0.9,
+              "positive_typed_retention": 0.7
+            }
+          ],
+          "negative_pair_acceptance": 0.3489795918367347,
+          "positive_pair_retention": 0.9,
+          "positive_typed_retention": 0.7
+        },
+        {
+          "accepted_pairs_before_cap": 87.0,
+          "ap": 0.11557910711861473,
+          "doc_id": "theinsider:266563",
+          "individuals": [
+            {
+              "accepted_pairs_before_cap": 87,
+              "annotation_index": 0,
+              "annotator_id": "10",
+              "ap": 0.11557910711861473,
+              "candidate_positive_pairs": 10,
+              "candidate_positive_typed": 10,
+              "negative_pair_acceptance": 0.17346938775510204,
+              "positive_pair_retention": 0.2,
+              "positive_typed_retention": 0.2
+            }
+          ],
+          "negative_pair_acceptance": 0.17346938775510204,
+          "positive_pair_retention": 0.2,
+          "positive_typed_retention": 0.2
+        },
+        {
+          "accepted_pairs_before_cap": 82.0,
+          "ap": 0.04182808296020415,
+          "doc_id": "theinsider:267448",
+          "individuals": [
+            {
+              "accepted_pairs_before_cap": 82,
+              "annotation_index": 0,
+              "annotator_id": "10",
+              "ap": 0.04182808296020415,
+              "candidate_positive_pairs": 13,
+              "candidate_positive_typed": 14,
+              "negative_pair_acceptance": 0.15811088295687886,
+              "positive_pair_retention": 0.38461538461538464,
+              "positive_typed_retention": 0.35714285714285715
+            }
+          ],
+          "negative_pair_acceptance": 0.15811088295687886,
+          "positive_pair_retention": 0.38461538461538464,
+          "positive_typed_retention": 0.35714285714285715
+        },
+        {
+          "accepted_pairs_before_cap": 80.0,
+          "ap": 0.0234565564273712,
+          "doc_id": "theinsider:280997",
+          "individuals": [
+            {
+              "accepted_pairs_before_cap": 80,
+              "annotation_index": 0,
+              "annotator_id": "8",
+              "ap": 0.0234565564273712,
+              "candidate_positive_pairs": 6,
+              "candidate_positive_typed": 6,
+              "negative_pair_acceptance": 0.15789473684210525,
+              "positive_pair_retention": 0.3333333333333333,
+              "positive_typed_retention": 0.3333333333333333
+            }
+          ],
+          "negative_pair_acceptance": 0.15789473684210525,
+          "positive_pair_retention": 0.3333333333333333,
+          "positive_typed_retention": 0.3333333333333333
+        }
+      ],
+      "negative_pair_acceptance": 0.2458865578269008,
+      "positive_pair_retention": 0.39399669560873796,
+      "positive_typed_retention": 0.34724528345218
+    },
+    "chain_fixed": {
+      "alpha": 2.0,
+      "correctly_empty_answers": 0,
+      "empty_answer_rate": 0.075,
+      "empty_answers": 3,
+      "empty_empty_f1": 0,
+      "exact_f1": 0.054616076771636386,
+      "exact_precision": 0.033987031515131404,
+      "exact_recall": 0.15894209110469107,
+      "exact_weighted_micro_f1": 0.05572724048837327,
+      "false_nonempty_given_empty": 1.0,
+      "localization_exact_f1": 0.05806999794080656,
+      "localization_overlap_f1": 0.10212856597897815,
+      "mean_predictions": 89.03225806451613,
+      "n_answers": 40,
+      "n_articles": 31,
+      "nonempty_exact_f1": 0.05910621922818852,
+      "nonempty_overlap_f1": 0.08893378871223283,
+      "nonempty_prediction_articles": 31,
+      "overlap_f1": 0.08206749331345538,
+      "per_family_exact_f1": {
+        "Attack on Reputation": 0.001402524544179523,
+        "Call": 0.06889400921658986,
+        "Distraction": 0.0,
+        "Justification": 0.008308895405669599,
+        "Manipulative Wording": 0.057000297192426365,
+        "Simplification": 0.0
+      },
+      "proposal_recall": 0.5668411306507646,
+      "threshold": -5.172313813576109
+    },
+    "chain_recalibrated": {
+      "alpha": 2.0,
+      "correctly_empty_answers": 0,
+      "empty_answer_rate": 0.075,
+      "empty_answers": 3,
+      "empty_empty_f1": 0,
+      "exact_f1": 0.06027173598344709,
+      "exact_precision": 0.041601185683889104,
+      "exact_recall": 0.13419470402742764,
+      "exact_weighted_micro_f1": 0.06212411605313594,
+      "false_nonempty_given_empty": 1.0,
+      "localization_exact_f1": 0.062483873935359084,
+      "localization_overlap_f1": 0.10134379516520882,
+      "mean_predictions": 64.25806451612904,
+      "n_answers": 40,
+      "n_articles": 31,
+      "nonempty_exact_f1": 0.065552104962987,
+      "nonempty_overlap_f1": 0.09689249255803956,
+      "nonempty_prediction_articles": 31,
+      "overlap_f1": 0.0890698717253329,
+      "per_family_exact_f1": {
+        "Attack on Reputation": 0.0016129032258064516,
+        "Call": 0.02857142857142857,
+        "Distraction": 0.0,
+        "Justification": 0.01039426523297491,
+        "Manipulative Wording": 0.06843642438584682,
+        "Simplification": 0.0
+      },
+      "proposal_recall": 0.5668411306507646,
+      "threshold": -3.2378350192591814
+    },
+    "conditional": {
+      "article_f1": {
+        "holod:golosov-hunta": 0.5505050505050505,
+        "holod:golosov-referendumi": 0.6666666666666666,
+        "holod:kanny-77-itogi": 0.5945945945945946,
+        "holod:lichniy-opit-i-gendernoe-neravenstvo": 0.5796703296703296,
+        "holod:pochemu-rossiya-sdala-herson": 0.9,
+        "holod:rossiiskiie-smi-1990": 0.6875,
+        "holod:v-etoj-vojne-ne-mozhet-byt-pobedy": 0.6666666666666666,
+        "holod:voina-v-ukraine-privediot-k-tretiei-mirovoi-voine": 0.5666666666666667,
+        "ng:100_200221_lukashenko": 0.6412358133669609,
+        "ng:15_8127_vision": 0.6551724137931034,
+        "ng:5_9074_vision": 0.6190476190476191,
+        "ng:5_9292_migrants": 0.7407407407407407,
+        "ng:6_8272_vision": 0.6060606060606061,
+        "ng:6_8326_vision": 0.6304347826086957,
+        "ng:7_9537_duty": 1.0,
+        "ng:8_7915_realy": 0.7058823529411765,
+        "ng:8_8046_vision": 0.75,
+        "ng:8_8293_vision": 0.7321428571428572,
+        "ng:8_8710_portfolio": 0.7333333333333333,
+        "ng:8_8764_maths": 0.5488505747126436,
+        "ng:8_8996_textbooks": 0.7395833333333333,
+        "ria_novosti:2042540813": 0.5263157894736842,
+        "ria_novosti:2099824110": 0.8,
+        "ria_novosti:2106459260": 0.6274509803921569,
+        "theinsider:253489": 0.8125,
+        "theinsider:260829": 0.6875,
+        "theinsider:266563": 0.625,
+        "theinsider:267448": 0.8,
+        "theinsider:280997": 0.7272727272727273
+      },
+      "article_mean_f1": 0.686923927551366,
+      "brier": 0.08008955826492115,
+      "family_support": {
+        "Attack on Reputation": 103,
+        "Call": 56,
+        "Distraction": 4,
+        "Justification": 100,
+        "Manipulative Wording": 328,
+        "Simplification": 53
+      },
+      "macro_family_f1": 0.4748098165581531,
+      "micro_f1": 0.6865912625720989,
+      "n_answers": 37,
+      "n_articles": 29,
+      "n_spans": 635,
+      "per_family_f1": {
+        "Attack on Reputation": 0.37181009411627153,
+        "Call": 0.7027146298289481,
+        "Distraction": 0.0,
+        "Justification": 0.7135027245919723,
+        "Manipulative Wording": 0.7928863750239202,
+        "Simplification": 0.26794507578780624
+      },
+      "threshold": 0.9
+    },
+    "diagnostic_dev_threshold": -3.2378350192591814
+  }
+}

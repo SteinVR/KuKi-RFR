@@ -1,0 +1,40 @@
+{
+  "elapsed_seconds": 10.354824491998443,
+  "gpu_resume_max_difference": 0.0,
+  "runs": {
+    "20260928-l3-hard-s42-01": {
+      "code_snapshot_and_lock_match": true,
+      "counters_and_selected_checkpoint_correct": true,
+      "current_code_differences": [],
+      "fresh_gpu_raw_predictions_identical": true,
+      "independent_exact_and_overlap_metrics": true,
+      "trainable_tensors": 99,
+      "trainable_tensors_changed": 99
+    },
+    "20260928-l3-negative025-s42-01": {
+      "code_snapshot_and_lock_match": true,
+      "counters_and_selected_checkpoint_correct": true,
+      "current_code_differences": [
+        "research/kuki/l3.py"
+      ],
+      "fresh_gpu_raw_predictions_identical": true,
+      "independent_exact_and_overlap_metrics": true,
+      "trainable_tensors": 99,
+      "trainable_tensors_changed": 99
+    },
+    "20260928-l3-pilot-s42-01": {
+      "code_snapshot_and_lock_match": true,
+      "counters_and_selected_checkpoint_correct": true,
+      "current_code_differences": [
+        "research/kuki/l3.py"
+      ],
+      "fresh_gpu_raw_predictions_identical": true,
+      "independent_exact_and_overlap_metrics": true,
+      "trainable_tensors": 99,
+      "trainable_tensors_changed": 99
+    }
+  },
+  "status": "passed",
+  "test_scored": false,
+  "verify_script_sha256": "3873d86822fe4f6f4c889e8522de8fcbe2b27b12c0653c668f978a30eb4db30d"
+}

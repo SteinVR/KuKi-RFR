@@ -1,0 +1,14 @@
+{
+  "article_presentations": 2900,
+  "base_unchanged": true,
+  "best_epoch": 13,
+  "kind": "fit",
+  "l3_article_presentations": 2580,
+  "peak_allocated_bytes": 2633599488,
+  "peak_reserved_bytes": 2747269120,
+  "run_id": "20260929-l3-only-s42-01",
+  "seconds": 570.4653733960004,
+  "status": "completed",
+  "trainable_parameters": 898958,
+  "updates": 380
+}

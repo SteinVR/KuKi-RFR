@@ -1,0 +1,48 @@
+{
+  "checks": {
+    "confidence": {
+      "frozen_unchanged": true,
+      "initial_equal": true,
+      "rough_152_update_seconds": 220.95539523201842,
+      "update_seconds": 1.4536539160001212
+    },
+    "contextual": {
+      "frozen_unchanged": true,
+      "initial_equal": true,
+      "rough_152_update_seconds": 222.37599847997626,
+      "update_seconds": 1.4629999899998438
+    },
+    "continue": {
+      "frozen_unchanged": true,
+      "initial_equal": true,
+      "rough_152_update_seconds": 258.3544209760039,
+      "update_seconds": 1.6997001380000256
+    },
+    "hidden": {
+      "frozen_unchanged": true,
+      "initial_equal": true,
+      "rough_152_update_seconds": 223.89526690400453,
+      "update_seconds": 1.4729951770000298
+    },
+    "oof": {
+      "update_seconds": 2.100430655999844
+    },
+    "self": {
+      "frozen_unchanged": true,
+      "initial_equal": true,
+      "rough_152_update_seconds": 225.83409591199597,
+      "update_seconds": 1.4857506309999735
+    },
+    "uniform": {
+      "frozen_unchanged": true,
+      "initial_equal": true,
+      "rough_152_update_seconds": 222.3410368080131,
+      "update_seconds": 1.462769979000086
+    }
+  },
+  "exact_resume": true,
+  "peak_reserved_bytes": 2894069760,
+  "seconds": 26.80083910999997,
+  "status": "passed",
+  "train_only": true
+}

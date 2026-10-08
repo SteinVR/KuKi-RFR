@@ -1,0 +1,502 @@
+{
+  "comparisons": {
+    "20260928-l2-pilot-s42-01_minus_tfidf": {
+      "bootstrap_draws": 10000,
+      "descriptive_95_percentile_interval": [
+        -0.025810340277385015,
+        0.0024367460243736854
+      ],
+      "favorable_articles": 21,
+      "limitation": "Selected dev predictions; no selection or training-seed uncertainty correction",
+      "mean_brier_difference": -0.011660433474179777,
+      "n_articles": 31,
+      "n_groups": 31,
+      "seed": 42,
+      "unfavorable_articles": 10
+    },
+    "frequency_minus_tfidf": {
+      "bootstrap_draws": 10000,
+      "descriptive_95_percentile_interval": [
+        0.022024932527968073,
+        0.037632694170988516
+      ],
+      "favorable_articles": 2,
+      "limitation": "Selected dev predictions; no selection or training-seed uncertainty correction",
+      "mean_brier_difference": 0.02968936952406924,
+      "n_articles": 31,
+      "n_groups": 31,
+      "seed": 42,
+      "unfavorable_articles": 29
+    }
+  },
+  "errors": [
+    {
+      "brier": 0.3169834239385806,
+      "delta_vs_linear": 0.042064782738005846,
+      "doc_id": "holod:kanny-77-itogi",
+      "false_negative": [
+        "Economic",
+        "Capacity & resources",
+        "Fairness & equality",
+        "Security & defense",
+        "External regulation & reputation"
+      ],
+      "false_positive": [],
+      "n_annotators": 1,
+      "source": "holod",
+      "title": "Эти смешные русские"
+    },
+    {
+      "brier": 0.2634984552804517,
+      "delta_vs_linear": 0.040812221470094945,
+      "doc_id": "ng:6_8272_vision",
+      "false_negative": [
+        "Economic",
+        "Fairness & equality",
+        "Legality, constitutionality, jurisprudence"
+      ],
+      "false_positive": [
+        "Morality",
+        "Crime & punishment",
+        "Political"
+      ],
+      "n_annotators": 1,
+      "source": "ng",
+      "title": "Борьба с расизмом в США утратила связь со справедливостью"
+    },
+    {
+      "brier": 0.24843809270303388,
+      "delta_vs_linear": -0.012691381943681607,
+      "doc_id": "ng:100_200221_lukashenko",
+      "false_negative": [
+        "Policy prescription & evaluation",
+        "Public opinion"
+      ],
+      "false_positive": [],
+      "n_annotators": 2,
+      "source": "ng",
+      "title": "Почему не стоит ждать прорывных решений на переговорах Путина и Лукашенко в Сочи"
+    },
+    {
+      "brier": 0.24514098427335185,
+      "delta_vs_linear": 0.06676440885496729,
+      "doc_id": "holod:rossiiskiie-smi-1990",
+      "false_negative": [
+        "Policy prescription & evaluation",
+        "Security & defense",
+        "Quality of life"
+      ],
+      "false_positive": [
+        "Cultural identity"
+      ],
+      "n_annotators": 1,
+      "source": "holod",
+      "title": "Журналистика на «поле чудес»"
+    },
+    {
+      "brier": 0.24200394603836548,
+      "delta_vs_linear": 0.05171901795278874,
+      "doc_id": "ng:6_8326_vision",
+      "false_negative": [
+        "Fairness & equality",
+        "Policy prescription & evaluation"
+      ],
+      "false_positive": [
+        "Security & defense",
+        "External regulation & reputation"
+      ],
+      "n_annotators": 1,
+      "source": "ng",
+      "title": "Северная Македония без компаса"
+    },
+    {
+      "brier": 0.23800402857635486,
+      "delta_vs_linear": -0.01251349235920532,
+      "doc_id": "holod:lichniy-opit-i-gendernoe-neravenstvo",
+      "false_negative": [
+        "Fairness & equality",
+        "Public opinion"
+      ],
+      "false_positive": [
+        "Capacity & resources",
+        "Morality",
+        "Policy prescription & evaluation"
+      ],
+      "n_annotators": 2,
+      "source": "holod",
+      "title": "Главная ошибка дискуссий о гендерном равенстве"
+    },
+    {
+      "brier": 0.2357703490062353,
+      "delta_vs_linear": 0.05562314947115629,
+      "doc_id": "ng:5_9292_migrants",
+      "false_negative": [
+        "Legality, constitutionality, jurisprudence",
+        "Security & defense",
+        "External regulation & reputation"
+      ],
+      "false_positive": [
+        "Fairness & equality",
+        "Policy prescription & evaluation"
+      ],
+      "n_annotators": 1,
+      "source": "ng",
+      "title": "Гастарбайтеры как главный драйвер экономического роста Таджикистана"
+    },
+    {
+      "brier": 0.23344993783832982,
+      "delta_vs_linear": 0.03117989266713539,
+      "doc_id": "ng:8_8710_portfolio",
+      "false_negative": [
+        "Legality, constitutionality, jurisprudence",
+        "Public opinion"
+      ],
+      "false_positive": [
+        "Economic",
+        "Morality",
+        "Fairness & equality",
+        "Quality of life"
+      ],
+      "n_annotators": 1,
+      "source": "ng",
+      "title": "\"Единый\" портфолио с элементами ЕГЭ"
+    },
+    {
+      "brier": 0.21164506803820832,
+      "delta_vs_linear": -0.00020066845861721472,
+      "doc_id": "holod:pochemu-rossiya-sdala-herson",
+      "false_negative": [
+        "Crime & punishment",
+        "Quality of life",
+        "Political"
+      ],
+      "false_positive": [
+        "External regulation & reputation"
+      ],
+      "n_annotators": 1,
+      "source": "holod",
+      "title": "Почему Россия все-таки сдала Херсон? И почему это не слишком радует украинцев?"
+    },
+    {
+      "brier": 0.18819623957912018,
+      "delta_vs_linear": -0.025205624588694492,
+      "doc_id": "theinsider:266563",
+      "false_negative": [
+        "Crime & punishment",
+        "Security & defense",
+        "Cultural identity"
+      ],
+      "false_positive": [],
+      "n_annotators": 1,
+      "source": "theinsider",
+      "title": "На «Дружбе» у Кремля. Как Словакия и Венгрия создают пропутинскую ось в ЕС"
+    },
+    {
+      "brier": 0.16771038617414777,
+      "delta_vs_linear": -0.05176626561457459,
+      "doc_id": "ng:8_8046_vision",
+      "false_negative": [
+        "Legality, constitutionality, jurisprudence",
+        "Public opinion"
+      ],
+      "false_positive": [],
+      "n_annotators": 1,
+      "source": "ng",
+      "title": "Закат патерналистской системы здравоохранения"
+    },
+    {
+      "brier": 0.15102054610010024,
+      "delta_vs_linear": -0.027064634432306195,
+      "doc_id": "ng:8_7915_realy",
+      "false_negative": [
+        "Crime & punishment"
+      ],
+      "false_positive": [
+        "Policy prescription & evaluation",
+        "Quality of life"
+      ],
+      "n_annotators": 1,
+      "source": "ng",
+      "title": "Фургалометрия дальневосточной действительности"
+    },
+    {
+      "brier": 0.14777060476389758,
+      "delta_vs_linear": 0.024718959540703273,
+      "doc_id": "holod:v-etoj-vojne-ne-mozhet-byt-pobedy",
+      "false_negative": [
+        "Morality",
+        "Political"
+      ],
+      "false_positive": [
+        "Policy prescription & evaluation"
+      ],
+      "n_annotators": 1,
+      "source": "holod",
+      "title": "«В этой войне не может быть победы»"
+    },
+    {
+      "brier": 0.14388341388941353,
+      "delta_vs_linear": -0.0031699458743941478,
+      "doc_id": "holod:voina-v-ukraine-privediot-k-tretiei-mirovoi-voine",
+      "false_negative": [
+        "Economic",
+        "Legality, constitutionality, jurisprudence"
+      ],
+      "false_positive": [],
+      "n_annotators": 1,
+      "source": "holod",
+      "title": "К чему ведут нынешние войны"
+    },
+    {
+      "brier": 0.127525517378245,
+      "delta_vs_linear": 0.0054217430206261324,
+      "doc_id": "theinsider:236745",
+      "false_negative": [
+        "Crime & punishment"
+      ],
+      "false_positive": [
+        "Public opinion"
+      ],
+      "n_annotators": 1,
+      "source": "theinsider",
+      "title": "Не день Путина. Владимир Милов о том, почему российский президент проиграл американские выборы"
+    },
+    {
+      "brier": 0.12505863694208713,
+      "delta_vs_linear": -0.02562950014665738,
+      "doc_id": "ria_novosti:2106459260",
+      "false_negative": [
+        "Cultural identity"
+      ],
+      "false_positive": [
+        "Policy prescription & evaluation",
+        "Political"
+      ],
+      "n_annotators": 1,
+      "source": "ria_novosti",
+      "title": "Куда ведет кризис доверия"
+    },
+    {
+      "brier": 0.12339881269060339,
+      "delta_vs_linear": -0.03571364097401443,
+      "doc_id": "ng:15_8127_vision",
+      "false_negative": [
+        "Morality"
+      ],
+      "false_positive": [
+        "Capacity & resources"
+      ],
+      "n_annotators": 1,
+      "source": "ng",
+      "title": "Самая тяжелая проблема нашей цивилизации – ее успехи"
+    },
+    {
+      "brier": 0.12305570139482769,
+      "delta_vs_linear": -0.024910685387527165,
+      "doc_id": "ng:5_9074_vision",
+      "false_negative": [
+        "Economic",
+        "Morality"
+      ],
+      "false_positive": [],
+      "n_annotators": 1,
+      "source": "ng",
+      "title": "Сектор без газа. Что ждет в ближайшие месяцы бывшую советскую Молдавию"
+    },
+    {
+      "brier": 0.12278217016250993,
+      "delta_vs_linear": -0.0054573401376496605,
+      "doc_id": "theinsider:267448",
+      "false_negative": [
+        "Morality",
+        "Political"
+      ],
+      "false_positive": [],
+      "n_annotators": 1,
+      "source": "theinsider",
+      "title": "Игра от обороны. Фрэнк Ледвидж о смене стратегии ВСУ в следующем году"
+    },
+    {
+      "brier": 0.11974464487062589,
+      "delta_vs_linear": -0.031587453069469335,
+      "doc_id": "ria_novosti:2042540813",
+      "false_negative": [
+        "Cultural identity"
+      ],
+      "false_positive": [
+        "Political"
+      ],
+      "n_annotators": 1,
+      "source": "ria_novosti",
+      "title": "Третья мировая — на этот раз экономическая"
+    },
+    {
+      "brier": 0.11959996139320496,
+      "delta_vs_linear": -0.013347162390292253,
+      "doc_id": "ng:8_8764_maths",
+      "false_negative": [],
+      "false_positive": [
+        "Morality",
+        "Quality of life"
+      ],
+      "n_annotators": 3,
+      "source": "ng",
+      "title": "Почему страна в который раз сдала профильный ЕГЭ по математике на твердую тройку"
+    },
+    {
+      "brier": 0.11865564153207472,
+      "delta_vs_linear": -0.1180295119873691,
+      "doc_id": "ng:7_9537_duty",
+      "false_negative": [
+        "Capacity & resources",
+        "Policy prescription & evaluation"
+      ],
+      "false_positive": [],
+      "n_annotators": 1,
+      "source": "ng",
+      "title": "Дежурство без пересменок и без просвета"
+    },
+    {
+      "brier": 0.11654460239072248,
+      "delta_vs_linear": -0.014668581840897643,
+      "doc_id": "ng:8_8996_textbooks",
+      "false_negative": [],
+      "false_positive": [
+        "Morality"
+      ],
+      "n_annotators": 2,
+      "source": "ng",
+      "title": "Зачем нужны единые учебники"
+    },
+    {
+      "brier": 0.10367317707132308,
+      "delta_vs_linear": 0.01540863446704735,
+      "doc_id": "holod:golosov-hunta",
+      "false_negative": [],
+      "false_positive": [
+        "External regulation & reputation"
+      ],
+      "n_annotators": 3,
+      "source": "holod",
+      "title": "Придет ли хунта к власти?"
+    },
+    {
+      "brier": 0.09729779372701222,
+      "delta_vs_linear": -0.06057337060324522,
+      "doc_id": "theinsider:260829",
+      "false_negative": [
+        "Economic",
+        "Capacity & resources"
+      ],
+      "false_positive": [
+        "Public opinion"
+      ],
+      "n_annotators": 1,
+      "source": "theinsider",
+      "title": "Если автомат висит на стене. Z-мобилизация может уничтожить российский театр, но не поможет взять Бахмут"
+    },
+    {
+      "brier": 0.09142231564753045,
+      "delta_vs_linear": 0.016845520134021186,
+      "doc_id": "holod:golosov-referendumi",
+      "false_negative": [],
+      "false_positive": [
+        "Legality, constitutionality, jurisprudence",
+        "Public opinion"
+      ],
+      "n_annotators": 1,
+      "source": "holod",
+      "title": "Референдумы как имитация"
+    },
+    {
+      "brier": 0.0794081523117939,
+      "delta_vs_linear": -0.07102621776634258,
+      "doc_id": "ng:8_8293_vision",
+      "false_negative": [],
+      "false_positive": [
+        "Political"
+      ],
+      "n_annotators": 3,
+      "source": "ng",
+      "title": "Парадоксы бюджета отечественной медицины"
+    },
+    {
+      "brier": 0.07094592079544464,
+      "delta_vs_linear": -0.05479771601806359,
+      "doc_id": "theinsider:238660",
+      "false_negative": [
+        "Public opinion"
+      ],
+      "false_positive": [
+        "External regulation & reputation"
+      ],
+      "n_annotators": 1,
+      "source": "theinsider",
+      "title": "Трамп после Трампа. Борис Макаренко о будущем трампизма и Республиканской партии"
+    },
+    {
+      "brier": 0.0688138495264815,
+      "delta_vs_linear": -0.029473190101126118,
+      "doc_id": "theinsider:280997",
+      "false_negative": [
+        "Legality, constitutionality, jurisprudence"
+      ],
+      "false_positive": [],
+      "n_annotators": 1,
+      "source": "theinsider",
+      "title": "Уступательное движение. Почему в ближайшее время не стоит ожидать перемирия в Украине"
+    },
+    {
+      "brier": 0.06229248962042958,
+      "delta_vs_linear": -0.03344503428109457,
+      "doc_id": "ria_novosti:2099824110",
+      "false_negative": [],
+      "false_positive": [
+        "Political"
+      ],
+      "n_annotators": 1,
+      "source": "ria_novosti",
+      "title": "Ближневосточный Версаль и его геополитические круги по воде"
+    },
+    {
+      "brier": 0.04679257005171774,
+      "delta_vs_linear": -0.06076035004089687,
+      "doc_id": "theinsider:253489",
+      "false_negative": [
+        "Public opinion"
+      ],
+      "false_positive": [],
+      "n_annotators": 1,
+      "source": "theinsider",
+      "title": "Поэт и хулиган. Как «патриоты» пытаются выдать Бродского за своего из-за стихотворения «На независимость Украины»"
+    }
+  ],
+  "exploratory_source_groups": {
+    "holod": {
+      "20260928-l2-pilot-s42-01": 0.18731537702483253,
+      "frequency": 0.18418511598059756,
+      "n_articles": 8,
+      "tfidf_logistic": 0.1685756021445165
+    },
+    "ng": {
+      "20260928-l2-pilot-s42-01": 0.17096573729645317,
+      "frequency": 0.21489750703781618,
+      "n_articles": 13,
+      "tfidf_logistic": 0.1855721835099786
+    },
+    "ria_novosti": {
+      "20260928-l2-pilot-s42-01": 0.10236525714438087,
+      "frequency": 0.17332031028820563,
+      "n_articles": 3,
+      "tfidf_logistic": 0.13258591964345465
+    },
+    "theinsider": {
+      "20260928-l2-pilot-s42-01": 0.10319343731721875,
+      "frequency": 0.17789455377870528,
+      "n_articles": 7,
+      "tfidf_logistic": 0.13617141566994015
+    }
+  },
+  "selected_neural_run": "20260928-l2-pilot-s42-01",
+  "test_scored": false
+}

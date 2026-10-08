@@ -1,0 +1,25 @@
+{
+  "conflicting_l1": "mask_mention_within_annotator",
+  "duplicate_span": "one_geometric_label_unit_preserve_source_indices",
+  "empty_l2": "observed_all_zero",
+  "external_test": "not_verified_access_requires_registration",
+  "invalid_layer_label": "quarantine_no_relabel",
+  "must_link": [
+    [
+      "ria_novosti:2008793019",
+      "ria_novosti:2008880921"
+    ]
+  ],
+  "must_link_reason": "Short news quotes the long RIA Analytics report; 57.2% of shorter word 5grams shared. Audited before model runs.",
+  "near_duplicate_containment": {
+    "minimum_shared_word_5grams": 100,
+    "threshold": 0.9
+  },
+  "near_duplicate_jaccard": 0.8,
+  "prepared_path": "research/data/kuki-ru-v1.jsonl",
+  "protocol": "internal_70_15_15",
+  "source": "research/external/science-work-ref/kuki_ru_aggregate.jsonl",
+  "split_seed": 42,
+  "stratification": "two_stage_iterative_multilabel_groups_source_annotator_layer_presence",
+  "text": "unchanged_unicode_codepoint_half_open_offsets"
+}

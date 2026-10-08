@@ -1,0 +1,114 @@
+{
+  "dev": {
+    "articles_with_roles": 29,
+    "disputed_exact_mentions": 0,
+    "empty_answers": 6,
+    "empty_articles": [
+      "ng:15_8127_vision",
+      "ng:7_9537_duty"
+    ],
+    "mentions": 200,
+    "n_articles": 31,
+    "per_source": {
+      "holod": {
+        "articles": 8,
+        "roles": {
+          "ANTAGONIST": 36,
+          "INNOCENT": 19,
+          "PROTAGONIST": 6
+        }
+      },
+      "ng": {
+        "articles": 11,
+        "roles": {
+          "ANTAGONIST": 34,
+          "INNOCENT": 9,
+          "PROTAGONIST": 16
+        }
+      },
+      "ria_novosti": {
+        "articles": 3,
+        "roles": {
+          "ANTAGONIST": 11,
+          "INNOCENT": 3,
+          "PROTAGONIST": 4
+        }
+      },
+      "theinsider": {
+        "articles": 7,
+        "roles": {
+          "ANTAGONIST": 31,
+          "INNOCENT": 11,
+          "PROTAGONIST": 20
+        }
+      }
+    },
+    "roles": {
+      "ANTAGONIST": 112,
+      "INNOCENT": 42,
+      "PROTAGONIST": 46
+    },
+    "unique_mentions": 197
+  },
+  "dev_seen_mention_rows": 70,
+  "test_used": false,
+  "train": {
+    "articles_with_roles": 135,
+    "disputed_exact_mentions": 13,
+    "empty_answers": 21,
+    "empty_articles": [
+      "holod:boris-stop-russia-24",
+      "holod:chto-volnuet-voenkorov-xvi",
+      "holod:interview-pluzhnikov",
+      "holod:muzh-ne-hochet-uezzhat-posle-obyavleniya-mobilizaczii-zhena-prosit-ego-uehat",
+      "holod:playlist-2022",
+      "ng:10_9230_astronauts",
+      "ng:8_9360_vision",
+      "ria_novosti:2021055778",
+      "theinsider:216627",
+      "theinsider:238362"
+    ],
+    "mentions": 1234,
+    "n_articles": 145,
+    "per_source": {
+      "holod": {
+        "articles": 37,
+        "roles": {
+          "ANTAGONIST": 126,
+          "INNOCENT": 62,
+          "PROTAGONIST": 81
+        }
+      },
+      "ng": {
+        "articles": 40,
+        "roles": {
+          "ANTAGONIST": 145,
+          "INNOCENT": 57,
+          "PROTAGONIST": 101
+        }
+      },
+      "ria_novosti": {
+        "articles": 17,
+        "roles": {
+          "ANTAGONIST": 146,
+          "INNOCENT": 76,
+          "PROTAGONIST": 59
+        }
+      },
+      "theinsider": {
+        "articles": 41,
+        "roles": {
+          "ANTAGONIST": 251,
+          "INNOCENT": 62,
+          "PROTAGONIST": 68
+        }
+      }
+    },
+    "roles": {
+      "ANTAGONIST": 668,
+      "INNOCENT": 257,
+      "PROTAGONIST": 309
+    },
+    "unique_mentions": 1099
+  }
+}

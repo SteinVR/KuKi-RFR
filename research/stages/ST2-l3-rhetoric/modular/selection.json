@@ -1,0 +1,9 @@
+{
+  "alpha": 2.0,
+  "classifier": "/home/xeliaray/Projects/Kuki-Labeling/research/stages/ST2-l3-rhetoric/experiments/20260928-classifier-low-lr-s42-01",
+  "decoder": "logit_family_plus_alpha_detector",
+  "detector": "/home/xeliaray/Projects/Kuki-Labeling/research/stages/ST2-l3-rhetoric/experiments/20260928-detector-base-s42-01",
+  "selection_source": "post_hoc_dev_calibration_extension",
+  "test_used": false,
+  "threshold": -5.172313813576109
+}

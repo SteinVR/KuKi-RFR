@@ -1,0 +1,69 @@
+{
+  "limit_seconds": 1800,
+  "runs": [
+    {
+      "kind": "preflight",
+      "seconds": 19.413028134000342,
+      "status": "passed",
+      "technical_optimizer_steps": 6
+    },
+    {
+      "article_presentations": 2900,
+      "base_unchanged": true,
+      "best_epoch": 16,
+      "best_l1_epoch": 7,
+      "best_l2_epoch": 17,
+      "equal_budget": true,
+      "kind": "fit",
+      "l1_labeled_presentations": 2700,
+      "peak_allocated_bytes": 2633798656,
+      "peak_reserved_bytes": 2749366272,
+      "run_id": "20260929-st6-balance-roles-s42-01",
+      "seconds": 574.6904076989995,
+      "status": "completed",
+      "stop_reason": "epoch_limit",
+      "trainable_parameters": 913625,
+      "updates": 380
+    },
+    {
+      "article_presentations": 2900,
+      "base_unchanged": true,
+      "best_epoch": 11,
+      "best_l1_epoch": 11,
+      "best_l2_epoch": 8,
+      "equal_budget": true,
+      "kind": "fit",
+      "l1_labeled_presentations": 2700,
+      "peak_allocated_bytes": 2633798656,
+      "peak_reserved_bytes": 2749366272,
+      "run_id": "20260929-st6-balance-frames-s42-01",
+      "seconds": 572.5221566040018,
+      "status": "completed",
+      "stop_reason": "epoch_limit",
+      "trainable_parameters": 913625,
+      "updates": 380
+    },
+    {
+      "kind": "verification",
+      "prediction_sets": 20,
+      "scopes": [
+        {
+          "condition": "roles",
+          "equal_budget": true,
+          "status": "completed",
+          "updates": 380
+        },
+        {
+          "condition": "frames",
+          "equal_budget": true,
+          "status": "completed",
+          "updates": 380
+        }
+      ],
+      "seconds": 50.43682699800047,
+      "status": "passed",
+      "test_used": false
+    }
+  ],
+  "seconds": 1217.062419435002
+}

@@ -1,0 +1,113 @@
+{
+  "git_head": "9f92b6a69af3ec22d9d8737304db054bf2886408",
+  "packages": {
+    "kernels": "0.16.0",
+    "numpy": "2.5.3",
+    "peft": "0.21.0",
+    "scikit-learn": "1.9.1",
+    "scipy": "1.18.1",
+    "torch": "2.12.1+cu130",
+    "transformers": "5.17.0"
+  },
+  "provenance": {
+    "adaptation_history": "fresh pinned base, fresh LoRA and L1 head; train only",
+    "code_sha256": {
+      "/home/xeliaray/Projects/Kuki-Labeling/research/stages/ST5-l1-roles/analyze.py": "8677e581170921f6d18edcdc67ef021b7a76a01d935e69d8210ddcbcde5c45d6",
+      "/home/xeliaray/Projects/Kuki-Labeling/research/stages/ST5-l1-roles/audit_baselines.py": "9023e3319554a37eaf52141b5112bf08b53427bc92eb0a86fd533e42151cf2f1",
+      "/home/xeliaray/Projects/Kuki-Labeling/research/stages/ST5-l1-roles/method.py": "d5b2b23def8cb536e37a64810ad44aa28ab8264b3f808cc7e5844f83bb8f9b54",
+      "/home/xeliaray/Projects/Kuki-Labeling/research/stages/ST5-l1-roles/preflight.py": "2fcfdccf7132d9dd2cc1a18db4b47a5510094d7e886a5b304b9906466c1c98a2",
+      "/home/xeliaray/Projects/Kuki-Labeling/research/stages/ST5-l1-roles/search/analyze.py": "42278326c8b894238320e662c4a50442274bf0c47701d85a4b813e5b4eb80edd",
+      "/home/xeliaray/Projects/Kuki-Labeling/research/stages/ST5-l1-roles/search/method.py": "f22fa7dcebbce67e20c0eb8506e2f14c3a151a2a599374eca99eb1f0f5bf514a",
+      "/home/xeliaray/Projects/Kuki-Labeling/research/stages/ST5-l1-roles/search/model.py": "baad8f4fff0dfa8c9f3befbd2ecdf8fffc409c7b2aa74607a3a74c18a20539fc",
+      "/home/xeliaray/Projects/Kuki-Labeling/research/stages/ST5-l1-roles/search/preflight.py": "9c116d40606278261e7fea733f166d3b5e9a1bedb7f5964918f3247cd1ca8b62",
+      "/home/xeliaray/Projects/Kuki-Labeling/research/stages/ST5-l1-roles/search/train.py": "4778d39a917ae7b0a7d73a39b03417848be904f7a64a1404d83d1d0ce6060273",
+      "/home/xeliaray/Projects/Kuki-Labeling/research/stages/ST5-l1-roles/search/verify.py": "fa70a2a4b5c6380d32cc0439795a0a5c837d00844916b04409eed3af51328237",
+      "/home/xeliaray/Projects/Kuki-Labeling/research/stages/ST5-l1-roles/train.py": "0ba84de945f444afbee6b21c7901328ca6cc99c752d3bf2c40435a96c2c50241",
+      "/home/xeliaray/Projects/Kuki-Labeling/research/stages/ST5-l1-roles/verify.py": "67aa4fc816b2469226fbf8dcc1fd5cd5648ae1969f0bfe4cedd8d29145ed76bc",
+      "research/kuki/__init__.py": "ced1dbc43e78c7d9257b09848b49f8686df12fc0851206d6d2c3eb51fabe099e",
+      "research/kuki/baselines.py": "56aee5a754ab592f719d6cf35bb0d096ed859389167eb33a1931ecf803c4cf77",
+      "research/kuki/benchmark_environment.py": "c4e79c0c32761953cf98d1f07f98786828398614b4054112ea5bd45b35d627af",
+      "research/kuki/boundaries.py": "01fc9fd4bb8a6052eedf1f89ae04d4f147aa15057ffd82c9e6ab351c5d7a5fee",
+      "research/kuki/check_environment.py": "bb46bf7ab1d8900d1f36e05682ec4ede308bb2205724fa95742b3f01a3319d34",
+      "research/kuki/data.py": "3fa561dd28fbb543f9284e821500bcf23c1074ca9a15fa9dd299344f4c226677",
+      "research/kuki/evaluation.py": "5746e0af797b613ea6c82a6c0d3a0985379d81ec80900b1a292943ac34ad4895",
+      "research/kuki/experiment.py": "962c268a1d0172e9330c741b34f61c2cecb98a06386deb4cd7dd9599a82c5135",
+      "research/kuki/frozen_message.py": "b18e3980089bebe32d20f892b807b91906f0579f959f5a053cfafa5a399ba212",
+      "research/kuki/global_pointer.py": "22b5793e5a6520fe657b8a6437402effc3c40899523aa7561dee8555413cb92a",
+      "research/kuki/joint.py": "0d23ad362336ee603d69ca150717cb84d1d75895d32b81519583eb48731c9983",
+      "research/kuki/l1.py": "ddcc80bde090e7ff8f7f84818f2a2a01dc61da1923159c7aa00a127ac81ebec0",
+      "research/kuki/l2.py": "e79c24ba35de9e804605f55e48159e5818adb5df018cf1be242134e2623df99e",
+      "research/kuki/l3.py": "2b0cde805201d30d8d96f2a22e95759e2c2e994ef3548844d7bfbad7d1c507e6",
+      "research/kuki/l3_evaluation.py": "d23798e347fe90864cfaff5961e174b6772a580e84c76f6756fb8a922f8f7909",
+      "research/kuki/l3_losses.py": "70cd12b1cebf22d95aeb22d50300c47ff50f20149bdb857a7ce26dba238bab15",
+      "research/kuki/message.py": "cc6912b926118f8e540e3e2209039f26304d78fcb3dfb6aa21610f591da0697f",
+      "research/kuki/prepare.py": "c06933340d9525c2e4b0795bc1fc2b76093e0ace2012f133b61d4c90b2d0fa35",
+      "research/kuki/profile.py": "236de661e18a8be9f7212a20897568647a438b29dee45634bd99a4c9cd18d7a4",
+      "research/kuki/span_classifier.py": "7b1258cf80a29a252f3980720ed82fb381837bc22a3bdb556bf3876bc37a9140",
+      "research/kuki/train_l2.py": "ca2522df02eec9a08ed1e49d18cd85a51f9da3c963d7e0409c7f8c4104b3f9db",
+      "research/kuki/train_l3.py": "643de56e0fbf169769c531b10390d660d783dcdc983a9fc20cf58a3121b9e7a2",
+      "research/kuki/windows.py": "0298d0023667bd2d200288b59e9439647089630eac4fcd1c1f547ac40fc644f0"
+    },
+    "config": {
+      "adapter_lr": 0.0002,
+      "condition": "head-slow-smooth",
+      "data_config": "research/configs/data.json",
+      "encoder_config": "research/configs/encoder.json",
+      "gradient_accumulation_articles": 8,
+      "gradient_checkpointing": false,
+      "gradient_clip_norm": 1.0,
+      "head_dropout": 0.1,
+      "head_lr": 0.0003,
+      "label_smoothing": 0.1,
+      "max_epochs": 20,
+      "max_updates": 340,
+      "overlap": 128,
+      "run_budget_seconds": 650,
+      "run_id": "20260929-l1-search-head-slow-smooth-s42-01",
+      "seed": 42,
+      "span_dimension": 64,
+      "warmup_updates": 34,
+      "weight_decay": 0.01,
+      "window_length": 1024
+    },
+    "data": {
+      "policy_config": "research/stages/ST0-preparation/configs/data-v2.json",
+      "prepared_path": "research/data/kuki-ru-v1.jsonl",
+      "split_manifest": "research/stages/ST0-preparation/experiments/20260928-data-s42-02/split.json",
+      "split_sha256": "c696d2734e60e93b28bb3cc17ba625fadb1d34831a427dfde12e9ef3ed479455"
+    },
+    "data_hashes": {
+      "prepared_sha256": "592357226642e126d5641e9620e3e585cb2f4873e65b675e1f26b9f7eef82fa2",
+      "source_sha256": "d882e69064885823ecb9d7652bfc59795551a8c5defe4265703e845b2d6431d0",
+      "split_sha256": "c696d2734e60e93b28bb3cc17ba625fadb1d34831a427dfde12e9ef3ed479455"
+    },
+    "encoder": {
+      "attention": "kernels-community/flash-attn2@f50dc99ed079b35990bc895d43fd353ea0cb376d",
+      "base_dtype": "bfloat16",
+      "deterministic_flash_attn": true,
+      "gradient_checkpointing": false,
+      "local_attention": 128,
+      "lora": {
+        "alpha": 16,
+        "dropout": 0.1,
+        "rank": 8,
+        "target_modules": ".*\\.attn\\.(Wqkv|Wo)"
+      },
+      "model_id": "deepvk/RuModernBERT-base",
+      "overlap": 128,
+      "reference_compile": false,
+      "requested_revision": "patched-tokenizer",
+      "revision": "8aee6f818db9070b635a549580dc64dcfa03e39a",
+      "window_lengths": [
+        1024,
+        2048
+      ]
+    },
+    "original_protocol_sha256": "7a7d4a705b220a6d3c10ffc4c83104660b7a959deb32f62eb3b53ae9bd8c0463",
+    "parent_checkpoint": null,
+    "protocol_sha256": "f5cfee697fd381c7239838c0ab035806cc01086bdc01cbf36ae0b1207fb599b4",
+    "uv_lock_sha256": "b877b1608f644b996c122a41835cbdadf95eeb1a10ff480d0c8c480bef7c817e"
+  },
+  "python": "3.14.7",
+  "test_used_for_training_selection_or_scoring": false
+}

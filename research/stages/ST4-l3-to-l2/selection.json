@@ -1,0 +1,12 @@
+{
+  "criterion_passed": false,
+  "exact_ties": [
+    "uniform",
+    "confidence",
+    "contextual"
+  ],
+  "joint_ST3_retained": true,
+  "selected_message": "uniform",
+  "selection": "Minimum dev L2 Brier among uniform/confidence/contextual, single selected checkpoint",
+  "test_used": false
+}

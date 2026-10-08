@@ -1,0 +1,19 @@
+{
+  "l1_run": "research/stages/ST5-l1-roles/search/experiments/20260929-l1-search-dropout-s42-01",
+  "l2_run": "research/stages/ST3-l2-l3-joint/experiments/20260929-l2-only-s42-01",
+  "l1_epoch": 16,
+  "l2_epoch": 8,
+  "l1_f1": 0.7656171656656019,
+  "l2_brier": 0.14892010558080038,
+  "files": {
+    "research/stages/ST5-l1-roles/search/experiments/20260929-l1-search-dropout-s42-01/checkpoints/start.pt": "0c654b2b1bd9eaa70383abcd76c726f2a161a33b58c2e6cc6b192710fa61b6d0",
+    "research/stages/ST5-l1-roles/search/experiments/20260929-l1-search-dropout-s42-01/checkpoints/best.pt": "2690fdc3d475e63d9159efcaa885bfaeff7f500d93acdfc91bad49288518d026",
+    "research/stages/ST5-l1-roles/search/experiments/20260929-l1-search-dropout-s42-01/best/dev-metrics.json": "2395da531d7f3b08b151d519a4297543eaf5f15758739c57c98665238eecc1ab",
+    "research/stages/ST5-l1-roles/search/experiments/20260929-l1-search-dropout-s42-01/best/dev-predictions.jsonl": "2a358a284cfd5f5db15aa2772a322a6752c39a4f1e3e9f723e1ad918a783557d",
+    "research/stages/ST3-l2-l3-joint/experiments/20260929-l2-only-s42-01/checkpoints/start.pt": "1a15d9cc81b73472382ac0daa12c63d7eb589703a314a2811c079bfb3f505ad4",
+    "research/stages/ST3-l2-l3-joint/experiments/20260929-l2-only-s42-01/checkpoints/best.pt": "4f86336793f6d7dfd8dd8550a9c699b1b54143c278ecc1e4603261df1ce195d1",
+    "research/stages/ST3-l2-l3-joint/experiments/20260929-l2-only-s42-01/best/metrics.json": "03b324041ddaea1da479e8e8ae2b397cdc2b7b53944e355675333c5c8ad1ecf1",
+    "research/stages/ST3-l2-l3-joint/experiments/20260929-l2-only-s42-01/best/dev-l2.jsonl": "c0ed848c7711d7724a4407ab9ed69e9cfa16f6b8952adf3b2df4b4a01b9041f1"
+  },
+  "test_used": false
+}

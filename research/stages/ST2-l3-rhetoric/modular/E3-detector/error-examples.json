@@ -1,0 +1,70 @@
+{
+  "examples": [
+    {
+      "annotator_id": "8",
+      "best_candidate_iou": 0.0,
+      "doc_id": "holod:golosov-hunta",
+      "end": 59,
+      "label": "Manipulative Wording",
+      "layer": "l3_persuasion",
+      "source_span_indices": [
+        1
+      ],
+      "start": 53,
+      "text": "Путина"
+    },
+    {
+      "annotator_id": "8",
+      "best_candidate_iou": 0.0,
+      "doc_id": "holod:golosov-referendumi",
+      "end": 24,
+      "label": "Manipulative Wording",
+      "layer": "l3_persuasion",
+      "source_span_indices": [
+        0
+      ],
+      "start": 0,
+      "text": "Референдумы как имитация"
+    },
+    {
+      "annotator_id": "8",
+      "best_candidate_iou": 0.0,
+      "doc_id": "holod:golosov-referendumi",
+      "end": 2010,
+      "label": "Manipulative Wording",
+      "layer": "l3_persuasion",
+      "source_span_indices": [
+        5
+      ],
+      "start": 2001,
+      "text": "власти РФ"
+    },
+    {
+      "annotator_id": "8",
+      "best_candidate_iou": 0.0,
+      "doc_id": "holod:golosov-referendumi",
+      "end": 3343,
+      "label": "Manipulative Wording",
+      "layer": "l3_persuasion",
+      "source_span_indices": [
+        7
+      ],
+      "start": 3327,
+      "text": "Владимиру Путину"
+    },
+    {
+      "annotator_id": "8",
+      "best_candidate_iou": 0.0,
+      "doc_id": "holod:lichniy-opit-i-gendernoe-neravenstvo",
+      "end": 831,
+      "label": "Manipulative Wording",
+      "layer": "l3_persuasion",
+      "source_span_indices": [
+        2
+      ],
+      "start": 818,
+      "text": "осилила всего"
+    }
+  ],
+  "selection": "top5 exact proposal misses with smallest maximum candidate IoU; deterministic ties"
+}

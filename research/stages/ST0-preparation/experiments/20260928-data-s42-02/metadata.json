@@ -1,0 +1,23 @@
+{
+  "code_sha256": {
+    "research/kuki/__init__.py": "ced1dbc43e78c7d9257b09848b49f8686df12fc0851206d6d2c3eb51fabe099e",
+    "research/kuki/boundaries.py": "ef85509c001cc452b11f48aab64d3b5c917a1f54e6dafa3aea577bdd6e548753",
+    "research/kuki/data.py": "85a7f813ff9d6c2126e2cd217dda1728231eedb45370d5fd2aa6ee004bbd38fb",
+    "research/kuki/l2.py": "c1ec8a4fc9956f325da7964b71fd98879c6231e49653221b9601065605660df5",
+    "research/kuki/prepare.py": "0b68b9905ed05589f240c4eb46f2b1aaa559db3aade3cd4094b3bcba61c842e6",
+    "research/kuki/profile.py": "38a6db2cf053b85bceb66deedb0aed8be6da86cb14273a631fd1c67d027546bf",
+    "research/kuki/windows.py": "06eb91dd090d2f9dc8d670e91f3a13b43706864f433dc8f1a00a0a9ba3bc31e5"
+  },
+  "code_tracked": {
+    "research/kuki/__init__.py": false,
+    "research/kuki/boundaries.py": false,
+    "research/kuki/data.py": false,
+    "research/kuki/l2.py": false,
+    "research/kuki/prepare.py": false,
+    "research/kuki/profile.py": false,
+    "research/kuki/windows.py": false
+  },
+  "git_head": "84ba220a83d6ecb992fbe9290a681bf9f4d696b6",
+  "split_sha256": "c696d2734e60e93b28bb3cc17ba625fadb1d34831a427dfde12e9ef3ed479455",
+  "uv_lock_sha256": "abf87a2f7d684a220f7ae7b371c240c64a42945855ff1337b6b6bac54794d657"
+}

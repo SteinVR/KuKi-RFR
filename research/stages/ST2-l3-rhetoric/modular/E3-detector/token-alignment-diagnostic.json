@@ -1,0 +1,725 @@
+{
+  "data_hashes": {
+    "prepared_sha256": "592357226642e126d5641e9620e3e585cb2f4873e65b675e1f26b9f7eef82fa2",
+    "source_sha256": "d882e69064885823ecb9d7652bfc59795551a8c5defe4265703e845b2d6431d0",
+    "split_sha256": "c696d2734e60e93b28bb3cc17ba625fadb1d34831a427dfde12e9ef3ed479455"
+  },
+  "dev": {
+    "articles": [
+      {
+        "doc_id": "holod:golosov-hunta",
+        "token_aligned_fraction": 0.908
+      },
+      {
+        "doc_id": "holod:golosov-referendumi",
+        "token_aligned_fraction": 0.852
+      },
+      {
+        "doc_id": "holod:kanny-77-itogi",
+        "token_aligned_fraction": 0.92
+      },
+      {
+        "doc_id": "holod:lichniy-opit-i-gendernoe-neravenstvo",
+        "token_aligned_fraction": 0.934
+      },
+      {
+        "doc_id": "holod:pochemu-rossiya-sdala-herson",
+        "token_aligned_fraction": 0.91
+      },
+      {
+        "doc_id": "holod:rossiiskiie-smi-1990",
+        "token_aligned_fraction": 0.944
+      },
+      {
+        "doc_id": "holod:v-etoj-vojne-ne-mozhet-byt-pobedy",
+        "token_aligned_fraction": 0.854
+      },
+      {
+        "doc_id": "holod:voina-v-ukraine-privediot-k-tretiei-mirovoi-voine",
+        "token_aligned_fraction": 0.954
+      },
+      {
+        "doc_id": "ng:100_200221_lukashenko",
+        "token_aligned_fraction": 0.89
+      },
+      {
+        "doc_id": "ng:15_8127_vision",
+        "token_aligned_fraction": 0.908
+      },
+      {
+        "doc_id": "ng:5_9074_vision",
+        "token_aligned_fraction": 0.894
+      },
+      {
+        "doc_id": "ng:5_9292_migrants",
+        "token_aligned_fraction": 0.764
+      },
+      {
+        "doc_id": "ng:6_8272_vision",
+        "token_aligned_fraction": 0.906
+      },
+      {
+        "doc_id": "ng:6_8326_vision",
+        "token_aligned_fraction": 0.922
+      },
+      {
+        "doc_id": "ng:7_9537_duty",
+        "token_aligned_fraction": 0.872
+      },
+      {
+        "doc_id": "ng:8_7915_realy",
+        "token_aligned_fraction": 0.85
+      },
+      {
+        "doc_id": "ng:8_8046_vision",
+        "token_aligned_fraction": 0.868
+      },
+      {
+        "doc_id": "ng:8_8293_vision",
+        "token_aligned_fraction": 0.854
+      },
+      {
+        "doc_id": "ng:8_8710_portfolio",
+        "token_aligned_fraction": 0.878
+      },
+      {
+        "doc_id": "ng:8_8764_maths",
+        "token_aligned_fraction": 0.88
+      },
+      {
+        "doc_id": "ng:8_8996_textbooks",
+        "token_aligned_fraction": 0.836
+      },
+      {
+        "doc_id": "ria_novosti:2042540813",
+        "token_aligned_fraction": 0.908
+      },
+      {
+        "doc_id": "ria_novosti:2099824110",
+        "token_aligned_fraction": 0.918
+      },
+      {
+        "doc_id": "ria_novosti:2106459260",
+        "token_aligned_fraction": 0.914
+      },
+      {
+        "doc_id": "theinsider:236745",
+        "token_aligned_fraction": 0.948
+      },
+      {
+        "doc_id": "theinsider:238660",
+        "token_aligned_fraction": 0.922
+      },
+      {
+        "doc_id": "theinsider:253489",
+        "token_aligned_fraction": 0.93
+      },
+      {
+        "doc_id": "theinsider:260829",
+        "token_aligned_fraction": 0.9
+      },
+      {
+        "doc_id": "theinsider:266563",
+        "token_aligned_fraction": 0.922
+      },
+      {
+        "doc_id": "theinsider:267448",
+        "token_aligned_fraction": 0.852
+      },
+      {
+        "doc_id": "theinsider:280997",
+        "token_aligned_fraction": 0.904
+      }
+    ],
+    "mean_token_aligned_fraction": 0.8940645161290323,
+    "predictions_sha256": "cf3aef56d6569a708165a86f637c415f7d0ce6790a851a331e1972c9b6afe29b"
+  },
+  "model": "20260928-detector-base-s42-01",
+  "test_used": false,
+  "train": {
+    "articles": [
+      {
+        "doc_id": "holod:antiteza-strelkovu",
+        "token_aligned_fraction": 0.916
+      },
+      {
+        "doc_id": "holod:berluskoni",
+        "token_aligned_fraction": 0.954
+      },
+      {
+        "doc_id": "holod:bokhan",
+        "token_aligned_fraction": 0.908
+      },
+      {
+        "doc_id": "holod:boris-stop-russia-24",
+        "token_aligned_fraction": 0.878
+      },
+      {
+        "doc_id": "holod:chto-volnuet-voenkorov-xvi",
+        "token_aligned_fraction": 0.908
+      },
+      {
+        "doc_id": "holod:chto-volnuet-voenkorov-xxix",
+        "token_aligned_fraction": 0.95
+      },
+      {
+        "doc_id": "holod:chto-volnuet-voenkorov-xxvii",
+        "token_aligned_fraction": 0.956
+      },
+      {
+        "doc_id": "holod:chto-volnuet-voenkorov-xxxii",
+        "token_aligned_fraction": 0.934
+      },
+      {
+        "doc_id": "holod:chto-volnuet-voenkorov-xxxiii",
+        "token_aligned_fraction": 0.938
+      },
+      {
+        "doc_id": "holod:film-vyzov",
+        "token_aligned_fraction": 0.924
+      },
+      {
+        "doc_id": "holod:galiamina-interview",
+        "token_aligned_fraction": 0.9
+      },
+      {
+        "doc_id": "holod:hotyat-li-voennye-zaversheniya-vojny",
+        "token_aligned_fraction": 0.924
+      },
+      {
+        "doc_id": "holod:interview-bucci",
+        "token_aligned_fraction": 0.846
+      },
+      {
+        "doc_id": "holod:interview-pluzhnikov",
+        "token_aligned_fraction": 0.924
+      },
+      {
+        "doc_id": "holod:kogo-shvatyat-ugovoryat-ili-prinudyat-togo-i-zaberut",
+        "token_aligned_fraction": 0.834
+      },
+      {
+        "doc_id": "holod:kremlin-jive",
+        "token_aligned_fraction": 0.962
+      },
+      {
+        "doc_id": "holod:lapshin-direktor-zlo",
+        "token_aligned_fraction": 0.946
+      },
+      {
+        "doc_id": "holod:lgbt-propaganda",
+        "token_aligned_fraction": 0.858
+      },
+      {
+        "doc_id": "holod:malika-musaeva",
+        "token_aligned_fraction": 0.912
+      },
+      {
+        "doc_id": "holod:master-i-margarita-lokshin",
+        "token_aligned_fraction": 0.944
+      },
+      {
+        "doc_id": "holod:mat",
+        "token_aligned_fraction": 0.932
+      },
+      {
+        "doc_id": "holod:miagkii-protest",
+        "token_aligned_fraction": 0.93
+      },
+      {
+        "doc_id": "holod:musaelyan-freedom",
+        "token_aligned_fraction": 0.952
+      },
+      {
+        "doc_id": "holod:muzh-ne-hochet-uezzhat-posle-obyavleniya-mobilizaczii-zhena-prosit-ego-uehat",
+        "token_aligned_fraction": 0.828
+      },
+      {
+        "doc_id": "holod:navalny-last-words",
+        "token_aligned_fraction": 0.94
+      },
+      {
+        "doc_id": "holod:ne-hodi-na-akczii-ne-risuj",
+        "token_aligned_fraction": 0.91
+      },
+      {
+        "doc_id": "holod:nejroset-zapreshhenka-chushpany",
+        "token_aligned_fraction": 0.964
+      },
+      {
+        "doc_id": "holod:nizovkina",
+        "token_aligned_fraction": 0.928
+      },
+      {
+        "doc_id": "holod:novolodskii-o-skochilenko",
+        "token_aligned_fraction": 0.886
+      },
+      {
+        "doc_id": "holod:o-chem-noet-zahar-prilepin%ef%bf%bc",
+        "token_aligned_fraction": 0.918
+      },
+      {
+        "doc_id": "holod:playlist-2022",
+        "token_aligned_fraction": 0.812
+      },
+      {
+        "doc_id": "holod:poland-ukraine",
+        "token_aligned_fraction": 0.904
+      },
+      {
+        "doc_id": "holod:politicheskoe-i-esteticheskoe",
+        "token_aligned_fraction": 0.896
+      },
+      {
+        "doc_id": "holod:povestki-zaderzhannim-miting",
+        "token_aligned_fraction": 0.86
+      },
+      {
+        "doc_id": "holod:science-isolation",
+        "token_aligned_fraction": 0.924
+      },
+      {
+        "doc_id": "holod:sorokin-nasledie",
+        "token_aligned_fraction": 0.914
+      },
+      {
+        "doc_id": "holod:strashno-chto-situacziya-otbrasyvaet-nas-na-desyat-let-nazad-v-razvitii-blagotvoritelnogo-sektora",
+        "token_aligned_fraction": 0.922
+      },
+      {
+        "doc_id": "holod:strelkov-opinion",
+        "token_aligned_fraction": 0.91
+      },
+      {
+        "doc_id": "holod:svobodnye-vybory",
+        "token_aligned_fraction": 0.94
+      },
+      {
+        "doc_id": "holod:tanki-leopard",
+        "token_aligned_fraction": 0.874
+      },
+      {
+        "doc_id": "holod:tufta-will-kill-us",
+        "token_aligned_fraction": 0.896
+      },
+      {
+        "doc_id": "holod:war-vs-childhood",
+        "token_aligned_fraction": 0.862
+      },
+      {
+        "doc_id": "ng:100_154321042025",
+        "token_aligned_fraction": 0.92
+      },
+      {
+        "doc_id": "ng:100_1700150102021",
+        "token_aligned_fraction": 0.86
+      },
+      {
+        "doc_id": "ng:100_200618problem",
+        "token_aligned_fraction": 0.838
+      },
+      {
+        "doc_id": "ng:100_2306161240",
+        "token_aligned_fraction": 0.908
+      },
+      {
+        "doc_id": "ng:100_2412061920",
+        "token_aligned_fraction": 0.854
+      },
+      {
+        "doc_id": "ng:100_2412261340",
+        "token_aligned_fraction": 0.804
+      },
+      {
+        "doc_id": "ng:100_gas110723",
+        "token_aligned_fraction": 0.868
+      },
+      {
+        "doc_id": "ng:100_mouse17052020",
+        "token_aligned_fraction": 0.922
+      },
+      {
+        "doc_id": "ng:10_9230_astronauts",
+        "token_aligned_fraction": 0.744
+      },
+      {
+        "doc_id": "ng:2_8695_vw",
+        "token_aligned_fraction": 0.83
+      },
+      {
+        "doc_id": "ng:5_7883_vision",
+        "token_aligned_fraction": 0.806
+      },
+      {
+        "doc_id": "ng:5_8413_vision",
+        "token_aligned_fraction": 0.89
+      },
+      {
+        "doc_id": "ng:5_9505_asia",
+        "token_aligned_fraction": 0.828
+      },
+      {
+        "doc_id": "ng:5_9507_europe",
+        "token_aligned_fraction": 0.848
+      },
+      {
+        "doc_id": "ng:6_7800_vision",
+        "token_aligned_fraction": 0.868
+      },
+      {
+        "doc_id": "ng:6_7818_vision",
+        "token_aligned_fraction": 0.924
+      },
+      {
+        "doc_id": "ng:6_7837_vision",
+        "token_aligned_fraction": 0.848
+      },
+      {
+        "doc_id": "ng:6_7843_vision",
+        "token_aligned_fraction": 0.838
+      },
+      {
+        "doc_id": "ng:6_7862_vision",
+        "token_aligned_fraction": 0.876
+      },
+      {
+        "doc_id": "ng:6_7892_vision",
+        "token_aligned_fraction": 0.808
+      },
+      {
+        "doc_id": "ng:6_7922_vision",
+        "token_aligned_fraction": 0.884
+      },
+      {
+        "doc_id": "ng:6_8206_vision",
+        "token_aligned_fraction": 0.86
+      },
+      {
+        "doc_id": "ng:6_8242_vision",
+        "token_aligned_fraction": 0.794
+      },
+      {
+        "doc_id": "ng:6_8481_vision",
+        "token_aligned_fraction": 0.796
+      },
+      {
+        "doc_id": "ng:6_8488_w05",
+        "token_aligned_fraction": 0.868
+      },
+      {
+        "doc_id": "ng:6_8704_uranium",
+        "token_aligned_fraction": 0.858
+      },
+      {
+        "doc_id": "ng:6_8968_poland",
+        "token_aligned_fraction": 0.878
+      },
+      {
+        "doc_id": "ng:6_9036_germany",
+        "token_aligned_fraction": 0.87
+      },
+      {
+        "doc_id": "ng:6_9110_germany",
+        "token_aligned_fraction": 0.882
+      },
+      {
+        "doc_id": "ng:6_9116_germany",
+        "token_aligned_fraction": 0.742
+      },
+      {
+        "doc_id": "ng:6_9153_africa",
+        "token_aligned_fraction": 0.818
+      },
+      {
+        "doc_id": "ng:6_9236_cambodia",
+        "token_aligned_fraction": 0.918
+      },
+      {
+        "doc_id": "ng:6_9261_ukraine",
+        "token_aligned_fraction": 0.866
+      },
+      {
+        "doc_id": "ng:6_9456_japan",
+        "token_aligned_fraction": 0.856
+      },
+      {
+        "doc_id": "ng:7_7792_vision",
+        "token_aligned_fraction": 0.83
+      },
+      {
+        "doc_id": "ng:8_8109_zd03",
+        "token_aligned_fraction": 0.872
+      },
+      {
+        "doc_id": "ng:8_8110_vision",
+        "token_aligned_fraction": 0.844
+      },
+      {
+        "doc_id": "ng:8_8458_vision",
+        "token_aligned_fraction": 0.896
+      },
+      {
+        "doc_id": "ng:8_8647_themis",
+        "token_aligned_fraction": 0.824
+      },
+      {
+        "doc_id": "ng:8_9360_vision",
+        "token_aligned_fraction": 0.856
+      },
+      {
+        "doc_id": "ng:8_9424_crisis",
+        "token_aligned_fraction": 0.886
+      },
+      {
+        "doc_id": "ng:8_9448_vision",
+        "token_aligned_fraction": 0.904
+      },
+      {
+        "doc_id": "ria_novosti:2008793019",
+        "token_aligned_fraction": 0.67
+      },
+      {
+        "doc_id": "ria_novosti:2008880498",
+        "token_aligned_fraction": 0.884
+      },
+      {
+        "doc_id": "ria_novosti:2008880921",
+        "token_aligned_fraction": 0.888
+      },
+      {
+        "doc_id": "ria_novosti:2015434114",
+        "token_aligned_fraction": 0.822
+      },
+      {
+        "doc_id": "ria_novosti:2021055778",
+        "token_aligned_fraction": 0.93
+      },
+      {
+        "doc_id": "ria_novosti:2021812270",
+        "token_aligned_fraction": 0.838
+      },
+      {
+        "doc_id": "ria_novosti:2032407686",
+        "token_aligned_fraction": 0.944
+      },
+      {
+        "doc_id": "ria_novosti:2032508259",
+        "token_aligned_fraction": 0.742
+      },
+      {
+        "doc_id": "ria_novosti:2034478917",
+        "token_aligned_fraction": 0.956
+      },
+      {
+        "doc_id": "ria_novosti:2037337669",
+        "token_aligned_fraction": 0.874
+      },
+      {
+        "doc_id": "ria_novosti:2038686731",
+        "token_aligned_fraction": 0.928
+      },
+      {
+        "doc_id": "ria_novosti:2040767325",
+        "token_aligned_fraction": 0.932
+      },
+      {
+        "doc_id": "ria_novosti:2043628402",
+        "token_aligned_fraction": 0.854
+      },
+      {
+        "doc_id": "ria_novosti:2052198418",
+        "token_aligned_fraction": 0.928
+      },
+      {
+        "doc_id": "ria_novosti:2056396848",
+        "token_aligned_fraction": 0.926
+      },
+      {
+        "doc_id": "ria_novosti:2058781062",
+        "token_aligned_fraction": 0.894
+      },
+      {
+        "doc_id": "ria_novosti:2075669540",
+        "token_aligned_fraction": 0.878
+      },
+      {
+        "doc_id": "ria_novosti:2081087907",
+        "token_aligned_fraction": 0.926
+      },
+      {
+        "doc_id": "theinsider:196533",
+        "token_aligned_fraction": 0.916
+      },
+      {
+        "doc_id": "theinsider:197929",
+        "token_aligned_fraction": 0.932
+      },
+      {
+        "doc_id": "theinsider:205290",
+        "token_aligned_fraction": 0.916
+      },
+      {
+        "doc_id": "theinsider:207276",
+        "token_aligned_fraction": 0.938
+      },
+      {
+        "doc_id": "theinsider:209607",
+        "token_aligned_fraction": 0.904
+      },
+      {
+        "doc_id": "theinsider:216627",
+        "token_aligned_fraction": 0.726
+      },
+      {
+        "doc_id": "theinsider:223648",
+        "token_aligned_fraction": 0.902
+      },
+      {
+        "doc_id": "theinsider:225823",
+        "token_aligned_fraction": 0.908
+      },
+      {
+        "doc_id": "theinsider:230336",
+        "token_aligned_fraction": 0.91
+      },
+      {
+        "doc_id": "theinsider:237336",
+        "token_aligned_fraction": 0.912
+      },
+      {
+        "doc_id": "theinsider:238025",
+        "token_aligned_fraction": 0.908
+      },
+      {
+        "doc_id": "theinsider:238362",
+        "token_aligned_fraction": 0.952
+      },
+      {
+        "doc_id": "theinsider:239886",
+        "token_aligned_fraction": 0.918
+      },
+      {
+        "doc_id": "theinsider:240028",
+        "token_aligned_fraction": 0.906
+      },
+      {
+        "doc_id": "theinsider:240512",
+        "token_aligned_fraction": 0.926
+      },
+      {
+        "doc_id": "theinsider:240978",
+        "token_aligned_fraction": 0.83
+      },
+      {
+        "doc_id": "theinsider:242333",
+        "token_aligned_fraction": 0.924
+      },
+      {
+        "doc_id": "theinsider:242615",
+        "token_aligned_fraction": 0.91
+      },
+      {
+        "doc_id": "theinsider:245471",
+        "token_aligned_fraction": 0.934
+      },
+      {
+        "doc_id": "theinsider:247146",
+        "token_aligned_fraction": 0.932
+      },
+      {
+        "doc_id": "theinsider:247833",
+        "token_aligned_fraction": 0.908
+      },
+      {
+        "doc_id": "theinsider:247994",
+        "token_aligned_fraction": 0.924
+      },
+      {
+        "doc_id": "theinsider:252826",
+        "token_aligned_fraction": 0.882
+      },
+      {
+        "doc_id": "theinsider:254322",
+        "token_aligned_fraction": 0.96
+      },
+      {
+        "doc_id": "theinsider:256843",
+        "token_aligned_fraction": 0.942
+      },
+      {
+        "doc_id": "theinsider:257597",
+        "token_aligned_fraction": 0.918
+      },
+      {
+        "doc_id": "theinsider:257618",
+        "token_aligned_fraction": 0.92
+      },
+      {
+        "doc_id": "theinsider:258086",
+        "token_aligned_fraction": 0.92
+      },
+      {
+        "doc_id": "theinsider:262340",
+        "token_aligned_fraction": 0.894
+      },
+      {
+        "doc_id": "theinsider:267624",
+        "token_aligned_fraction": 0.962
+      },
+      {
+        "doc_id": "theinsider:269354",
+        "token_aligned_fraction": 0.922
+      },
+      {
+        "doc_id": "theinsider:271609",
+        "token_aligned_fraction": 0.922
+      },
+      {
+        "doc_id": "theinsider:272442",
+        "token_aligned_fraction": 0.912
+      },
+      {
+        "doc_id": "theinsider:278394",
+        "token_aligned_fraction": 0.894
+      },
+      {
+        "doc_id": "theinsider:278708",
+        "token_aligned_fraction": 0.928
+      },
+      {
+        "doc_id": "theinsider:279444",
+        "token_aligned_fraction": 0.874
+      },
+      {
+        "doc_id": "theinsider:279931",
+        "token_aligned_fraction": 0.928
+      },
+      {
+        "doc_id": "theinsider:285786",
+        "token_aligned_fraction": 0.938
+      },
+      {
+        "doc_id": "theinsider:286236",
+        "token_aligned_fraction": 0.914
+      },
+      {
+        "doc_id": "theinsider:288289",
+        "token_aligned_fraction": 0.902
+      },
+      {
+        "doc_id": "theinsider:291880",
+        "token_aligned_fraction": 0.94
+      },
+      {
+        "doc_id": "theinsider:292001",
+        "token_aligned_fraction": 0.956
+      },
+      {
+        "doc_id": "theinsider:295616",
+        "token_aligned_fraction": 0.878
+      }
+    ],
+    "mean_token_aligned_fraction": 0.890744827586207,
+    "predictions_sha256": "42438f1dc8131490520e0a1f6d85dfac7b7b014042fe36dde963f5ab8a4aeae3"
+  }
+}

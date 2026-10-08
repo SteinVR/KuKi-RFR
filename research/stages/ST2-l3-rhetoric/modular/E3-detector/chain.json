@@ -1,0 +1,222 @@
+{
+  "calibration": [
+    {
+      "alpha": 0.0,
+      "dev": {
+        "alpha": 0.0,
+        "correctly_empty_answers": 0,
+        "empty_answer_rate": 0.075,
+        "empty_answers": 3,
+        "empty_empty_f1": 0,
+        "exact_f1": 0.04284239035130839,
+        "exact_precision": 0.026400850002759605,
+        "exact_recall": 0.1304666606021965,
+        "exact_weighted_micro_f1": 0.04358734687853594,
+        "false_nonempty_given_empty": 1.0,
+        "localization_exact_f1": 0.045674789603326285,
+        "localization_overlap_f1": 0.09952351720263154,
+        "mean_predictions": 92.19354838709677,
+        "n_answers": 40,
+        "n_articles": 31,
+        "nonempty_exact_f1": 0.046496298065392266,
+        "nonempty_overlap_f1": 0.08797123115534647,
+        "nonempty_prediction_articles": 31,
+        "overlap_f1": 0.08117580187687554,
+        "per_family_exact_f1": {
+          "Attack on Reputation": 0.0,
+          "Call": 0.01935483870967742,
+          "Distraction": 0.0,
+          "Justification": 0.01963597931339867,
+          "Manipulative Wording": 0.04525847864629093,
+          "Simplification": 0.0
+        },
+        "proposal_recall": 0.5668411306507646,
+        "threshold": 3.750603665020608
+      },
+      "threshold": 3.750603665020608
+    },
+    {
+      "alpha": 0.5,
+      "dev": {
+        "alpha": 0.5,
+        "correctly_empty_answers": 0,
+        "empty_answer_rate": 0.075,
+        "empty_answers": 3,
+        "empty_empty_f1": 0,
+        "exact_f1": 0.050324588490753795,
+        "exact_precision": 0.03125574308604013,
+        "exact_recall": 0.14807286621379462,
+        "exact_weighted_micro_f1": 0.05197344722894046,
+        "false_nonempty_given_empty": 1.0,
+        "localization_exact_f1": 0.053160022196509095,
+        "localization_overlap_f1": 0.10168826804142943,
+        "mean_predictions": 87.38709677419355,
+        "n_answers": 40,
+        "n_articles": 31,
+        "nonempty_exact_f1": 0.05449450986962701,
+        "nonempty_overlap_f1": 0.08944851323077133,
+        "nonempty_prediction_articles": 31,
+        "overlap_f1": 0.08256847216731966,
+        "per_family_exact_f1": {
+          "Attack on Reputation": 0.0,
+          "Call": 0.026881720430107527,
+          "Distraction": 0.0,
+          "Justification": 0.02214774472838989,
+          "Manipulative Wording": 0.051961720105643136,
+          "Simplification": 0.0
+        },
+        "proposal_recall": 0.5668411306507646,
+        "threshold": 1.3079341838529688
+      },
+      "threshold": 1.3079341838529688
+    },
+    {
+      "alpha": 1.0,
+      "dev": {
+        "alpha": 1.0,
+        "correctly_empty_answers": 0,
+        "empty_answer_rate": 0.075,
+        "empty_answers": 3,
+        "empty_empty_f1": 0,
+        "exact_f1": 0.05511523799649545,
+        "exact_precision": 0.035225406839166154,
+        "exact_recall": 0.14737327177456502,
+        "exact_weighted_micro_f1": 0.057686826654506085,
+        "false_nonempty_given_empty": 1.0,
+        "localization_exact_f1": 0.057883898683659785,
+        "localization_overlap_f1": 0.10396474640761867,
+        "mean_predictions": 77.2258064516129,
+        "n_answers": 40,
+        "n_articles": 31,
+        "nonempty_exact_f1": 0.059810671019011455,
+        "nonempty_overlap_f1": 0.09494142240280833,
+        "nonempty_prediction_articles": 31,
+        "overlap_f1": 0.08740191015727584,
+        "per_family_exact_f1": {
+          "Attack on Reputation": 0.001697792869269949,
+          "Call": 0.03333333333333334,
+          "Distraction": 0.0,
+          "Justification": 0.011244074459475083,
+          "Manipulative Wording": 0.05918566682766774,
+          "Simplification": 0.0
+        },
+        "proposal_recall": 0.5668411306507646,
+        "threshold": -0.7767335462066876
+      },
+      "threshold": -0.7767335462066876
+    }
+  ],
+  "data_hashes": {
+    "prepared_sha256": "592357226642e126d5641e9620e3e585cb2f4873e65b675e1f26b9f7eef82fa2",
+    "source_sha256": "d882e69064885823ecb9d7652bfc59795551a8c5defe4265703e845b2d6431d0",
+    "split_sha256": "c696d2734e60e93b28bb3cc17ba625fadb1d34831a427dfde12e9ef3ed479455"
+  },
+  "dev": {
+    "alpha": 1.0,
+    "correctly_empty_answers": 0,
+    "empty_answer_rate": 0.075,
+    "empty_answers": 3,
+    "empty_empty_f1": 0,
+    "exact_f1": 0.05511523799649545,
+    "exact_precision": 0.035225406839166154,
+    "exact_recall": 0.14737327177456502,
+    "exact_weighted_micro_f1": 0.057686826654506085,
+    "false_nonempty_given_empty": 1.0,
+    "localization_exact_f1": 0.057883898683659785,
+    "localization_overlap_f1": 0.10396474640761867,
+    "mean_predictions": 77.2258064516129,
+    "n_answers": 40,
+    "n_articles": 31,
+    "nonempty_exact_f1": 0.059810671019011455,
+    "nonempty_overlap_f1": 0.09494142240280833,
+    "nonempty_prediction_articles": 31,
+    "overlap_f1": 0.08740191015727584,
+    "per_family_exact_f1": {
+      "Attack on Reputation": 0.001697792869269949,
+      "Call": 0.03333333333333334,
+      "Distraction": 0.0,
+      "Justification": 0.011244074459475083,
+      "Manipulative Wording": 0.05918566682766774,
+      "Simplification": 0.0
+    },
+    "proposal_recall": 0.5668411306507646,
+    "threshold": -0.7767335462066876
+  },
+  "elapsed_seconds": 24.19423238100353,
+  "selected_runs": {
+    "classifier": "/home/xeliaray/Projects/Kuki-Labeling/research/stages/ST2-l3-rhetoric/experiments/20260928-classifier-low-lr-s42-01",
+    "detector": "/home/xeliaray/Projects/Kuki-Labeling/research/stages/ST2-l3-rhetoric/experiments/20260928-detector-base-s42-01"
+  },
+  "selection": {
+    "alpha": 1.0,
+    "dev": {
+      "alpha": 1.0,
+      "correctly_empty_answers": 0,
+      "empty_answer_rate": 0.075,
+      "empty_answers": 3,
+      "empty_empty_f1": 0,
+      "exact_f1": 0.05511523799649545,
+      "exact_precision": 0.035225406839166154,
+      "exact_recall": 0.14737327177456502,
+      "exact_weighted_micro_f1": 0.057686826654506085,
+      "false_nonempty_given_empty": 1.0,
+      "localization_exact_f1": 0.057883898683659785,
+      "localization_overlap_f1": 0.10396474640761867,
+      "mean_predictions": 77.2258064516129,
+      "n_answers": 40,
+      "n_articles": 31,
+      "nonempty_exact_f1": 0.059810671019011455,
+      "nonempty_overlap_f1": 0.09494142240280833,
+      "nonempty_prediction_articles": 31,
+      "overlap_f1": 0.08740191015727584,
+      "per_family_exact_f1": {
+        "Attack on Reputation": 0.001697792869269949,
+        "Call": 0.03333333333333334,
+        "Distraction": 0.0,
+        "Justification": 0.011244074459475083,
+        "Manipulative Wording": 0.05918566682766774,
+        "Simplification": 0.0
+      },
+      "proposal_recall": 0.5668411306507646,
+      "threshold": -0.7767335462066876
+    },
+    "threshold": -0.7767335462066876
+  },
+  "test_used": false,
+  "train": {
+    "alpha": 1.0,
+    "correctly_empty_answers": 0,
+    "empty_answer_rate": 0.16279069767441862,
+    "empty_answers": 35,
+    "empty_empty_f1": 0,
+    "exact_f1": 0.07623126555367897,
+    "exact_precision": 0.04725015911339957,
+    "exact_recall": 0.3078845968578408,
+    "exact_weighted_micro_f1": 0.07949758750095737,
+    "false_nonempty_given_empty": 1.0,
+    "localization_exact_f1": 0.07705497980903253,
+    "localization_overlap_f1": 0.11490391054515368,
+    "mean_predictions": 76.10344827586206,
+    "n_answers": 215,
+    "n_articles": 145,
+    "nonempty_exact_f1": 0.09083878314629515,
+    "nonempty_overlap_f1": 0.12636374671006284,
+    "nonempty_prediction_articles": 145,
+    "overlap_f1": 0.10634615243832511,
+    "per_family_exact_f1": {
+      "Attack on Reputation": 0.06276612914543948,
+      "Call": 0.05244128894973048,
+      "Distraction": 0.0,
+      "Justification": 0.025441906339472263,
+      "Manipulative Wording": 0.0709083218315836,
+      "Simplification": 0.04045977011494253
+    },
+    "proposal_recall": 0.8115602957585124,
+    "threshold": -0.7767335462066876
+  },
+  "verification": {
+    "classifier_max_abs_diff": 0.0,
+    "detector_max_abs_diff": 0.0,
+    "detector_pair_indices_equal": true
+  }
+}

@@ -1,0 +1,1400 @@
+[
+  {
+    "doc_id": "holod:golosov-hunta",
+    "eligible_before_cap": 74,
+    "exact_f1": 0.031862745098039214,
+    "exact_precision": 0.018018018018018018,
+    "exact_recall": 0.14646464646464644,
+    "group_id": "holod:golosov-hunta",
+    "individuals": [
+      {
+        "annotator_id": "10",
+        "exact_f1": 0.025,
+        "exact_precision": 0.013513513513513514,
+        "exact_recall": 0.16666666666666666,
+        "exact_tp": 1,
+        "localization_exact_f1": 0.025,
+        "localization_overlap_f1": 0.05,
+        "n_gold": 6,
+        "n_predictions": 74,
+        "overlap_f1": 0.05,
+        "per_family": {
+          "Attack on Reputation": 0.0,
+          "Call": 0.0,
+          "Distraction": 0.0,
+          "Justification": 0.0,
+          "Manipulative Wording": 0.02564102564102564,
+          "Simplification": 0.0
+        },
+        "proposal_hits": 3
+      },
+      {
+        "annotator_id": "4",
+        "exact_f1": 0.0,
+        "exact_precision": 0.0,
+        "exact_recall": 0.0,
+        "exact_tp": 0,
+        "localization_exact_f1": 0.0,
+        "localization_overlap_f1": 0.0,
+        "n_gold": 1,
+        "n_predictions": 74,
+        "overlap_f1": 0.0,
+        "per_family": {
+          "Attack on Reputation": 0.0,
+          "Call": 0.0,
+          "Distraction": 0.0,
+          "Justification": 0.0,
+          "Manipulative Wording": 0.0,
+          "Simplification": 0.0
+        },
+        "proposal_hits": 0
+      },
+      {
+        "annotator_id": "8",
+        "exact_f1": 0.07058823529411765,
+        "exact_precision": 0.04054054054054054,
+        "exact_recall": 0.2727272727272727,
+        "exact_tp": 3,
+        "localization_exact_f1": 0.07058823529411765,
+        "localization_overlap_f1": 0.09411764705882353,
+        "n_gold": 11,
+        "n_predictions": 74,
+        "overlap_f1": 0.09411764705882353,
+        "per_family": {
+          "Attack on Reputation": 0.0,
+          "Call": 0.0,
+          "Distraction": 0.0,
+          "Justification": 0.0,
+          "Manipulative Wording": 0.0759493670886076,
+          "Simplification": 0.0
+        },
+        "proposal_hits": 4
+      }
+    ],
+    "localization_exact_f1": 0.031862745098039214,
+    "localization_overlap_f1": 0.048039215686274506,
+    "n_candidates": 500,
+    "n_predictions": 74,
+    "nonempty_exact_f1": 0.031862745098039214,
+    "nonempty_overlap_f1": 0.048039215686274506,
+    "overlap_f1": 0.048039215686274506,
+    "proposal_recall": 0.2878787878787879
+  },
+  {
+    "doc_id": "holod:golosov-referendumi",
+    "eligible_before_cap": 59,
+    "exact_f1": 0.0,
+    "exact_precision": 0.0,
+    "exact_recall": 0.0,
+    "group_id": "holod:golosov-referendumi",
+    "individuals": [
+      {
+        "annotator_id": "8",
+        "exact_f1": 0.0,
+        "exact_precision": 0.0,
+        "exact_recall": 0.0,
+        "exact_tp": 0,
+        "localization_exact_f1": 0.0,
+        "localization_overlap_f1": 0.0,
+        "n_gold": 6,
+        "n_predictions": 59,
+        "overlap_f1": 0.0,
+        "per_family": {
+          "Attack on Reputation": 0.0,
+          "Call": 0.0,
+          "Distraction": 0.0,
+          "Justification": 0.0,
+          "Manipulative Wording": 0.0,
+          "Simplification": 0.0
+        },
+        "proposal_hits": 1
+      }
+    ],
+    "localization_exact_f1": 0.0,
+    "localization_overlap_f1": 0.0,
+    "n_candidates": 500,
+    "n_predictions": 59,
+    "nonempty_exact_f1": 0.0,
+    "nonempty_overlap_f1": 0.0,
+    "overlap_f1": 0.0,
+    "proposal_recall": 0.16666666666666666
+  },
+  {
+    "doc_id": "holod:kanny-77-itogi",
+    "eligible_before_cap": 134,
+    "exact_f1": 0.03333333333333333,
+    "exact_precision": 0.02,
+    "exact_recall": 0.1,
+    "group_id": "holod:kanny-77-itogi",
+    "individuals": [
+      {
+        "annotator_id": "10",
+        "exact_f1": 0.03333333333333333,
+        "exact_precision": 0.02,
+        "exact_recall": 0.1,
+        "exact_tp": 2,
+        "localization_exact_f1": 0.03418803418803419,
+        "localization_overlap_f1": 0.03418803418803419,
+        "n_gold": 20,
+        "n_predictions": 100,
+        "overlap_f1": 0.03333333333333333,
+        "per_family": {
+          "Attack on Reputation": 0.0,
+          "Call": 0.0,
+          "Distraction": 0.0,
+          "Justification": 0.0,
+          "Manipulative Wording": 0.036036036036036036,
+          "Simplification": 0.0
+        },
+        "proposal_hits": 8
+      }
+    ],
+    "localization_exact_f1": 0.03418803418803419,
+    "localization_overlap_f1": 0.03418803418803419,
+    "n_candidates": 500,
+    "n_predictions": 100,
+    "nonempty_exact_f1": 0.03333333333333333,
+    "nonempty_overlap_f1": 0.03333333333333333,
+    "overlap_f1": 0.03333333333333333,
+    "proposal_recall": 0.4
+  },
+  {
+    "doc_id": "holod:lichniy-opit-i-gendernoe-neravenstvo",
+    "eligible_before_cap": 107,
+    "exact_f1": 0.047947002492457036,
+    "exact_precision": 0.030000000000000002,
+    "exact_recall": 0.11996336996336997,
+    "group_id": "holod:lichniy-opit-i-gendernoe-neravenstvo",
+    "individuals": [
+      {
+        "annotator_id": "10",
+        "exact_f1": 0.01652892561983471,
+        "exact_precision": 0.01,
+        "exact_recall": 0.047619047619047616,
+        "exact_tp": 1,
+        "localization_exact_f1": 0.017094017094017096,
+        "localization_overlap_f1": 0.06837606837606838,
+        "n_gold": 21,
+        "n_predictions": 100,
+        "overlap_f1": 0.03305785123966942,
+        "per_family": {
+          "Attack on Reputation": 0.0,
+          "Call": 0.0,
+          "Distraction": 0.0,
+          "Justification": 0.0,
+          "Manipulative Wording": 0.02247191011235955,
+          "Simplification": 0.0
+        },
+        "proposal_hits": 13
+      },
+      {
+        "annotator_id": "8",
+        "exact_f1": 0.07936507936507936,
+        "exact_precision": 0.05,
+        "exact_recall": 0.19230769230769232,
+        "exact_tp": 5,
+        "localization_exact_f1": 0.08196721311475409,
+        "localization_overlap_f1": 0.16393442622950818,
+        "n_gold": 26,
+        "n_predictions": 100,
+        "overlap_f1": 0.15873015873015872,
+        "per_family": {
+          "Attack on Reputation": 0.0,
+          "Call": 0.18181818181818182,
+          "Distraction": 0.0,
+          "Justification": 0.18181818181818182,
+          "Manipulative Wording": 0.061224489795918366,
+          "Simplification": 0.0
+        },
+        "proposal_hits": 12
+      }
+    ],
+    "localization_exact_f1": 0.0495306151043856,
+    "localization_overlap_f1": 0.11615524730278828,
+    "n_candidates": 500,
+    "n_predictions": 100,
+    "nonempty_exact_f1": 0.047947002492457036,
+    "nonempty_overlap_f1": 0.09589400498491407,
+    "overlap_f1": 0.09589400498491407,
+    "proposal_recall": 0.5402930402930404
+  },
+  {
+    "doc_id": "holod:pochemu-rossiya-sdala-herson",
+    "eligible_before_cap": 17,
+    "exact_f1": 0.14814814814814814,
+    "exact_precision": 0.11764705882352941,
+    "exact_recall": 0.2,
+    "group_id": "holod:pochemu-rossiya-sdala-herson",
+    "individuals": [
+      {
+        "annotator_id": "10",
+        "exact_f1": 0.14814814814814814,
+        "exact_precision": 0.11764705882352941,
+        "exact_recall": 0.2,
+        "exact_tp": 2,
+        "localization_exact_f1": 0.14814814814814814,
+        "localization_overlap_f1": 0.14814814814814814,
+        "n_gold": 10,
+        "n_predictions": 17,
+        "overlap_f1": 0.14814814814814814,
+        "per_family": {
+          "Attack on Reputation": 0.0,
+          "Call": 0.0,
+          "Distraction": 0.0,
+          "Justification": 0.0,
+          "Manipulative Wording": 0.19047619047619047,
+          "Simplification": 0.0
+        },
+        "proposal_hits": 5
+      }
+    ],
+    "localization_exact_f1": 0.14814814814814814,
+    "localization_overlap_f1": 0.14814814814814814,
+    "n_candidates": 500,
+    "n_predictions": 17,
+    "nonempty_exact_f1": 0.14814814814814814,
+    "nonempty_overlap_f1": 0.14814814814814814,
+    "overlap_f1": 0.14814814814814814,
+    "proposal_recall": 0.5
+  },
+  {
+    "doc_id": "holod:rossiiskiie-smi-1990",
+    "eligible_before_cap": 164,
+    "exact_f1": 0.08620689655172414,
+    "exact_precision": 0.05,
+    "exact_recall": 0.3125,
+    "group_id": "holod:rossiiskiie-smi-1990",
+    "individuals": [
+      {
+        "annotator_id": "10",
+        "exact_f1": 0.08620689655172414,
+        "exact_precision": 0.05,
+        "exact_recall": 0.3125,
+        "exact_tp": 5,
+        "localization_exact_f1": 0.08620689655172414,
+        "localization_overlap_f1": 0.15517241379310345,
+        "n_gold": 16,
+        "n_predictions": 100,
+        "overlap_f1": 0.13793103448275862,
+        "per_family": {
+          "Attack on Reputation": 0.0,
+          "Call": 0.0,
+          "Distraction": 0.0,
+          "Justification": 0.0,
+          "Manipulative Wording": 0.09174311926605505,
+          "Simplification": 0.0
+        },
+        "proposal_hits": 10
+      }
+    ],
+    "localization_exact_f1": 0.08620689655172414,
+    "localization_overlap_f1": 0.15517241379310345,
+    "n_candidates": 500,
+    "n_predictions": 100,
+    "nonempty_exact_f1": 0.08620689655172414,
+    "nonempty_overlap_f1": 0.13793103448275862,
+    "overlap_f1": 0.13793103448275862,
+    "proposal_recall": 0.625
+  },
+  {
+    "doc_id": "holod:v-etoj-vojne-ne-mozhet-byt-pobedy",
+    "eligible_before_cap": 12,
+    "exact_f1": 0.08333333333333333,
+    "exact_precision": 0.08333333333333333,
+    "exact_recall": 0.08333333333333333,
+    "group_id": "holod:v-etoj-vojne-ne-mozhet-byt-pobedy",
+    "individuals": [
+      {
+        "annotator_id": "8",
+        "exact_f1": 0.08333333333333333,
+        "exact_precision": 0.08333333333333333,
+        "exact_recall": 0.08333333333333333,
+        "exact_tp": 1,
+        "localization_exact_f1": 0.08333333333333333,
+        "localization_overlap_f1": 0.08333333333333333,
+        "n_gold": 12,
+        "n_predictions": 12,
+        "overlap_f1": 0.08333333333333333,
+        "per_family": {
+          "Attack on Reputation": 0.0,
+          "Call": 0.0,
+          "Distraction": 0.0,
+          "Justification": 0.0,
+          "Manipulative Wording": 0.14285714285714285,
+          "Simplification": 0.0
+        },
+        "proposal_hits": 7
+      }
+    ],
+    "localization_exact_f1": 0.08333333333333333,
+    "localization_overlap_f1": 0.08333333333333333,
+    "n_candidates": 500,
+    "n_predictions": 12,
+    "nonempty_exact_f1": 0.08333333333333333,
+    "nonempty_overlap_f1": 0.08333333333333333,
+    "overlap_f1": 0.08333333333333333,
+    "proposal_recall": 0.5833333333333334
+  },
+  {
+    "doc_id": "holod:voina-v-ukraine-privediot-k-tretiei-mirovoi-voine",
+    "eligible_before_cap": 72,
+    "exact_f1": 0.058823529411764705,
+    "exact_precision": 0.041666666666666664,
+    "exact_recall": 0.1,
+    "group_id": "holod:voina-v-ukraine-privediot-k-tretiei-mirovoi-voine",
+    "individuals": [
+      {
+        "annotator_id": "8",
+        "exact_f1": 0.058823529411764705,
+        "exact_precision": 0.041666666666666664,
+        "exact_recall": 0.1,
+        "exact_tp": 3,
+        "localization_exact_f1": 0.0594059405940594,
+        "localization_overlap_f1": 0.1188118811881188,
+        "n_gold": 30,
+        "n_predictions": 72,
+        "overlap_f1": 0.11764705882352941,
+        "per_family": {
+          "Attack on Reputation": 0.0,
+          "Call": 0.0,
+          "Distraction": 0.0,
+          "Justification": 0.0,
+          "Manipulative Wording": 0.07317073170731707,
+          "Simplification": 0.0
+        },
+        "proposal_hits": 13
+      }
+    ],
+    "localization_exact_f1": 0.0594059405940594,
+    "localization_overlap_f1": 0.1188118811881188,
+    "n_candidates": 500,
+    "n_predictions": 72,
+    "nonempty_exact_f1": 0.058823529411764705,
+    "nonempty_overlap_f1": 0.11764705882352941,
+    "overlap_f1": 0.11764705882352941,
+    "proposal_recall": 0.43333333333333335
+  },
+  {
+    "doc_id": "ng:100_200221_lukashenko",
+    "eligible_before_cap": 92,
+    "exact_f1": 0.06710762022874467,
+    "exact_precision": 0.043478260869565216,
+    "exact_recall": 0.14764267990074442,
+    "group_id": "ng:100_200221_lukashenko",
+    "individuals": [
+      {
+        "annotator_id": "10",
+        "exact_f1": 0.1016949152542373,
+        "exact_precision": 0.06521739130434782,
+        "exact_recall": 0.23076923076923078,
+        "exact_tp": 6,
+        "localization_exact_f1": 0.10256410256410256,
+        "localization_overlap_f1": 0.18803418803418803,
+        "n_gold": 26,
+        "n_predictions": 92,
+        "overlap_f1": 0.11864406779661017,
+        "per_family": {
+          "Attack on Reputation": 0.0,
+          "Call": 0.0,
+          "Distraction": 0.0,
+          "Justification": 0.0,
+          "Manipulative Wording": 0.11538461538461539,
+          "Simplification": 0.0
+        },
+        "proposal_hits": 21
+      },
+      {
+        "annotator_id": "8",
+        "exact_f1": 0.032520325203252036,
+        "exact_precision": 0.021739130434782608,
+        "exact_recall": 0.06451612903225806,
+        "exact_tp": 2,
+        "localization_exact_f1": 0.03305785123966942,
+        "localization_overlap_f1": 0.1487603305785124,
+        "n_gold": 31,
+        "n_predictions": 92,
+        "overlap_f1": 0.08130081300813008,
+        "per_family": {
+          "Attack on Reputation": 0.09523809523809523,
+          "Call": 0.0,
+          "Distraction": 0.0,
+          "Justification": 0.0,
+          "Manipulative Wording": 0.020833333333333332,
+          "Simplification": 0.0
+        },
+        "proposal_hits": 20
+      }
+    ],
+    "localization_exact_f1": 0.06781097690188599,
+    "localization_overlap_f1": 0.16839725930635022,
+    "n_candidates": 500,
+    "n_predictions": 92,
+    "nonempty_exact_f1": 0.06710762022874467,
+    "nonempty_overlap_f1": 0.09997244040237013,
+    "overlap_f1": 0.09997244040237013,
+    "proposal_recall": 0.7264267990074442
+  },
+  {
+    "doc_id": "ng:15_8127_vision",
+    "eligible_before_cap": 126,
+    "exact_f1": 0.12403100775193798,
+    "exact_precision": 0.08,
+    "exact_recall": 0.27586206896551724,
+    "group_id": "ng:15_8127_vision",
+    "individuals": [
+      {
+        "annotator_id": "10",
+        "exact_f1": 0.12403100775193798,
+        "exact_precision": 0.08,
+        "exact_recall": 0.27586206896551724,
+        "exact_tp": 8,
+        "localization_exact_f1": 0.140625,
+        "localization_overlap_f1": 0.21875,
+        "n_gold": 29,
+        "n_predictions": 100,
+        "overlap_f1": 0.17054263565891473,
+        "per_family": {
+          "Attack on Reputation": 0.0,
+          "Call": 0.46153846153846156,
+          "Distraction": 0.0,
+          "Justification": 0.0,
+          "Manipulative Wording": 0.09433962264150944,
+          "Simplification": 0.0
+        },
+        "proposal_hits": 20
+      }
+    ],
+    "localization_exact_f1": 0.140625,
+    "localization_overlap_f1": 0.21875,
+    "n_candidates": 500,
+    "n_predictions": 100,
+    "nonempty_exact_f1": 0.12403100775193798,
+    "nonempty_overlap_f1": 0.17054263565891473,
+    "overlap_f1": 0.17054263565891473,
+    "proposal_recall": 0.6896551724137931
+  },
+  {
+    "doc_id": "ng:5_9074_vision",
+    "eligible_before_cap": 41,
+    "exact_f1": 0.0,
+    "exact_precision": 0.0,
+    "exact_recall": 0.0,
+    "group_id": "ng:5_9074_vision",
+    "individuals": [
+      {
+        "annotator_id": "8",
+        "exact_f1": 0.0,
+        "exact_precision": 0.0,
+        "exact_recall": 0.0,
+        "exact_tp": 0,
+        "localization_exact_f1": 0.0,
+        "localization_overlap_f1": 0.12903225806451613,
+        "n_gold": 21,
+        "n_predictions": 41,
+        "overlap_f1": 0.0967741935483871,
+        "per_family": {
+          "Attack on Reputation": 0.0,
+          "Call": 0.0,
+          "Distraction": 0.0,
+          "Justification": 0.0,
+          "Manipulative Wording": 0.0,
+          "Simplification": 0.0
+        },
+        "proposal_hits": 11
+      }
+    ],
+    "localization_exact_f1": 0.0,
+    "localization_overlap_f1": 0.12903225806451613,
+    "n_candidates": 500,
+    "n_predictions": 41,
+    "nonempty_exact_f1": 0.0,
+    "nonempty_overlap_f1": 0.0967741935483871,
+    "overlap_f1": 0.0967741935483871,
+    "proposal_recall": 0.5238095238095238
+  },
+  {
+    "doc_id": "ng:5_9292_migrants",
+    "eligible_before_cap": 25,
+    "exact_f1": 0.07692307692307693,
+    "exact_precision": 0.08,
+    "exact_recall": 0.07407407407407407,
+    "group_id": "ng:5_9292_migrants",
+    "individuals": [
+      {
+        "annotator_id": "8",
+        "exact_f1": 0.07692307692307693,
+        "exact_precision": 0.08,
+        "exact_recall": 0.07407407407407407,
+        "exact_tp": 2,
+        "localization_exact_f1": 0.07692307692307693,
+        "localization_overlap_f1": 0.15384615384615385,
+        "n_gold": 27,
+        "n_predictions": 25,
+        "overlap_f1": 0.11538461538461539,
+        "per_family": {
+          "Attack on Reputation": 0.0,
+          "Call": 0.0,
+          "Distraction": 0.0,
+          "Justification": 0.0,
+          "Manipulative Wording": 0.11428571428571428,
+          "Simplification": 0.0
+        },
+        "proposal_hits": 14
+      }
+    ],
+    "localization_exact_f1": 0.07692307692307693,
+    "localization_overlap_f1": 0.15384615384615385,
+    "n_candidates": 500,
+    "n_predictions": 25,
+    "nonempty_exact_f1": 0.07692307692307693,
+    "nonempty_overlap_f1": 0.11538461538461539,
+    "overlap_f1": 0.11538461538461539,
+    "proposal_recall": 0.5185185185185185
+  },
+  {
+    "doc_id": "ng:6_8272_vision",
+    "eligible_before_cap": 61,
+    "exact_f1": 0.07692307692307693,
+    "exact_precision": 0.04918032786885246,
+    "exact_recall": 0.17647058823529413,
+    "group_id": "ng:6_8272_vision",
+    "individuals": [
+      {
+        "annotator_id": "10",
+        "exact_f1": 0.07692307692307693,
+        "exact_precision": 0.04918032786885246,
+        "exact_recall": 0.17647058823529413,
+        "exact_tp": 3,
+        "localization_exact_f1": 0.07792207792207792,
+        "localization_overlap_f1": 0.1038961038961039,
+        "n_gold": 17,
+        "n_predictions": 61,
+        "overlap_f1": 0.10256410256410256,
+        "per_family": {
+          "Attack on Reputation": 0.0,
+          "Call": 0.0,
+          "Distraction": 0.0,
+          "Justification": 0.0,
+          "Manipulative Wording": 0.08450704225352113,
+          "Simplification": 0.0
+        },
+        "proposal_hits": 14
+      }
+    ],
+    "localization_exact_f1": 0.07792207792207792,
+    "localization_overlap_f1": 0.1038961038961039,
+    "n_candidates": 500,
+    "n_predictions": 61,
+    "nonempty_exact_f1": 0.07692307692307693,
+    "nonempty_overlap_f1": 0.10256410256410256,
+    "overlap_f1": 0.10256410256410256,
+    "proposal_recall": 0.8235294117647058
+  },
+  {
+    "doc_id": "ng:6_8326_vision",
+    "eligible_before_cap": 117,
+    "exact_f1": 0.0821917808219178,
+    "exact_precision": 0.06,
+    "exact_recall": 0.13043478260869565,
+    "group_id": "ng:6_8326_vision",
+    "individuals": [
+      {
+        "annotator_id": "8",
+        "exact_f1": 0.0821917808219178,
+        "exact_precision": 0.06,
+        "exact_recall": 0.13043478260869565,
+        "exact_tp": 6,
+        "localization_exact_f1": 0.0958904109589041,
+        "localization_overlap_f1": 0.1780821917808219,
+        "n_gold": 46,
+        "n_predictions": 100,
+        "overlap_f1": 0.1643835616438356,
+        "per_family": {
+          "Attack on Reputation": 0.0,
+          "Call": 0.0,
+          "Distraction": 0.0,
+          "Justification": 0.0,
+          "Manipulative Wording": 0.0967741935483871,
+          "Simplification": 0.0
+        },
+        "proposal_hits": 27
+      }
+    ],
+    "localization_exact_f1": 0.0958904109589041,
+    "localization_overlap_f1": 0.1780821917808219,
+    "n_candidates": 500,
+    "n_predictions": 100,
+    "nonempty_exact_f1": 0.0821917808219178,
+    "nonempty_overlap_f1": 0.1643835616438356,
+    "overlap_f1": 0.1643835616438356,
+    "proposal_recall": 0.5869565217391305
+  },
+  {
+    "doc_id": "ng:7_9537_duty",
+    "eligible_before_cap": 90,
+    "exact_f1": 0.04081632653061224,
+    "exact_precision": 0.022222222222222223,
+    "exact_recall": 0.25,
+    "group_id": "ng:7_9537_duty",
+    "individuals": [
+      {
+        "annotator_id": "10",
+        "exact_f1": 0.04081632653061224,
+        "exact_precision": 0.022222222222222223,
+        "exact_recall": 0.25,
+        "exact_tp": 2,
+        "localization_exact_f1": 0.04081632653061224,
+        "localization_overlap_f1": 0.08163265306122448,
+        "n_gold": 8,
+        "n_predictions": 90,
+        "overlap_f1": 0.08163265306122448,
+        "per_family": {
+          "Attack on Reputation": 0.0,
+          "Call": 0.0,
+          "Distraction": 0.0,
+          "Justification": 0.0,
+          "Manipulative Wording": 0.04081632653061224,
+          "Simplification": 0.0
+        },
+        "proposal_hits": 5
+      }
+    ],
+    "localization_exact_f1": 0.04081632653061224,
+    "localization_overlap_f1": 0.08163265306122448,
+    "n_candidates": 500,
+    "n_predictions": 90,
+    "nonempty_exact_f1": 0.04081632653061224,
+    "nonempty_overlap_f1": 0.08163265306122448,
+    "overlap_f1": 0.08163265306122448,
+    "proposal_recall": 0.625
+  },
+  {
+    "doc_id": "ng:8_7915_realy",
+    "eligible_before_cap": 155,
+    "exact_f1": 0.017094017094017096,
+    "exact_precision": 0.01,
+    "exact_recall": 0.058823529411764705,
+    "group_id": "ng:8_7915_realy",
+    "individuals": [
+      {
+        "annotator_id": "8",
+        "exact_f1": 0.017094017094017096,
+        "exact_precision": 0.01,
+        "exact_recall": 0.058823529411764705,
+        "exact_tp": 1,
+        "localization_exact_f1": 0.017391304347826087,
+        "localization_overlap_f1": 0.10434782608695652,
+        "n_gold": 17,
+        "n_predictions": 100,
+        "overlap_f1": 0.08547008547008547,
+        "per_family": {
+          "Attack on Reputation": 0.0,
+          "Call": 0.0,
+          "Distraction": 0.0,
+          "Justification": 0.0,
+          "Manipulative Wording": 0.020833333333333332,
+          "Simplification": 0.0
+        },
+        "proposal_hits": 5
+      }
+    ],
+    "localization_exact_f1": 0.017391304347826087,
+    "localization_overlap_f1": 0.10434782608695652,
+    "n_candidates": 500,
+    "n_predictions": 100,
+    "nonempty_exact_f1": 0.017094017094017096,
+    "nonempty_overlap_f1": 0.08547008547008547,
+    "overlap_f1": 0.08547008547008547,
+    "proposal_recall": 0.29411764705882354
+  },
+  {
+    "doc_id": "ng:8_8046_vision",
+    "eligible_before_cap": 100,
+    "exact_f1": 0.06896551724137931,
+    "exact_precision": 0.04,
+    "exact_recall": 0.25,
+    "group_id": "ng:8_8046_vision",
+    "individuals": [
+      {
+        "annotator_id": "10",
+        "exact_f1": 0.06896551724137931,
+        "exact_precision": 0.04,
+        "exact_recall": 0.25,
+        "exact_tp": 4,
+        "localization_exact_f1": 0.06956521739130435,
+        "localization_overlap_f1": 0.12173913043478261,
+        "n_gold": 16,
+        "n_predictions": 100,
+        "overlap_f1": 0.10344827586206896,
+        "per_family": {
+          "Attack on Reputation": 0.0,
+          "Call": 0.16666666666666666,
+          "Distraction": 0.0,
+          "Justification": 0.0,
+          "Manipulative Wording": 0.0625,
+          "Simplification": 0.0
+        },
+        "proposal_hits": 12
+      }
+    ],
+    "localization_exact_f1": 0.06956521739130435,
+    "localization_overlap_f1": 0.12173913043478261,
+    "n_candidates": 500,
+    "n_predictions": 100,
+    "nonempty_exact_f1": 0.06896551724137931,
+    "nonempty_overlap_f1": 0.10344827586206896,
+    "overlap_f1": 0.10344827586206896,
+    "proposal_recall": 0.75
+  },
+  {
+    "doc_id": "ng:8_8293_vision",
+    "eligible_before_cap": 56,
+    "exact_f1": 0.06764069264069264,
+    "exact_precision": 0.041666666666666664,
+    "exact_recall": 0.21428571428571427,
+    "group_id": "ng:8_8293_vision",
+    "individuals": [
+      {
+        "annotator_id": "10",
+        "exact_f1": 0.125,
+        "exact_precision": 0.07142857142857142,
+        "exact_recall": 0.5,
+        "exact_tp": 4,
+        "localization_exact_f1": 0.125,
+        "localization_overlap_f1": 0.125,
+        "n_gold": 8,
+        "n_predictions": 56,
+        "overlap_f1": 0.125,
+        "per_family": {
+          "Attack on Reputation": 0.0,
+          "Call": 0.0,
+          "Distraction": 0.0,
+          "Justification": 0.0,
+          "Manipulative Wording": 0.2,
+          "Simplification": 0.0
+        },
+        "proposal_hits": 7
+      },
+      {
+        "annotator_id": "4",
+        "exact_f1": 0.0,
+        "exact_precision": 0.0,
+        "exact_recall": 0.0,
+        "exact_tp": 0,
+        "localization_exact_f1": 0.0,
+        "localization_overlap_f1": 0.0,
+        "n_gold": 0,
+        "n_predictions": 56,
+        "overlap_f1": 0.0,
+        "per_family": {
+          "Attack on Reputation": 0.0,
+          "Call": 0.0,
+          "Distraction": 0.0,
+          "Justification": 0.0,
+          "Manipulative Wording": 0.0,
+          "Simplification": 0.0
+        },
+        "proposal_hits": 0
+      },
+      {
+        "annotator_id": "8",
+        "exact_f1": 0.07792207792207792,
+        "exact_precision": 0.05357142857142857,
+        "exact_recall": 0.14285714285714285,
+        "exact_tp": 3,
+        "localization_exact_f1": 0.07792207792207792,
+        "localization_overlap_f1": 0.23376623376623376,
+        "n_gold": 21,
+        "n_predictions": 56,
+        "overlap_f1": 0.2077922077922078,
+        "per_family": {
+          "Attack on Reputation": 0.0,
+          "Call": 0.0,
+          "Distraction": 0.0,
+          "Justification": 0.06666666666666667,
+          "Manipulative Wording": 0.1,
+          "Simplification": 0.0
+        },
+        "proposal_hits": 12
+      }
+    ],
+    "localization_exact_f1": 0.06764069264069264,
+    "localization_overlap_f1": 0.11958874458874458,
+    "n_candidates": 500,
+    "n_predictions": 56,
+    "nonempty_exact_f1": 0.10146103896103896,
+    "nonempty_overlap_f1": 0.1663961038961039,
+    "overlap_f1": 0.11093073593073594,
+    "proposal_recall": 0.7232142857142857
+  },
+  {
+    "doc_id": "ng:8_8710_portfolio",
+    "eligible_before_cap": 117,
+    "exact_f1": 0.06956521739130435,
+    "exact_precision": 0.04,
+    "exact_recall": 0.26666666666666666,
+    "group_id": "ng:8_8710_portfolio",
+    "individuals": [
+      {
+        "annotator_id": "10",
+        "exact_f1": 0.06956521739130435,
+        "exact_precision": 0.04,
+        "exact_recall": 0.26666666666666666,
+        "exact_tp": 4,
+        "localization_exact_f1": 0.07017543859649122,
+        "localization_overlap_f1": 0.08771929824561403,
+        "n_gold": 15,
+        "n_predictions": 100,
+        "overlap_f1": 0.08695652173913043,
+        "per_family": {
+          "Attack on Reputation": 0.0,
+          "Call": 0.0,
+          "Distraction": 0.0,
+          "Justification": 0.0,
+          "Manipulative Wording": 0.07920792079207921,
+          "Simplification": 0.0
+        },
+        "proposal_hits": 9
+      }
+    ],
+    "localization_exact_f1": 0.07017543859649122,
+    "localization_overlap_f1": 0.08771929824561403,
+    "n_candidates": 500,
+    "n_predictions": 100,
+    "nonempty_exact_f1": 0.06956521739130435,
+    "nonempty_overlap_f1": 0.08695652173913043,
+    "overlap_f1": 0.08695652173913043,
+    "proposal_recall": 0.6
+  },
+  {
+    "doc_id": "ng:8_8764_maths",
+    "eligible_before_cap": 41,
+    "exact_f1": 0.05889724310776942,
+    "exact_precision": 0.04065040650406504,
+    "exact_recall": 0.10694444444444444,
+    "group_id": "ng:8_8764_maths",
+    "individuals": [
+      {
+        "annotator_id": "10",
+        "exact_f1": 0.07142857142857142,
+        "exact_precision": 0.04878048780487805,
+        "exact_recall": 0.13333333333333333,
+        "exact_tp": 2,
+        "localization_exact_f1": 0.07407407407407407,
+        "localization_overlap_f1": 0.14814814814814814,
+        "n_gold": 15,
+        "n_predictions": 41,
+        "overlap_f1": 0.14285714285714285,
+        "per_family": {
+          "Attack on Reputation": 0.0,
+          "Call": 0.0,
+          "Distraction": 0.0,
+          "Justification": 0.0,
+          "Manipulative Wording": 0.09302325581395349,
+          "Simplification": 0.0
+        },
+        "proposal_hits": 11
+      },
+      {
+        "annotator_id": "4",
+        "exact_f1": 0.0,
+        "exact_precision": 0.0,
+        "exact_recall": 0.0,
+        "exact_tp": 0,
+        "localization_exact_f1": 0.0,
+        "localization_overlap_f1": 0.04878048780487805,
+        "n_gold": 1,
+        "n_predictions": 41,
+        "overlap_f1": 0.047619047619047616,
+        "per_family": {
+          "Attack on Reputation": 0.0,
+          "Call": 0.0,
+          "Distraction": 0.0,
+          "Justification": 0.0,
+          "Manipulative Wording": 0.0,
+          "Simplification": 0.0
+        },
+        "proposal_hits": 1
+      },
+      {
+        "annotator_id": "8",
+        "exact_f1": 0.10526315789473684,
+        "exact_precision": 0.07317073170731707,
+        "exact_recall": 0.1875,
+        "exact_tp": 3,
+        "localization_exact_f1": 0.10714285714285714,
+        "localization_overlap_f1": 0.25,
+        "n_gold": 16,
+        "n_predictions": 41,
+        "overlap_f1": 0.17543859649122806,
+        "per_family": {
+          "Attack on Reputation": 0.0,
+          "Call": 0.0,
+          "Distraction": 0.0,
+          "Justification": 0.0,
+          "Manipulative Wording": 0.13333333333333333,
+          "Simplification": 0.0
+        },
+        "proposal_hits": 12
+      }
+    ],
+    "localization_exact_f1": 0.060405643738977076,
+    "localization_overlap_f1": 0.14897621198434205,
+    "n_candidates": 500,
+    "n_predictions": 41,
+    "nonempty_exact_f1": 0.05889724310776942,
+    "nonempty_overlap_f1": 0.12197159565580618,
+    "overlap_f1": 0.12197159565580618,
+    "proposal_recall": 0.8277777777777778
+  },
+  {
+    "doc_id": "ng:8_8996_textbooks",
+    "eligible_before_cap": 44,
+    "exact_f1": 0.05,
+    "exact_precision": 0.03409090909090909,
+    "exact_recall": 0.09375,
+    "group_id": "ng:8_8996_textbooks",
+    "individuals": [
+      {
+        "annotator_id": "4",
+        "exact_f1": 0.0,
+        "exact_precision": 0.0,
+        "exact_recall": 0.0,
+        "exact_tp": 0,
+        "localization_exact_f1": 0.0,
+        "localization_overlap_f1": 0.043478260869565216,
+        "n_gold": 3,
+        "n_predictions": 44,
+        "overlap_f1": 0.0425531914893617,
+        "per_family": {
+          "Attack on Reputation": 0.0,
+          "Call": 0.0,
+          "Distraction": 0.0,
+          "Justification": 0.0,
+          "Manipulative Wording": 0.0,
+          "Simplification": 0.0
+        },
+        "proposal_hits": 2
+      },
+      {
+        "annotator_id": "8",
+        "exact_f1": 0.1,
+        "exact_precision": 0.06818181818181818,
+        "exact_recall": 0.1875,
+        "exact_tp": 3,
+        "localization_exact_f1": 0.1016949152542373,
+        "localization_overlap_f1": 0.3050847457627119,
+        "n_gold": 16,
+        "n_predictions": 44,
+        "overlap_f1": 0.2,
+        "per_family": {
+          "Attack on Reputation": 0.0,
+          "Call": 0.0,
+          "Distraction": 0.0,
+          "Justification": 0.0,
+          "Manipulative Wording": 0.13636363636363635,
+          "Simplification": 0.0
+        },
+        "proposal_hits": 11
+      }
+    ],
+    "localization_exact_f1": 0.05084745762711865,
+    "localization_overlap_f1": 0.17428150331613856,
+    "n_candidates": 500,
+    "n_predictions": 44,
+    "nonempty_exact_f1": 0.05,
+    "nonempty_overlap_f1": 0.12127659574468086,
+    "overlap_f1": 0.12127659574468086,
+    "proposal_recall": 0.6770833333333333
+  },
+  {
+    "doc_id": "ria_novosti:2042540813",
+    "eligible_before_cap": 88,
+    "exact_f1": 0.05128205128205128,
+    "exact_precision": 0.03409090909090909,
+    "exact_recall": 0.10344827586206896,
+    "group_id": "ria_novosti:2042540813",
+    "individuals": [
+      {
+        "annotator_id": "10",
+        "exact_f1": 0.05128205128205128,
+        "exact_precision": 0.03409090909090909,
+        "exact_recall": 0.10344827586206896,
+        "exact_tp": 3,
+        "localization_exact_f1": 0.08849557522123894,
+        "localization_overlap_f1": 0.08849557522123894,
+        "n_gold": 29,
+        "n_predictions": 88,
+        "overlap_f1": 0.05128205128205128,
+        "per_family": {
+          "Attack on Reputation": 0.0,
+          "Call": 0.0,
+          "Distraction": 0.0,
+          "Justification": 0.0,
+          "Manipulative Wording": 0.06976744186046512,
+          "Simplification": 0.0
+        },
+        "proposal_hits": 14
+      }
+    ],
+    "localization_exact_f1": 0.08849557522123894,
+    "localization_overlap_f1": 0.08849557522123894,
+    "n_candidates": 500,
+    "n_predictions": 88,
+    "nonempty_exact_f1": 0.05128205128205128,
+    "nonempty_overlap_f1": 0.05128205128205128,
+    "overlap_f1": 0.05128205128205128,
+    "proposal_recall": 0.4827586206896552
+  },
+  {
+    "doc_id": "ria_novosti:2099824110",
+    "eligible_before_cap": 37,
+    "exact_f1": 0.0,
+    "exact_precision": 0.0,
+    "exact_recall": 0.0,
+    "group_id": "ria_novosti:2099824110",
+    "individuals": [
+      {
+        "annotator_id": "8",
+        "exact_f1": 0.0,
+        "exact_precision": 0.0,
+        "exact_recall": 0.0,
+        "exact_tp": 0,
+        "localization_exact_f1": 0.0,
+        "localization_overlap_f1": 0.10526315789473684,
+        "n_gold": 20,
+        "n_predictions": 37,
+        "overlap_f1": 0.10526315789473684,
+        "per_family": {
+          "Attack on Reputation": 0.0,
+          "Call": 0.0,
+          "Distraction": 0.0,
+          "Justification": 0.0,
+          "Manipulative Wording": 0.0,
+          "Simplification": 0.0
+        },
+        "proposal_hits": 7
+      }
+    ],
+    "localization_exact_f1": 0.0,
+    "localization_overlap_f1": 0.10526315789473684,
+    "n_candidates": 500,
+    "n_predictions": 37,
+    "nonempty_exact_f1": 0.0,
+    "nonempty_overlap_f1": 0.10526315789473684,
+    "overlap_f1": 0.10526315789473684,
+    "proposal_recall": 0.35
+  },
+  {
+    "doc_id": "ria_novosti:2106459260",
+    "eligible_before_cap": 88,
+    "exact_f1": 0.08771929824561403,
+    "exact_precision": 0.056818181818181816,
+    "exact_recall": 0.19230769230769232,
+    "group_id": "ria_novosti:2106459260",
+    "individuals": [
+      {
+        "annotator_id": "10",
+        "exact_f1": 0.08771929824561403,
+        "exact_precision": 0.056818181818181816,
+        "exact_recall": 0.19230769230769232,
+        "exact_tp": 5,
+        "localization_exact_f1": 0.1415929203539823,
+        "localization_overlap_f1": 0.21238938053097345,
+        "n_gold": 26,
+        "n_predictions": 88,
+        "overlap_f1": 0.14035087719298245,
+        "per_family": {
+          "Attack on Reputation": 0.0,
+          "Call": 0.0,
+          "Distraction": 0.0,
+          "Justification": 0.0,
+          "Manipulative Wording": 0.10752688172043011,
+          "Simplification": 0.0
+        },
+        "proposal_hits": 18
+      }
+    ],
+    "localization_exact_f1": 0.1415929203539823,
+    "localization_overlap_f1": 0.21238938053097345,
+    "n_candidates": 500,
+    "n_predictions": 88,
+    "nonempty_exact_f1": 0.08771929824561403,
+    "nonempty_overlap_f1": 0.14035087719298245,
+    "overlap_f1": 0.14035087719298245,
+    "proposal_recall": 0.6923076923076923
+  },
+  {
+    "doc_id": "theinsider:236745",
+    "eligible_before_cap": 110,
+    "exact_f1": 0.0,
+    "exact_precision": 0.0,
+    "exact_recall": 0.0,
+    "group_id": "theinsider:236745",
+    "individuals": [
+      {
+        "annotator_id": "4",
+        "exact_f1": 0.0,
+        "exact_precision": 0.0,
+        "exact_recall": 0.0,
+        "exact_tp": 0,
+        "localization_exact_f1": 0.0,
+        "localization_overlap_f1": 0.0,
+        "n_gold": 0,
+        "n_predictions": 100,
+        "overlap_f1": 0.0,
+        "per_family": {
+          "Attack on Reputation": 0.0,
+          "Call": 0.0,
+          "Distraction": 0.0,
+          "Justification": 0.0,
+          "Manipulative Wording": 0.0,
+          "Simplification": 0.0
+        },
+        "proposal_hits": 0
+      }
+    ],
+    "localization_exact_f1": 0.0,
+    "localization_overlap_f1": 0.0,
+    "n_candidates": 500,
+    "n_predictions": 100,
+    "nonempty_exact_f1": null,
+    "nonempty_overlap_f1": null,
+    "overlap_f1": 0.0,
+    "proposal_recall": null
+  },
+  {
+    "doc_id": "theinsider:238660",
+    "eligible_before_cap": 37,
+    "exact_f1": 0.0,
+    "exact_precision": 0.0,
+    "exact_recall": 0.0,
+    "group_id": "theinsider:238660",
+    "individuals": [
+      {
+        "annotator_id": "4",
+        "exact_f1": 0.0,
+        "exact_precision": 0.0,
+        "exact_recall": 0.0,
+        "exact_tp": 0,
+        "localization_exact_f1": 0.0,
+        "localization_overlap_f1": 0.0,
+        "n_gold": 0,
+        "n_predictions": 37,
+        "overlap_f1": 0.0,
+        "per_family": {
+          "Attack on Reputation": 0.0,
+          "Call": 0.0,
+          "Distraction": 0.0,
+          "Justification": 0.0,
+          "Manipulative Wording": 0.0,
+          "Simplification": 0.0
+        },
+        "proposal_hits": 0
+      }
+    ],
+    "localization_exact_f1": 0.0,
+    "localization_overlap_f1": 0.0,
+    "n_candidates": 500,
+    "n_predictions": 37,
+    "nonempty_exact_f1": null,
+    "nonempty_overlap_f1": null,
+    "overlap_f1": 0.0,
+    "proposal_recall": null
+  },
+  {
+    "doc_id": "theinsider:253489",
+    "eligible_before_cap": 31,
+    "exact_f1": 0.1276595744680851,
+    "exact_precision": 0.0967741935483871,
+    "exact_recall": 0.1875,
+    "group_id": "theinsider:253489",
+    "individuals": [
+      {
+        "annotator_id": "8",
+        "exact_f1": 0.1276595744680851,
+        "exact_precision": 0.0967741935483871,
+        "exact_recall": 0.1875,
+        "exact_tp": 3,
+        "localization_exact_f1": 0.1276595744680851,
+        "localization_overlap_f1": 0.1702127659574468,
+        "n_gold": 16,
+        "n_predictions": 31,
+        "overlap_f1": 0.1702127659574468,
+        "per_family": {
+          "Attack on Reputation": 0.0,
+          "Call": 0.0,
+          "Distraction": 0.0,
+          "Justification": 0.0,
+          "Manipulative Wording": 0.15,
+          "Simplification": 0.0
+        },
+        "proposal_hits": 7
+      }
+    ],
+    "localization_exact_f1": 0.1276595744680851,
+    "localization_overlap_f1": 0.1702127659574468,
+    "n_candidates": 500,
+    "n_predictions": 31,
+    "nonempty_exact_f1": 0.1276595744680851,
+    "nonempty_overlap_f1": 0.1702127659574468,
+    "overlap_f1": 0.1702127659574468,
+    "proposal_recall": 0.4375
+  },
+  {
+    "doc_id": "theinsider:260829",
+    "eligible_before_cap": 126,
+    "exact_f1": 0.1206896551724138,
+    "exact_precision": 0.07,
+    "exact_recall": 0.4375,
+    "group_id": "theinsider:260829",
+    "individuals": [
+      {
+        "annotator_id": "10",
+        "exact_f1": 0.1206896551724138,
+        "exact_precision": 0.07,
+        "exact_recall": 0.4375,
+        "exact_tp": 7,
+        "localization_exact_f1": 0.12280701754385964,
+        "localization_overlap_f1": 0.14035087719298245,
+        "n_gold": 16,
+        "n_predictions": 100,
+        "overlap_f1": 0.13793103448275862,
+        "per_family": {
+          "Attack on Reputation": 0.2222222222222222,
+          "Call": 0.0,
+          "Distraction": 0.0,
+          "Justification": 0.0,
+          "Manipulative Wording": 0.12,
+          "Simplification": 0.0
+        },
+        "proposal_hits": 10
+      }
+    ],
+    "localization_exact_f1": 0.12280701754385964,
+    "localization_overlap_f1": 0.14035087719298245,
+    "n_candidates": 500,
+    "n_predictions": 100,
+    "nonempty_exact_f1": 0.1206896551724138,
+    "nonempty_overlap_f1": 0.13793103448275862,
+    "overlap_f1": 0.13793103448275862,
+    "proposal_recall": 0.625
+  },
+  {
+    "doc_id": "theinsider:266563",
+    "eligible_before_cap": 35,
+    "exact_f1": 0.0392156862745098,
+    "exact_precision": 0.02857142857142857,
+    "exact_recall": 0.0625,
+    "group_id": "theinsider:266563",
+    "individuals": [
+      {
+        "annotator_id": "10",
+        "exact_f1": 0.0392156862745098,
+        "exact_precision": 0.02857142857142857,
+        "exact_recall": 0.0625,
+        "exact_tp": 1,
+        "localization_exact_f1": 0.0392156862745098,
+        "localization_overlap_f1": 0.0784313725490196,
+        "n_gold": 16,
+        "n_predictions": 35,
+        "overlap_f1": 0.0784313725490196,
+        "per_family": {
+          "Attack on Reputation": 0.0,
+          "Call": 0.0,
+          "Distraction": 0.0,
+          "Justification": 0.0,
+          "Manipulative Wording": 0.047619047619047616,
+          "Simplification": 0.0
+        },
+        "proposal_hits": 10
+      }
+    ],
+    "localization_exact_f1": 0.0392156862745098,
+    "localization_overlap_f1": 0.0784313725490196,
+    "n_candidates": 500,
+    "n_predictions": 35,
+    "nonempty_exact_f1": 0.0392156862745098,
+    "nonempty_overlap_f1": 0.0784313725490196,
+    "overlap_f1": 0.0784313725490196,
+    "proposal_recall": 0.625
+  },
+  {
+    "doc_id": "theinsider:267448",
+    "eligible_before_cap": 47,
+    "exact_f1": 0.12307692307692308,
+    "exact_precision": 0.0851063829787234,
+    "exact_recall": 0.2222222222222222,
+    "group_id": "theinsider:267448",
+    "individuals": [
+      {
+        "annotator_id": "10",
+        "exact_f1": 0.12307692307692308,
+        "exact_precision": 0.0851063829787234,
+        "exact_recall": 0.2222222222222222,
+        "exact_tp": 4,
+        "localization_exact_f1": 0.125,
+        "localization_overlap_f1": 0.1875,
+        "n_gold": 18,
+        "n_predictions": 47,
+        "overlap_f1": 0.18461538461538463,
+        "per_family": {
+          "Attack on Reputation": 0.0,
+          "Call": 0.0,
+          "Distraction": 0.0,
+          "Justification": 0.0,
+          "Manipulative Wording": 0.1509433962264151,
+          "Simplification": 0.0
+        },
+        "proposal_hits": 14
+      }
+    ],
+    "localization_exact_f1": 0.125,
+    "localization_overlap_f1": 0.1875,
+    "n_candidates": 500,
+    "n_predictions": 47,
+    "nonempty_exact_f1": 0.12307692307692308,
+    "nonempty_overlap_f1": 0.18461538461538463,
+    "overlap_f1": 0.18461538461538463,
+    "proposal_recall": 0.7777777777777778
+  },
+  {
+    "doc_id": "theinsider:280997",
+    "eligible_before_cap": 43,
+    "exact_f1": 0.07407407407407407,
+    "exact_precision": 0.046511627906976744,
+    "exact_recall": 0.18181818181818182,
+    "group_id": "theinsider:280997",
+    "individuals": [
+      {
+        "annotator_id": "8",
+        "exact_f1": 0.07407407407407407,
+        "exact_precision": 0.046511627906976744,
+        "exact_recall": 0.18181818181818182,
+        "exact_tp": 2,
+        "localization_exact_f1": 0.07692307692307693,
+        "localization_overlap_f1": 0.11538461538461539,
+        "n_gold": 11,
+        "n_predictions": 43,
+        "overlap_f1": 0.1111111111111111,
+        "per_family": {
+          "Attack on Reputation": 0.0,
+          "Call": 0.0,
+          "Distraction": 0.0,
+          "Justification": 0.0,
+          "Manipulative Wording": 0.1,
+          "Simplification": 0.0
+        },
+        "proposal_hits": 6
+      }
+    ],
+    "localization_exact_f1": 0.07692307692307693,
+    "localization_overlap_f1": 0.11538461538461539,
+    "n_candidates": 500,
+    "n_predictions": 43,
+    "nonempty_exact_f1": 0.07407407407407407,
+    "nonempty_overlap_f1": 0.1111111111111111,
+    "overlap_f1": 0.1111111111111111,
+    "proposal_recall": 0.5454545454545454
+  }
+]

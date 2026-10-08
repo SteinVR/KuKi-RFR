@@ -1,0 +1,16 @@
+# Веса и состояния обучения, включая вложенные технические прогоны.
+**/checkpoints/
+
+# Защита от сохранения крупных моделей вне стандартного checkpoints/.
+**/experiments/**/*.pt
+**/experiments/**/*.pth
+**/experiments/**/*.ckpt
+**/experiments/**/*.safetensors
+**/experiments/**/*.pkl
+**/experiments/**/*.joblib
+**/experiments/**/*.onnx
+
+# Сырой вывод процессов и текущее состояние незавершённого запуска.
+# Структурированные метрики, история эпох и прогнозы остаются в Git.
+**/experiments/**/*.log
+**/experiments/**/progress.json

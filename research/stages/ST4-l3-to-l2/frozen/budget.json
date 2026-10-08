@@ -1,0 +1,73 @@
+{
+  "limit_seconds": 900,
+  "runs": [
+    {
+      "checks": {
+        "dev": {
+          "automatic_exact": true,
+          "conditional_exact": true,
+          "l2_exact": true,
+          "n_articles": 31
+        },
+        "train": {
+          "automatic_exact": false,
+          "conditional_exact": true,
+          "l2_exact": true,
+          "n_articles": 145
+        }
+      },
+      "frozen_unchanged": true,
+      "kind": "extraction",
+      "peak_reserved_bytes": 419430400,
+      "seconds": 34.404825538000296,
+      "status": "passed"
+    },
+    {
+      "kind": "profile",
+      "seconds": 3.506527023999297,
+      "status": "passed"
+    },
+    {
+      "articles_seen": 4350,
+      "best_brier": 0.14268359079725682,
+      "best_epoch": 12,
+      "kind": "control",
+      "peak_reserved_bytes": 96468992,
+      "seconds": 11.40366780900149,
+      "status": "completed",
+      "trainable_parameters": 59598,
+      "updates": 570
+    },
+    {
+      "articles_seen": 4350,
+      "best_brier": 0.14317213716004973,
+      "best_epoch": 1,
+      "kind": "families",
+      "peak_reserved_bytes": 96468992,
+      "seconds": 11.03464360200087,
+      "status": "completed",
+      "trainable_parameters": 59598,
+      "updates": 570
+    },
+    {
+      "all_features_exact": true,
+      "fresh_feature_articles": 176,
+      "frozen_state_exact": true,
+      "kind": "fresh_replay",
+      "prediction_checks": {
+        "control/best/dev": true,
+        "control/best/train": true,
+        "control/last/dev": true,
+        "control/last/train": true,
+        "families/best/dev": true,
+        "families/best/train": true,
+        "families/last/dev": true,
+        "families/last/train": true
+      },
+      "seconds": 21.078968904999783,
+      "status": "passed",
+      "test_used": false
+    }
+  ],
+  "seconds": 81.42863287800174
+}

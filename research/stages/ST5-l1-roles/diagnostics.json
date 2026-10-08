@@ -1,0 +1,896 @@
+{
+  "seen": {
+    "model": {
+      "article_accuracy": 0.6615158353693937,
+      "brier": 0.17114127860504405,
+      "confusion": [
+        [
+          6,
+          6,
+          4
+        ],
+        [
+          9,
+          33,
+          2
+        ],
+        [
+          1,
+          1,
+          8
+        ]
+      ],
+      "cross_entropy": 1.2193132261668225,
+      "macro_f1": 0.6171424828599384,
+      "mention_accuracy": 0.6714285714285714,
+      "mention_macro_f1": 0.6091269841269841,
+      "n_answers": 24,
+      "n_articles": 21,
+      "n_mentions": 70,
+      "per_role": {
+        "ANTAGONIST": {
+          "f1": 0.7723719981758925,
+          "mentions": 44,
+          "precision": 0.8425373991411091,
+          "recall": 0.7129947387437932,
+          "weighted_support": 5.567668279432984
+        },
+        "INNOCENT": {
+          "f1": 0.7090277992516776,
+          "mentions": 10,
+          "precision": 0.6458716242385831,
+          "recall": 0.7858740264080132,
+          "weighted_support": 1.238296833885069
+        },
+        "PROTAGONIST": {
+          "f1": 0.370027651152245,
+          "mentions": 16,
+          "precision": 0.32605090489581084,
+          "recall": 0.42771677872451114,
+          "weighted_support": 1.8845662507427212
+        }
+      },
+      "role_order": [
+        "PROTAGONIST",
+        "ANTAGONIST",
+        "INNOCENT"
+      ],
+      "weighted_confusion": [
+        [
+          0.806060606060606,
+          0.7267528223410576,
+          0.35175282234105765
+        ],
+        [
+          1.4161319073083778,
+          3.9697181903064243,
+          0.18181818181818182
+        ],
+        [
+          0.25,
+          0.015151515151515152,
+          0.9731453187335539
+        ]
+      ]
+    },
+    "normalization": "original article weights, conditional slice",
+    "tfidf": {
+      "article_accuracy": 0.6965948498361297,
+      "brier": 0.16162261181113804,
+      "confusion": [
+        [
+          2,
+          14,
+          0
+        ],
+        [
+          0,
+          44,
+          0
+        ],
+        [
+          1,
+          8,
+          1
+        ]
+      ],
+      "cross_entropy": 0.8400646596525515,
+      "macro_f1": 0.4317178317076317,
+      "mention_accuracy": 0.6714285714285714,
+      "mention_macro_f1": 0.39744816586921855,
+      "n_answers": 24,
+      "n_articles": 21,
+      "n_mentions": 70,
+      "per_role": {
+        "ANTAGONIST": {
+          "f1": 0.8159496095041341,
+          "mentions": 44,
+          "precision": 0.6891173011331252,
+          "recall": 1.0,
+          "weighted_support": 5.567668279432984
+        },
+        "INNOCENT": {
+          "f1": 0.16468127599682336,
+          "mentions": 10,
+          "precision": 1.0,
+          "recall": 0.08972897940997542,
+          "weighted_support": 1.238296833885069
+        },
+        "PROTAGONIST": {
+          "f1": 0.3145226096219375,
+          "mentions": 16,
+          "precision": 0.75,
+          "recall": 0.1989847795757829,
+          "weighted_support": 1.8845662507427212
+        }
+      },
+      "role_order": [
+        "PROTAGONIST",
+        "ANTAGONIST",
+        "INNOCENT"
+      ],
+      "weighted_confusion": [
+        [
+          0.375,
+          1.5095662507427212,
+          0.0
+        ],
+        [
+          0.0,
+          5.567668279432984,
+          0.0
+        ],
+        [
+          0.125,
+          1.002185722773958,
+          0.1111111111111111
+        ]
+      ]
+    }
+  },
+  "source:holod": {
+    "model": {
+      "article_accuracy": 0.8193587662337662,
+      "brier": 0.12354740613276866,
+      "confusion": [
+        [
+          6,
+          0,
+          0
+        ],
+        [
+          6,
+          28,
+          2
+        ],
+        [
+          0,
+          3,
+          16
+        ]
+      ],
+      "cross_entropy": 1.3355593346217511,
+      "macro_f1": 0.8122780380921757,
+      "mention_accuracy": 0.819672131147541,
+      "mention_macro_f1": 0.7891174756846399,
+      "n_answers": 11,
+      "n_articles": 8,
+      "n_mentions": 61,
+      "per_role": {
+        "ANTAGONIST": {
+          "f1": 0.8433463555414775,
+          "mentions": 36,
+          "precision": 0.9884497978714628,
+          "recall": 0.7353916032408544,
+          "weighted_support": 5.28961038961039
+        },
+        "INNOCENT": {
+          "f1": 0.9273155198670913,
+          "mentions": 19,
+          "precision": 0.8885646059962854,
+          "recall": 0.9696004632310365,
+          "weighted_support": 1.495238095238095
+        },
+        "PROTAGONIST": {
+          "f1": 0.6661722388679581,
+          "mentions": 6,
+          "precision": 0.49944397491214804,
+          "recall": 1.0,
+          "weighted_support": 1.215151515151515
+        }
+      },
+      "role_order": [
+        "PROTAGONIST",
+        "ANTAGONIST",
+        "INNOCENT"
+      ],
+      "weighted_confusion": [
+        [
+          1.215151515151515,
+          0.0,
+          0.0
+        ],
+        [
+          1.217857142857143,
+          3.889935064935065,
+          0.18181818181818182
+        ],
+        [
+          0.0,
+          0.045454545454545456,
+          1.4497835497835496
+        ]
+      ]
+    },
+    "normalization": "original article weights, conditional slice",
+    "tfidf": {
+      "article_accuracy": 0.6612012987012986,
+      "brier": 0.14839506743712266,
+      "confusion": [
+        [
+          0,
+          6,
+          0
+        ],
+        [
+          0,
+          36,
+          0
+        ],
+        [
+          0,
+          19,
+          0
+        ]
+      ],
+      "cross_entropy": 0.7856054500336179,
+      "macro_f1": 0.26535066288804193,
+      "mention_accuracy": 0.5901639344262295,
+      "mention_macro_f1": 0.24742268041237114,
+      "n_answers": 11,
+      "n_articles": 8,
+      "n_mentions": 61,
+      "per_role": {
+        "ANTAGONIST": {
+          "f1": 0.7960519886641259,
+          "mentions": 36,
+          "precision": 0.6612012987012987,
+          "recall": 1.0,
+          "weighted_support": 5.28961038961039
+        },
+        "INNOCENT": {
+          "f1": 0.0,
+          "mentions": 19,
+          "precision": 0.0,
+          "recall": 0.0,
+          "weighted_support": 1.495238095238095
+        },
+        "PROTAGONIST": {
+          "f1": 0.0,
+          "mentions": 6,
+          "precision": 0.0,
+          "recall": 0.0,
+          "weighted_support": 1.215151515151515
+        }
+      },
+      "role_order": [
+        "PROTAGONIST",
+        "ANTAGONIST",
+        "INNOCENT"
+      ],
+      "weighted_confusion": [
+        [
+          0.0,
+          1.215151515151515,
+          0.0
+        ],
+        [
+          0.0,
+          5.28961038961039,
+          0.0
+        ],
+        [
+          0.0,
+          1.495238095238095,
+          0.0
+        ]
+      ]
+    }
+  },
+  "source:ng": {
+    "model": {
+      "article_accuracy": 0.6659320477502295,
+      "brier": 0.18449928486889586,
+      "confusion": [
+        [
+          11,
+          4,
+          1
+        ],
+        [
+          1,
+          29,
+          4
+        ],
+        [
+          3,
+          1,
+          5
+        ]
+      ],
+      "cross_entropy": 1.4279229055322535,
+      "macro_f1": 0.6392783002055085,
+      "mention_accuracy": 0.7627118644067796,
+      "mention_macro_f1": 0.6963114617663703,
+      "n_answers": 13,
+      "n_articles": 11,
+      "n_mentions": 59,
+      "per_role": {
+        "ANTAGONIST": {
+          "f1": 0.6959475623175926,
+          "mentions": 34,
+          "precision": 0.6350301231118485,
+          "recall": 0.7697925486875529,
+          "weighted_support": 4.771717171717172
+        },
+        "INNOCENT": {
+          "f1": 0.5218940936863544,
+          "mentions": 9,
+          "precision": 0.5049261083743842,
+          "recall": 0.5400421496311908,
+          "weighted_support": 1.9171717171717173
+        },
+        "PROTAGONIST": {
+          "f1": 0.6999932446125786,
+          "mentions": 16,
+          "precision": 0.826711345141216,
+          "recall": 0.606958762886598,
+          "weighted_support": 4.311111111111112
+        }
+      },
+      "role_order": [
+        "PROTAGONIST",
+        "ANTAGONIST",
+        "INNOCENT"
+      ],
+      "weighted_confusion": [
+        [
+          2.616666666666667,
+          1.6111111111111112,
+          0.08333333333333333
+        ],
+        [
+          0.16666666666666666,
+          3.673232323232323,
+          0.9318181818181819
+        ],
+        [
+          0.38181818181818183,
+          0.5,
+          1.0353535353535355
+        ]
+      ]
+    },
+    "normalization": "original article weights, conditional slice",
+    "tfidf": {
+      "article_accuracy": 0.43379247015610645,
+      "brier": 0.21994707413433992,
+      "confusion": [
+        [
+          1,
+          15,
+          0
+        ],
+        [
+          1,
+          33,
+          0
+        ],
+        [
+          1,
+          8,
+          0
+        ]
+      ],
+      "cross_entropy": 1.0681839995506406,
+      "macro_f1": 0.23360551377449013,
+      "mention_accuracy": 0.576271186440678,
+      "mention_macro_f1": 0.27953216374269,
+      "n_answers": 13,
+      "n_articles": 11,
+      "n_mentions": 59,
+      "per_role": {
+        "ANTAGONIST": {
+          "f1": 0.6020240056483881,
+          "mentions": 34,
+          "precision": 0.4411431387041145,
+          "recall": 0.9476079593564776,
+          "weighted_support": 4.771717171717172
+        },
+        "INNOCENT": {
+          "f1": 0.0,
+          "mentions": 9,
+          "precision": 0.0,
+          "recall": 0.0,
+          "weighted_support": 1.9171717171717173
+        },
+        "PROTAGONIST": {
+          "f1": 0.09879253567508231,
+          "mentions": 16,
+          "precision": 0.3333333333333333,
+          "recall": 0.05798969072164947,
+          "weighted_support": 4.311111111111112
+        }
+      },
+      "role_order": [
+        "PROTAGONIST",
+        "ANTAGONIST",
+        "INNOCENT"
+      ],
+      "weighted_confusion": [
+        [
+          0.25,
+          4.061111111111112,
+          0.0
+        ],
+        [
+          0.25,
+          4.521717171717172,
+          0.0
+        ],
+        [
+          0.25,
+          1.6671717171717173,
+          0.0
+        ]
+      ]
+    }
+  },
+  "source:ria_novosti": {
+    "model": {
+      "article_accuracy": 0.6313131313131314,
+      "brier": 0.19026031962735387,
+      "confusion": [
+        [
+          2,
+          2,
+          0
+        ],
+        [
+          2,
+          9,
+          0
+        ],
+        [
+          2,
+          0,
+          1
+        ]
+      ],
+      "cross_entropy": 1.4312705644140677,
+      "macro_f1": 0.4522030107061359,
+      "mention_accuracy": 0.6666666666666666,
+      "mention_macro_f1": 0.5727272727272728,
+      "n_answers": 3,
+      "n_articles": 3,
+      "n_mentions": 18,
+      "per_role": {
+        "ANTAGONIST": {
+          "f1": 0.84251968503937,
+          "mentions": 11,
+          "precision": 0.7925925925925925,
+          "recall": 0.8991596638655461,
+          "weighted_support": 1.803030303030303
+        },
+        "INNOCENT": {
+          "f1": 0.26666666666666666,
+          "mentions": 3,
+          "precision": 1.0,
+          "recall": 0.15384615384615385,
+          "weighted_support": 0.5909090909090909
+        },
+        "PROTAGONIST": {
+          "f1": 0.24742268041237114,
+          "mentions": 4,
+          "precision": 0.21052631578947367,
+          "recall": 0.30000000000000004,
+          "weighted_support": 0.606060606060606
+        }
+      },
+      "role_order": [
+        "PROTAGONIST",
+        "ANTAGONIST",
+        "INNOCENT"
+      ],
+      "weighted_confusion": [
+        [
+          0.18181818181818182,
+          0.4242424242424242,
+          0.0
+        ],
+        [
+          0.18181818181818182,
+          1.621212121212121,
+          0.0
+        ],
+        [
+          0.5,
+          0.0,
+          0.09090909090909091
+        ]
+      ]
+    },
+    "normalization": "original article weights, conditional slice",
+    "tfidf": {
+      "article_accuracy": 0.6010101010101011,
+      "brier": 0.17658777033875941,
+      "confusion": [
+        [
+          0,
+          4,
+          0
+        ],
+        [
+          0,
+          11,
+          0
+        ],
+        [
+          0,
+          3,
+          0
+        ]
+      ],
+      "cross_entropy": 0.9034054651976761,
+      "macro_f1": 0.2502628811777077,
+      "mention_accuracy": 0.6111111111111112,
+      "mention_macro_f1": 0.2528735632183908,
+      "n_answers": 3,
+      "n_articles": 3,
+      "n_mentions": 18,
+      "per_role": {
+        "ANTAGONIST": {
+          "f1": 0.750788643533123,
+          "mentions": 11,
+          "precision": 0.601010101010101,
+          "recall": 1.0,
+          "weighted_support": 1.803030303030303
+        },
+        "INNOCENT": {
+          "f1": 0.0,
+          "mentions": 3,
+          "precision": 0.0,
+          "recall": 0.0,
+          "weighted_support": 0.5909090909090909
+        },
+        "PROTAGONIST": {
+          "f1": 0.0,
+          "mentions": 4,
+          "precision": 0.0,
+          "recall": 0.0,
+          "weighted_support": 0.606060606060606
+        }
+      },
+      "role_order": [
+        "PROTAGONIST",
+        "ANTAGONIST",
+        "INNOCENT"
+      ],
+      "weighted_confusion": [
+        [
+          0.0,
+          0.606060606060606,
+          0.0
+        ],
+        [
+          0.0,
+          1.803030303030303,
+          0.0
+        ],
+        [
+          0.0,
+          0.5909090909090909,
+          0.0
+        ]
+      ]
+    }
+  },
+  "source:theinsider": {
+    "model": {
+      "article_accuracy": 0.720313883129009,
+      "brier": 0.13870784084814633,
+      "confusion": [
+        [
+          9,
+          6,
+          5
+        ],
+        [
+          4,
+          26,
+          1
+        ],
+        [
+          0,
+          5,
+          6
+        ]
+      ],
+      "cross_entropy": 0.9836059631676378,
+      "macro_f1": 0.6751930439975293,
+      "mention_accuracy": 0.6612903225806451,
+      "mention_macro_f1": 0.6106331860807565,
+      "n_answers": 7,
+      "n_articles": 7,
+      "n_mentions": 62,
+      "per_role": {
+        "ANTAGONIST": {
+          "f1": 0.8054638225597808,
+          "mentions": 31,
+          "precision": 0.7682572401952604,
+          "recall": 0.8464576384256169,
+          "weighted_support": 3.5785905271199385
+        },
+        "INNOCENT": {
+          "f1": 0.57256075751586,
+          "mentions": 11,
+          "precision": 0.5243332701225715,
+          "recall": 0.630558722919042,
+          "weighted_support": 1.023576097105509
+        },
+        "PROTAGONIST": {
+          "f1": 0.647554551916947,
+          "mentions": 20,
+          "precision": 0.7489019033674963,
+          "recall": 0.5703678465071618,
+          "weighted_support": 2.3978333757745522
+        }
+      },
+      "role_order": [
+        "PROTAGONIST",
+        "ANTAGONIST",
+        "INNOCENT"
+      ],
+      "weighted_confusion": [
+        [
+          1.3676470588235294,
+          0.5355763517528224,
+          0.49460996519820055
+        ],
+        [
+          0.4585561497326204,
+          3.029125286478227,
+          0.09090909090909091
+        ],
+        [
+          0.0,
+          0.37815126050420167,
+          0.6454248366013071
+        ]
+      ]
+    },
+    "normalization": "original article weights, conditional slice",
+    "tfidf": {
+      "article_accuracy": 0.54495737689015,
+      "brier": 0.19674928207599057,
+      "confusion": [
+        [
+          1,
+          19,
+          0
+        ],
+        [
+          0,
+          31,
+          0
+        ],
+        [
+          1,
+          9,
+          1
+        ]
+      ],
+      "cross_entropy": 0.9772801831649576,
+      "macro_f1": 0.33024843786067004,
+      "mention_accuracy": 0.532258064516129,
+      "mention_macro_f1": 0.3154882154882155,
+      "n_answers": 7,
+      "n_articles": 7,
+      "n_mentions": 62,
+      "per_role": {
+        "ANTAGONIST": {
+          "f1": 0.7004840198675568,
+          "mentions": 31,
+          "precision": 0.5390345563862673,
+          "recall": 1.0,
+          "weighted_support": 3.5785905271199385
+        },
+        "INNOCENT": {
+          "f1": 0.19584447644517586,
+          "mentions": 11,
+          "precision": 1.0,
+          "recall": 0.10855188141391103,
+          "weighted_support": 1.023576097105509
+        },
+        "PROTAGONIST": {
+          "f1": 0.09441681726927746,
+          "mentions": 20,
+          "precision": 0.5,
+          "recall": 0.05213039457323522,
+          "weighted_support": 2.3978333757745522
+        }
+      },
+      "role_order": [
+        "PROTAGONIST",
+        "ANTAGONIST",
+        "INNOCENT"
+      ],
+      "weighted_confusion": [
+        [
+          0.125,
+          2.2728333757745522,
+          0.0
+        ],
+        [
+          0.0,
+          3.5785905271199385,
+          0.0
+        ],
+        [
+          0.125,
+          0.7874649859943978,
+          0.1111111111111111
+        ]
+      ]
+    }
+  },
+  "unseen": {
+    "model": {
+      "article_accuracy": 0.741887214577425,
+      "brier": 0.15127419791770483,
+      "confusion": [
+        [
+          22,
+          6,
+          2
+        ],
+        [
+          4,
+          59,
+          5
+        ],
+        [
+          4,
+          8,
+          20
+        ]
+      ],
+      "cross_entropy": 1.3281588367553132,
+      "macro_f1": 0.7138095993591542,
+      "mention_accuracy": 0.7769230769230769,
+      "mention_macro_f1": 0.7493929558841206,
+      "n_answers": 33,
+      "n_articles": 29,
+      "n_mentions": 130,
+      "per_role": {
+        "ANTAGONIST": {
+          "f1": 0.7899488174514182,
+          "mentions": 68,
+          "precision": 0.7496792714405693,
+          "recall": 0.8347901540024589,
+          "weighted_support": 9.875280112044814
+        },
+        "INNOCENT": {
+          "f1": 0.6171766597347221,
+          "mentions": 32,
+          "precision": 0.6428850981255928,
+          "recall": 0.5934452784597213,
+          "weighted_support": 3.7885981665393413
+        },
+        "PROTAGONIST": {
+          "f1": 0.7343033208913224,
+          "mentions": 30,
+          "precision": 0.7866874939110959,
+          "recall": 0.6884599516934746,
+          "weighted_support": 6.645590357355063
+        }
+      },
+      "role_order": [
+        "PROTAGONIST",
+        "ANTAGONIST",
+        "INNOCENT"
+      ],
+      "weighted_confusion": [
+        [
+          4.575222816399288,
+          1.8441770647653,
+          0.22619047619047616
+        ],
+        [
+          0.6087662337662337,
+          8.24378660555131,
+          1.0227272727272727
+        ],
+        [
+          0.6318181818181818,
+          0.908454290807232,
+          2.248325693913929
+        ]
+      ]
+    },
+    "normalization": "original article weights, conditional slice",
+    "tfidf": {
+      "article_accuracy": 0.4739306716775502,
+      "brier": 0.20231943715974987,
+      "confusion": [
+        [
+          0,
+          30,
+          0
+        ],
+        [
+          1,
+          67,
+          0
+        ],
+        [
+          1,
+          31,
+          0
+        ]
+      ],
+      "cross_entropy": 0.9988167275153363,
+      "macro_f1": 0.21616667408935575,
+      "mention_accuracy": 0.5153846153846153,
+      "mention_macro_f1": 0.22789115646258504,
+      "n_answers": 33,
+      "n_articles": 29,
+      "n_mentions": 130,
+      "per_role": {
+        "ANTAGONIST": {
+          "f1": 0.6485000222680672,
+          "mentions": 68,
+          "precision": 0.48589289742896996,
+          "recall": 0.9746842624043569,
+          "weighted_support": 9.875280112044814
+        },
+        "INNOCENT": {
+          "f1": 0.0,
+          "mentions": 32,
+          "precision": 0.0,
+          "recall": 0.0,
+          "weighted_support": 3.7885981665393413
+        },
+        "PROTAGONIST": {
+          "f1": 0.0,
+          "mentions": 30,
+          "precision": 0.0,
+          "recall": 0.0,
+          "weighted_support": 6.645590357355063
+        }
+      },
+      "role_order": [
+        "PROTAGONIST",
+        "ANTAGONIST",
+        "INNOCENT"
+      ],
+      "weighted_confusion": [
+        [
+          0.0,
+          6.645590357355063,
+          0.0
+        ],
+        [
+          0.25,
+          9.625280112044814,
+          0.0
+        ],
+        [
+          0.25,
+          3.5385981665393413,
+          0.0
+        ]
+      ]
+    }
+  }
+}

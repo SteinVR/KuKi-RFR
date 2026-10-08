@@ -1,0 +1,17 @@
+{
+  "article_presentations": 2900,
+  "base_unchanged": true,
+  "best_epoch": 11,
+  "best_l1_epoch": 11,
+  "best_l2_epoch": 8,
+  "equal_budget": true,
+  "l1_labeled_presentations": 2700,
+  "peak_allocated_bytes": 2633798656,
+  "peak_reserved_bytes": 2749366272,
+  "run_id": "20260929-st6-balance-frames-s42-01",
+  "seconds": 572.392717314,
+  "status": "completed",
+  "stop_reason": "epoch_limit",
+  "trainable_parameters": 913625,
+  "updates": 380
+}

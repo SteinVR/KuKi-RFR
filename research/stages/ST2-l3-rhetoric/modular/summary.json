@@ -1,0 +1,112 @@
+{
+  "chain_dev": {
+    "alpha": 2.0,
+    "correctly_empty_answers": 0,
+    "empty_answer_rate": 0.075,
+    "empty_answers": 3,
+    "empty_empty_f1": 0,
+    "exact_f1": 0.06172670411667743,
+    "exact_precision": 0.042575051418659186,
+    "exact_recall": 0.14498426679240098,
+    "exact_weighted_micro_f1": 0.06247216744067687,
+    "false_nonempty_given_empty": 1.0,
+    "localization_exact_f1": 0.06614139314133691,
+    "localization_overlap_f1": 0.11587630170911493,
+    "mean_predictions": 67.41935483870968,
+    "n_answers": 40,
+    "n_articles": 31,
+    "nonempty_exact_f1": 0.06714993703232229,
+    "nonempty_overlap_f1": 0.10897576774169339,
+    "nonempty_prediction_articles": 31,
+    "overlap_f1": 0.10015586763044322,
+    "per_family_exact_f1": {
+      "Attack on Reputation": 0.008704557091653865,
+      "Call": 0.02319723287465223,
+      "Distraction": 0.0,
+      "Justification": 0.003649397197784295,
+      "Manipulative Wording": 0.07293092884757509,
+      "Simplification": 0.0
+    },
+    "proposal_recall": 0.5668411306507646,
+    "threshold": -5.172313813576109
+  },
+  "conditional_classifier_dev_f1": 0.6918331564534539,
+  "conditional_classifier_dev_macro_f1": 0.47650770884643806,
+  "decoder_selected_post_hoc": true,
+  "detector_dev_recall": {
+    "100": 0.2800169044923987,
+    "200": 0.3969345327952941,
+    "50": 0.15503123110243106,
+    "500": 0.5661629893008209
+  },
+  "gpu_seconds": 2203.624170740004,
+  "primary_chain_dev": {
+    "alpha": 1.0,
+    "correctly_empty_answers": 0,
+    "empty_answer_rate": 0.075,
+    "empty_answers": 3,
+    "empty_empty_f1": 0,
+    "exact_f1": 0.05511523799649545,
+    "exact_precision": 0.035225406839166154,
+    "exact_recall": 0.14737327177456502,
+    "exact_weighted_micro_f1": 0.057686826654506085,
+    "false_nonempty_given_empty": 1.0,
+    "localization_exact_f1": 0.057883898683659785,
+    "localization_overlap_f1": 0.10396474640761867,
+    "mean_predictions": 77.2258064516129,
+    "n_answers": 40,
+    "n_articles": 31,
+    "nonempty_exact_f1": 0.059810671019011455,
+    "nonempty_overlap_f1": 0.09494142240280833,
+    "nonempty_prediction_articles": 31,
+    "overlap_f1": 0.08740191015727584,
+    "per_family_exact_f1": {
+      "Attack on Reputation": 0.001697792869269949,
+      "Call": 0.03333333333333334,
+      "Distraction": 0.0,
+      "Justification": 0.011244074459475083,
+      "Manipulative Wording": 0.05918566682766774,
+      "Simplification": 0.0
+    },
+    "proposal_recall": 0.5668411306507646,
+    "threshold": -0.7767335462066876
+  },
+  "runs": [
+    {
+      "article_presentations": 2451,
+      "elapsed_seconds": 463.54878891000044,
+      "run_id": "20260928-classifier-base-s42-01",
+      "selected_epoch": 13,
+      "status": "patience",
+      "updates": 323
+    },
+    {
+      "article_presentations": 3071,
+      "elapsed_seconds": 514.4794315190011,
+      "run_id": "20260928-classifier-low-lr-s42-01",
+      "selected_epoch": 20,
+      "status": "time_limit",
+      "updates": 404
+    },
+    {
+      "article_presentations": 2320,
+      "elapsed_seconds": 571.873003986002,
+      "run_id": "20260928-detector-base-s42-01",
+      "selected_epoch": 13,
+      "status": "epoch_limit",
+      "updates": 304
+    },
+    {
+      "article_presentations": 2320,
+      "elapsed_seconds": 625.3883606099989,
+      "run_id": "20260928-detector-low-lr-s42-01",
+      "selected_epoch": 16,
+      "status": "epoch_limit",
+      "updates": 304
+    }
+  ],
+  "selected_classifier": "/home/xeliaray/Projects/Kuki-Labeling/research/stages/ST2-l3-rhetoric/experiments/20260928-classifier-low-lr-s42-01",
+  "selected_detector": "/home/xeliaray/Projects/Kuki-Labeling/research/stages/ST2-l3-rhetoric/experiments/20260928-detector-base-s42-01",
+  "status": "completed_development_experiments",
+  "test_used": false
+}

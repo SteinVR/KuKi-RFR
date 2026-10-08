@@ -1,0 +1,10 @@
+{
+  "ST4_started": false,
+  "feasible_joint": [],
+  "full_criterion_passed": false,
+  "pareto_joint": [
+    "joint200"
+  ],
+  "selected_joint": "joint200",
+  "test_used": false
+}

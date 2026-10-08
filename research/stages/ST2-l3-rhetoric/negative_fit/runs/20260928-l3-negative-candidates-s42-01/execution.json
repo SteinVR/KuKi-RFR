@@ -1,0 +1,23 @@
+{
+  "article_presentations": 491,
+  "budget_seconds": 180,
+  "comparison_complete": true,
+  "elapsed_seconds": 95.50157860300169,
+  "final_lrs": [
+    5.449591280653951e-07,
+    1.0899182561307902e-05
+  ],
+  "frozen_base_unchanged": true,
+  "peak_reserved_bytes": 2747269120,
+  "reloaded_predictions_exact": true,
+  "rng_and_progress_saved": true,
+  "starting_lrs": [
+    9.264305177111717e-06,
+    0.00018528610354223433
+  ],
+  "status": "completed",
+  "test_used": false,
+  "total_updates": 404,
+  "training_finished_seconds": 90.09937215600075,
+  "updates": 64
+}

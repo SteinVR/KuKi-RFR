@@ -1,0 +1,26 @@
+{
+  "ST4_started": false,
+  "criterion_passed": false,
+  "primary_metric": "dev_L2_Brier",
+  "recommendation": "retain_separate_models_and_joint100_as_comparison_controls; do_not_replace_both_outputs",
+  "runs": {
+    "joint025": {
+      "best_epoch": 8,
+      "path": "/home/xeliaray/Projects/Kuki-Labeling/research/stages/ST3-l2-l3-joint/experiments/20260929-joint025-s42-01"
+    },
+    "joint100": {
+      "best_epoch": 8,
+      "path": "/home/xeliaray/Projects/Kuki-Labeling/research/stages/ST3-l2-l3-joint/experiments/20260929-joint100-s42-01"
+    },
+    "l2-only": {
+      "best_epoch": 8,
+      "path": "/home/xeliaray/Projects/Kuki-Labeling/research/stages/ST3-l2-l3-joint/experiments/20260929-l2-only-s42-01"
+    },
+    "l3-only": {
+      "best_epoch": 13,
+      "path": "/home/xeliaray/Projects/Kuki-Labeling/research/stages/ST3-l2-l3-joint/experiments/20260929-l3-only-s42-01"
+    }
+  },
+  "selected_joint": "joint100",
+  "test_used": false
+}

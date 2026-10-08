@@ -1,0 +1,73 @@
+{
+  "classifier_threshold": 0.45000000000000007,
+  "data_hashes": {
+    "prepared_sha256": "592357226642e126d5641e9620e3e585cb2f4873e65b675e1f26b9f7eef82fa2",
+    "source_sha256": "d882e69064885823ecb9d7652bfc59795551a8c5defe4265703e845b2d6431d0",
+    "split_sha256": "c696d2734e60e93b28bb3cc17ba625fadb1d34831a427dfde12e9ef3ed479455"
+  },
+  "detector_threshold": -4.4892191886901855,
+  "dev": {
+    "correctly_empty_answers": 0,
+    "empty_answer_rate": 0.075,
+    "empty_answers": 3,
+    "empty_empty_f1": 0,
+    "exact_f1": 0.05727536565602067,
+    "exact_precision": 0.03795826091574144,
+    "exact_recall": 0.15878709226965856,
+    "exact_weighted_micro_f1": 0.056617688772905204,
+    "false_nonempty_given_empty": 1.0,
+    "localization_exact_f1": 0.07797527733518454,
+    "localization_overlap_f1": 0.13015973095071023,
+    "mean_predictions": 77.6774193548387,
+    "n_answers": 40,
+    "n_articles": 31,
+    "nonempty_exact_f1": 0.061662520793565795,
+    "nonempty_overlap_f1": 0.10244951875642498,
+    "nonempty_prediction_articles": 31,
+    "overlap_f1": 0.09438988867699452,
+    "per_family_exact_f1": {
+      "Attack on Reputation": 0.011520737327188939,
+      "Call": 0.036201033894032994,
+      "Distraction": 0.0,
+      "Justification": 0.03690825303728529,
+      "Manipulative Wording": 0.06891689803515451,
+      "Simplification": 0.0035842293906810036
+    },
+    "proposal_recall": 0.2286199344235186,
+    "threshold": -4.4892191886901855
+  },
+  "new_calibration": false,
+  "new_training": false,
+  "post_hoc": true,
+  "test_used": false,
+  "train": {
+    "correctly_empty_answers": 1,
+    "empty_answer_rate": 0.16279069767441862,
+    "empty_answers": 35,
+    "empty_empty_f1": 0,
+    "exact_f1": 0.09868976837793544,
+    "exact_precision": 0.06136584412880053,
+    "exact_recall": 0.36545206026611055,
+    "exact_weighted_micro_f1": 0.09619566607823575,
+    "false_nonempty_given_empty": 0.9714285714285714,
+    "localization_exact_f1": 0.10659965652639421,
+    "localization_overlap_f1": 0.15881611089679837,
+    "mean_predictions": 75.9103448275862,
+    "n_answers": 215,
+    "n_articles": 145,
+    "nonempty_exact_f1": 0.11920383385565524,
+    "nonempty_overlap_f1": 0.1700775388754821,
+    "nonempty_prediction_articles": 144,
+    "overlap_f1": 0.14137311438802924,
+    "per_family_exact_f1": {
+      "Attack on Reputation": 0.07115311173456462,
+      "Call": 0.07462455091140903,
+      "Distraction": 0.0,
+      "Justification": 0.043888562339844554,
+      "Manipulative Wording": 0.09856690799015032,
+      "Simplification": 0.06631819011129356
+    },
+    "proposal_recall": 0.46304617859756586,
+    "threshold": -4.4892191886901855
+  }
+}

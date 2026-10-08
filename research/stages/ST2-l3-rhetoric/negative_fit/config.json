@@ -1,0 +1,24 @@
+{
+  "run_id": "20260928-l3-negative-candidates-s42-01",
+  "parent": "research/stages/ST2-l3-rhetoric/experiments/20260928-classifier-low-lr-s42-01",
+  "detector": "research/stages/ST2-l3-rhetoric/experiments/20260928-detector-base-s42-01",
+  "candidate_cache": "research/stages/ST2-l3-rhetoric/modular/E3-detector",
+  "seed": 42,
+  "start_updates": 340,
+  "additional_updates": 64,
+  "end_updates": 404,
+  "article_presentations": 491,
+  "hard_negatives": 32,
+  "random_negatives": 32,
+  "positive_negative_weights": [
+    0.5,
+    0.5
+  ],
+  "alpha": 2.0,
+  "threshold": -5.172313813576109,
+  "max_predictions": 100,
+  "total_gpu_process_limit_seconds": 180,
+  "training_deadline_seconds": 135,
+  "early_training_stop_check_seconds": 130,
+  "test_used": false
+}

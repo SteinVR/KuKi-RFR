@@ -1,0 +1,47 @@
+{
+  "directions": [
+    "minimize",
+    "maximize"
+  ],
+  "optuna_version": "5.0.0",
+  "pareto_trial_numbers": [
+    0
+  ],
+  "sampler": "GridSampler",
+  "trials": [
+    {
+      "attrs": {
+        "gpu_process_wall_seconds": 575.2160711979996,
+        "run_id": "20260929-joint200-s42-01",
+        "selected_epoch": 8,
+        "selection": "minimum_dev_L2_Brier_shared_checkpoint"
+      },
+      "number": 0,
+      "params": {
+        "l3_weight": 2.0
+      },
+      "state": "COMPLETE",
+      "values": [
+        0.14333873391618426,
+        0.6605815695445549
+      ]
+    },
+    {
+      "attrs": {
+        "gpu_process_wall_seconds": 581.4398525909965,
+        "run_id": "20260929-joint400-s42-01",
+        "selected_epoch": 7,
+        "selection": "minimum_dev_L2_Brier_shared_checkpoint"
+      },
+      "number": 1,
+      "params": {
+        "l3_weight": 4.0
+      },
+      "state": "COMPLETE",
+      "values": [
+        0.14465855700585364,
+        0.657763112112093
+      ]
+    }
+  ]
+}

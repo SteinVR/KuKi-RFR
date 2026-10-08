@@ -1,0 +1,13 @@
+{
+  "article_presentations": 2700,
+  "base_unchanged": true,
+  "best_epoch": 13,
+  "peak_allocated_bytes": 2633604096,
+  "peak_reserved_bytes": 2745171968,
+  "run_id": "20260929-l1-base-s42-01",
+  "seconds": 537.0155356329997,
+  "status": "completed",
+  "stop_reason": "epoch_limit",
+  "trainable_parameters": 902859,
+  "updates": 340
+}

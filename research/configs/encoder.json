@@ -1,0 +1,22 @@
+{
+  "model_id": "deepvk/RuModernBERT-base",
+  "requested_revision": "patched-tokenizer",
+  "revision": "8aee6f818db9070b635a549580dc64dcfa03e39a",
+  "window_lengths": [
+    1024,
+    2048
+  ],
+  "overlap": 128,
+  "attention": "kernels-community/flash-attn2@f50dc99ed079b35990bc895d43fd353ea0cb376d",
+  "reference_compile": false,
+  "base_dtype": "bfloat16",
+  "lora": {
+    "rank": 8,
+    "alpha": 16,
+    "dropout": 0.1,
+    "target_modules": ".*\\.attn\\.(Wqkv|Wo)"
+  },
+  "local_attention": 128,
+  "gradient_checkpointing": false,
+  "deterministic_flash_attn": true
+}

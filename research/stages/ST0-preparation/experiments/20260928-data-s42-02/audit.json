@@ -1,0 +1,292 @@
+{
+  "absent_labels": {
+    "dev": [],
+    "test": [],
+    "train": []
+  },
+  "annotations": 301,
+  "distributions": {
+    "dev": {
+      "annotation_counts": {
+        "10": 18,
+        "4": 6,
+        "8": 16
+      },
+      "annotations": 40,
+      "document_presence": {
+        "annotator:10": 18,
+        "annotator:4": 6,
+        "annotator:8": 16,
+        "l1_roles:ANTAGONIST": 25,
+        "l1_roles:INNOCENT": 18,
+        "l1_roles:PROTAGONIST": 20,
+        "l2:Capacity & resources": 17,
+        "l2:Crime & punishment": 5,
+        "l2:Cultural identity": 9,
+        "l2:Economic": 12,
+        "l2:External regulation & reputation": 13,
+        "l2:Fairness & equality": 6,
+        "l2:Health & safety": 4,
+        "l2:Legality, constitutionality, jurisprudence": 7,
+        "l2:Morality": 11,
+        "l2:Policy prescription & evaluation": 19,
+        "l2:Political": 20,
+        "l2:Public opinion": 7,
+        "l2:Quality of life": 5,
+        "l2:Security & defense": 14,
+        "l3_persuasion:Attack on Reputation": 26,
+        "l3_persuasion:Call": 15,
+        "l3_persuasion:Distraction": 2,
+        "l3_persuasion:Justification": 25,
+        "l3_persuasion:Manipulative Wording": 29,
+        "l3_persuasion:Simplification": 18,
+        "source:holod": 8,
+        "source:ng": 13,
+        "source:ria_novosti": 3,
+        "source:theinsider": 7
+      },
+      "documents": 31
+    },
+    "test": {
+      "annotation_counts": {
+        "10": 17,
+        "4": 12,
+        "8": 17
+      },
+      "annotations": 46,
+      "document_presence": {
+        "annotator:10": 17,
+        "annotator:4": 12,
+        "annotator:8": 17,
+        "l1_roles:ANTAGONIST": 28,
+        "l1_roles:INNOCENT": 23,
+        "l1_roles:PROTAGONIST": 22,
+        "l2:Capacity & resources": 14,
+        "l2:Crime & punishment": 6,
+        "l2:Cultural identity": 9,
+        "l2:Economic": 12,
+        "l2:External regulation & reputation": 14,
+        "l2:Fairness & equality": 7,
+        "l2:Health & safety": 4,
+        "l2:Legality, constitutionality, jurisprudence": 7,
+        "l2:Morality": 12,
+        "l2:Policy prescription & evaluation": 18,
+        "l2:Political": 23,
+        "l2:Public opinion": 11,
+        "l2:Quality of life": 5,
+        "l2:Security & defense": 11,
+        "l3_persuasion:Attack on Reputation": 24,
+        "l3_persuasion:Call": 11,
+        "l3_persuasion:Distraction": 1,
+        "l3_persuasion:Justification": 20,
+        "l3_persuasion:Manipulative Wording": 29,
+        "l3_persuasion:Simplification": 13,
+        "source:holod": 10,
+        "source:ng": 5,
+        "source:ria_novosti": 4,
+        "source:theinsider": 12
+      },
+      "documents": 31
+    },
+    "train": {
+      "annotation_counts": {
+        "10": 85,
+        "4": 42,
+        "8": 88
+      },
+      "annotations": 215,
+      "document_presence": {
+        "annotator:10": 85,
+        "annotator:4": 42,
+        "annotator:8": 88,
+        "l1_roles:ANTAGONIST": 119,
+        "l1_roles:INNOCENT": 86,
+        "l1_roles:PROTAGONIST": 97,
+        "l2:Capacity & resources": 59,
+        "l2:Crime & punishment": 24,
+        "l2:Cultural identity": 43,
+        "l2:Economic": 63,
+        "l2:External regulation & reputation": 77,
+        "l2:Fairness & equality": 31,
+        "l2:Health & safety": 17,
+        "l2:Legality, constitutionality, jurisprudence": 34,
+        "l2:Morality": 57,
+        "l2:Policy prescription & evaluation": 83,
+        "l2:Political": 101,
+        "l2:Public opinion": 41,
+        "l2:Quality of life": 23,
+        "l2:Security & defense": 74,
+        "l3_persuasion:Attack on Reputation": 98,
+        "l3_persuasion:Call": 64,
+        "l3_persuasion:Distraction": 7,
+        "l3_persuasion:Justification": 89,
+        "l3_persuasion:Manipulative Wording": 127,
+        "l3_persuasion:Simplification": 67,
+        "source:holod": 42,
+        "source:ng": 42,
+        "source:ria_novosti": 18,
+        "source:theinsider": 43
+      },
+      "documents": 145
+    }
+  },
+  "documents": 207,
+  "duplicate_pairs": [
+    {
+      "grouped": true,
+      "left": "ria_novosti:2008793019",
+      "reason": "audited_shared_report_excerpt",
+      "right": "ria_novosti:2008880921"
+    }
+  ],
+  "events": {
+    "conflicting_l1_roles": 6,
+    "duplicate_span": 7,
+    "empty_l2_observed_negative": 2,
+    "invalid_layer_label": 4
+  },
+  "groups": 206,
+  "nearest_pairs": [
+    {
+      "containment": 0.5722713864306784,
+      "grouped": false,
+      "jaccard": 0.10653487095002746,
+      "left": "ria_novosti:2008793019",
+      "right": "ria_novosti:2008880921"
+    },
+    {
+      "containment": 0.2878787878787879,
+      "grouped": false,
+      "jaccard": 0.0501583949313622,
+      "left": "ria_novosti:2032407686",
+      "right": "ria_novosti:2032508259"
+    },
+    {
+      "containment": 0.03596559812353401,
+      "grouped": false,
+      "jaccard": 0.016335227272727272,
+      "left": "holod:chto-volnuet-voenkorov-xxix",
+      "right": "holod:chto-volnuet-voenkorov-xxvii"
+    },
+    {
+      "containment": 0.013914656771799629,
+      "grouped": false,
+      "jaccard": 0.006622516556291391,
+      "left": "holod:chto-volnuet-voenkorov-xxxii",
+      "right": "holod:chto-volnuet-voenkorov-xxxiii"
+    },
+    {
+      "containment": 0.013914656771799629,
+      "grouped": false,
+      "jaccard": 0.0064047822374039285,
+      "left": "holod:chto-volnuet-voenkorov-xxvii",
+      "right": "holod:chto-volnuet-voenkorov-xxxii"
+    },
+    {
+      "containment": 0.012479201331114808,
+      "grouped": false,
+      "jaccard": 0.006082725060827251,
+      "left": "holod:chto-volnuet-voenkorov-xxvii",
+      "right": "holod:chto-volnuet-voenkorov-xxxiii"
+    },
+    {
+      "containment": 0.01092896174863388,
+      "grouped": false,
+      "jaccard": 0.004710315591144607,
+      "left": "holod:chto-volnuet-voenkorov-xix",
+      "right": "holod:chto-volnuet-voenkorov-xvi"
+    },
+    {
+      "containment": 0.009983361064891847,
+      "grouped": false,
+      "jaccard": 0.00450112528132033,
+      "left": "holod:chto-volnuet-voenkorov-xxxiii",
+      "right": "holod:hotyat-li-voennye-zaversheniya-vojny"
+    },
+    {
+      "containment": 0.01020408163265306,
+      "grouped": false,
+      "jaccard": 0.004325599685410932,
+      "left": "holod:chto-volnuet-voenkorov-xxxii",
+      "right": "holod:hotyat-li-voennye-zaversheniya-vojny"
+    },
+    {
+      "containment": 0.01020408163265306,
+      "grouped": false,
+      "jaccard": 0.004150943396226415,
+      "left": "holod:chto-volnuet-voenkorov-xxix",
+      "right": "holod:chto-volnuet-voenkorov-xxxii"
+    },
+    {
+      "containment": 0.008600469116497263,
+      "grouped": false,
+      "jaccard": 0.004008746355685131,
+      "left": "holod:chto-volnuet-voenkorov-xxvii",
+      "right": "holod:hotyat-li-voennye-zaversheniya-vojny"
+    },
+    {
+      "containment": 0.008743169398907104,
+      "grouped": false,
+      "jaccard": 0.003970223325062035,
+      "left": "holod:chto-volnuet-voenkorov-xiv",
+      "right": "holod:chto-volnuet-voenkorov-xvi"
+    },
+    {
+      "containment": 0.009151414309484194,
+      "grouped": false,
+      "jaccard": 0.003965392934390771,
+      "left": "holod:chto-volnuet-voenkorov-xxix",
+      "right": "holod:chto-volnuet-voenkorov-xxxiii"
+    },
+    {
+      "containment": 0.007452574525745257,
+      "grouped": false,
+      "jaccard": 0.0036089238845144356,
+      "left": "holod:chto-volnuet-voenkorov-xxix",
+      "right": "holod:hotyat-li-voennye-zaversheniya-vojny"
+    },
+    {
+      "containment": 0.007220216606498195,
+      "grouped": false,
+      "jaccard": 0.003451251078515962,
+      "left": "holod:chto-volnuet-voenkorov-xiv",
+      "right": "holod:chto-volnuet-voenkorov-xix"
+    },
+    {
+      "containment": 0.005747126436781609,
+      "grouped": false,
+      "jaccard": 0.0027440219521756176,
+      "left": "holod:chto-volnuet-voenkorov-ix",
+      "right": "holod:chto-volnuet-voenkorov-xix"
+    },
+    {
+      "containment": 0.006557377049180328,
+      "grouped": false,
+      "jaccard": 0.0026678523788350376,
+      "left": "holod:chto-volnuet-voenkorov-ix",
+      "right": "holod:chto-volnuet-voenkorov-xvi"
+    },
+    {
+      "containment": 0.005415162454873646,
+      "grouped": false,
+      "jaccard": 0.002457002457002457,
+      "left": "holod:chto-volnuet-voenkorov-ix",
+      "right": "holod:chto-volnuet-voenkorov-xiv"
+    },
+    {
+      "containment": 0.004371584699453552,
+      "grouped": false,
+      "jaccard": 0.002011060834590246,
+      "left": "holod:chto-volnuet-voenkorov-xvi",
+      "right": "holod:chto-volnuet-voenkorov-xxxii"
+    },
+    {
+      "containment": 0.00546448087431694,
+      "grouped": false,
+      "jaccard": 0.0020056157240272766,
+      "left": "holod:chto-volnuet-voenkorov-xvi",
+      "right": "holod:chto-volnuet-voenkorov-xxix"
+    }
+  ],
+  "source_unchanged": true
+}

@@ -1,0 +1,25 @@
+{
+  "elapsed_seconds": 7.43806105099975,
+  "gpu_resume_max_difference": 0.0,
+  "runs": {
+    "20260928-l3-negative025-s42-01": {
+      "code_and_lock_match": true,
+      "counters_and_selected_checkpoint_correct": true,
+      "fresh_gpu_raw_predictions_identical": true,
+      "independent_exact_and_overlap_metrics": true,
+      "trainable_tensors": 99,
+      "trainable_tensors_changed": 99
+    },
+    "20260928-l3-pilot-s42-01": {
+      "code_and_lock_match": true,
+      "counters_and_selected_checkpoint_correct": true,
+      "fresh_gpu_raw_predictions_identical": true,
+      "independent_exact_and_overlap_metrics": true,
+      "trainable_tensors": 99,
+      "trainable_tensors_changed": 99
+    }
+  },
+  "status": "passed",
+  "test_scored": false,
+  "verify_script_sha256": "cae0ae4eff66281e396f4b552c221aef7ad4f24b376f0645c1139def55922856"
+}

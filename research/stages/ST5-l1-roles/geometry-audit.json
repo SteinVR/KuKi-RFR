@@ -1,0 +1,16 @@
+{
+  "train": {
+    "mentions": 1234,
+    "non_token_aligned": 1127,
+    "crosses_all_single_windows": 0,
+    "max_tokens": 3231,
+    "max_windows": 4
+  },
+  "dev": {
+    "mentions": 200,
+    "non_token_aligned": 175,
+    "crosses_all_single_windows": 0,
+    "max_tokens": 2724,
+    "max_windows": 3
+  }
+}

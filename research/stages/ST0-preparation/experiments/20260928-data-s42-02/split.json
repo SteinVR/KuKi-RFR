@@ -1,0 +1,1285 @@
+{
+  "config_sha256": "39a7e3759e3f694878ae962afbfbfa133ff37d8cec633f40528d432288b179e1",
+  "labels": {
+    "l1": [
+      "PROTAGONIST",
+      "ANTAGONIST",
+      "INNOCENT"
+    ],
+    "l2": [
+      "Economic",
+      "Capacity & resources",
+      "Morality",
+      "Fairness & equality",
+      "Legality, constitutionality, jurisprudence",
+      "Policy prescription & evaluation",
+      "Crime & punishment",
+      "Security & defense",
+      "Health & safety",
+      "Quality of life",
+      "Cultural identity",
+      "Public opinion",
+      "Political",
+      "External regulation & reputation"
+    ],
+    "l3": [
+      "Attack on Reputation",
+      "Justification",
+      "Simplification",
+      "Distraction",
+      "Call",
+      "Manipulative Wording"
+    ]
+  },
+  "prepared_path": "research/data/kuki-ru-v1.jsonl",
+  "prepared_sha256": "592357226642e126d5641e9620e3e585cb2f4873e65b675e1f26b9f7eef82fa2",
+  "protocol": "internal_70_15_15",
+  "rows": [
+    {
+      "doc_id": "holod:antiteza-strelkovu",
+      "group_id": "holod:antiteza-strelkovu",
+      "split": "train",
+      "text_sha256": "cd9db8118192e34d04455964f1cfad6364184be6d79494f974e22b4c34c8dc2f"
+    },
+    {
+      "doc_id": "holod:berluskoni",
+      "group_id": "holod:berluskoni",
+      "split": "train",
+      "text_sha256": "fb0698f7c6ba89a94e705aebb45f8dc5827d7e11c898e138ffd6d3a319475b09"
+    },
+    {
+      "doc_id": "holod:bokhan",
+      "group_id": "holod:bokhan",
+      "split": "train",
+      "text_sha256": "85f1395299fd353671cb30a4423dfd1ba3c51a7251139f37addc4b92775e1177"
+    },
+    {
+      "doc_id": "holod:boris-stop-russia-24",
+      "group_id": "holod:boris-stop-russia-24",
+      "split": "train",
+      "text_sha256": "0dc3e75c443955cac98630a2ece53b77d1ad81a0303879601bd8d42264b54fd3"
+    },
+    {
+      "doc_id": "holod:chepel-pelevin",
+      "group_id": "holod:chepel-pelevin",
+      "split": "test",
+      "text_sha256": "c23e15a0ba2853956762dc109164e932aed7cd18dcda129297c35c589242ec30"
+    },
+    {
+      "doc_id": "holod:chto-volnuet-voenkorov-ix",
+      "group_id": "holod:chto-volnuet-voenkorov-ix",
+      "split": "test",
+      "text_sha256": "85cc5c8408401aae9b3cb4c3bf3c4bd2f82da8455dadfdfcd25dee11aa5fb345"
+    },
+    {
+      "doc_id": "holod:chto-volnuet-voenkorov-xiv",
+      "group_id": "holod:chto-volnuet-voenkorov-xiv",
+      "split": "test",
+      "text_sha256": "aad9e9c50b84ef84c2030d9abced9fa7e7f4b2587f9dc8fb694a38a06d2c4f74"
+    },
+    {
+      "doc_id": "holod:chto-volnuet-voenkorov-xix",
+      "group_id": "holod:chto-volnuet-voenkorov-xix",
+      "split": "test",
+      "text_sha256": "300e2e6a0ea6ebf42013d06196cdffc6d792a823e96647e11e77a228a2c437ef"
+    },
+    {
+      "doc_id": "holod:chto-volnuet-voenkorov-xvi",
+      "group_id": "holod:chto-volnuet-voenkorov-xvi",
+      "split": "train",
+      "text_sha256": "ad34ad57865b0be3f69cb112c04720762bbccb557a37921e35de1bb8997c9cb9"
+    },
+    {
+      "doc_id": "holod:chto-volnuet-voenkorov-xxix",
+      "group_id": "holod:chto-volnuet-voenkorov-xxix",
+      "split": "train",
+      "text_sha256": "789cd602148960a1d3a28ec1786f379a1510d69073199366eef91c4182151bbf"
+    },
+    {
+      "doc_id": "holod:chto-volnuet-voenkorov-xxvii",
+      "group_id": "holod:chto-volnuet-voenkorov-xxvii",
+      "split": "train",
+      "text_sha256": "88bca4523765870ac9bb1494170306f399f4ce712bab11c18ce40cf2b26b6bd2"
+    },
+    {
+      "doc_id": "holod:chto-volnuet-voenkorov-xxxii",
+      "group_id": "holod:chto-volnuet-voenkorov-xxxii",
+      "split": "train",
+      "text_sha256": "9fea0157d619d56ad4275ac9ca68241625e1b28bae2e8fe93a80d170c513ff03"
+    },
+    {
+      "doc_id": "holod:chto-volnuet-voenkorov-xxxiii",
+      "group_id": "holod:chto-volnuet-voenkorov-xxxiii",
+      "split": "train",
+      "text_sha256": "e8e7088ae1e98eb65f690612d8b9eb33ecde8c03159e10d9b7c5f8a23b534525"
+    },
+    {
+      "doc_id": "holod:davydov-pugacheva-galkin",
+      "group_id": "holod:davydov-pugacheva-galkin",
+      "split": "test",
+      "text_sha256": "9b1557c8583c2e6d46fc1d8381caf498ba3ab73b28e38449dc8c1ce5609fa57e"
+    },
+    {
+      "doc_id": "holod:film-vyzov",
+      "group_id": "holod:film-vyzov",
+      "split": "train",
+      "text_sha256": "eacfc0fd4e779d8e6d41eca5629cac15c29032798eafb21aee97059d49cdc9b6"
+    },
+    {
+      "doc_id": "holod:galiamina-interview",
+      "group_id": "holod:galiamina-interview",
+      "split": "train",
+      "text_sha256": "9ef53041bd2a7065ab7c7efe5f723440360e1d3dbd5a0fe39b769a048a11872c"
+    },
+    {
+      "doc_id": "holod:golosov-hunta",
+      "group_id": "holod:golosov-hunta",
+      "split": "dev",
+      "text_sha256": "681fa14e994dfe9ed89cd3a5fc83cc3bc9b4f6cb24a405236d9fd25dd0679160"
+    },
+    {
+      "doc_id": "holod:golosov-referendumi",
+      "group_id": "holod:golosov-referendumi",
+      "split": "dev",
+      "text_sha256": "d643af1372db669657e4c1770f28d3a1676e6339fd78d4fad5b0baa156cbbd43"
+    },
+    {
+      "doc_id": "holod:hotyat-li-voennye-zaversheniya-vojny",
+      "group_id": "holod:hotyat-li-voennye-zaversheniya-vojny",
+      "split": "train",
+      "text_sha256": "d042e7e4547fa0a10fd571202e1963ea06302d99a49a6b9649a2ab9154c33466"
+    },
+    {
+      "doc_id": "holod:interview-bucci",
+      "group_id": "holod:interview-bucci",
+      "split": "train",
+      "text_sha256": "a5da52f23d6eeef0656366c9e10af6c722325b2b6c606799a0e5879e33c11e84"
+    },
+    {
+      "doc_id": "holod:interview-pluzhnikov",
+      "group_id": "holod:interview-pluzhnikov",
+      "split": "train",
+      "text_sha256": "665326b1659750593407392d84f51bf503912ba25c8c6bab277140c58b00eed6"
+    },
+    {
+      "doc_id": "holod:izrossilovanie-interview",
+      "group_id": "holod:izrossilovanie-interview",
+      "split": "test",
+      "text_sha256": "976c0ebe1d70481e2a3ac61e5c96ec3d2d7884aac5a8001636f4f1f4c0a9d3cc"
+    },
+    {
+      "doc_id": "holod:kanny-77-itogi",
+      "group_id": "holod:kanny-77-itogi",
+      "split": "dev",
+      "text_sha256": "9d9d9f6eb5f32014ce2fbfd450f97f685e62ba02cd12ec2372ebc3a58d938f6b"
+    },
+    {
+      "doc_id": "holod:kogo-shvatyat-ugovoryat-ili-prinudyat-togo-i-zaberut",
+      "group_id": "holod:kogo-shvatyat-ugovoryat-ili-prinudyat-togo-i-zaberut",
+      "split": "train",
+      "text_sha256": "12d3bf22f8990729a65a4135a42cda48d83108e782ad06a9911034313bfdc980"
+    },
+    {
+      "doc_id": "holod:kontrnastuplenie",
+      "group_id": "holod:kontrnastuplenie",
+      "split": "test",
+      "text_sha256": "79cc8a8a765cc61956c49dc493b8f9b90936cc3950169124d454fdf888c248de"
+    },
+    {
+      "doc_id": "holod:kremlin-jive",
+      "group_id": "holod:kremlin-jive",
+      "split": "train",
+      "text_sha256": "d9a4bf993baa636747898aedd833a8284568a2901cb9862576f7d333044ac4a7"
+    },
+    {
+      "doc_id": "holod:lapshin-direktor-zlo",
+      "group_id": "holod:lapshin-direktor-zlo",
+      "split": "train",
+      "text_sha256": "096ddf9cc05f4958dbdeb8f0554b966e3262cdda9e7ea5006687edeb89b4378a"
+    },
+    {
+      "doc_id": "holod:lgbt-propaganda",
+      "group_id": "holod:lgbt-propaganda",
+      "split": "train",
+      "text_sha256": "c3452d95bb05d3ba8716f7bf76a700d4fdd1e33e547e47132e29b0a9140f6b4e"
+    },
+    {
+      "doc_id": "holod:lichniy-opit-i-gendernoe-neravenstvo",
+      "group_id": "holod:lichniy-opit-i-gendernoe-neravenstvo",
+      "split": "dev",
+      "text_sha256": "2fb0dd6475152e40a7bb00765506b8798c4877d7b77bec721eb1c2ebc7798ba6"
+    },
+    {
+      "doc_id": "holod:malika-musaeva",
+      "group_id": "holod:malika-musaeva",
+      "split": "train",
+      "text_sha256": "2d670a8d46d811a5066e9ec0d878e54cffef8d3bbd7429fcb500c24c53749833"
+    },
+    {
+      "doc_id": "holod:master-i-margarita-lokshin",
+      "group_id": "holod:master-i-margarita-lokshin",
+      "split": "train",
+      "text_sha256": "87de9bd5f6e40ccf95fe40ee3baeb6e2391ebf57d6e3ae7b44fe66a35dc7d7ef"
+    },
+    {
+      "doc_id": "holod:mat",
+      "group_id": "holod:mat",
+      "split": "train",
+      "text_sha256": "7de60a72951fc0f03ceace768e0ed367ef130b354271ba7b09ba6c5ed2b64981"
+    },
+    {
+      "doc_id": "holod:miagkii-protest",
+      "group_id": "holod:miagkii-protest",
+      "split": "train",
+      "text_sha256": "8c6d928f9e474ee5e9ac992090599b10cdb8e59c6388018fd9a5730098b2806d"
+    },
+    {
+      "doc_id": "holod:musaelyan-freedom",
+      "group_id": "holod:musaelyan-freedom",
+      "split": "train",
+      "text_sha256": "fd8835c911c78557ddfe2c993492dd734200eee394ef1595a779b278c7bee31d"
+    },
+    {
+      "doc_id": "holod:muzh-ne-hochet-uezzhat-posle-obyavleniya-mobilizaczii-zhena-prosit-ego-uehat",
+      "group_id": "holod:muzh-ne-hochet-uezzhat-posle-obyavleniya-mobilizaczii-zhena-prosit-ego-uehat",
+      "split": "train",
+      "text_sha256": "f28ee2284499fec8dca803060c3854c81c382eaf8e0e4f5508acdded26a2f6cc"
+    },
+    {
+      "doc_id": "holod:navalny-last-words",
+      "group_id": "holod:navalny-last-words",
+      "split": "train",
+      "text_sha256": "2e377e4eec60e335d7f591ad666695c19b5528c90df5c7c1709c8849a0d4fd34"
+    },
+    {
+      "doc_id": "holod:navalnyi-stal-khristianinom",
+      "group_id": "holod:navalnyi-stal-khristianinom",
+      "split": "test",
+      "text_sha256": "4a54f1493579042eae8de98cebfae47f71af55773e7cbe512472abf374fefb6b"
+    },
+    {
+      "doc_id": "holod:ne-hodi-na-akczii-ne-risuj",
+      "group_id": "holod:ne-hodi-na-akczii-ne-risuj",
+      "split": "train",
+      "text_sha256": "b013ac4eb465c6c7ce659795b590bec2ea7d8c1f3ae1186439c97a0046f09b34"
+    },
+    {
+      "doc_id": "holod:nejroset-zapreshhenka-chushpany",
+      "group_id": "holod:nejroset-zapreshhenka-chushpany",
+      "split": "train",
+      "text_sha256": "e0bc26c2709b746271ef778ad998d443bf1c6d2eb2d245e8325956a23231822e"
+    },
+    {
+      "doc_id": "holod:nizovkina",
+      "group_id": "holod:nizovkina",
+      "split": "train",
+      "text_sha256": "ae6cfea574d2fc4b8d2d2e3551f86ff2ba6700d59eec8cea9b00967af3add903"
+    },
+    {
+      "doc_id": "holod:novolodskii-o-skochilenko",
+      "group_id": "holod:novolodskii-o-skochilenko",
+      "split": "train",
+      "text_sha256": "0dca2432d93bfcf321b8634026de173a503d55a522a85b38bad974e6550d2cbd"
+    },
+    {
+      "doc_id": "holod:o-chem-noet-zahar-prilepin%ef%bf%bc",
+      "group_id": "holod:o-chem-noet-zahar-prilepin%ef%bf%bc",
+      "split": "train",
+      "text_sha256": "da20892cb159ade0b765797a39e2c25c5e9b70eda8ebc8b8a20aa27501412138"
+    },
+    {
+      "doc_id": "holod:playlist-2022",
+      "group_id": "holod:playlist-2022",
+      "split": "train",
+      "text_sha256": "ad09dcaab208e6c5e7e183ca339fe973afe52cc458c058e0105f46e90341a909"
+    },
+    {
+      "doc_id": "holod:pochemu-rossiya-sdala-herson",
+      "group_id": "holod:pochemu-rossiya-sdala-herson",
+      "split": "dev",
+      "text_sha256": "63034179fa7223ca307c508c160a49ce1014cce7cabe8ae0c563ac427c2426cc"
+    },
+    {
+      "doc_id": "holod:poland-ukraine",
+      "group_id": "holod:poland-ukraine",
+      "split": "train",
+      "text_sha256": "8ea278404f88a8e763094cca9b7f9cff8d2be1e02a5347e14f155d9e02723cbc"
+    },
+    {
+      "doc_id": "holod:politicheskoe-i-esteticheskoe",
+      "group_id": "holod:politicheskoe-i-esteticheskoe",
+      "split": "train",
+      "text_sha256": "d2c674680f802b2d1c8e947632ad1092fa5eb75b0ebec85c056c5133e17f7ac5"
+    },
+    {
+      "doc_id": "holod:porazhenie-rossii",
+      "group_id": "holod:porazhenie-rossii",
+      "split": "test",
+      "text_sha256": "05f534865e231306098d11bd65ae18492157eceeccbf197e06e09b36453d193f"
+    },
+    {
+      "doc_id": "holod:povestki-zaderzhannim-miting",
+      "group_id": "holod:povestki-zaderzhannim-miting",
+      "split": "train",
+      "text_sha256": "153b4837b832d6b4845f82f7d914755d6b90ba352080665d20fb86813f9ac7e8"
+    },
+    {
+      "doc_id": "holod:rossiiane-stali-ukraintsami",
+      "group_id": "holod:rossiiane-stali-ukraintsami",
+      "split": "test",
+      "text_sha256": "865f703881227a8125f4c17126006dc1b3cc84d5aef0a88a6f2759555128a080"
+    },
+    {
+      "doc_id": "holod:rossiiskiie-smi-1990",
+      "group_id": "holod:rossiiskiie-smi-1990",
+      "split": "dev",
+      "text_sha256": "70766ef4fb9326a1f025f562c8a7bb83fcf590c9d6f0294abf2ed189cdf60761"
+    },
+    {
+      "doc_id": "holod:science-isolation",
+      "group_id": "holod:science-isolation",
+      "split": "train",
+      "text_sha256": "96dc8d7846962869868de3ff6b215d2037e94918c26b8b7ce432e240f1f48056"
+    },
+    {
+      "doc_id": "holod:sorokin-nasledie",
+      "group_id": "holod:sorokin-nasledie",
+      "split": "train",
+      "text_sha256": "fbb8f5f8984ab02e7babf69050c05faa92fde20bbc9f899a6cae2634e5e39588"
+    },
+    {
+      "doc_id": "holod:strashno-chto-situacziya-otbrasyvaet-nas-na-desyat-let-nazad-v-razvitii-blagotvoritelnogo-sektora",
+      "group_id": "holod:strashno-chto-situacziya-otbrasyvaet-nas-na-desyat-let-nazad-v-razvitii-blagotvoritelnogo-sektora",
+      "split": "train",
+      "text_sha256": "4673a884883142b7ce7581dc12339c17379cc705ebee81e5633178200efe8d97"
+    },
+    {
+      "doc_id": "holod:strelkov-opinion",
+      "group_id": "holod:strelkov-opinion",
+      "split": "train",
+      "text_sha256": "57a8b0a78bb915d8aaace8e0074e298cb25a674e82e64f1800e192be608ec50c"
+    },
+    {
+      "doc_id": "holod:svobodnye-vybory",
+      "group_id": "holod:svobodnye-vybory",
+      "split": "train",
+      "text_sha256": "26443aca30a761a63d4e37e3663409a07428187f075677f3c78a28b26d2579ea"
+    },
+    {
+      "doc_id": "holod:tanki-leopard",
+      "group_id": "holod:tanki-leopard",
+      "split": "train",
+      "text_sha256": "213eedbf5d5e76cdd299461890a7dddb52d4e6343b967c96227f4bd5616993b6"
+    },
+    {
+      "doc_id": "holod:tufta-will-kill-us",
+      "group_id": "holod:tufta-will-kill-us",
+      "split": "train",
+      "text_sha256": "23235b7172b8f408ead171bec74c3ad8d804414b591fc16dfbb81768ed031bab"
+    },
+    {
+      "doc_id": "holod:v-etoj-vojne-ne-mozhet-byt-pobedy",
+      "group_id": "holod:v-etoj-vojne-ne-mozhet-byt-pobedy",
+      "split": "dev",
+      "text_sha256": "619c619c308073fdd3ad05618e186c74d20bd18ff57ddbf8614f49bb156c9bbe"
+    },
+    {
+      "doc_id": "holod:voina-v-ukraine-privediot-k-tretiei-mirovoi-voine",
+      "group_id": "holod:voina-v-ukraine-privediot-k-tretiei-mirovoi-voine",
+      "split": "dev",
+      "text_sha256": "a0861f897329bb76f52e566205abc8f8cdfa241c7fde407e64ef79920a6f4452"
+    },
+    {
+      "doc_id": "holod:war-vs-childhood",
+      "group_id": "holod:war-vs-childhood",
+      "split": "train",
+      "text_sha256": "c71ebf113ec11f1e5c5f723ea724e92c8637d5b1a3031dd387c55daf095e9148"
+    },
+    {
+      "doc_id": "ng:100_154321042025",
+      "group_id": "ng:100_154321042025",
+      "split": "train",
+      "text_sha256": "f9876c52603b0abc05e76b74f05b18a71c1d8508e9c54f2df2c75ec8eaa8e811"
+    },
+    {
+      "doc_id": "ng:100_1700150102021",
+      "group_id": "ng:100_1700150102021",
+      "split": "train",
+      "text_sha256": "0f98758640f5ea99b0befbecf76a2f9a92242735990182fe635deca1a54c7737"
+    },
+    {
+      "doc_id": "ng:100_200221_lukashenko",
+      "group_id": "ng:100_200221_lukashenko",
+      "split": "dev",
+      "text_sha256": "90d688e4acdb2769a26c57cef73d15b632934c2f9f3885b270603b8e7421a264"
+    },
+    {
+      "doc_id": "ng:100_200618problem",
+      "group_id": "ng:100_200618problem",
+      "split": "train",
+      "text_sha256": "10aa44e04bb5bf562756cfa1352e0d23cdd241b5c2348766582cf208af285d69"
+    },
+    {
+      "doc_id": "ng:100_2306161240",
+      "group_id": "ng:100_2306161240",
+      "split": "train",
+      "text_sha256": "81f799d4b203eeb6d2739710e198d8f0eaad85c86882374f997bc45e1c642e59"
+    },
+    {
+      "doc_id": "ng:100_2412061920",
+      "group_id": "ng:100_2412061920",
+      "split": "train",
+      "text_sha256": "fae0e21e6e7d1a3a6d44c33723e091fac9186f1da03791787673548b470d8066"
+    },
+    {
+      "doc_id": "ng:100_2412261340",
+      "group_id": "ng:100_2412261340",
+      "split": "train",
+      "text_sha256": "e5151a04193ea188ad18a44daeac00e2f48675d2c17650f7a1aa63612d3e1f74"
+    },
+    {
+      "doc_id": "ng:100_euro10092020",
+      "group_id": "ng:100_euro10092020",
+      "split": "test",
+      "text_sha256": "70a851a4bbc2f90aa02ba729cd2605f787152ec2df3ffb5fe153e156db466bb9"
+    },
+    {
+      "doc_id": "ng:100_gas110723",
+      "group_id": "ng:100_gas110723",
+      "split": "train",
+      "text_sha256": "dba7fc68123895bf03fce7f229ee8d4080dd8db9f31fd741e4a7a0c34f6c443e"
+    },
+    {
+      "doc_id": "ng:100_mouse17052020",
+      "group_id": "ng:100_mouse17052020",
+      "split": "train",
+      "text_sha256": "8fd5b1f3ed93488bbb9f489046b1bf305de1d51acab31534b548079123f24849"
+    },
+    {
+      "doc_id": "ng:10_9230_astronauts",
+      "group_id": "ng:10_9230_astronauts",
+      "split": "train",
+      "text_sha256": "220e9aa37281d4e00173fb9fd0c014f3a3d12d8dec1c484cabb22ff0c66e4719"
+    },
+    {
+      "doc_id": "ng:15_8127_vision",
+      "group_id": "ng:15_8127_vision",
+      "split": "dev",
+      "text_sha256": "1179b5ed5b14b70350fdb8c9ef371e3fd1a1c075224f2e5db71d71592483c01e"
+    },
+    {
+      "doc_id": "ng:2_8695_vw",
+      "group_id": "ng:2_8695_vw",
+      "split": "train",
+      "text_sha256": "9478cd9b489f33429c1e35f729ae4a4c24540fa3ed4ac53501f35ddc83a8d962"
+    },
+    {
+      "doc_id": "ng:5_7883_vision",
+      "group_id": "ng:5_7883_vision",
+      "split": "train",
+      "text_sha256": "5895f40256f05d29b4ae24ff10c2a8c5890aaedd2b57e1a6310d1992d535d65f"
+    },
+    {
+      "doc_id": "ng:5_8413_vision",
+      "group_id": "ng:5_8413_vision",
+      "split": "train",
+      "text_sha256": "84dcd4c7bb9e27080ee0e9bfa468fac3500908235087e36f88851c15cdec0354"
+    },
+    {
+      "doc_id": "ng:5_9074_vision",
+      "group_id": "ng:5_9074_vision",
+      "split": "dev",
+      "text_sha256": "5c0dbb7eb74e2b4bc6c7ef7d477bc1b1796fb5aa78631856571308b2c6d4e038"
+    },
+    {
+      "doc_id": "ng:5_9292_migrants",
+      "group_id": "ng:5_9292_migrants",
+      "split": "dev",
+      "text_sha256": "314b8c4bf35e6e2e69189de8df951f73b408c0cbdb5f9378b16a50aaa03e4723"
+    },
+    {
+      "doc_id": "ng:5_9505_asia",
+      "group_id": "ng:5_9505_asia",
+      "split": "train",
+      "text_sha256": "c8ac1c839b23544514413d9eff31f8280786ecd6688b33838b2300039cb978c9"
+    },
+    {
+      "doc_id": "ng:5_9507_europe",
+      "group_id": "ng:5_9507_europe",
+      "split": "train",
+      "text_sha256": "5a6aded46b8515c746ab487f067cf3d2287f24ee9846086fcf5160eadccc6b4f"
+    },
+    {
+      "doc_id": "ng:5_9519_georgia",
+      "group_id": "ng:5_9519_georgia",
+      "split": "test",
+      "text_sha256": "d95c5a1b11ac2303fd5cab2d94ba55f1f6b1613bf07879867ffe411b4da6f67e"
+    },
+    {
+      "doc_id": "ng:6_7800_vision",
+      "group_id": "ng:6_7800_vision",
+      "split": "train",
+      "text_sha256": "7a4df546cacac460aea21cd382524ad16db7f7c6a1b3f2e2aaf6f6ab2065bf81"
+    },
+    {
+      "doc_id": "ng:6_7818_vision",
+      "group_id": "ng:6_7818_vision",
+      "split": "train",
+      "text_sha256": "2fae1aeb27417524006f6393061fbbd3388efbfd20651eb997e4f43b0b7b2eeb"
+    },
+    {
+      "doc_id": "ng:6_7837_vision",
+      "group_id": "ng:6_7837_vision",
+      "split": "train",
+      "text_sha256": "437f42ec018368b1f9f86d9e12e6b1dcb66d71890eb0a2629c475cbe1acec745"
+    },
+    {
+      "doc_id": "ng:6_7843_vision",
+      "group_id": "ng:6_7843_vision",
+      "split": "train",
+      "text_sha256": "cedb5accec75e19e49568c5e0e8bdf871e7cd1874952fa084a22cd24351d5e8f"
+    },
+    {
+      "doc_id": "ng:6_7862_vision",
+      "group_id": "ng:6_7862_vision",
+      "split": "train",
+      "text_sha256": "4ce627af5d25bb873deb892874860e6412a4a9d3899a0998625be1d8a6c4d8ef"
+    },
+    {
+      "doc_id": "ng:6_7892_vision",
+      "group_id": "ng:6_7892_vision",
+      "split": "train",
+      "text_sha256": "99b84de2cfc90195857c9a37acb65cdd29235cb978b925ec5c83b174b4afa418"
+    },
+    {
+      "doc_id": "ng:6_7922_vision",
+      "group_id": "ng:6_7922_vision",
+      "split": "train",
+      "text_sha256": "0b8fe0b182e872994885be7a2885630b5b37f2b430be82eb5d7100854abfb481"
+    },
+    {
+      "doc_id": "ng:6_8156_vision",
+      "group_id": "ng:6_8156_vision",
+      "split": "test",
+      "text_sha256": "3481a3831ea449fe4d05312188f171375c5cf094b1dc4141f1d9da3ebcc69720"
+    },
+    {
+      "doc_id": "ng:6_8206_vision",
+      "group_id": "ng:6_8206_vision",
+      "split": "train",
+      "text_sha256": "160e3449ae3cea509cf4898541313f81a84ced2744be6db65ed191b253253582"
+    },
+    {
+      "doc_id": "ng:6_8242_vision",
+      "group_id": "ng:6_8242_vision",
+      "split": "train",
+      "text_sha256": "e6819da32771960a9866bf4557c63514d250dc8658205f880897f1071886a470"
+    },
+    {
+      "doc_id": "ng:6_8272_vision",
+      "group_id": "ng:6_8272_vision",
+      "split": "dev",
+      "text_sha256": "1a38f52e5301061d4a7ac82816ac6a9e6d262ecf8fb5d4ae9246261189d63ad3"
+    },
+    {
+      "doc_id": "ng:6_8326_vision",
+      "group_id": "ng:6_8326_vision",
+      "split": "dev",
+      "text_sha256": "615df6f82a14ebde395527ff159fa66c80b6767650a68791dd33dbfdb5bbff8e"
+    },
+    {
+      "doc_id": "ng:6_8481_vision",
+      "group_id": "ng:6_8481_vision",
+      "split": "train",
+      "text_sha256": "72a24f55c372bd2cde495cbaec0ca91bbe6a0c8009f4ec4a03882302e9b58455"
+    },
+    {
+      "doc_id": "ng:6_8488_w05",
+      "group_id": "ng:6_8488_w05",
+      "split": "train",
+      "text_sha256": "95d0ee5f00a97b48550cc9018508a9e14acf644d96447dbb7793c57f6001906b"
+    },
+    {
+      "doc_id": "ng:6_8543_vision",
+      "group_id": "ng:6_8543_vision",
+      "split": "test",
+      "text_sha256": "f879f695a1d7d39e6628187336fb847638573d98e8550ccb3dca081a7c931405"
+    },
+    {
+      "doc_id": "ng:6_8704_uranium",
+      "group_id": "ng:6_8704_uranium",
+      "split": "train",
+      "text_sha256": "1eed1d305401f36d2ebde85734f8916dd5df34c21c075abb1bd5478e4461d992"
+    },
+    {
+      "doc_id": "ng:6_8968_poland",
+      "group_id": "ng:6_8968_poland",
+      "split": "train",
+      "text_sha256": "f39cfb4f97f9ebb98a73cae26dc41714ac167ba1fde9d02eaac208939aceca25"
+    },
+    {
+      "doc_id": "ng:6_9036_germany",
+      "group_id": "ng:6_9036_germany",
+      "split": "train",
+      "text_sha256": "163680e8db4b772f724faeaae7503f1e6dfe7671ec77a310e0e2983919ee85bd"
+    },
+    {
+      "doc_id": "ng:6_9110_germany",
+      "group_id": "ng:6_9110_germany",
+      "split": "train",
+      "text_sha256": "6fe4e92b20421b0982987acac19f5ff461d81bf68e8595a4b5695e64046aad71"
+    },
+    {
+      "doc_id": "ng:6_9116_germany",
+      "group_id": "ng:6_9116_germany",
+      "split": "train",
+      "text_sha256": "b5feb2226bbff3176085e62593bd318156e94bfe09a55797cb0b3839ab323d44"
+    },
+    {
+      "doc_id": "ng:6_9153_africa",
+      "group_id": "ng:6_9153_africa",
+      "split": "train",
+      "text_sha256": "1952041950fe409c9b2cd41f92b2ec9c79f60ebea35602a1f31d3d0164aeaa98"
+    },
+    {
+      "doc_id": "ng:6_9236_cambodia",
+      "group_id": "ng:6_9236_cambodia",
+      "split": "train",
+      "text_sha256": "fecc79d2c62ee3c786917e734a0a3fb4de26aed2064547e1c19dd5aa823e0a7f"
+    },
+    {
+      "doc_id": "ng:6_9261_ukraine",
+      "group_id": "ng:6_9261_ukraine",
+      "split": "train",
+      "text_sha256": "cbb29c284d32f20f92c0f20a5646a337c557bc5cf5445bb563c7639e6b6f3914"
+    },
+    {
+      "doc_id": "ng:6_9456_japan",
+      "group_id": "ng:6_9456_japan",
+      "split": "train",
+      "text_sha256": "2fe121c038339bb1d39059784b3f1fb95ad69830b17ee71528255d6673a8389f"
+    },
+    {
+      "doc_id": "ng:7_7792_vision",
+      "group_id": "ng:7_7792_vision",
+      "split": "train",
+      "text_sha256": "721e2000d350daed0e5b0aba5198d0d29a375aee7dbcedb1225b2885dd7e013a"
+    },
+    {
+      "doc_id": "ng:7_9537_duty",
+      "group_id": "ng:7_9537_duty",
+      "split": "dev",
+      "text_sha256": "729c44f27e6dd9cd553ce062667b78e6bdd63378b651225f7d06d5088dbde2b1"
+    },
+    {
+      "doc_id": "ng:8_7915_realy",
+      "group_id": "ng:8_7915_realy",
+      "split": "dev",
+      "text_sha256": "fb71b72dcad6f02287bbb3d8fb816b782aed8635648d25f65f0eaed45bc4e993"
+    },
+    {
+      "doc_id": "ng:8_8046_vision",
+      "group_id": "ng:8_8046_vision",
+      "split": "dev",
+      "text_sha256": "916d25a0d1155e8e3af4837aa5c92438c9a6f17a967252236ea6c119c2921cc9"
+    },
+    {
+      "doc_id": "ng:8_8109_zd03",
+      "group_id": "ng:8_8109_zd03",
+      "split": "train",
+      "text_sha256": "fa7bd46ac111321b66a83fbc1f00e801035df0c4234ba1121faeaee63627fa05"
+    },
+    {
+      "doc_id": "ng:8_8110_vision",
+      "group_id": "ng:8_8110_vision",
+      "split": "train",
+      "text_sha256": "75d832f1b7bcdb04afafe7e9425d952753852a3ef8c01a599a84ad912ace674c"
+    },
+    {
+      "doc_id": "ng:8_8293_vision",
+      "group_id": "ng:8_8293_vision",
+      "split": "dev",
+      "text_sha256": "f1ce56952d938eaccee5761aece6e0be58bafd9e4944814e500337f44e996c5c"
+    },
+    {
+      "doc_id": "ng:8_8458_vision",
+      "group_id": "ng:8_8458_vision",
+      "split": "train",
+      "text_sha256": "b460418bd80232517ef0239c6e0b1148ddcb5a6d990fd8c701dac3dc6aa58f62"
+    },
+    {
+      "doc_id": "ng:8_8647_themis",
+      "group_id": "ng:8_8647_themis",
+      "split": "train",
+      "text_sha256": "f9b8d1ecf0cd1f5d8300308d54598d5ce09fa4766e82eafcdab3903b985b093b"
+    },
+    {
+      "doc_id": "ng:8_8710_portfolio",
+      "group_id": "ng:8_8710_portfolio",
+      "split": "dev",
+      "text_sha256": "350a2558317933cdc0686e90b7fc4cb4b25ac5b58e65a67792da1399c9661232"
+    },
+    {
+      "doc_id": "ng:8_8764_maths",
+      "group_id": "ng:8_8764_maths",
+      "split": "dev",
+      "text_sha256": "ac9cc12da27940b67a9f640299f1cf51e60933dea89f2f81407f3a9490be468c"
+    },
+    {
+      "doc_id": "ng:8_8986_edu05",
+      "group_id": "ng:8_8986_edu05",
+      "split": "test",
+      "text_sha256": "d93717aee45d290138d76e34db11a6857098fc87818a7c0aa7240bbacd4717af"
+    },
+    {
+      "doc_id": "ng:8_8996_textbooks",
+      "group_id": "ng:8_8996_textbooks",
+      "split": "dev",
+      "text_sha256": "8fa42165034bf47fe7eaf2bd4ff5367f5e4e16a819c9e0301c0387f0c2d47a17"
+    },
+    {
+      "doc_id": "ng:8_9360_vision",
+      "group_id": "ng:8_9360_vision",
+      "split": "train",
+      "text_sha256": "d9c7f2cc48a7e87be4438845624b75ea97ee9563185f2ee722488e13d3c22c59"
+    },
+    {
+      "doc_id": "ng:8_9424_crisis",
+      "group_id": "ng:8_9424_crisis",
+      "split": "train",
+      "text_sha256": "578ed70414f73dafe8d8b14af7c3888e33ce6b1b414f72fb64adb9864004bcd2"
+    },
+    {
+      "doc_id": "ng:8_9448_vision",
+      "group_id": "ng:8_9448_vision",
+      "split": "train",
+      "text_sha256": "3fa196b9e223b8478fd2c8a9e6e93c1629390980145a18e7b5da52de2a1c5e2b"
+    },
+    {
+      "doc_id": "ria_novosti:2008793019",
+      "group_id": "ria_novosti:2008793019",
+      "split": "train",
+      "text_sha256": "fd4367339ca63f21637bbabb913dcab23635d140673cb00e147879fd78971913"
+    },
+    {
+      "doc_id": "ria_novosti:2008880498",
+      "group_id": "ria_novosti:2008880498",
+      "split": "train",
+      "text_sha256": "5c6d2f633abea08c962c9db284f0bf2e29a5e249fa78a46be7f6aabd2ee5eb2d"
+    },
+    {
+      "doc_id": "ria_novosti:2008880921",
+      "group_id": "ria_novosti:2008793019",
+      "split": "train",
+      "text_sha256": "a0c0248f01e016f2ca9ae0b3090a72ae5cb3d7d787149be22533596ae1f8c123"
+    },
+    {
+      "doc_id": "ria_novosti:2015434114",
+      "group_id": "ria_novosti:2015434114",
+      "split": "train",
+      "text_sha256": "9a33f26d246ae6c0d08127a6025705234f5d62c1904814af9cb1ebc56b943e05"
+    },
+    {
+      "doc_id": "ria_novosti:2021055778",
+      "group_id": "ria_novosti:2021055778",
+      "split": "train",
+      "text_sha256": "81df0e4afea5aa2c22516362d14be6714f66fb2f9145b82d482ff4e495e24964"
+    },
+    {
+      "doc_id": "ria_novosti:2021812270",
+      "group_id": "ria_novosti:2021812270",
+      "split": "train",
+      "text_sha256": "041f53d07be30de5aa4700f99c3fcbdee40dee0d905da0711b8c2532582fec55"
+    },
+    {
+      "doc_id": "ria_novosti:2032407686",
+      "group_id": "ria_novosti:2032407686",
+      "split": "train",
+      "text_sha256": "8149b426c48ebe6b51993821b8ad2847c1689f9380e4dbb852db5eb171fa51d0"
+    },
+    {
+      "doc_id": "ria_novosti:2032508259",
+      "group_id": "ria_novosti:2032508259",
+      "split": "train",
+      "text_sha256": "18e7566d4a0c6eda58245e385dbc2f532f80bdfa15cb2e4824bf4fff6277bff2"
+    },
+    {
+      "doc_id": "ria_novosti:2034478917",
+      "group_id": "ria_novosti:2034478917",
+      "split": "train",
+      "text_sha256": "406f002e33b5fe24ba84cc1ff1ec0fc9e80f45b19f6b7dda831eb1d7686c3c41"
+    },
+    {
+      "doc_id": "ria_novosti:2037337669",
+      "group_id": "ria_novosti:2037337669",
+      "split": "train",
+      "text_sha256": "be8de99229fee178fc308498a82ca563c15b4312f9aeb9d23dd14d8b5b0a77bc"
+    },
+    {
+      "doc_id": "ria_novosti:2038686731",
+      "group_id": "ria_novosti:2038686731",
+      "split": "train",
+      "text_sha256": "6eb880c8c6c649667d18b12654a379535a5364f4a3bf0f5b2ed5d2520cfbdaaf"
+    },
+    {
+      "doc_id": "ria_novosti:2039556731",
+      "group_id": "ria_novosti:2039556731",
+      "split": "test",
+      "text_sha256": "633b4a7445d293813e93d4d0e33cb5165e8a5b727c1fe6c5e723cd24022eb5d4"
+    },
+    {
+      "doc_id": "ria_novosti:2040767325",
+      "group_id": "ria_novosti:2040767325",
+      "split": "train",
+      "text_sha256": "4c6450a4da1021ff4a684a362044749eab132c72528fca68113405cd91044334"
+    },
+    {
+      "doc_id": "ria_novosti:2042540813",
+      "group_id": "ria_novosti:2042540813",
+      "split": "dev",
+      "text_sha256": "5ab1c7f2cf1a2dffe40987ef6e947742fa3567d06da3f53e901868e199b55d3f"
+    },
+    {
+      "doc_id": "ria_novosti:2043628402",
+      "group_id": "ria_novosti:2043628402",
+      "split": "train",
+      "text_sha256": "73680c3307e6a3350c7f4dfb5ef81d29d1d5ab50fb73370077328e65099911e2"
+    },
+    {
+      "doc_id": "ria_novosti:2044017508",
+      "group_id": "ria_novosti:2044017508",
+      "split": "test",
+      "text_sha256": "cb2ca1c5cb66222cdf0fcfc1988c6d87ce795ace3859f69b235ee2306f224a96"
+    },
+    {
+      "doc_id": "ria_novosti:2045155530",
+      "group_id": "ria_novosti:2045155530",
+      "split": "test",
+      "text_sha256": "2277b925cf3bad5accf211030b416b6cc1edf9b6f8c38b167ea58e5ea6b7d9e9"
+    },
+    {
+      "doc_id": "ria_novosti:2050947329",
+      "group_id": "ria_novosti:2050947329",
+      "split": "test",
+      "text_sha256": "42cd246a167dbada1d01bcf16b910876f4a8cbcd70f3f489f1e398e7b19f9da1"
+    },
+    {
+      "doc_id": "ria_novosti:2052198418",
+      "group_id": "ria_novosti:2052198418",
+      "split": "train",
+      "text_sha256": "4a60b96774ebb838d97c6f21cde7b22121c55ae6cb273d48c38900737b4d4090"
+    },
+    {
+      "doc_id": "ria_novosti:2056396848",
+      "group_id": "ria_novosti:2056396848",
+      "split": "train",
+      "text_sha256": "51b096ef4515d31a888eafd575bd5f07fa55c2719c6c4f4c8149ded4d6a093ec"
+    },
+    {
+      "doc_id": "ria_novosti:2058781062",
+      "group_id": "ria_novosti:2058781062",
+      "split": "train",
+      "text_sha256": "69b7ab8cd3afe2c2da2162c57fbefdcdf9b17929604ecc63249878da6f311f8b"
+    },
+    {
+      "doc_id": "ria_novosti:2075669540",
+      "group_id": "ria_novosti:2075669540",
+      "split": "train",
+      "text_sha256": "f58f49fe2804b2a4390c65de72c96f11819eb8855dc71aa21059f49359e0540b"
+    },
+    {
+      "doc_id": "ria_novosti:2081087907",
+      "group_id": "ria_novosti:2081087907",
+      "split": "train",
+      "text_sha256": "1ead890dc8b51e401a1c080a82e7da56187cac61458585265bbd251cc06ad0c6"
+    },
+    {
+      "doc_id": "ria_novosti:2099824110",
+      "group_id": "ria_novosti:2099824110",
+      "split": "dev",
+      "text_sha256": "cff0d6659deeef5bbab9cf646467a0157374b9b29bd66434a22c8d7b9441e6ee"
+    },
+    {
+      "doc_id": "ria_novosti:2106459260",
+      "group_id": "ria_novosti:2106459260",
+      "split": "dev",
+      "text_sha256": "f7c4fd8f722e6dd1721c37340acd8455e9600033c1571140e9c3c5858eb49209"
+    },
+    {
+      "doc_id": "theinsider:196533",
+      "group_id": "theinsider:196533",
+      "split": "train",
+      "text_sha256": "2fc638baa12f80630e3ae4adcf57ac350ae3b180df0a1dca3f22803d11a579c3"
+    },
+    {
+      "doc_id": "theinsider:196788",
+      "group_id": "theinsider:196788",
+      "split": "test",
+      "text_sha256": "a1591eb0d7925adf04d8d2c2e2250f20986f9d975b00c77a8d5f39b8f5dc5b30"
+    },
+    {
+      "doc_id": "theinsider:197929",
+      "group_id": "theinsider:197929",
+      "split": "train",
+      "text_sha256": "7a0c73cce88196630c3c49c123beae9b868b4b3b3757f0395733a92dec932bf6"
+    },
+    {
+      "doc_id": "theinsider:198526",
+      "group_id": "theinsider:198526",
+      "split": "test",
+      "text_sha256": "5560d60d4731a82a61b43714f44f9691f17686121a8377925e127e6eb50a5ead"
+    },
+    {
+      "doc_id": "theinsider:205290",
+      "group_id": "theinsider:205290",
+      "split": "train",
+      "text_sha256": "399834fa7e307e62313a5872d04fdde3affad708f87c2bc7e870d5046ed9ef2c"
+    },
+    {
+      "doc_id": "theinsider:207276",
+      "group_id": "theinsider:207276",
+      "split": "train",
+      "text_sha256": "5dbaa37ca0695d4b0b099bedc208472fb5ab059e37f1aec0a2b5d6cb95fc33ea"
+    },
+    {
+      "doc_id": "theinsider:209607",
+      "group_id": "theinsider:209607",
+      "split": "train",
+      "text_sha256": "a5253c47abaf06e324c6815e3d1d0f11f65f2b34d7f380399af757a88ae3562f"
+    },
+    {
+      "doc_id": "theinsider:216627",
+      "group_id": "theinsider:216627",
+      "split": "train",
+      "text_sha256": "cf9c089cdd0d3fc92b9df9a6a6ca3bf7c34f36fcd3bb9f3cbc39bbea04edecf0"
+    },
+    {
+      "doc_id": "theinsider:223648",
+      "group_id": "theinsider:223648",
+      "split": "train",
+      "text_sha256": "179c5ee22e86bf1cbbf25b7704a1a3087050717fd4a8ad0005e636e05cd79651"
+    },
+    {
+      "doc_id": "theinsider:225823",
+      "group_id": "theinsider:225823",
+      "split": "train",
+      "text_sha256": "8b447df4e11cb37225d9d4122816b3ee053e8dadb5adc33fa9ba7aa6b08b6a66"
+    },
+    {
+      "doc_id": "theinsider:229406",
+      "group_id": "theinsider:229406",
+      "split": "test",
+      "text_sha256": "74f9daf8554bb108ee635c8c87dec075af5beef6e7c2d6450d20cf053c1ad6b4"
+    },
+    {
+      "doc_id": "theinsider:230336",
+      "group_id": "theinsider:230336",
+      "split": "train",
+      "text_sha256": "6686eb769f389cf8d825a8dce02eef94b1840424f8c1d06b1fc9c2f447546420"
+    },
+    {
+      "doc_id": "theinsider:230677",
+      "group_id": "theinsider:230677",
+      "split": "test",
+      "text_sha256": "5b1e7020fc3af917f9a363a6e349c10316759bb6789d0a64c5813af81a7abd1c"
+    },
+    {
+      "doc_id": "theinsider:234418",
+      "group_id": "theinsider:234418",
+      "split": "test",
+      "text_sha256": "a0974f1ab8e66e8064bcead30bb392fdab33a7a571ebea96defef8dc779cbbbe"
+    },
+    {
+      "doc_id": "theinsider:235715",
+      "group_id": "theinsider:235715",
+      "split": "test",
+      "text_sha256": "e71c742a48c117c27cbf2059849f8d1515c1650544ce21cd10c31b6393e574bf"
+    },
+    {
+      "doc_id": "theinsider:236745",
+      "group_id": "theinsider:236745",
+      "split": "dev",
+      "text_sha256": "157736973c3a5b702481aa1190c764e5f73e2a5e91487a971b58d870a81ddd6c"
+    },
+    {
+      "doc_id": "theinsider:237336",
+      "group_id": "theinsider:237336",
+      "split": "train",
+      "text_sha256": "8c6d119c393c284b4bebe1c98e0219528c41179c3423fcc93f141c3d95eed02d"
+    },
+    {
+      "doc_id": "theinsider:237951",
+      "group_id": "theinsider:237951",
+      "split": "test",
+      "text_sha256": "54cadc48be721da10235c5beea3edfa6f0186f9b8bf2a172c41a9ed95a48a045"
+    },
+    {
+      "doc_id": "theinsider:238025",
+      "group_id": "theinsider:238025",
+      "split": "train",
+      "text_sha256": "1b9b9ded0041e944f7cbc5cb4c7aef96570919c4246b2a5c8584428c5628b19e"
+    },
+    {
+      "doc_id": "theinsider:238362",
+      "group_id": "theinsider:238362",
+      "split": "train",
+      "text_sha256": "d6171b2500bb9ea97acbe0a71daae8d27f2d4feaa060de91904567c5c9ab6378"
+    },
+    {
+      "doc_id": "theinsider:238660",
+      "group_id": "theinsider:238660",
+      "split": "dev",
+      "text_sha256": "9388f589503bbbb60910c980b2051e4aebfd05db99228ea9ef6b1b32f11c12e0"
+    },
+    {
+      "doc_id": "theinsider:239886",
+      "group_id": "theinsider:239886",
+      "split": "train",
+      "text_sha256": "18cfdd55bc7d384b0c8a2d0ffa02dffc66939d7869aecd6d18c1bfeb14099c80"
+    },
+    {
+      "doc_id": "theinsider:240028",
+      "group_id": "theinsider:240028",
+      "split": "train",
+      "text_sha256": "4a928b40af443244acba6af366adf236fa9e5e2b429bf1708e1fc8078f850f01"
+    },
+    {
+      "doc_id": "theinsider:240512",
+      "group_id": "theinsider:240512",
+      "split": "train",
+      "text_sha256": "a0ad5bf03769414871079ec6c752e1b3037fca4c66b49aa03b164ff553e8d81e"
+    },
+    {
+      "doc_id": "theinsider:240978",
+      "group_id": "theinsider:240978",
+      "split": "train",
+      "text_sha256": "2d923e4621c5b724b3c863061611bdbfa222456e41ae1a044cc154a58d047ed8"
+    },
+    {
+      "doc_id": "theinsider:242333",
+      "group_id": "theinsider:242333",
+      "split": "train",
+      "text_sha256": "78cbd69eca6e162f0b6fb9dbabc4a6b1242fe0e3dab1102005c22e3937c59bdd"
+    },
+    {
+      "doc_id": "theinsider:242615",
+      "group_id": "theinsider:242615",
+      "split": "train",
+      "text_sha256": "d8fba33fd338865136b0830de0fb56c1938f1f716d477bba31c5270b2cd720e7"
+    },
+    {
+      "doc_id": "theinsider:245471",
+      "group_id": "theinsider:245471",
+      "split": "train",
+      "text_sha256": "14943cfc96c6527d3f7bfd20e2f3addde70776a98f6e220e44833a30ee8d1340"
+    },
+    {
+      "doc_id": "theinsider:247146",
+      "group_id": "theinsider:247146",
+      "split": "train",
+      "text_sha256": "35bf944ba5e096226e4ec851798d75407184a84212936fb92ad41c2a3a67976d"
+    },
+    {
+      "doc_id": "theinsider:247249",
+      "group_id": "theinsider:247249",
+      "split": "test",
+      "text_sha256": "38b99e9d8e2ea5dea350ad8fc4bfc1ed13f026091fb2e435e1116d8c7e83221b"
+    },
+    {
+      "doc_id": "theinsider:247833",
+      "group_id": "theinsider:247833",
+      "split": "train",
+      "text_sha256": "510e34b6ada34effa29141f8199e2a4fed1c917cbed569cd64cfd624d80adb53"
+    },
+    {
+      "doc_id": "theinsider:247994",
+      "group_id": "theinsider:247994",
+      "split": "train",
+      "text_sha256": "e76ab3eb16c4f529ad66d9506370701fd296185b71a220e66926454463daad38"
+    },
+    {
+      "doc_id": "theinsider:249442",
+      "group_id": "theinsider:249442",
+      "split": "test",
+      "text_sha256": "26480acb875db1e0200e23fca975b8e37da320bba0e592f05b2a3cd9d71aef7c"
+    },
+    {
+      "doc_id": "theinsider:251613",
+      "group_id": "theinsider:251613",
+      "split": "test",
+      "text_sha256": "6e2c8472685d7ad914b01a12673a6d72017eaccf9ae50ed8ea266c55a3674b97"
+    },
+    {
+      "doc_id": "theinsider:252826",
+      "group_id": "theinsider:252826",
+      "split": "train",
+      "text_sha256": "3251a87abedd7e324eda8d63d348a7402245a4098cb05476cf1cfef1e4d50d63"
+    },
+    {
+      "doc_id": "theinsider:253489",
+      "group_id": "theinsider:253489",
+      "split": "dev",
+      "text_sha256": "90aeeebfc161e7746e55312b5a666c4572b00bfb961c589e3ff6b06930ced164"
+    },
+    {
+      "doc_id": "theinsider:254322",
+      "group_id": "theinsider:254322",
+      "split": "train",
+      "text_sha256": "21473141f12f431a8d68cd85e7e7eaa4db072c462786e186d117cf0e4ca375a4"
+    },
+    {
+      "doc_id": "theinsider:256843",
+      "group_id": "theinsider:256843",
+      "split": "train",
+      "text_sha256": "5e4a16d3a9809abaff7de6159ef7962f95d1103a8db28fc8ffe776c68b12a51a"
+    },
+    {
+      "doc_id": "theinsider:257597",
+      "group_id": "theinsider:257597",
+      "split": "train",
+      "text_sha256": "df61071809befedbad96ddb6bfad1b9afc05033e97db1538068cdc0b8533f954"
+    },
+    {
+      "doc_id": "theinsider:257618",
+      "group_id": "theinsider:257618",
+      "split": "train",
+      "text_sha256": "9e79435fc687ba3eff7549851f617db40aa87c8ead7e486a271d1c8c7b6cdd64"
+    },
+    {
+      "doc_id": "theinsider:258086",
+      "group_id": "theinsider:258086",
+      "split": "train",
+      "text_sha256": "21349e552d557e9cce3ec06fbb9e29d295d6f8f9a5dff70266fd1b06c095b834"
+    },
+    {
+      "doc_id": "theinsider:260829",
+      "group_id": "theinsider:260829",
+      "split": "dev",
+      "text_sha256": "e73ab8b4b9de057681110e5e36bbc63dae1e12cbd92f26f2db65857b9a25aae9"
+    },
+    {
+      "doc_id": "theinsider:262340",
+      "group_id": "theinsider:262340",
+      "split": "train",
+      "text_sha256": "d94dd3fd3883e792d2cc1ba7510e4148436222ea3a6bf359c697caf4ab5ed026"
+    },
+    {
+      "doc_id": "theinsider:266563",
+      "group_id": "theinsider:266563",
+      "split": "dev",
+      "text_sha256": "9734507fd115699d5d9dd5bb7bf6ab186efb454958fc761fea7280a2a336a30e"
+    },
+    {
+      "doc_id": "theinsider:267448",
+      "group_id": "theinsider:267448",
+      "split": "dev",
+      "text_sha256": "e7f2bb59d3d119157708bf46ec1c489cd28926c2554af0489f56a404b5089635"
+    },
+    {
+      "doc_id": "theinsider:267624",
+      "group_id": "theinsider:267624",
+      "split": "train",
+      "text_sha256": "b7c3d93e158e89c856aa2cec067b347ed28085cdf65b96256e464e1f4c7155b3"
+    },
+    {
+      "doc_id": "theinsider:269354",
+      "group_id": "theinsider:269354",
+      "split": "train",
+      "text_sha256": "2f23a42a78ef48669d6ad7cfdfa198cbded3dd4680b0cc9af0927ac9ca16f754"
+    },
+    {
+      "doc_id": "theinsider:271609",
+      "group_id": "theinsider:271609",
+      "split": "train",
+      "text_sha256": "62eb2e75ed7ab711d68c492c7c2f332ad71b1e662be0feded04c925a9e22facc"
+    },
+    {
+      "doc_id": "theinsider:272442",
+      "group_id": "theinsider:272442",
+      "split": "train",
+      "text_sha256": "9a087e66b9fd6a134543255efe040def1ab966f74fcbf4472e1a1ab390c15169"
+    },
+    {
+      "doc_id": "theinsider:278394",
+      "group_id": "theinsider:278394",
+      "split": "train",
+      "text_sha256": "4ff4e5cda2e23d56c99b7e06e2d04ecba0644d9596b1f340832bc34c5a3de559"
+    },
+    {
+      "doc_id": "theinsider:278708",
+      "group_id": "theinsider:278708",
+      "split": "train",
+      "text_sha256": "56ca7482b7c4f69df1e72e55989aa90b7c4034bef38a989cad57b4f0d3962dcd"
+    },
+    {
+      "doc_id": "theinsider:279444",
+      "group_id": "theinsider:279444",
+      "split": "train",
+      "text_sha256": "9f0f4ce590aa8cd43df3c06d3db40997064dcd4ae65115e9a0ba0eeee21469de"
+    },
+    {
+      "doc_id": "theinsider:279931",
+      "group_id": "theinsider:279931",
+      "split": "train",
+      "text_sha256": "2ddb6ebd292c83f11526e80bce334fc843d12e2c7124ea7bbde0621d3f92d721"
+    },
+    {
+      "doc_id": "theinsider:280997",
+      "group_id": "theinsider:280997",
+      "split": "dev",
+      "text_sha256": "d10f7d5bf826cb7ed66ff800c59aba19bd9bc488c94e4e8512dd95c87c4f8114"
+    },
+    {
+      "doc_id": "theinsider:282486",
+      "group_id": "theinsider:282486",
+      "split": "test",
+      "text_sha256": "4d4d2a044c97d7f7b2f1394e93b9aefd3902141ed71bee2bbb0f22ca65a7004a"
+    },
+    {
+      "doc_id": "theinsider:285069",
+      "group_id": "theinsider:285069",
+      "split": "test",
+      "text_sha256": "3c770c95f6c229a788e39eb82fa350699afa0107b725e8106f40a64ae065a3e8"
+    },
+    {
+      "doc_id": "theinsider:285786",
+      "group_id": "theinsider:285786",
+      "split": "train",
+      "text_sha256": "e7e191ec31b033bf7ed42a27d4a049698317397d95c4e10e259ba690db803ece"
+    },
+    {
+      "doc_id": "theinsider:286236",
+      "group_id": "theinsider:286236",
+      "split": "train",
+      "text_sha256": "87b015f020ee3c6d283bdb7e21e54fb3b6f0db4a013dc3b56ed7e03919b1598b"
+    },
+    {
+      "doc_id": "theinsider:288289",
+      "group_id": "theinsider:288289",
+      "split": "train",
+      "text_sha256": "aa7deb26539f589d5e8ccc8390d2bca542a1a3397b41809d64f23302b9684e91"
+    },
+    {
+      "doc_id": "theinsider:291880",
+      "group_id": "theinsider:291880",
+      "split": "train",
+      "text_sha256": "a40cbd682b93a1f68b811ad7271f7495cb59e80c440d983145b3eb4d3b0c281f"
+    },
+    {
+      "doc_id": "theinsider:292001",
+      "group_id": "theinsider:292001",
+      "split": "train",
+      "text_sha256": "1255286ee70bc18a7659c0a2a3678e7bd3390b5be2bae3cc1a59dad639414e6d"
+    },
+    {
+      "doc_id": "theinsider:295616",
+      "group_id": "theinsider:295616",
+      "split": "train",
+      "text_sha256": "8e744e72202476ca4544b3af5a702899bd44cb43b413d68d438862c3a4650563"
+    }
+  ],
+  "schema_version": 1,
+  "seed": 42,
+  "source": "research/external/science-work-ref/kuki_ru_aggregate.jsonl",
+  "source_sha256": "d882e69064885823ecb9d7652bfc59795551a8c5defe4265703e845b2d6431d0"
+}

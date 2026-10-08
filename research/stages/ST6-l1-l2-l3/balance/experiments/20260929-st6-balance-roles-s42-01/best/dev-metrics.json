@@ -1,0 +1,242 @@
+{
+  "l1": {
+    "article_accuracy": 0.7545502840634687,
+    "brier": 0.14666465515315572,
+    "confusion": [
+      [
+        35,
+        10,
+        1
+      ],
+      [
+        15,
+        92,
+        5
+      ],
+      [
+        3,
+        13,
+        26
+      ]
+    ],
+    "cross_entropy": 1.3143967965414736,
+    "macro_f1": 0.740272928580121,
+    "mention_accuracy": 0.765,
+    "mention_macro_f1": 0.7401153656660265,
+    "n_answers": 34,
+    "n_articles": 29,
+    "n_mentions": 200,
+    "per_role": {
+      "ANTAGONIST": {
+        "f1": 0.7895515328860777,
+        "mentions": 112,
+        "precision": 0.7937088635876677,
+        "recall": 0.7854375262372826,
+        "weighted_support": 15.442948391477811
+      },
+      "INNOCENT": {
+        "f1": 0.717417451492114,
+        "mentions": 42,
+        "precision": 0.742529651481603,
+        "recall": 0.6939482640275507,
+        "weighted_support": 5.02689500042441
+      },
+      "PROTAGONIST": {
+        "f1": 0.713849801362171,
+        "mentions": 46,
+        "precision": 0.6944671276393772,
+        "recall": 0.7343454855785841,
+        "weighted_support": 8.530156608097787
+      }
+    },
+    "role_order": [
+      "PROTAGONIST",
+      "ANTAGONIST",
+      "INNOCENT"
+    ],
+    "weighted_confusion": [
+      [
+        6.264081996434938,
+        2.1549635005517356,
+        0.1111111111111111
+      ],
+      [
+        2.2149923605805952,
+        12.129471182412354,
+        1.0984848484848484
+      ],
+      [
+        0.5409090909090909,
+        0.9975808505220269,
+        3.4884050589932936
+      ]
+    ]
+  },
+  "l2": {
+    "brier": 0.14567043554826395,
+    "f1_reference": "strict_majority_votes_gt_half_empty_allowed",
+    "macro_f1": 0.564784869904286,
+    "micro_f1": 0.6694560669456067,
+    "n_answers": 40,
+    "n_articles": 31,
+    "observed_disagreement_floor": 0.008896569380440348,
+    "per_frame": [
+      {
+        "brier": 0.17362958530355957,
+        "f1": 0.5882352941176471,
+        "frame": "Economic",
+        "majority_support": 11,
+        "positive_vote_mass": 11.5,
+        "precision": 0.8333333333333334,
+        "predicted_positive": 6,
+        "recall": 0.45454545454545453,
+        "ties": 1
+      },
+      {
+        "brier": 0.19820178237015043,
+        "f1": 0.5833333333333334,
+        "frame": "Capacity & resources",
+        "majority_support": 16,
+        "positive_vote_mass": 16.0,
+        "precision": 0.875,
+        "predicted_positive": 8,
+        "recall": 0.4375,
+        "ties": 0
+      },
+      {
+        "brier": 0.1681607691395452,
+        "f1": 0.631578947368421,
+        "frame": "Morality",
+        "majority_support": 10,
+        "positive_vote_mass": 10.5,
+        "precision": 0.6666666666666666,
+        "predicted_positive": 9,
+        "recall": 0.6,
+        "ties": 1
+      },
+      {
+        "brier": 0.12814172295483808,
+        "f1": 0.3333333333333333,
+        "frame": "Fairness & equality",
+        "majority_support": 4,
+        "positive_vote_mass": 4.833333333333333,
+        "precision": 0.5,
+        "predicted_positive": 2,
+        "recall": 0.25,
+        "ties": 1
+      },
+      {
+        "brier": 0.17825668944167403,
+        "f1": 0.2222222222222222,
+        "frame": "Legality, constitutionality, jurisprudence",
+        "majority_support": 6,
+        "positive_vote_mass": 6.5,
+        "precision": 0.3333333333333333,
+        "predicted_positive": 3,
+        "recall": 0.16666666666666666,
+        "ties": 1
+      },
+      {
+        "brier": 0.2265122547224241,
+        "f1": 0.7272727272727273,
+        "frame": "Policy prescription & evaluation",
+        "majority_support": 18,
+        "positive_vote_mass": 18.166666666666664,
+        "precision": 0.8,
+        "predicted_positive": 15,
+        "recall": 0.6666666666666666,
+        "ties": 1
+      },
+      {
+        "brier": 0.1376562488353198,
+        "f1": 0.0,
+        "frame": "Crime & punishment",
+        "majority_support": 4,
+        "positive_vote_mass": 4.5,
+        "precision": 0.0,
+        "predicted_positive": 1,
+        "recall": 0.0,
+        "ties": 1
+      },
+      {
+        "brier": 0.13545827259088258,
+        "f1": 0.8461538461538461,
+        "frame": "Security & defense",
+        "majority_support": 14,
+        "positive_vote_mass": 14.0,
+        "precision": 0.9166666666666666,
+        "predicted_positive": 12,
+        "recall": 0.7857142857142857,
+        "ties": 0
+      },
+      {
+        "brier": 0.03696329462254944,
+        "f1": 0.8571428571428571,
+        "frame": "Health & safety",
+        "majority_support": 4,
+        "positive_vote_mass": 4.0,
+        "precision": 1.0,
+        "predicted_positive": 3,
+        "recall": 0.75,
+        "ties": 0
+      },
+      {
+        "brier": 0.10589788471221297,
+        "f1": 0.5,
+        "frame": "Quality of life",
+        "majority_support": 3,
+        "positive_vote_mass": 4.0,
+        "precision": 1.0,
+        "predicted_positive": 1,
+        "recall": 0.3333333333333333,
+        "ties": 2
+      },
+      {
+        "brier": 0.13142121989726285,
+        "f1": 0.7692307692307693,
+        "frame": "Cultural identity",
+        "majority_support": 7,
+        "positive_vote_mass": 8.0,
+        "precision": 0.8333333333333334,
+        "predicted_positive": 6,
+        "recall": 0.7142857142857143,
+        "ties": 2
+      },
+      {
+        "brier": 0.156200510210887,
+        "f1": 0.18181818181818182,
+        "frame": "Public opinion",
+        "majority_support": 6,
+        "positive_vote_mass": 6.333333333333333,
+        "precision": 0.2,
+        "predicted_positive": 5,
+        "recall": 0.16666666666666666,
+        "ties": 0
+      },
+      {
+        "brier": 0.15858842384630845,
+        "f1": 0.8205128205128205,
+        "frame": "Political",
+        "majority_support": 19,
+        "positive_vote_mass": 19.5,
+        "precision": 0.8,
+        "predicted_positive": 20,
+        "recall": 0.8421052631578947,
+        "ties": 1
+      },
+      {
+        "brier": 0.1042974390280809,
+        "f1": 0.8461538461538461,
+        "frame": "External regulation & reputation",
+        "majority_support": 13,
+        "positive_vote_mass": 13.0,
+        "precision": 0.8461538461538461,
+        "predicted_positive": 13,
+        "recall": 0.8461538461538461,
+        "ties": 0
+      }
+    ],
+    "threshold": 0.5,
+    "vote_fraction_mse": 0.1367738661678236
+  }
+}

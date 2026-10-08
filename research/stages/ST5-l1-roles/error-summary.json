@@ -1,0 +1,13 @@
+{
+  "all_dev_errors": true,
+  "directions": {
+    "ANTAGONIST -> INNOCENT": 7,
+    "ANTAGONIST -> PROTAGONIST": 13,
+    "INNOCENT -> ANTAGONIST": 9,
+    "INNOCENT -> PROTAGONIST": 5,
+    "PROTAGONIST -> ANTAGONIST": 12,
+    "PROTAGONIST -> INNOCENT": 6
+  },
+  "n_errors": 52,
+  "no_new_human_labels": true
+}

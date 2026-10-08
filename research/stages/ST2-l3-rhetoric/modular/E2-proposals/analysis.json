@@ -1,0 +1,338 @@
+{
+  "all_word_spans_analytic": {
+    "dev": {
+      "miss_character_length_quantiles": [
+        7.0,
+        68.0,
+        198.6,
+        386.0
+      ],
+      "oracle_individual_exact_f1": 0.9619922661579596,
+      "raw_family_support": {
+        "Attack on Reputation": 103,
+        "Call": 56,
+        "Distraction": 4,
+        "Justification": 100,
+        "Manipulative Wording": 328,
+        "Simplification": 53
+      },
+      "raw_miss_count": 52,
+      "raw_misses": {
+        "Attack on Reputation": 8,
+        "Call": 1,
+        "Distraction": 0,
+        "Justification": 17,
+        "Manipulative Wording": 20,
+        "Simplification": 6
+      },
+      "raw_misses_token_aligned": 0
+    },
+    "train": {
+      "miss_character_length_quantiles": [
+        4.0,
+        63.5,
+        198.60000000000002,
+        522.0
+      ],
+      "oracle_individual_exact_f1": 0.9522884238946394,
+      "raw_family_support": {
+        "Attack on Reputation": 468,
+        "Call": 224,
+        "Distraction": 10,
+        "Justification": 351,
+        "Manipulative Wording": 1786,
+        "Simplification": 143
+      },
+      "raw_miss_count": 298,
+      "raw_misses": {
+        "Attack on Reputation": 52,
+        "Call": 21,
+        "Distraction": 2,
+        "Justification": 60,
+        "Manipulative Wording": 158,
+        "Simplification": 5
+      },
+      "raw_misses_token_aligned": 0
+    }
+  },
+  "clauses_sentences": {
+    "dev": {
+      "miss_character_length_quantiles": [
+        4.0,
+        41.0,
+        154.40000000000003,
+        881.0
+      ],
+      "oracle_individual_exact_f1": 0.2599963348118623,
+      "raw_family_support": {
+        "Attack on Reputation": 103,
+        "Call": 56,
+        "Distraction": 4,
+        "Justification": 100,
+        "Manipulative Wording": 328,
+        "Simplification": 53
+      },
+      "raw_miss_count": 533,
+      "raw_misses": {
+        "Attack on Reputation": 84,
+        "Call": 36,
+        "Distraction": 2,
+        "Justification": 73,
+        "Manipulative Wording": 306,
+        "Simplification": 32
+      },
+      "raw_misses_token_aligned": 481
+    },
+    "train": {
+      "miss_character_length_quantiles": [
+        3.0,
+        38.0,
+        134.0,
+        3674.0
+      ],
+      "oracle_individual_exact_f1": 0.1655760002862951,
+      "raw_family_support": {
+        "Attack on Reputation": 468,
+        "Call": 224,
+        "Distraction": 10,
+        "Justification": 351,
+        "Manipulative Wording": 1786,
+        "Simplification": 143
+      },
+      "raw_miss_count": 2666,
+      "raw_misses": {
+        "Attack on Reputation": 410,
+        "Call": 174,
+        "Distraction": 8,
+        "Justification": 251,
+        "Manipulative Wording": 1704,
+        "Simplification": 119
+      },
+      "raw_misses_token_aligned": 2368
+    }
+  },
+  "multiscale": {
+    "dev": {
+      "miss_character_length_quantiles": [
+        7.0,
+        87.5,
+        230.80000000000007,
+        874.0
+      ],
+      "oracle_individual_exact_f1": 0.8206488571584317,
+      "raw_family_support": {
+        "Attack on Reputation": 103,
+        "Call": 56,
+        "Distraction": 4,
+        "Justification": 100,
+        "Manipulative Wording": 328,
+        "Simplification": 53
+      },
+      "raw_miss_count": 188,
+      "raw_misses": {
+        "Attack on Reputation": 37,
+        "Call": 16,
+        "Distraction": 0,
+        "Justification": 52,
+        "Manipulative Wording": 60,
+        "Simplification": 23
+      },
+      "raw_misses_token_aligned": 136
+    },
+    "train": {
+      "miss_character_length_quantiles": [
+        4.0,
+        84.0,
+        199.0,
+        3674.0
+      ],
+      "oracle_individual_exact_f1": 0.7954406554395128,
+      "raw_family_support": {
+        "Attack on Reputation": 468,
+        "Call": 224,
+        "Distraction": 10,
+        "Justification": 351,
+        "Manipulative Wording": 1786,
+        "Simplification": 143
+      },
+      "raw_miss_count": 991,
+      "raw_misses": {
+        "Attack on Reputation": 200,
+        "Call": 96,
+        "Distraction": 7,
+        "Justification": 187,
+        "Manipulative Wording": 422,
+        "Simplification": 79
+      },
+      "raw_misses_token_aligned": 693
+    }
+  },
+  "ngrams32": {
+    "dev": {
+      "miss_character_length_quantiles": [
+        7.0,
+        181.0,
+        409.9999999999999,
+        881.0
+      ],
+      "oracle_individual_exact_f1": 0.9231035618124263,
+      "raw_family_support": {
+        "Attack on Reputation": 103,
+        "Call": 56,
+        "Distraction": 4,
+        "Justification": 100,
+        "Manipulative Wording": 328,
+        "Simplification": 53
+      },
+      "raw_miss_count": 93,
+      "raw_misses": {
+        "Attack on Reputation": 14,
+        "Call": 3,
+        "Distraction": 0,
+        "Justification": 43,
+        "Manipulative Wording": 24,
+        "Simplification": 9
+      },
+      "raw_misses_token_aligned": 41
+    },
+    "train": {
+      "miss_character_length_quantiles": [
+        4.0,
+        128.0,
+        298.2,
+        3674.0
+      ],
+      "oracle_individual_exact_f1": 0.9137478714284795,
+      "raw_family_support": {
+        "Attack on Reputation": 468,
+        "Call": 224,
+        "Distraction": 10,
+        "Justification": 351,
+        "Manipulative Wording": 1786,
+        "Simplification": 143
+      },
+      "raw_miss_count": 449,
+      "raw_misses": {
+        "Attack on Reputation": 74,
+        "Call": 31,
+        "Distraction": 5,
+        "Justification": 146,
+        "Manipulative Wording": 176,
+        "Simplification": 17
+      },
+      "raw_misses_token_aligned": 151
+    }
+  },
+  "ngrams8": {
+    "dev": {
+      "miss_character_length_quantiles": [
+        7.0,
+        94.0,
+        228.0,
+        881.0
+      ],
+      "oracle_individual_exact_f1": 0.684064656409499,
+      "raw_family_support": {
+        "Attack on Reputation": 103,
+        "Call": 56,
+        "Distraction": 4,
+        "Justification": 100,
+        "Manipulative Wording": 328,
+        "Simplification": 53
+      },
+      "raw_miss_count": 301,
+      "raw_misses": {
+        "Attack on Reputation": 53,
+        "Call": 35,
+        "Distraction": 1,
+        "Justification": 86,
+        "Manipulative Wording": 78,
+        "Simplification": 48
+      },
+      "raw_misses_token_aligned": 249
+    },
+    "train": {
+      "miss_character_length_quantiles": [
+        4.0,
+        94.0,
+        224.0,
+        3674.0
+      ],
+      "oracle_individual_exact_f1": 0.6963310389823921,
+      "raw_family_support": {
+        "Attack on Reputation": 468,
+        "Call": 224,
+        "Distraction": 10,
+        "Justification": 351,
+        "Manipulative Wording": 1786,
+        "Simplification": 143
+      },
+      "raw_miss_count": 1327,
+      "raw_misses": {
+        "Attack on Reputation": 262,
+        "Call": 144,
+        "Distraction": 9,
+        "Justification": 311,
+        "Manipulative Wording": 498,
+        "Simplification": 103
+      },
+      "raw_misses_token_aligned": 1029
+    }
+  },
+  "sentences": {
+    "dev": {
+      "miss_character_length_quantiles": [
+        4.0,
+        40.0,
+        152.0,
+        881.0
+      ],
+      "oracle_individual_exact_f1": 0.22507835713833574,
+      "raw_family_support": {
+        "Attack on Reputation": 103,
+        "Call": 56,
+        "Distraction": 4,
+        "Justification": 100,
+        "Manipulative Wording": 328,
+        "Simplification": 53
+      },
+      "raw_miss_count": 542,
+      "raw_misses": {
+        "Attack on Reputation": 85,
+        "Call": 36,
+        "Distraction": 3,
+        "Justification": 73,
+        "Manipulative Wording": 313,
+        "Simplification": 32
+      },
+      "raw_misses_token_aligned": 490
+    },
+    "train": {
+      "miss_character_length_quantiles": [
+        3.0,
+        38.0,
+        133.70000000000027,
+        3674.0
+      ],
+      "oracle_individual_exact_f1": 0.14274426916412497,
+      "raw_family_support": {
+        "Attack on Reputation": 468,
+        "Call": 224,
+        "Distraction": 10,
+        "Justification": 351,
+        "Manipulative Wording": 1786,
+        "Simplification": 143
+      },
+      "raw_miss_count": 2704,
+      "raw_misses": {
+        "Attack on Reputation": 420,
+        "Call": 176,
+        "Distraction": 8,
+        "Justification": 252,
+        "Manipulative Wording": 1726,
+        "Simplification": 122
+      },
+      "raw_misses_token_aligned": 2406
+    }
+  }
+}

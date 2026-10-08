@@ -1,0 +1,21 @@
+{
+  "seed": 42,
+  "data_config": "research/configs/data.json",
+  "encoder_config": "research/configs/encoder.json",
+  "window_length": 1024,
+  "overlap": 128,
+  "span_dimension": 64,
+  "head_dropout": 0.1,
+  "gradient_accumulation_articles": 8,
+  "gradient_clip_norm": 1.0,
+  "adapter_lr": 0.0002,
+  "head_lr": 0.001,
+  "weight_decay": 0.01,
+  "warmup_updates": 34,
+  "max_updates": 340,
+  "max_epochs": 20,
+  "run_budget_seconds": 750,
+  "gradient_checkpointing": false,
+  "condition": "baselines",
+  "run_id": "20260929-l1-baselines-s42-01"
+}

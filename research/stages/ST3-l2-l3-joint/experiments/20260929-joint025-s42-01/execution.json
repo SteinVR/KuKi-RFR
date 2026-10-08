@@ -1,0 +1,14 @@
+{
+  "article_presentations": 2900,
+  "base_unchanged": true,
+  "best_epoch": 8,
+  "kind": "fit",
+  "l3_article_presentations": 2580,
+  "peak_allocated_bytes": 2633732608,
+  "peak_reserved_bytes": 2747269120,
+  "run_id": "20260929-joint025-s42-01",
+  "seconds": 571.686338243002,
+  "status": "completed",
+  "trainable_parameters": 909724,
+  "updates": 380
+}
